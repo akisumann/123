@@ -81,9 +81,9 @@ def main() -> None:
     lines = [
         "# INDEX — ファイル索引(自動生成)",
         "",
-        "> `python3 tools/make_index.py` で再生成。手で編集しない。",
+        "> `python3 tools/make_index.py`(または `bash tools/build.sh`)で再生成。手で編集しない。",
         "> AI はこの表で「どのファイルに何があるか」を掴み、**場面に必要なファイルだけ**を開く。",
-        "> 全ファイルを結合した `_all.md` を丸ごと渡すのは避ける(読み落としの原因)。",
+        "> 渡し方は AI の能力次第(zip＞全部載せ 666_all.md＞DIGEST)。詳細は `START_HERE.md`。",
         "",
         "## 読み込みの順番",
         "",
