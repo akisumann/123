@@ -299,7 +299,7 @@
 
 ### 黒針会幹部：アスカ
 
-「舌の幹部」として対外交渉を担う。詳細は`world/crossroad/32_black_needle_society.md`の「舌の幹部：アスカ」を参照。
+「目の幹部」として対外交渉を担う。詳細は`world/crossroad/32_black_needle_society.md`の「目の幹部：アスカ」を参照。
 
 ### 黒針会幹部：ザラ
 

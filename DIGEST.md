@@ -75,7 +75,7 @@
 ### 裏社会：黒針会
 
 - 街の裏に薄く広がる**情報・暗殺組織**。ミレーヌの配下筋（放し飼いに近い）。
-  会主**ギデオン**、幹部は耳目の**ミーナ**／舌の**アスカ**／刃の**ザラ**。
+  会主**ギデオン**、幹部は耳の**ミーナ**／目の**アスカ**／刃の**ザラ**。
   情報屋網が住民の生活インフラとして公認利用されている。`world/crossroad/32_black_needle_society.md`
 
 ### 冒険者と周辺
@@ -295,9 +295,9 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,059 |
-| `PROGRESS.md` | PROGRESS | 18,079 |
+| `PROGRESS.md` | PROGRESS | 18,545 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
-| `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,567 |
+| `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,566 |
 
 ## rules/ — ゲームルール(判定・戦闘・レベル・スキル・魔法)
 
@@ -371,11 +371,11 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/crossroad/29_crossroad_magic_board_race.md` | カジノの人気遊戯・魔導盤レース(光の幻獣を走らせるミニ競馬)。 | 4,011 |
 | `world/crossroad/30_crossroad_purification_institute.md` | 中央区の浄化院。土地浄化・呪物処理・結界維持・対アンデッド支援。 | 2,190 |
 | `world/crossroad/31_crossroad_security_forces.md` | 衛兵隊・騎士団・ギルド・浄化院の役割分担と衛兵の階級別レベル目安。 | 1,478 |
-| `world/crossroad/32_black_needle_society.md` | 街の裏の情報・暗殺組織「黒針会」。会主・幹部・ミレーヌとの関係。 | 9,793 |
+| `world/crossroad/32_black_needle_society.md` | 街の裏の情報・暗殺組織「黒針会」。会主・幹部・ミレーヌとの関係。 | 9,862 |
 | `world/crossroad/33_crossroad_magic_slot.md` | カジノの遊技台・魔導スロット(三本リールの絵柄揃え)。 | 1,498 |
 | `world/crossroad/42_crossroad_artisan_goods.md` | 南区職人区で危険地域の素材が加工された、冒険者向け商品の数々。 | 3,913 |
 | `world/crossroad/43_crossroad_magic_circle.md` | 街の魔法使いが集う民間魔法サークル(相談・講習・共同作業場)。 | 5,364 |
-| `world/crossroad/44_crossroad_nicknames.md` | 主要NPC55人の通り名・本名・所属の対応一覧(NPC逆引きの起点)。 | 4,549 |
+| `world/crossroad/44_crossroad_nicknames.md` | 主要NPC55人の通り名・本名・所属の対応一覧(NPC逆引きの起点)。 | 4,548 |
 | `world/crossroad/45_crossroad_district_markets.md` | 5区画それぞれ性格の異なる市場(中央広場市・西の夜市・南の投げ売り市等)。 | 4,107 |
 | `world/crossroad/46_crossroad_matchmaking_festival.md` | 年一度の婚活祭り「結び路の祝祭」。領主クラリスも強制参加の名物行事。 | 4,261 |
 | `world/crossroad/47_crossroad_harvest_festival.md` | 月一度の食の祭り「巡穣祭」。その月最多の作物を街ぐるみで消費。 | 3,935 |
@@ -425,7 +425,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `characters/npcs/11_marina.md` | 東区の世話役マリナ。住民の小さな困りごと・住民依頼の窓口。 | 1,421 |
 | `characters/npcs/12_roze_and_rize.md` | 盗人姉妹ロゼ&リゼ。色仕掛けとスリの小悪党、街の軽いトラブル役。 | 2,460 |
 | `characters/npcs/13_mika.md` | 南区の薬品職人ミルカ。ヘンテコ薬に紛れて有用な薬も置く掘り出し物店。 | 2,159 |
-| `characters/npcs/14_mina.md` | 黒針会幹部「耳目のミーナ」。子供のような外見で潜入・偽装を得意とする。 | 2,485 |
+| `characters/npcs/14_mina.md` | 黒針会幹部「耳のミーナ」。子供のような外見で潜入・偽装を得意とする。 | 2,483 |
 | `characters/npcs/15_zara.md` | 黒針会幹部「刃のザラ」。蠍獣人で暗殺・追跡・裏切り者処理担当のA級。 | 2,855 |
 | `characters/npcs/16_gideon.md` | 黒針会会主ギデオン。組織の最終裁定を担う老練な会主。 | 3,402 |
 | `characters/npcs/17_riera.md` | ギルド受付リエラ。世話焼きだがかなりの恋愛脳で即カップリング認定。 | 1,145 |
@@ -470,4 +470,4 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 ---
 
-合計 **138 ファイル / 437,658 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **138 ファイル / 438,189 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。

@@ -104,5 +104,5 @@
 - ミーナ(情報を拾い、案件をザラへ引き継ぐ幹部仲間。`characters/npcs/14_mina.md`)
 - ギデオン(最終裁定を下す会主。その裁定に従ってザラが動く。`characters/npcs/16_gideon.md`)
 - ミレーヌ・ヴァイスフェルト(かつてコロッセオで一対一の公開戦を行い敗れた相手。`characters/npcs/02_milene_weissfeld.md`)
-- アスカ(黒針会の「舌」の幹部。話をつけても駄目な時に代わって動く。`world/crossroad/32_black_needle_society.md`)
+- アスカ(黒針会の「目」の幹部。話をつけても駄目な時に代わって動く。`world/crossroad/32_black_needle_society.md`)
 - ロゼとリゼ(黒針会の情報網の末端。面識程度の間柄。`characters/npcs/12_roze_and_rize.md`)

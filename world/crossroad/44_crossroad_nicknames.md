@@ -28,8 +28,8 @@
 | 囮のロゼ | ロゼ | 盗人姉妹・囮役(`characters/npcs/12_roze_and_rize.md`) |
 | スリのリゼ | リゼ | 盗人姉妹・スリ役(`characters/npcs/12_roze_and_rize.md`) |
 | ヘンテコ薬品のミルカ | ミルカ | 薬品職人(`characters/npcs/13_mika.md`) |
-| 耳目のミーナ | ミーナ | 黒針会幹部(`characters/npcs/14_mina.md`) |
-| 舌のアスカ | アスカ | 黒針会幹部(`world/crossroad/32_black_needle_society.md`) |
+| 耳のミーナ | ミーナ | 黒針会幹部(`characters/npcs/14_mina.md`) |
+| 目のアスカ | アスカ | 黒針会幹部(`world/crossroad/32_black_needle_society.md`) |
 | 刃のザラ | ザラ | 黒針会幹部(`characters/npcs/15_zara.md`) |
 | 黒針会のギデオン | ギデオン | 黒針会会主(`characters/npcs/16_gideon.md`) |
 | 恋バナのリエラ | リエラ | ギルド受付職員(`characters/npcs/17_riera.md`) |
