@@ -99,3 +99,4 @@
 - メンテナンス用ツール群を`tools/`に整備：`make_index.py`(索引生成)、`make_all.py`(全部載せ生成)、`make_digest.py`(ダイジェスト生成)、`apply_summaries.py`(TL;DR挿入)、`count.py`(文字数計測・入口の肥大警告)、`check_links.py`(相互参照のリンク切れ検査)、`build.sh`(以上を一括再生成＋検査)。CLAUDE.mdの「作業の締めくくり」に、ファイル追加時は`summaries.tsv`へ1行追記してから`bash tools/build.sh`を回す運用を明記。
 - 全体整理として相互参照の健全性を検査(`tools/check_links.py`)。正典本体(world/・characters/・rules/・入口ファイル)141ファイルのリンク切れは0件で健全と確認。PROGRESS.md内の略記(basename参照等)のみ検出されたが作業ログの性質上のもので、検査対象から除外した。NPCファイルも01〜55まで欠番なく55人で通り名一覧と整合。
 - 配布用zip(`666.zip`)はバイナリで再生成可能なため`.gitignore`に追加し、テキストの配布物(666_all.md/DIGEST.md/INDEX.md)のみ追跡する方針にした。
+- 生成物のうち`666_all.md`(全部載せ・約46万字)と`666.zip`を`.gitignore`対象にし、git追跡から外した。理由は、元ファイルを編集後に再ビルドを忘れると「古い全部載せ/zipをうっかりAIへ渡す」drift事故が起きうること、および46万字テキストを毎回コミットするとgit履歴が肥大すること。両者は`bash tools/build.sh`で再生成可能なため、AIへ渡す直前に生成する運用へ変更(READMEに明記)。参照性の高い`DIGEST.md`(約2.4万字)と`INDEX.md`は小さいのでコミット対象として残置。

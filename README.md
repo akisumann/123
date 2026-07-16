@@ -28,6 +28,10 @@ python3 tools/count.py --budget # 文字数を計測、入口の肥大を警告
 全部載せ・ダイジェスト・zip がすべて最新に揃います。TL;DR の文面は `tools/summaries.tsv` で
 一元管理しており、新規ファイルを足したらこの tsv に 1 行追記してから `build.sh` を実行します。
 
+> **`666_all.md` と `666.zip` はリポジトリに保存していません**（`.gitignore` 対象）。
+> 古い版を誤って渡さないよう、AI へ渡す直前に `bash tools/build.sh` で最新版を生成してください。
+> `DIGEST.md` と `INDEX.md` は小さく参照性が高いため、リポジトリに保存しています。
+
 ## ディレクトリ
 
 - `world/` … 世界観（地理・歴史・種族・経済・生成ルール）／`nations/` 五大国／`dragons/` 五龍／`crossroad/` 主舞台クロスロード
