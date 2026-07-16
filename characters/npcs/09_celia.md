@@ -1,5 +1,7 @@
 # セリア
 
+> **TL;DR:** 浄化院の若手神官セリア。浄化依頼・軽治療・アンデッド相談の窓口。
+
 - 年齢：23歳
 - レベル：26(冒険者ランク基準ではDランク相当。`world/14_adventurers_guild.md`)
 - 配置：中央区・浄化院(`world/crossroad/20_crossroad_city_districts.md`、`world/nations/18_religious_organizations.md`、`world/crossroad/30_crossroad_purification_institute.md`)

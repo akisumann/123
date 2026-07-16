@@ -1,5 +1,7 @@
 # クロスロード・コロッセオ
 
+> **TL;DR:** 西区の大型闘技施設。実力抑制リング・賭け・興行試合の運営ルール。
+
 西区(`world/crossroad/20_crossroad_city_districts.md`)にある大型闘技施設。クロスロード・カジノ(`world/crossroad/28_crossroad_casino.md`)、大劇場《万象座》(`world/crossroad/54_crossroad_theater.md`)と並ぶ、西区を代表する三大娯楽施設のひとつ(コロッセオ=闘争と熱狂、カジノ=賭博と一攫千金、万象座=物語と幻想)。
 
 冒険者、傭兵、武芸者、召喚士、魔物使いなどが腕試しを行う娯楽施設であり、観客向けの興行でもある。

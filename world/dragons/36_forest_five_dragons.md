@@ -1,5 +1,7 @@
 # 森林五枝竜
 
+> **TL;DR:** 森林龍に連なる五体の守護竜「森林五枝竜」。エターナル・グローブ王国の最高位。
+
 森林龍(`world/dragons/41_forest_dragon.md`)に連なる、五体の古き森の守護竜。エターナル・グローブ王国(`world/nations/34_eternal_grove_kingdom.md`)でも最高位の存在として敬われている。
 
 ## 第一位 樹天竜(Lv84)

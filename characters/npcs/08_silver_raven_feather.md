@@ -1,5 +1,7 @@
 # 女性冒険者チーム：銀鴉の羽根
 
+> **TL;DR:** Bランク女性冒険者4人組「銀鴉の羽根」。街屈指の実力派パーティー。
+
 - ランク：B(`world/14_adventurers_guild.md`のギルドランクに基づく、チームとしての登録ランク)
 - 活動拠点：クロスロード北区・冒険者ギルド支部(`world/crossroad/20_crossroad_city_districts.md`)
 - 人数：4人

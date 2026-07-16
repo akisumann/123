@@ -24,8 +24,9 @@ bash tools/build.sh            # INDEX.md / 666_all.md / DIGEST.md / 666.zip を
 python3 tools/count.py --budget # 文字数を計測、入口の肥大を警告
 ```
 
-ファイルを追加・編集したら `tools/build.sh` を実行すれば、索引・全部載せ・ダイジェスト・zip が
-すべて最新に揃います（個別に `make_index.py` / `make_all.py` / `make_digest.py` を実行してもよい）。
+ファイルを追加・編集したら `tools/build.sh` を実行すれば、**各ファイル冒頭の TL;DR**・索引・
+全部載せ・ダイジェスト・zip がすべて最新に揃います。TL;DR の文面は `tools/summaries.tsv` で
+一元管理しており、新規ファイルを足したらこの tsv に 1 行追記してから `build.sh` を実行します。
 
 ## ディレクトリ
 

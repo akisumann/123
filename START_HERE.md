@@ -102,10 +102,13 @@
 
 ## 索引・ツール
 
-- `INDEX.md` … 全ファイルの地図（見出し＋文字数）。`python3 tools/make_index.py` で再生成。
+- 各ファイル冒頭の **`> **TL;DR:**` 行** … その 1 行でファイルの中身が分かる。目次や全部載せを
+  読むだけで概要を掴め、必要なファイルだけ開けばよい。元データは `tools/summaries.tsv`。
+- `INDEX.md` … 全ファイルの地図（TL;DR ＋文字数）。
+- `tools/apply_summaries.py` … `summaries.tsv` を各ファイル冒頭へ挿入（冪等）。
 - `tools/make_all.py` … zip 非対応 AI 用の `666_all.md`（先頭に正典＋目次）を生成。
 - `tools/make_digest.py` … 核だけの `DIGEST.md`（約 2 万字）を生成。
 - `tools/count.py` … 文字数計測（`--budget` で入口が肥大していないか警告）。
 
-> ファイルを追加・編集したら、`make_index.py` → `make_all.py` → `make_digest.py` の順で
-> 再生成すると、zip・全部載せ・ダイジェストの 3 つが最新に揃う（`tools/build.sh` でまとめて実行可）。
+> **ファイルを追加・編集したら `bash tools/build.sh` を実行**すれば、TL;DR 挿入・索引・全部載せ・
+> ダイジェスト・zip がすべて最新に揃う。新規ファイルを足したら `summaries.tsv` に 1 行追記する。

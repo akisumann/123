@@ -1,5 +1,7 @@
 # クロスロード周辺・冒険者ギルド依頼表
 
+> **TL;DR:** 4つの危険地域を舞台にした、ギルド定番依頼の掲示例。
+
 4つの主要危険地域(`world/crossroad/60_sazameki_plains.md`、`world/crossroad/61_red_fang_forest.md`、`world/crossroad/62_grey_rock_canyon.md`、`world/crossroad/63_bone_toll_moor.md`)を舞台にした、冒険者ギルド(`world/14_adventurers_guild.md`)の定番依頼の例。
 
 ## 基本運用

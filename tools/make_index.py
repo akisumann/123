@@ -13,9 +13,23 @@ from __future__ import annotations
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "summaries.tsv")
 
 # 索引に載せない(索引自身と、他ファイルの複製である生成物)
 SKIP = {"INDEX.md", "DIGEST.md", "666_all.md"}
+
+
+def load_summaries() -> dict:
+    out = {}
+    if not os.path.exists(TSV):
+        return out
+    with open(TSV, encoding="utf-8") as f:
+        for line in f:
+            line = line.rstrip("\n")
+            if line and "\t" in line:
+                p, s = line.split("\t", 1)
+                out[p.strip()] = s.strip()
+    return out
 
 # ディレクトリ順と日本語ラベル
 DIR_ORDER = [
@@ -50,6 +64,7 @@ def rel_dir(rel: str) -> str:
 
 
 def main() -> None:
+    summaries = load_summaries()
     files = {}
     for dp, dns, fns in os.walk(ROOT):
         dns[:] = [d for d in dns if d not in (".git", "tools")]
@@ -84,15 +99,16 @@ def main() -> None:
             continue
         lines.append(f"## {label}")
         lines.append("")
-        lines.append("| ファイル | 内容(見出し) | 文字数 |")
+        lines.append("| ファイル | 内容(TL;DR) | 文字数 |")
         lines.append("|---|---|---|")
         for rel in group:
             full = os.path.join(ROOT, rel)
             c = count_chars(full)
             total += c
             n_files += 1
-            title = first_heading(full).replace("|", "\\|")
-            lines.append(f"| `{rel}` | {title} | {c:,} |")
+            desc = summaries.get(rel) or first_heading(full)
+            desc = desc.replace("|", "\\|")
+            lines.append(f"| `{rel}` | {desc} | {c:,} |")
         lines.append("")
 
     lines.append("---")

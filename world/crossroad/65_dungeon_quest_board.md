@@ -1,5 +1,7 @@
 # クロスロード周辺・ダンジョン依頼表
 
+> **TL;DR:** 3つのダンジョンを舞台にした、ギルド定番依頼の掲示例。
+
 3つの主要ダンジョン(`world/crossroad/57_black_glass_ruins.md`、`world/crossroad/58_forgotten_mine.md`、`world/crossroad/59_star_devourer_temple.md`)を舞台にした、冒険者ギルド(`world/14_adventurers_guild.md`)の定番依頼の例。
 
 ## 基本運用

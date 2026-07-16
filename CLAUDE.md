@@ -139,5 +139,5 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 ## 作業の締めくくり
 
 - 世界構築作業(ファイル追加・編集)を行った場合は、`PROGRESS.md`に変更内容を追記し、git commit・pushする。
-- ファイルを追加・編集したら`bash tools/build.sh`で配布物(INDEX.md / 666_all.md / DIGEST.md / 666.zip)を再生成し、索引と結合版を最新に保つ。
+- ファイルを追加・編集したら`bash tools/build.sh`で配布物(TL;DR挿入 / INDEX.md / 666_all.md / DIGEST.md / 666.zip)を再生成し、索引と結合版を最新に保つ。新規ファイルを足した場合は先に`tools/summaries.tsv`へ1行(パス+タブ+要約)を追記する。
 - 「zip」「全部載せ」と言われたら、`tools/build.sh`が生成する`666.zip`(zip対応AI用)と`666_all.md`(zip非対応AI用・先頭に正典＋目次)を送る。この2つを併用する理由は、zipを読めないAIのために全部載せも用意しておくため。
