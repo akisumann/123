@@ -14,8 +14,8 @@ import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# 索引に載せない(索引・入口そのもの、作業ログ)
-SKIP = {"INDEX.md", "DIGEST.md"}
+# 索引に載せない(索引自身と、他ファイルの複製である生成物)
+SKIP = {"INDEX.md", "DIGEST.md", "666_all.md"}
 
 # ディレクトリ順と日本語ラベル
 DIR_ORDER = [

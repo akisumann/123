@@ -31,7 +31,7 @@ def count_chars(path: str) -> int:
 
 
 # 自動生成物（他ファイルの複製）は集計から除外する
-GENERATED = {"DIGEST.md", "INDEX.md"}
+GENERATED = {"DIGEST.md", "INDEX.md", "666_all.md"}
 
 
 def iter_md_files():
