@@ -15,13 +15,11 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# 常時ロードする「正典」の推奨上限（文字）。ここを超えたら要約し直す合図。
+# 毎回ロードする「入口」の推奨上限（文字）。ここを超えたら要約し直す合図。
+# 場面ごとに個別ファイルを足す前提なので、入口自体は小さく保つ。
 CORE_FILES = {
-    "world/canon.md": 4000,
-    "world/overview.md": 2000,
-    "world/rules.md": 3000,
-    "ai/system-prompt.md": 3000,
-    "ai/style-guide.md": 2000,
+    "START_HERE.md": 8000,
+    "CLAUDE.md": 10000,
 }
 
 
@@ -32,11 +30,15 @@ def count_chars(path: str) -> int:
     return len("".join(text.split()))
 
 
+# 自動生成物（他ファイルの複製）は集計から除外する
+GENERATED = {"DIGEST.md", "INDEX.md"}
+
+
 def iter_md_files():
     for dirpath, dirnames, filenames in os.walk(ROOT):
         dirnames[:] = [d for d in dirnames if d not in (".git", "tools")]
         for name in sorted(filenames):
-            if name.endswith(".md"):
+            if name.endswith(".md") and name not in GENERATED:
                 full = os.path.join(dirpath, name)
                 rel = os.path.relpath(full, ROOT)
                 yield rel, full
