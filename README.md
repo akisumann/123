@@ -18,7 +18,9 @@
 ```
 .
 ├── README.md              … このファイル
+├── INDEX.md               … 何をいつ AI に渡すかの索引
 ├── world/                 … 世界観
+│   ├── canon.md           … ★常時ロードする「核」（確定事実だけ）
 │   ├── overview.md        … 世界の概要（一番最初に読むべき要約）
 │   ├── setting.md         … 舞台・地理・時代
 │   ├── history.md         … 歴史・年表
@@ -31,9 +33,23 @@
 │   ├── premise.md         … 一行あらすじ・テーマ
 │   ├── synopsis.md        … あらすじ（全体の流れ）
 │   └── arcs.md            … 章・エピソード構成
-└── ai/                    … AI に回すための設定
-    ├── system-prompt.md   … AI に渡すシステムプロンプト雛形
-    └── style-guide.md     … 語り口・トーン・禁止事項
+├── ai/                    … AI に回すための設定
+│   ├── system-prompt.md   … AI に渡すシステムプロンプト雛形
+│   ├── style-guide.md     … 語り口・トーン・禁止事項
+│   └── loading-strategy.md… 大量素材を「読ませる」ための渡し方
+└── tools/
+    └── count.py           … 文字数計測（渡す量の管理用）
+```
+
+## 大量の設定を AI に渡すときは
+
+設定が数十万文字に育っても、**一度に全部は渡しません**。`world/canon.md`（核）を
+毎回渡し、詳細は場面ごとに必要な分だけ足す「3 層ロード」で扱います。
+詳しくは `ai/loading-strategy.md` と `INDEX.md` を参照。文字数は次で測れます:
+
+```
+python3 tools/count.py           # 各ファイルの文字数
+python3 tools/count.py --budget  # 核が上限を超えていないか警告
 ```
 
 ## 書くときの原則
