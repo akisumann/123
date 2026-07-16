@@ -15,7 +15,7 @@
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,059 |
-| `PROGRESS.md` | PROGRESS | 19,068 |
+| `PROGRESS.md` | PROGRESS | 19,598 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,566 |
 
@@ -90,7 +90,7 @@
 | `world/crossroad/28_crossroad_casino.md` | 西区の合法賭博施設。各種ゲームと乱数運用のルール。 | 2,841 |
 | `world/crossroad/29_crossroad_magic_board_race.md` | カジノの人気遊戯・魔導盤レース(光の幻獣を走らせるミニ競馬)。 | 4,011 |
 | `world/crossroad/30_crossroad_purification_institute.md` | 中央区の浄化院。土地浄化・呪物処理・結界維持・対アンデッド支援。 | 2,190 |
-| `world/crossroad/31_crossroad_security_forces.md` | 衛兵隊・騎士団・ギルド・浄化院の役割分担と衛兵の階級別レベル目安。 | 1,478 |
+| `world/crossroad/31_crossroad_security_forces.md` | 衛兵隊・騎士団・ギルド・浄化院の役割分担と衛兵の階級別レベル目安。 | 2,146 |
 | `world/crossroad/32_black_needle_society.md` | 街の裏の情報・暗殺組織「黒針会」。会主・幹部・ミレーヌとの関係。 | 10,237 |
 | `world/crossroad/33_crossroad_magic_slot.md` | カジノの遊技台・魔導スロット(三本リールの絵柄揃え)。 | 1,498 |
 | `world/crossroad/42_crossroad_artisan_goods.md` | 南区職人区で危険地域の素材が加工された、冒険者向け商品の数々。 | 3,913 |
@@ -132,9 +132,9 @@
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
-| `characters/npcs/01_clarisse_weissfeld.md` | 領主クラリス。街全体の方針・調整を担う。ミレーヌの実姉。 | 4,517 |
+| `characters/npcs/01_clarisse_weissfeld.md` | 領主クラリス。街全体の方針・調整を担う。ミレーヌの実姉。 | 5,035 |
 | `characters/npcs/02_milene_weissfeld.md` | 西区・歓楽街組合トップのミレーヌ。黒針会を統制下に。クラリスの実妹。 | 4,135 |
-| `characters/npcs/03_valeria_grenz.md` | 領主騎士団長ヴァレリア「特大剣の騎士団長」。街道・都市外防衛のA級。 | 2,944 |
+| `characters/npcs/03_valeria_grenz.md` | 領主騎士団長ヴァレリア「特大剣の騎士団長」。街道・都市外防衛のA級。 | 3,401 |
 | `characters/npcs/04_ada_lockwell.md` | 衛兵隊長エイダ。都市内の治安責任者。 | 2,457 |
 | `characters/npcs/05_luca_fennel.md` | 若手騎士ルカ。冒険者と領主側を繋ぐ現場連絡役。 | 1,545 |
 | `characters/npcs/06_galm_forgelight.md` | 南区の腕利き鍛冶師ガルム。武器修理・特注武具の窓口。 | 2,189 |
@@ -190,4 +190,4 @@
 
 ---
 
-合計 **138 ファイル / 440,480 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **138 ファイル / 442,653 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
