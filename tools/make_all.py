@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""666_all.md（全部載せ・単一ファイル）を生成する。
+"""123_all.md（全部載せ・単一ファイル）を生成する。
 
 zip を読み込めない AI へ渡すためのフォールバック。全ファイルを 1 枚に結合するが、
 ただ繋げるのではなく **読みやすい構造** にする:
@@ -10,7 +10,7 @@ zip を読み込めない AI へ渡すためのフォールバック。全ファ
   3. その後に各ファイル本体を、明確な区切り見出し付きで並べる。
      → 「## ▼ path/to/file.md」で検索・ジャンプできる。
 
-  python3 tools/make_all.py            # → 666_all.md を生成
+  python3 tools/make_all.py            # → 123_all.md を生成
   python3 tools/make_all.py --name X   # → 出力ファイル名を X にする
 """
 from __future__ import annotations
@@ -67,7 +67,7 @@ def collect_body_files():
 def build() -> str:
     parts = []
     parts.append(
-        "# 666_all — 全部載せ(単一ファイル版)\n\n"
+        "# 123_all — 全部載せ(単一ファイル版)\n\n"
         "> これは zip を読めない AI へ渡すための結合版です。中身は個別ファイルと同一。\n"
         "> **読み方**: まず下の「圧縮版の正典」と「GM運用ルール」を読む。次に「目次」で\n"
         "> 全体像を掴み、必要な設定は該当セクション(`## ▼ ファイルパス`)へジャンプして読む。\n"
@@ -116,7 +116,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    OUT_NAME = "666_all.md"
+    OUT_NAME = "123_all.md"
     if "--name" in sys.argv:
         OUT_NAME = sys.argv[sys.argv.index("--name") + 1]
     main()

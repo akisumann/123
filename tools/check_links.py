@@ -16,10 +16,10 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 検査対象の「参照元」から除くファイル。
-# - 生成物(他ファイルの複製): 666_all.md / DIGEST.md / INDEX.md
+# - 生成物(他ファイルの複製): 123_all.md / DIGEST.md / INDEX.md
 # - 作業ログ: PROGRESS.md はファイル名を略記(basename のみ等)で記録するため、
 #   リンク整合の対象外とする(正典本体の参照だけを検査したい)。
-SKIP_FILES = {"666_all.md", "DIGEST.md", "INDEX.md", "PROGRESS.md"}
+SKIP_FILES = {"123_all.md", "DIGEST.md", "INDEX.md", "PROGRESS.md"}
 
 # `...md` 形式のパス参照を拾う(バッククォート有無どちらも)。
 REF = re.compile(r'([A-Za-z0-9_./]+\.md)')

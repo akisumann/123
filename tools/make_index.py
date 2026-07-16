@@ -16,7 +16,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "summaries.tsv")
 
 # 索引に載せない(索引自身と、他ファイルの複製である生成物)
-SKIP = {"INDEX.md", "DIGEST.md", "666_all.md"}
+SKIP = {"INDEX.md", "DIGEST.md", "123_all.md"}
 
 
 def load_summaries() -> dict:
@@ -83,7 +83,7 @@ def main() -> None:
         "",
         "> `python3 tools/make_index.py`(または `bash tools/build.sh`)で再生成。手で編集しない。",
         "> AI はこの表で「どのファイルに何があるか」を掴み、**場面に必要なファイルだけ**を開く。",
-        "> 渡し方は AI の能力次第(zip＞全部載せ 666_all.md＞DIGEST)。詳細は `START_HERE.md`。",
+        "> 渡し方は AI の能力次第(zip＞全部載せ 123_all.md＞DIGEST)。詳細は `START_HERE.md`。",
         "",
         "## 読み込みの順番",
         "",
