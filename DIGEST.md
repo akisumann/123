@@ -295,7 +295,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,059 |
-| `PROGRESS.md` | PROGRESS | 20,570 |
+| `PROGRESS.md` | PROGRESS | 20,859 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,566 |
 
@@ -331,7 +331,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/13_giant.md` | 極寒適応の大型種族「巨人」。クリスタル・フロスト帝国の主要種族。 | 1,194 |
 | `world/14_adventurers_guild.md` | 世界最大の中立組織・冒険者ギルド。依頼の流れ・F〜Sランク制度・素材買取。 | 3,420 |
 | `world/16_minor_nations.md` | セントラル・ヘイヴン王国周辺に点在する多数の小国。 | 1,178 |
-| `world/26_amamiya.md` | 統制パーティー4人が水の身体を融合させた合体形態「雨宮(水精女王)」。 | 2,142 |
+| `world/26_amamiya.md` | 統制パーティー4人が水の身体を融合させた合体形態「雨宮(水精女王)」。 | 2,202 |
 
 ## world/nations/ — 五大国と関連組織
 
@@ -343,7 +343,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/nations/19_twin_hammer_order.md` | 対アンデッド専門で名高い「双槌の聖戦修道女団」。墓原の定期掃討を担う。 | 8,677 |
 | `world/nations/23_volcanic_forge_empire.md` | 五大国・ヴォルカニック・フォージ帝国(北西火山地帯、鍛冶・鉱業)。 | 3,978 |
 | `world/nations/24_crystal_frost_empire.md` | 五大国・クリスタル・フロスト帝国(北東氷雪地帯、巨人・氷結姫)。 | 2,651 |
-| `world/nations/25_aqua_flow_union.md` | 五大国・アクア・フロウ連合(南西海洋地帯、人魚が主要種族)。 | 6,344 |
+| `world/nations/25_aqua_flow_union.md` | 五大国・アクア・フロウ連合(南西海洋地帯、人魚が主要種族)。 | 6,436 |
 | `world/nations/34_eternal_grove_kingdom.md` | 五大国・エターナル・グローブ王国(南東森林地帯、精霊樹・森林五枝竜)。 | 1,544 |
 | `world/nations/35_eternal_grove_marukago_formation.md` | エターナル・グローブ王国の防衛陣形「丸籠陣形(連結盾)」。 | 5,447 |
 
@@ -442,7 +442,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `characters/npcs/28_karla.md` | ララの相棒カーラ(Lv35)。街を出る計画の同行者。 | 5,540 |
 | `characters/npcs/29_vorgan_gard.md` | 北区商業組合長ボルガン・ガルド(Lv48・偽装Lv18)。強欲な大商会会頭。 | 4,196 |
 | `characters/npcs/30_ultimate_patchwork_iron_kun.md` | 南区中央広場のツギハギ巨大ゴーレム(起動時Lv59相当)。街の名所。 | 3,465 |
-| `characters/npcs/31_mizushiro.md` | 統制パーティー隊長・水城。水精霊。アクア・フロウ貴族令嬢一行。 | 3,236 |
+| `characters/npcs/31_mizushiro.md` | 統制パーティー隊長・水城。水精霊。アクア・フロウ貴族令嬢一行。 | 3,267 |
 | `characters/npcs/32_souryuu.md` | 統制パーティー前衛・蒼龍。水精霊、受け流しの守り手。 | 1,869 |
 | `characters/npcs/33_suiren.md` | 統制パーティー中衛・睡蓮。水精霊、戦場制御役。 | 1,795 |
 | `characters/npcs/34_aoba.md` | 統制パーティー後衛・青葉。水精霊、決定打役。 | 1,728 |
@@ -470,4 +470,4 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 ---
 
-合計 **138 ファイル / 444,749 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **138 ファイル / 445,221 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
