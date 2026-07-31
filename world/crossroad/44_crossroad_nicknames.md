@@ -66,7 +66,7 @@
 | 怪力の白金 | 白金 | 廃研究施設のメイドロボ(`characters/npcs/53_hakkin.md`) |
 | 空鎧の銀雪 | 銀雪 | 廃研究施設のリビングアーマー(`characters/npcs/54_ginsetsu.md`) |
 | 気怠げの妲己 | 妲己 | 廃研究施設の生体兵装(`characters/npcs/55_dakki.md`) |
-| 土地神の豊根 | 豊根 | 東区に根を張る植物型の土地神(`characters/npcs/56_toyone.md`) |
+| 実りの豊根 | 豊根 | 東区に根を張る長命のトレント。住民は土地神様とも呼ぶ(`characters/npcs/56_toyone.md`) |
 
 ## 集団の総称
 

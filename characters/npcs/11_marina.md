@@ -57,4 +57,4 @@
 - 小夜(軒先荒らしの噂を聞きつける立場にある東区のコソ泥。`characters/npcs/38_sayo.md`)
 - 泡姫(下水道の異変や落とし物の相談を持ちかけられることがある住み着き。`characters/npcs/40_awahime.md`)
 - 銀雪(廃研究施設のリビングアーマー。世間話でよく顔を合わせる。`characters/npcs/54_ginsetsu.md`)
-- 豊根(東区に根を張る土地神。住民の建材・食料・地盤の困りごとを取り次ぐ最も近い窓口。`characters/npcs/56_toyone.md`)
+- 豊根(東区に根を張る長命の巨大トレント。住民の建材・食料・地盤の困りごとを取り次ぐ最も近い窓口。`characters/npcs/56_toyone.md`)

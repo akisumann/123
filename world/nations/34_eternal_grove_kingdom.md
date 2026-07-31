@@ -59,7 +59,7 @@
 
 中央国家とは薬品・木材・精霊素材の交易関係。火山地帯の国とは相性が悪い。
 
-クロスロード(`world/crossroad/11_crossroad_city.md`)には、中立拠点、土地神、豊根(`characters/npcs/56_toyone.md`。東区に根を張る植物型の土地神)の存在から強い関心を持つ。
+クロスロード(`world/crossroad/11_crossroad_city.md`)には、中立拠点としての性格や、豊根(`characters/npcs/56_toyone.md`。東区に根を張る長命の巨大トレントで、住民から土地神様と呼ばれる)の存在から強い関心を持つ。
 
 ## 森林五枝竜
 
