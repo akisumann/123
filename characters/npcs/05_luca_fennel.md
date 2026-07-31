@@ -64,6 +64,7 @@ SPDが高めで、伝令や現場急行に向く。戦闘力はまだ発展途�
 - エイダ・ロックウェル(現場対応を教わっている衛兵隊長。`characters/npcs/04_ada_lockwell.md`)
 - ミレーヌ・ヴァイスフェルト(怖いが気に入られてよくからかわれる歓楽街組合トップ。`characters/npcs/02_milene_weissfeld.md`)
 - マモリ(同じ領主騎士団に所属する同僚。`characters/npcs/41_mamori.md`)
+- あかり(行政庁舎で顔を合わせる領主家お抱えの浄火精霊。`characters/npcs/57_akari.md`)
 
 ## シナリオでの役割
 

@@ -92,6 +92,7 @@
 - エイダ・ロックウェル(職務上の敬意を持たれている衛兵隊長。`characters/npcs/04_ada_lockwell.md`)
 - マモリ(常にそばにいる専属護衛。`characters/npcs/41_mamori.md`)
 - ダリオ・ラングフォード(都市運営で協力する冒険者ギルド支部長。`characters/npcs/07_dario_langford.md`)
+- あかり(領主邸を清潔に保ち、働きづめの自分を暖かく気遣うお抱えの浄火精霊。`characters/npcs/57_akari.md`)
 
 ## 日常
 

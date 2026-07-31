@@ -111,6 +111,7 @@
 - マモリ(領主クラリス専属護衛。`characters/npcs/41_mamori.md`)
 - セリア(浄化院の窓口。`characters/npcs/09_celia.md`)
 - 仁礼(双槌の聖戦修道女団のベテラン。骨鳴り墓原の視察で時折浄化院に滞在。`characters/npcs/49_ninrei.md`)
+- あかり(領主家お抱えの浄火精霊。行政庁舎・領主邸まわりの浄化・衛生・防疫・照明を担う。`characters/npcs/57_akari.md`)
 
 ### 主な施設(具体的な店舗・拠点)
 

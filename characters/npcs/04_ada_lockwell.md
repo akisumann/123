@@ -75,6 +75,7 @@
 - ダリオ・ラングフォード(冒険者絡みのトラブル対応で連絡を取る支部長。`characters/npcs/07_dario_langford.md`)
 - バルト(長年信頼を寄せている北門の古参門衛。`characters/npcs/22_balto.md`)
 - ツバキ(隠密戦力の不足を埋めるべく勧誘している斥候。黒針会と取り合いの状態。`characters/npcs/36_tsubaki.md`)
+- あかり(中央区の衛生・防疫で連携する領主家お抱えの浄火精霊。`characters/npcs/57_akari.md`)
 
 ## シナリオでの役割
 

@@ -52,3 +52,4 @@
 - ルカ・フェンネル(伝令でよく浄化院に顔を出す若手騎士。`characters/npcs/05_luca_fennel.md`)
 - マモリ(同じ中央区で働く領主専属護衛。`characters/npcs/41_mamori.md`)
 - 豊根(東区の長命トレント。苦手な植物汚染・土壌の穢れの相談を持ちかけてくる。`characters/npcs/56_toyone.md`)
+- あかり(領主家お抱えの浄火精霊。日常衛生と聖浄化で役割を分け合う相手。`characters/npcs/57_akari.md`)
