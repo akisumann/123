@@ -78,3 +78,4 @@
 - マリナ(下水道の異変や落とし物の報告を持ちかけてくる東区の世話役。`characters/npcs/11_marina.md`)
 - ボルガン・ガルド(芍薬繋がりで間接的に認識している北区商業組合長。`characters/npcs/29_vorgan_gard.md`)
 - 妲己(廃研究施設の生体兵装。だらけ具合が波長ぴったり。`characters/npcs/55_dakki.md`)
+- 豊根(東区に根を張る長命トレント。下水路際の根や土壌をめぐり、浄化・分解でたまに手を貸し合う。`characters/npcs/56_toyone.md`)

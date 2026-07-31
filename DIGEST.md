@@ -295,7 +295,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,059 |
-| `PROGRESS.md` | PROGRESS | 22,561 |
+| `PROGRESS.md` | PROGRESS | 22,775 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,566 |
 
@@ -420,16 +420,16 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `characters/npcs/06_galm_forgelight.md` | 南区の腕利き鍛冶師ガルム。武器修理・特注武具の窓口。 | 2,189 |
 | `characters/npcs/07_dario_langford.md` | 冒険者ギルド支部長ダリオ。元斥候兼鑑定士で人材鑑定に長ける。 | 3,558 |
 | `characters/npcs/08_silver_raven_feather.md` | Bランク女性冒険者4人組「銀鴉の羽根」。街屈指の実力派パーティー。 | 4,131 |
-| `characters/npcs/09_celia.md` | 浄化院の若手神官セリア。浄化依頼・軽治療・アンデッド相談の窓口。 | 1,382 |
+| `characters/npcs/09_celia.md` | 浄化院の若手神官セリア。浄化依頼・軽治療・アンデッド相談の窓口。 | 1,452 |
 | `characters/npcs/10_linette.md` | 情報屋リネット。中堅斥候で、有料で依頼の裏事情を教える。 | 1,799 |
 | `characters/npcs/11_marina.md` | 東区の世話役マリナ。住民の小さな困りごと・住民依頼の窓口。 | 1,501 |
 | `characters/npcs/12_roze_and_rize.md` | 盗人姉妹ロゼ&リゼ。色仕掛けとスリの小悪党、街の軽いトラブル役。 | 2,460 |
-| `characters/npcs/13_mika.md` | 南区の薬品職人ミルカ。ヘンテコ薬に紛れて有用な薬も置く掘り出し物店。 | 2,159 |
+| `characters/npcs/13_mika.md` | 南区の薬品職人ミルカ。ヘンテコ薬に紛れて有用な薬も置く掘り出し物店。 | 2,224 |
 | `characters/npcs/14_mina.md` | 黒針会幹部「耳のミーナ」。子供のような外見で潜入・偽装を得意とする。 | 2,483 |
 | `characters/npcs/15_zara.md` | 黒針会幹部「刃のザラ」。蠍獣人で暗殺・追跡・裏切り者処理担当のA級。 | 2,855 |
 | `characters/npcs/16_gideon.md` | 黒針会会主ギデオン。組織の最終裁定を担う老練な会主。 | 3,402 |
 | `characters/npcs/17_riera.md` | ギルド受付リエラ。世話焼きだがかなりの恋愛脳で即カップリング認定。 | 1,145 |
-| `characters/npcs/18_milei.md` | 民間魔法サークル取りまとめ役ミレイ。基礎魔法指導・魔法相談の窓口。 | 2,286 |
+| `characters/npcs/18_milei.md` | 民間魔法サークル取りまとめ役ミレイ。基礎魔法指導・魔法相談の窓口。 | 2,358 |
 | `characters/npcs/19_rosalia.md` | 紅玻璃館の筆頭花魁ロザリア。精霊憑依と陰陽循環術を操る。 | 1,547 |
 | `characters/npcs/20_bernadette.md` | 桃灯楼の人気嬢ベルナデッタ。犬獣人で広い人脈を持つ緊急招集役。 | 2,453 |
 | `characters/npcs/21_elsia.md` | 昼は術師会・夜は百花迷宮の幻術娼婦エルシア。Lv40のレベルキャップ到達者。 | 2,980 |
@@ -451,12 +451,12 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `characters/npcs/37_tenrai.md` | 出稼ぎの弓手・天雷。アマゾネスの一射の名手。 | 2,097 |
 | `characters/npcs/38_sayo.md` | 独立のコソ泥・小夜。裏路地を根城にする。 | 4,043 |
 | `characters/npcs/39_sorasaki.md` | 独立の空輸便利屋・空咲。飛竜人の運び屋。 | 1,836 |
-| `characters/npcs/40_awahime.md` | 下水道の自称管理人・泡姫。ヘドロスライムで浄化・分解を担い衛生を支える。 | 2,697 |
+| `characters/npcs/40_awahime.md` | 下水道の自称管理人・泡姫。ヘドロスライムで浄化・分解を担い衛生を支える。 | 2,776 |
 | `characters/npcs/41_mamori.md` | 領主クラリス専属護衛マモリ「双楯」。 | 3,471 |
 | `characters/npcs/42_yuiitsu.md` | ソロ冒険者・唯一「横一線」。雑魚討伐の臨時要員。 | 1,974 |
 | `characters/npcs/43_momiji.md` | 武者修行中の旅の騎士・紅葉。竜翼人の猪突猛進型。 | 2,080 |
 | `characters/npcs/44_kokuu.md` | 紅葉の同行者・黒羽。規律を重んじる天狗の剣士。 | 2,084 |
-| `characters/npcs/45_suzuyo.md` | 旅の吟遊詩人・鈴代。人魚で井戸端の噂・情報の担い手。 | 2,011 |
+| `characters/npcs/45_suzuyo.md` | 旅の吟遊詩人・鈴代。人魚で井戸端の噂・情報の担い手。 | 2,086 |
 | `characters/npcs/46_mashiro.md` | 下水道のホームレス・真白。アラクネで罠と糸細工の名手、泡姫の親友。 | 2,097 |
 | `characters/npcs/47_tsurezure.md` | 下水道仲間・徒然。エルフで精神リンクの使い手。 | 2,357 |
 | `characters/npcs/48_shakuyaku.md` | ボルガンお抱えの岩石精霊・芍薬。鉱物鑑定と精製の専門家。 | 3,069 |
@@ -467,8 +467,8 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `characters/npcs/53_hakkin.md` | 廃研究施設のメイドロボ・白金。怪力の持ち主。 | 2,130 |
 | `characters/npcs/54_ginsetsu.md` | 廃研究施設のリビングアーマー・銀雪。ゴースト憑依型の空鎧。 | 2,632 |
 | `characters/npcs/55_dakki.md` | 廃研究施設の生体兵装・妲己。巨大肉塊オクトパスの気怠げな存在。 | 1,963 |
-| `characters/npcs/56_toyone.md` | 東区に根を張る長命の巨大トレント・豊根。食料・建材・環境を供給し、住民に土地神様と慕われる。 | 3,256 |
+| `characters/npcs/56_toyone.md` | 東区に根を張る長命の巨大トレント・豊根。食料・建材・環境を供給し、住民に土地神様と慕われる。 | 3,390 |
 
 ---
 
-合計 **139 ファイル / 451,336 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **139 ファイル / 452,045 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。

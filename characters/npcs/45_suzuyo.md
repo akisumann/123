@@ -75,3 +75,4 @@
 - ミレイ(東区と南区の境目の魔法サークルを取りまとめる住民。`characters/npcs/18_milei.md`)
 - 小夜(東区で見かける顔。噂話仲間。`characters/npcs/38_sayo.md`)
 - エリアス・ヴェイル(興行歌唱の仕事で接点のある西区の劇作家。`characters/npcs/23_elias_veil.md`)
+- 豊根(共同井戸周辺に根を張る東区の長命トレント。弾き語りに葉擦れで拍子を合わせてくる。`characters/npcs/56_toyone.md`)

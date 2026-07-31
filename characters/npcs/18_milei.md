@@ -89,3 +89,4 @@
 - ミルカ(南区の薬品職人。境界で顔なじみ。`characters/npcs/13_mika.md`)
 - ガルム・フォージライト(壊れた備品を持ち込む先の南区の鍛冶師。`characters/npcs/06_galm_forgelight.md`)
 - 琥珀(廃研究施設を拠点にする錬金術師。専門外の魔法理論を教わることがある。`characters/npcs/52_kohaku.md`)
+- 豊根(東区の長命トレント。植物・土壌の知識で話が合う、住民が土地神様と呼ぶ巨木。`characters/npcs/56_toyone.md`)
