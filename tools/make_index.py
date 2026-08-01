@@ -40,7 +40,7 @@ DIR_ORDER = [
     ("world/dragons", "world/dragons/ — 五龍"),
     ("world/crossroad", "world/crossroad/ — クロスロード(主舞台)の全設定"),
     ("characters", "characters/ — キャラクター雛形"),
-    ("characters/npcs", "characters/npcs/ — 主要NPC(59人)"),
+    ("characters/npcs", "characters/npcs/ — 主要NPC(60人)"),
 ]
 
 
