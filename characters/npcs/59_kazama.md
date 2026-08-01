@@ -7,7 +7,7 @@
 - レベル：43(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
 - 所属：クロスロード大病院(`world/crossroad/71_crossroad_hospital.md`)
 - 立場：外科医
-- 通り名：メスの風間
+- 通り名：外科医の風間
 
 ◆役割
 外科手術・精密切開・瞬間治療

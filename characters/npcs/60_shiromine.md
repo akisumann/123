@@ -7,7 +7,7 @@
 - レベル：48(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
 - 所属：クロスロード大病院(`world/crossroad/71_crossroad_hospital.md`)
 - 立場：院長
-- 通り名：院長の白峰
+- 通り名：回復大砲の白峰
 
 ◆役割
 高出力回復・遠距離治療・集団治療

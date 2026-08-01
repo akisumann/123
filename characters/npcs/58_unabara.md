@@ -7,7 +7,7 @@
 - レベル：42(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
 - 所属：クロスロード大病院(`world/crossroad/71_crossroad_hospital.md`)
 - 立場：感染症・再生医療研究者
-- 通り名：車椅子の海原
+- 通り名：研究医の海原
 
 ◆役割
 感染症研究・再生医療・患者搬送
