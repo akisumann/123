@@ -57,9 +57,9 @@
 | 猪突の紅葉 | 紅葉 | 武者修行中の旅の騎士(`characters/npcs/43_momiji.md`) |
 | 規律の黒羽 | 黒羽 | 紅葉の旅の同行者・天狗の剣士(`characters/npcs/44_kokuu.md`) |
 | 井戸端の鈴代 | 鈴代 | 旅の吟遊詩人(`characters/npcs/45_suzuyo.md`) |
-| 下水道のもう一人 | 真白 | 下水道に住み着いたホームレス・泡姫の親友(`characters/npcs/46_mashiro.md`) |
-| 下水道の三人目 | 徒然 | 泡姫・真白の下水道仲間(`characters/npcs/47_tsurezure.md`) |
-| 下水道の四人目 | 芍薬 | ボルガン・ガルドお抱えの岩石精霊(`characters/npcs/48_shakuyaku.md`) |
+| 糸罠の真白 | 真白 | 下水道住まいのアラクネ。罠と糸細工の名手、泡姫の親友(`characters/npcs/46_mashiro.md`) |
+| 精神リンクの徒然 | 徒然 | 下水道住まいのエルフ元僧侶。精神リンクの使い手(`characters/npcs/47_tsurezure.md`) |
+| 岩石採掘の芍薬 | 芍薬 | ボルガンお抱えの岩石精霊。鉱物鑑定・精製。普段は下水道(`characters/npcs/48_shakuyaku.md`) |
 | 巡回双槌の仁礼 | 仁礼 | 双槌の聖戦修道女団のベテラン。浄化院に滞在(`characters/npcs/49_ninrei.md`) |
 | 九槍の九重 | 九重 | 旅の投槍魔導士・クサビの幼馴染(`characters/npcs/50_kokonoe.md`) |
 | 結界のクサビ | クサビ | 旅の巫女・九重の幼馴染(`characters/npcs/51_kusabi.md`) |
