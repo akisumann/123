@@ -51,7 +51,7 @@
 | 裏路地の小夜 | 小夜 | 独立のコソ泥(`characters/npcs/38_sayo.md`) |
 | 空輸の空咲 | 空咲 | 独立の空輸便利屋(`characters/npcs/39_sorasaki.md`) |
 | 下水道の泡姫 | 泡姫 | 下水道に住み着いた自称・管理人(`characters/npcs/40_awahime.md`) |
-| 護衛双楯のマモリ | マモリ | 領主クラリス専属護衛(`characters/npcs/41_mamori.md`) |
+| 護衛双盾のマモリ | マモリ | 領主クラリス専属護衛(`characters/npcs/41_mamori.md`) |
 | 横一線の唯一 | 唯一 | ソロ冒険者・雑魚討伐の臨時要員(`characters/npcs/42_yuiitsu.md`) |
 | 猪突の紅葉 | 紅葉 | 武者修行中の旅の騎士(`characters/npcs/43_momiji.md`) |
 | 規律の黒羽 | 黒羽 | 紅葉の旅の同行者・天狗の剣士(`characters/npcs/44_kokuu.md`) |

@@ -12,7 +12,7 @@
 
 ### 行政庁舎・領主邸
 - **領主のクラリス**(領主。街全体の方針・調整。`characters/npcs/01_clarisse_weissfeld.md`)
-- **護衛双楯のマモリ**(クラリスの専属護衛。`characters/npcs/41_mamori.md`)
+- **護衛双盾のマモリ**(クラリスの専属護衛。`characters/npcs/41_mamori.md`)
 - **衛生浄化のあかり**(領主家お抱えの浄火精霊。領主邸とクロスロード大病院の衛生担当。`characters/npcs/57_akari.md`)
 - **連絡役のルカ**(若手騎士・現場連絡役。庁舎に出入り。`characters/npcs/05_luca_fennel.md`)
 - (関連)**特大剣の騎士団長ヴァレリア**(`characters/npcs/03_valeria_grenz.md`)と領主直属の即応部隊(Lv30〜40の熟練騎士10名ほど・無名)が、中央区のお膝元に常駐。
