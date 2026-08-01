@@ -15,7 +15,7 @@
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,059 |
-| `PROGRESS.md` | PROGRESS | 24,841 |
+| `PROGRESS.md` | PROGRESS | 25,036 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,566 |
 
@@ -138,7 +138,7 @@
 | `characters/npcs/04_ada_lockwell.md` | 衛兵隊長エイダ。都市内の治安責任者。 | 2,753 |
 | `characters/npcs/05_luca_fennel.md` | 若手騎士ルカ。冒険者と領主側を繋ぐ現場連絡役。 | 1,786 |
 | `characters/npcs/06_galm_forgelight.md` | 南区の腕利き鍛冶師ガルム。武器修理・特注武具の窓口。 | 2,424 |
-| `characters/npcs/07_dario_langford.md` | 冒険者ギルド支部長ダリオ。元斥候兼鑑定士で人材鑑定に長ける。 | 3,558 |
+| `characters/npcs/07_dario_langford.md` | 冒険者ギルド支部長ダリオ。元斥候兼鑑定士で人材鑑定に長ける。 | 4,001 |
 | `characters/npcs/08_silver_raven_feather.md` | Bランク女性冒険者4人組「銀鴉の羽根」。街屈指の実力派パーティー。 | 4,131 |
 | `characters/npcs/09_celia.md` | 浄化院の若手神官セリア。浄化依頼・軽治療・アンデッド相談の窓口。 | 1,518 |
 | `characters/npcs/10_linette.md` | 情報屋リネット。中堅斥候で、有料で依頼の裏事情を教える。 | 1,799 |
@@ -192,4 +192,4 @@
 
 ---
 
-合計 **140 ファイル / 459,362 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **140 ファイル / 460,000 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
