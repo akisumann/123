@@ -77,3 +77,21 @@
 - **糸罠の真白**(アラクネ。罠と糸細工の名手、泡姫の親友。`characters/npcs/46_mashiro.md`)
 - **精神リンクの徒然**(エルフ元僧侶。精神リンクの使い手。`characters/npcs/47_tsurezure.md`)
 - **岩石採掘の芍薬**(ボルガンお抱えの岩石精霊。鉱物鑑定・精製。普段は下水道に隠れる。`characters/npcs/48_shakuyaku.md`)
+
+## 南区(職人・工房・生産)
+
+### 工房街
+- **鍛冶頭のガルム**(鍛冶師・武具職人。フォージライト工房。`characters/npcs/06_galm_forgelight.md`)
+- **ヘンテコ薬品のミルカ**(薬品職人。ミルカ薬品工房。`characters/npcs/13_mika.md`)
+- **仕掛屋のセレナ**(特殊機構工房《仕掛屋・六番工房》店主。注文制作・機能付与。`characters/npcs/26_serena_gearford.md`)
+- **魔法サークルのミレイ**(民間魔法サークル取りまとめ役。東区との境。`characters/npcs/18_milei.md`)
+
+### 南区中央広場
+- **観光名所のアルティメットツギハギアイアンくん**(南区の象徴・巨大複合ゴーレム。非常時の最終兵器。`characters/npcs/30_ultimate_patchwork_iron_kun.md`)
+
+### 廃研究施設(「災害パーティー」)
+※火山の国から逃げてきた4人組。廃研究施設を拠点に街へ根付き始めている(過去の悪事は知られていない)。
+- **廃研の琥珀**(錬金術師・ホムンクルス。`characters/npcs/52_kohaku.md`)
+- **怪力の白金**(メイドロボ。怪力の持ち主。`characters/npcs/53_hakkin.md`)
+- **空鎧の銀雪**(リビングアーマー。ゴースト憑依型の空鎧。`characters/npcs/54_ginsetsu.md`)
+- **気怠げの妲己**(生体兵装。巨大肉塊オクトパス。`characters/npcs/55_dakki.md`)
