@@ -41,6 +41,8 @@
 | 劇作家のエリアス | エリアス・ヴェイル | 巡業劇団《渡り灯一座》専属脚本家(`characters/npcs/23_elias_veil.md`) |
 | 爆声のヴィヴィアナ | ヴィヴィアナ・ラウドベル | コロッセオ専属実況者(`characters/npcs/24_viviana_loudbell.md`) |
 | 仕掛屋のセレナ | セレナ・ギアフォード | 特殊機構工房《仕掛屋・六番工房》店主(`characters/npcs/26_serena_gearford.md`) |
+| 天才術式のララ | ララ | 東区の学校に通う天才児。第四階位術式構築・自動魔法制御(`characters/npcs/27_lara.md`) |
+| 天才剣士のカーラ | カーラ | 東区の学校に通う天才児。近接剣士・技術模倣、ララの相棒(`characters/npcs/28_karla.md`) |
 | 金塊商会長のボルガン | ボルガン・ガルド | 北区商業組合長・ガルド大商会会頭。陰では蔑称「醜悪オーク(豚王)」とも(`characters/npcs/29_vorgan_gard.md`) |
 | 統率のミズシロ | 水城 | アクア・フロウ貴族令嬢一行「統制パーティー」隊長(`characters/npcs/31_mizushiro.md`) |
 | 受け流しの蒼龍 | 蒼龍 | 「統制パーティー」前衛(`characters/npcs/32_souryuu.md`) |
@@ -49,14 +51,14 @@
 | 氷装甲の氷室 | 氷室 | コロッセオ専属剣闘士・住み込み(`characters/npcs/35_himuro.md`) |
 | 忍びのツバキ | ツバキ | 斥候系冒険者(`characters/npcs/36_tsubaki.md`) |
 | 一射の天雷 | 天雷 | 出稼ぎの弓手(`characters/npcs/37_tenrai.md`) |
-| 裏路地の小夜 | 小夜 | 独立のコソ泥(`characters/npcs/38_sayo.md`) |
+| 転移コソ泥の小夜 | 小夜 | 独立のコソ泥(`characters/npcs/38_sayo.md`) |
 | 空輸の空咲 | 空咲 | 独立の空輸便利屋(`characters/npcs/39_sorasaki.md`) |
 | 下水道の泡姫 | 泡姫 | 下水道に住み着いた自称・管理人(`characters/npcs/40_awahime.md`) |
 | 護衛双盾のマモリ | マモリ | 領主クラリス専属護衛(`characters/npcs/41_mamori.md`) |
 | 広範囲斬撃の唯一 | 唯一 | ソロ冒険者・雑魚討伐の臨時要員(`characters/npcs/42_yuiitsu.md`) |
 | 猪突の紅葉 | 紅葉 | 武者修行中の旅の騎士(`characters/npcs/43_momiji.md`) |
 | 規律の黒羽 | 黒羽 | 紅葉の旅の同行者・天狗の剣士(`characters/npcs/44_kokuu.md`) |
-| 井戸端の鈴代 | 鈴代 | 旅の吟遊詩人(`characters/npcs/45_suzuyo.md`) |
+| 歌い手の鈴代 | 鈴代 | 旅の吟遊詩人(`characters/npcs/45_suzuyo.md`) |
 | 糸罠の真白 | 真白 | 下水道住まいのアラクネ。罠と糸細工の名手、泡姫の親友(`characters/npcs/46_mashiro.md`) |
 | 精神リンクの徒然 | 徒然 | 下水道住まいのエルフ元僧侶。精神リンクの使い手(`characters/npcs/47_tsurezure.md`) |
 | 岩石採掘の芍薬 | 芍薬 | ボルガンお抱えの岩石精霊。鉱物鑑定・精製。普段は下水道(`characters/npcs/48_shakuyaku.md`) |
