@@ -59,7 +59,7 @@
 | 下水道のもう一人 | 真白 | 下水道に住み着いたホームレス・泡姫の親友(`characters/npcs/46_mashiro.md`) |
 | 下水道の三人目 | 徒然 | 泡姫・真白の下水道仲間(`characters/npcs/47_tsurezure.md`) |
 | 下水道の四人目 | 芍薬 | ボルガン・ガルドお抱えの岩石精霊(`characters/npcs/48_shakuyaku.md`) |
-| 巡回のシスター | 仁礼 | 双槌の聖戦修道女団のベテラン(`characters/npcs/49_ninrei.md`) |
+| 巡回双槌の仁礼 | 仁礼 | 双槌の聖戦修道女団のベテラン。浄化院に滞在(`characters/npcs/49_ninrei.md`) |
 | 九槍の九重 | 九重 | 旅の投槍魔導士・クサビの幼馴染(`characters/npcs/50_kokonoe.md`) |
 | 結界のクサビ | クサビ | 旅の巫女・九重の幼馴染(`characters/npcs/51_kusabi.md`) |
 | 廃研の琥珀 | 琥珀 | 南区の廃研究施設を拠点にする錬金術師(`characters/npcs/52_kohaku.md`) |
