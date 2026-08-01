@@ -105,6 +105,7 @@
 - 各ファイル冒頭の **`> **TL;DR:**` 行** … その 1 行でファイルの中身が分かる。目次や全部載せを
   読むだけで概要を掴め、必要なファイルだけ開けばよい。元データは `tools/summaries.tsv`。
 - `INDEX.md` … 全ファイルの地図（TL;DR ＋文字数）。
+- `world/crossroad/72_place_character_map.md` … **場所→そこにいるキャラ**の対応マップ。区画・施設へ入った時「誰がいるか」を速攻参照。通り名（速攻参照キー）付き。
 - `tools/apply_summaries.py` … `summaries.tsv` を各ファイル冒頭へ挿入（冪等）。
 - `tools/make_all.py` … zip 非対応 AI 用の `123_all.md`（先頭に正典＋目次）を生成。
 - `tools/make_digest.py` … 核だけの `DIGEST.md`（約 2 万字）を生成。
