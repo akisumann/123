@@ -87,7 +87,7 @@
 
 ### NPC
 
-- 主要 NPC は **58 人**。全員に「〇〇の[名前]」形式の**通り名**があり、街で会うと役割が一目で分かる。
+- 主要 NPC は **59 人**。全員に「〇〇の[名前]」形式の**通り名**があり、街で会うと役割が一目で分かる。
   一覧（本名・所属つき）は `world/crossroad/44_crossroad_nicknames.md`。個別詳細は `characters/npcs/`。
 
 ### ルール（判定）
@@ -146,7 +146,7 @@ world/nations/           五大国+関連組織(セントラル・ヘイヴン�
 world/dragons/           五龍(大地龍・火山龍・氷結龍・海洋龍・森林龍)+森林五枝竜
 world/crossroad/         クロスロードの全設定(区画・施設・NPC所属先・組織・祭り)
 rules/                   判定・戦闘・レベル・スキル・魔法などのゲームルール
-characters/npcs/         クロスロードの主要NPC(58人、通り名は`world/crossroad/44_crossroad_nicknames.md`に一覧)
+characters/npcs/         クロスロードの主要NPC(59人、通り名は`world/crossroad/44_crossroad_nicknames.md`に一覧)
 PROGRESS.md              作業ログ(時系列)。「今何があるか」の索引ではなく「何を追加したか」の記録。
 ```
 
@@ -295,7 +295,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,059 |
-| `PROGRESS.md` | PROGRESS | 29,762 |
+| `PROGRESS.md` | PROGRESS | 30,120 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,566 |
 
@@ -376,7 +376,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/crossroad/33_crossroad_magic_slot.md` | カジノの遊技台・魔導スロット(三本リールの絵柄揃え)。 | 1,498 |
 | `world/crossroad/42_crossroad_artisan_goods.md` | 南区職人区で危険地域の素材が加工された、冒険者向け商品の数々。 | 3,913 |
 | `world/crossroad/43_crossroad_magic_circle.md` | 街の魔法使いが集う民間魔法サークル(相談・講習・共同作業場)。 | 5,364 |
-| `world/crossroad/44_crossroad_nicknames.md` | 主要NPC58人の通り名・本名・所属の対応一覧(NPC逆引きの起点)。 | 4,766 |
+| `world/crossroad/44_crossroad_nicknames.md` | 主要NPC59人の通り名・本名・所属の対応一覧(NPC逆引きの起点)。 | 4,839 |
 | `world/crossroad/45_crossroad_district_markets.md` | 5区画それぞれ性格の異なる市場(中央広場市・西の夜市・南の投げ売り市等)。 | 4,107 |
 | `world/crossroad/46_crossroad_matchmaking_festival.md` | 年一度の婚活祭り「結び路の祝祭」。領主クラリスも強制参加の名物行事。 | 4,261 |
 | `world/crossroad/47_crossroad_harvest_festival.md` | 月一度の食の祭り「巡穣祭」。その月最多の作物を街ぐるみで消費。 | 3,935 |
@@ -402,7 +402,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/crossroad/67_crossroad_casino_high_and_low.md` | カジノのカードゲーム・ハイアンドローの遊び方とルール。 | 2,173 |
 | `world/crossroad/68_crossroad_casino_war.md` | カジノのカードゲーム・カジノウォーの遊び方とルール。 | 1,478 |
 | `world/crossroad/69_crossroad_seven_indian_poker.md` | カジノのカードゲーム・セブンインディアンポーカーのルール。 | 1,715 |
-| `world/crossroad/71_crossroad_hospital.md` | 中央区・東区境の総合医院クロスロード大病院。世俗の回復魔法(非教会系)を主軸に日常医療を担い、聖属性・対アンデッドは扱わない。あかりが衛生担当。名前あり4人+モブ職員(大枠)。 | 2,641 |
+| `world/crossroad/71_crossroad_hospital.md` | 中央区・東区境の総合医院クロスロード大病院。世俗の回復魔法(非教会系)を主軸に日常医療を担い、聖属性・対アンデッドは扱わない。あかりが衛生担当。名前あり4人+モブ職員(大枠)。 | 2,842 |
 
 ## characters/ — キャラクター雛形
 
@@ -410,7 +410,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 |---|---|---|
 | `characters/_template.md` | キャラクターシートの空テンプレート(基本情報・ステータス・スキル・判定)。 | 566 |
 
-## characters/npcs/ — 主要NPC(58人)
+## characters/npcs/ — 主要NPC(59人)
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
@@ -422,9 +422,9 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `characters/npcs/06_galm_forgelight.md` | 南区の腕利き鍛冶師ガルム。武器修理・特注武具の窓口。 | 2,424 |
 | `characters/npcs/07_dario_langford.md` | 冒険者ギルド支部長ダリオ。元斥候兼鑑定士で人材鑑定に長ける。 | 4,001 |
 | `characters/npcs/08_silver_raven_feather.md` | Bランク女性冒険者4人組「銀鴉の羽根」。街屈指の実力派パーティー。 | 4,131 |
-| `characters/npcs/09_celia.md` | 浄化院の若手神官セリア。浄化依頼・軽治療・アンデッド相談の窓口。 | 1,807 |
+| `characters/npcs/09_celia.md` | 浄化院の若手神官セリア。浄化依頼・軽治療・アンデッド相談の窓口。 | 1,883 |
 | `characters/npcs/10_linette.md` | 情報屋リネット。中堅斥候で、有料で依頼の裏事情を教える。 | 2,157 |
-| `characters/npcs/11_marina.md` | 東区の世話役マリナ。住民の小さな困りごと・住民依頼の窓口。 | 1,790 |
+| `characters/npcs/11_marina.md` | 東区の世話役マリナ。住民の小さな困りごと・住民依頼の窓口。 | 1,859 |
 | `characters/npcs/12_roze_and_rize.md` | 盗人姉妹ロゼ&リゼ。色仕掛けとスリの小悪党、街の軽いトラブル役。 | 2,460 |
 | `characters/npcs/13_mika.md` | 南区の薬品職人ミルカ。ヘンテコ薬に紛れて有用な薬も置く掘り出し物店。 | 2,567 |
 | `characters/npcs/14_mina.md` | 黒針会幹部「耳のミーナ」。子供のような外見で潜入・偽装を得意とする。 | 2,483 |
@@ -470,9 +470,10 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `characters/npcs/54_ginsetsu.md` | 廃研究施設のリビングアーマー・銀雪。ゴースト憑依型の空鎧。 | 2,632 |
 | `characters/npcs/55_dakki.md` | 廃研究施設の生体兵装・妲己。巨大肉塊オクトパスの気怠げな存在。 | 1,963 |
 | `characters/npcs/56_toyone.md` | 東区に根を張る長命の巨大トレント・豊根。食料・建材・環境を供給し、住民に土地神様と慕われる。 | 3,995 |
-| `characters/npcs/57_akari.md` | 中央区・領主邸に常駐する領主家お抱えの浄火精霊・あかり。攻撃性のない炎で浄化・衛生・防疫・照明を担う。 | 3,182 |
-| `characters/npcs/58_unabara.md` | クロスロード大病院の感染症・再生医療研究者・海原。人魚。車椅子に担架を連結して疾走・患者搬送も担う。自身の人魚肉に再生効果。 | 2,973 |
+| `characters/npcs/57_akari.md` | 中央区・領主邸に常駐する領主家お抱えの浄火精霊・あかり。攻撃性のない炎で浄化・衛生・防疫・照明を担う。 | 3,260 |
+| `characters/npcs/58_unabara.md` | クロスロード大病院の感染症・再生医療研究者・海原。人魚。車椅子に担架を連結して疾走・患者搬送も担う。自身の人魚肉に再生効果。 | 3,042 |
+| `characters/npcs/59_kazama.md` | クロスロード大病院の外科医・風間。カマイタチの妖怪。大量のメスと鎌鼬の切断力で精密切開、切った端から瞬間治療で閉じる外科の切り札。 | 2,986 |
 
 ---
 
-合計 **143 ファイル / 477,967 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **144 ファイル / 481,877 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
