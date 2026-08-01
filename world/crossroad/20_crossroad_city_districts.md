@@ -619,7 +619,7 @@
 - エリアス・ヴェイル(巡業劇団《渡り灯一座》専属脚本家。滞在中は大劇場《万象座》を拠点にする。`characters/npcs/23_elias_veil.md`)
 - ヴィヴィアナ・ラウドベル(コロッセオ専属実況者。`characters/npcs/24_viviana_loudbell.md`)
 - レオン・グレイヴ(カジノ常連の勝負師。異名《灰色の切り札》。`characters/npcs/25_leon_grave.md`)
-- アスカ(黒針会・目の幹部。`world/crossroad/32_black_needle_society.md`)
+- 飛鳥(黒針会・目の幹部。`world/crossroad/32_black_needle_society.md`)
 - 氷室(コロッセオ専属剣闘士・住み込み。`characters/npcs/35_himuro.md`)
 - ツバキ(斥候系冒険者。`characters/npcs/36_tsubaki.md`)
 - 天雷(出稼ぎの弓手。`characters/npcs/37_tenrai.md`)

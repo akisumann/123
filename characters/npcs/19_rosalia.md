@@ -65,5 +65,5 @@
 - ミレーヌ・ヴァイスフェルト(娼館街全体を管理する歓楽街組合トップ。`characters/npcs/02_milene_weissfeld.md`)
 - ベルナデッタ(桃灯楼の人気嬢。娼館街の顔役同士。`characters/npcs/20_bernadette.md`)
 - エルシア(百花迷宮の幻術娼婦。娼館街の同業。`characters/npcs/21_elsia.md`)
-- アスカ(娼館街の裏事情に通じる黒針会の幹部。`world/crossroad/32_black_needle_society.md`)
+- 飛鳥(娼館街の裏事情に通じる黒針会の幹部。`world/crossroad/32_black_needle_society.md`)
 - レオン・グレイヴ(西区の顔なじみ、娼館街の噂にも通じるカジノの勝負師。`characters/npcs/25_leon_grave.md`)

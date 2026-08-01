@@ -66,7 +66,7 @@
 
 ## 相互関係
 
-氷室・ツバキとは西区で意気投合して以来の飲み仲間兼臨時パーティー仲間。アスカ(`world/crossroad/32_black_needle_society.md`)とは二人を介して顔見知りになった程度で、まだ少し緊張しながら接している。
+氷室・ツバキとは西区で意気投合して以来の飲み仲間兼臨時パーティー仲間。飛鳥(`world/crossroad/32_black_needle_society.md`)とは二人を介して顔見知りになった程度で、まだ少し緊張しながら接している。
 
 四人はギルドに「狩人パーティー」名義で登録しており、時折まとまって依頼を受けることもある。ただし普段からべったり四人で行動しているわけではなく、日常ではそれぞれ別々に過ごしていることの方が多い。
 
@@ -77,6 +77,6 @@
 ## よく接する人物
 
 - 氷室、ツバキ(狩人パーティーの仲間。`characters/npcs/35_himuro.md`、`characters/npcs/36_tsubaki.md`)
-- アスカ(二人を介して顔見知りになった黒針会の幹部。`world/crossroad/32_black_needle_society.md`)
+- 飛鳥(二人を介して顔見知りになった黒針会の幹部。`world/crossroad/32_black_needle_society.md`)
 - ヴィヴィアナ・ラウドベル(新米弓手として取材してきそうな実況者。`characters/npcs/24_viviana_loudbell.md`)
 - 紅葉(西区の練兵場で見かける旅の騎士。`characters/npcs/43_momiji.md`)

@@ -1,13 +1,13 @@
 # ミーナ
 
-> **TL;DR:** 黒針会幹部「耳のミーナ」。子供のような外見で潜入・偽装を得意とする。
+> **TL;DR:** 黒針会幹部「潜入のミーナ」。子供のような外見で潜入・偽装を得意とする。
 
 - 種族：ネズミ系獣人
 - 年齢：26歳
 - レベル：40(冒険者ランク基準ではCランク相当。`world/14_adventurers_guild.md`)
 - 所属：黒針会(`world/crossroad/32_black_needle_society.md`)
 - 役割：黒針会幹部・潜入偽装・盗賊技術・逃走・街中情報収集
-- 通り名：耳のミーナ
+- 通り名：潜入のミーナ
 
 セリフ：「アタイをガキだと思って舐めてんなら、そいつは高くつくぜ」
 
@@ -106,6 +106,6 @@
 
 - ザラ(潜入や偽装で片付かない案件を引き継ぐ、刃の幹部。`characters/npcs/15_zara.md`)
 - ギデオン(現場で拾った情報を定期的に報告する黒針会会主。`characters/npcs/16_gideon.md`)
-- アスカ(黒針会の「目」の幹部。`world/crossroad/32_black_needle_society.md`)
+- 飛鳥(黒針会の「目」の幹部。`world/crossroad/32_black_needle_society.md`)
 - リネット、ロゼとリゼ(黒針会の情報網に引っかかっている下位協力者。`characters/npcs/10_linette.md`、`characters/npcs/12_roze_and_rize.md`)
 - ミレーヌ・ヴァイスフェルト(黒針会を統制下に置く歓楽街組合トップ。`characters/npcs/02_milene_weissfeld.md`)

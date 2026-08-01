@@ -95,3 +95,37 @@
 - **巨大腕の白金**(メイドロボ。怪力の持ち主。`characters/npcs/53_hakkin.md`)
 - **空鎧の銀雪**(リビングアーマー。ゴースト憑依型の空鎧。`characters/npcs/54_ginsetsu.md`)
 - **範囲制圧の妲己**(生体兵装。巨大肉塊オクトパス。`characters/npcs/55_dakki.md`)
+
+## 西区(歓楽・闘技・賭博)
+
+### 歓楽街組合
+- **歓楽街のミレーヌ**(西区を束ねる歓楽街組合トップ。クラリスの妹。`characters/npcs/02_milene_weissfeld.md`)
+
+### 黒針会(西区の裏社会)
+- **黒針会のギデオン**(会主。`characters/npcs/16_gideon.md`)
+- **潜入のミーナ**(幹部＝黒針会の耳。子供の姿で潜入・偽装。`characters/npcs/14_mina.md`)
+- **監視鳥の飛鳥**(幹部＝黒針会の目。鳥弾視界で上空から監視し、その情報で交渉を握る。`world/crossroad/32_black_needle_society.md`)
+- **蠍尾のザラ**(幹部＝黒針会の刃。蠍獣人。暗殺・追跡・裏切り者処理。`characters/npcs/15_zara.md`)
+
+### 娼館通り(紅玻璃館・桃灯楼・百花迷宮)
+- **赤巫女のロザリア**(紅玻璃館の筆頭花魁。精霊憑依。`characters/npcs/19_rosalia.md`)
+- **呼び声のベルナデッタ**(桃灯楼の人気嬢。街中の人脈を動かす招集役。`characters/npcs/20_bernadette.md`)
+- **幻惑のエルシア**(百花迷宮の幻術娼婦。昼は東区/南区境の魔法サークルで「オタクのエルシア」。`characters/npcs/21_elsia.md`)
+
+### コロッセオ
+- **爆声のヴィヴィアナ**(専属実況者。`characters/npcs/24_viviana_loudbell.md`)
+- **氷装甲の氷室**(専属剣闘士・住み込み。`characters/npcs/35_himuro.md`)
+
+### 大カジノ
+- **レオン《灰色の切り札》**(カジノ常連の勝負師。生活能力は皆無。`characters/npcs/25_leon_grave.md`)
+
+### 大劇場《万象座》
+- **劇作家のエリアス**(巡業劇団《渡り灯一座》専属脚本家。滞在中の拠点。`characters/npcs/23_elias_veil.md`)
+
+### 練兵場
+- **猪突の紅葉＋規律の黒羽**(武者修行中の旅の騎士コンビ。稽古中。`characters/npcs/43_momiji.md`、`characters/npcs/44_kokuu.md`)
+
+### 西区拠点の冒険者・その他
+- **忍びのツバキ**(斥候。西区の安酒場を拠点代わりに。表と裏から勧誘を受け保留中。`characters/npcs/36_tsubaki.md`)
+- **一射の天雷**(出稼ぎの弓手。狩人パーティーの火力。`characters/npcs/37_tenrai.md`)
+- (流動)**囮のロゼ・スリのリゼ**(盗人姉妹。北区・西区・裏路地。`characters/npcs/12_roze_and_rize.md`)

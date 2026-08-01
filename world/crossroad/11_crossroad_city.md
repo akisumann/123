@@ -297,9 +297,9 @@
 
 ネズミ系獣人。子供のような外見を利用した潜入・偽装を得意とする現場寄りの幹部。詳細は`characters/npcs/14_mina.md`を参照。
 
-### 黒針会幹部：アスカ
+### 黒針会幹部：飛鳥
 
-「目の幹部」として対外交渉を担う。詳細は`world/crossroad/32_black_needle_society.md`の「目の幹部：アスカ」を参照。
+「目の幹部」として対外交渉を担う。詳細は`world/crossroad/32_black_needle_society.md`の「目の幹部：飛鳥」を参照。
 
 ### 黒針会幹部：ザラ
 
