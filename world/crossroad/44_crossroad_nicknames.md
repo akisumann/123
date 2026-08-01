@@ -51,7 +51,7 @@
 | 裏路地の小夜 | 小夜 | 独立のコソ泥(`characters/npcs/38_sayo.md`) |
 | 空輸の空咲 | 空咲 | 独立の空輸便利屋(`characters/npcs/39_sorasaki.md`) |
 | 下水道の泡姫 | 泡姫 | 下水道に住み着いた自称・管理人(`characters/npcs/40_awahime.md`) |
-| 双楯のマモリ | マモリ | 領主クラリス専属護衛(`characters/npcs/41_mamori.md`) |
+| 護衛双楯のマモリ | マモリ | 領主クラリス専属護衛(`characters/npcs/41_mamori.md`) |
 | 横一線の唯一 | 唯一 | ソロ冒険者・雑魚討伐の臨時要員(`characters/npcs/42_yuiitsu.md`) |
 | 猪突の紅葉 | 紅葉 | 武者修行中の旅の騎士(`characters/npcs/43_momiji.md`) |
 | 規律の黒羽 | 黒羽 | 紅葉の旅の同行者・天狗の剣士(`characters/npcs/44_kokuu.md`) |
@@ -67,7 +67,7 @@
 | 空鎧の銀雪 | 銀雪 | 廃研究施設のリビングアーマー(`characters/npcs/54_ginsetsu.md`) |
 | 気怠げの妲己 | 妲己 | 廃研究施設の生体兵装(`characters/npcs/55_dakki.md`) |
 | 実りの豊根 | 豊根 | 東区に根を張る長命のトレント。住民は土地神様とも呼ぶ(`characters/npcs/56_toyone.md`) |
-| 浄火のあかり | あかり | 領主家お抱えの浄火精霊。中央区・領主邸に常駐(`characters/npcs/57_akari.md`) |
+| 衛生浄化のあかり | あかり | 領主家お抱えの浄火精霊。中央区・領主邸＋クロスロード大病院の衛生担当(`characters/npcs/57_akari.md`) |
 | 車椅子の海原 | 海原 | クロスロード大病院の感染症・再生医療研究者。車椅子で疾走し患者搬送も担う人魚(`characters/npcs/58_unabara.md`) |
 | メスの風間 | 風間 | クロスロード大病院の外科医。大量のメスを操るカマイタチの妖怪(`characters/npcs/59_kazama.md`) |
 | 院長の白峰 | 白峰 | クロスロード大病院の院長・院内最高の回復術師。治癒砲を操る八尺様の妖怪(`characters/npcs/60_shiromine.md`) |
