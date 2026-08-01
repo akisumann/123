@@ -72,4 +72,4 @@
 - ルカ・フェンネル(伝令で浄化院に顔を出す若手騎士。`characters/npcs/05_luca_fennel.md`)
 - マモリ(同じ中央区にいる領主専属護衛。`characters/npcs/41_mamori.md`)
 - あかり(中央区の領主家お抱えの浄火精霊。手に余る重い穢れ・アンデッド案件を引き継ぐ相手。`characters/npcs/57_akari.md`)
-- 海原(クロス医院の感染症研究者。アンデッド由来の疫病めいた事態で領分が交差する人魚。`characters/npcs/58_unabara.md`)
+- 海原(クロスロード大病院の感染症研究者。アンデッド由来の疫病めいた事態で領分が交差する人魚。`characters/npcs/58_unabara.md`)

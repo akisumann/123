@@ -5,8 +5,8 @@
 - 種族：浄火精霊(実体召喚体)
 - 年齢：23歳
 - レベル：48(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
-- 所属：クロスロード領主家お抱え。領主クラリス・ヴァイスフェルト(`characters/npcs/01_clarisse_weissfeld.md`)の直属で、中央区(`world/crossroad/20_crossroad_city_districts.md`)の行政庁舎(領主邸)まわりに常駐する。加えて、領主家が後ろ盾となる中央区・東区境のクロス医院(`world/crossroad/71_crossroad_clinic.md`)の衛生担当も兼ねる
-- 配置：中央区・都市中枢区(主に行政庁舎・領主邸・その周辺)、およびクロス医院(中央区・東区の境)
+- 所属：クロスロード領主家お抱え。領主クラリス・ヴァイスフェルト(`characters/npcs/01_clarisse_weissfeld.md`)の直属で、中央区(`world/crossroad/20_crossroad_city_districts.md`)の行政庁舎(領主邸)まわりに常駐する。加えて、領主家が後ろ盾となる中央区・東区境のクロスロード大病院(`world/crossroad/71_crossroad_hospital.md`)の衛生担当も兼ねる
+- 配置：中央区・都市中枢区(主に行政庁舎・領主邸・その周辺)、およびクロスロード大病院(中央区・東区の境)
 - 役割：浄化・衛生管理・防疫・照明・加温・環境維持
 - 通り名：浄火のあかり
 
@@ -82,4 +82,4 @@
 - エイダ・ロックウェル(中央区の衛生・防疫で連携する衛兵隊長。`characters/npcs/04_ada_lockwell.md`)
 - ルカ・フェンネル(行政庁舎に出入りする若手騎士・連絡役。`characters/npcs/05_luca_fennel.md`)
 - 仁礼(浄化院に滞在する双槌の聖戦修道女団のベテラン。重い穢れ・アンデッド案件を引き継ぐ相手。`characters/npcs/49_ninrei.md`)
-- 海原(クロス医院の感染症・再生医療研究者。清潔な院内・無菌管理で頼りにされる人魚の研究者。`characters/npcs/58_unabara.md`)
+- 海原(クロスロード大病院の感染症・再生医療研究者。清潔な院内・無菌管理で頼りにされる人魚の研究者。`characters/npcs/58_unabara.md`)

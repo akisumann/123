@@ -354,7 +354,7 @@
 - ひだまり縁側(茶屋)、芽吹き棚(南区との境の薬草茶屋)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
 - 民間魔法サークル(南区との境目)。`world/crossroad/43_crossroad_magic_circle.md`を参照
 - 公衆浴場《四路の湯》(市内最大規模、混浴が基本の公衆浴場)。`world/crossroad/55_crossroad_bathhouse.md`を参照
-- クロス医院(中央区との境に建つ、世俗の回復魔法を主軸とする総合医院。日常医療の受け皿)。`world/crossroad/71_crossroad_clinic.md`を参照
+- クロスロード大病院(中央区との境に建つ、世俗の回復魔法を主軸とする総合病院。日常医療の受け皿)。`world/crossroad/71_crossroad_hospital.md`を参照
 - 東の暮らし市。`world/crossroad/45_crossroad_district_markets.md`を参照
 - 街区掲示板の傾向は`world/crossroad/22_crossroad_bulletin_boards.md`を参照
 - 情報屋(住民の生活情報・失踪の噂などを扱う東区の情報屋)。`world/crossroad/51_black_needle_info_network.md`を参照
