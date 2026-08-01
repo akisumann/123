@@ -17,6 +17,9 @@
 - **連絡役のルカ**(若手騎士・現場連絡役。庁舎に出入り。`characters/npcs/05_luca_fennel.md`)
 - (関連)**特大剣の騎士団長ヴァレリア**(`characters/npcs/03_valeria_grenz.md`)と領主直属の即応部隊(Lv30〜40の熟練騎士10名ほど・無名)が、中央区のお膝元に常駐。
 
+### 衛兵隊(都市内の治安)
+- **衛兵隊のエイダ**(衛兵隊長。中央区に本拠を置き、五区画すべての巡回・通報対応・事件処理を統括する。`characters/npcs/04_ada_lockwell.md`)
+
 ### 浄化院
 - **浄化院のセリア**(浄化依頼の窓口神官。軽治療・アンデッド相談。`characters/npcs/09_celia.md`)
 - **巡回双槌の仁礼**(双槌の聖戦修道女団のベテラン。骨鳴り墓原の視察で滞在中、浄化院に部屋を借りている。`characters/npcs/49_ninrei.md`)
@@ -45,7 +48,7 @@
 - **金塊商会長のボルガン**(北区商業組合長・ガルド大商会会頭。陰では蔑称「醜悪オーク(豚王)」。Lv48だが鑑定偽装でLv18を装う。`characters/npcs/29_vorgan_gard.md`)
 
 ### 宿・市場・その他
-- **白鳩楼**(高級宿)拠点：統制パーティー(統率のミズシロ/受け流しの蒼龍/静穏の睡蓮/水球の青葉。`characters/npcs/31_mizushiro.md`ほか)
+- **白鳩楼**(高級宿)拠点：統制パーティー(アクア・フロウの貴族令嬢一行)。統率のミズシロ(`characters/npcs/31_mizushiro.md`)／受け流しの蒼龍(`characters/npcs/32_souryuu.md`)／静穏の睡蓮(`characters/npcs/33_suiren.md`)／水球の青葉(`characters/npcs/34_aoba.md`)
 - **空輸の空咲**(荷馬車駅外れを離着陸場にする空輸便利屋。`characters/npcs/39_sorasaki.md`)
 - (流動)**囮のロゼ・スリのリゼ**(盗人姉妹。北区・西区・裏路地で活動。`characters/npcs/12_roze_and_rize.md`)
 
