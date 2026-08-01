@@ -5,8 +5,8 @@
 - 種族：浄火精霊(実体召喚体)
 - 年齢：23歳
 - レベル：48(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
-- 所属：クロスロード領主家お抱え。領主クラリス・ヴァイスフェルト(`characters/npcs/01_clarisse_weissfeld.md`)の直属で、中央区(`world/crossroad/20_crossroad_city_districts.md`)の行政庁舎(領主邸)まわりに常駐する
-- 配置：中央区・都市中枢区(主に行政庁舎・領主邸・その周辺)
+- 所属：クロスロード領主家お抱え。領主クラリス・ヴァイスフェルト(`characters/npcs/01_clarisse_weissfeld.md`)の直属で、中央区(`world/crossroad/20_crossroad_city_districts.md`)の行政庁舎(領主邸)まわりに常駐する。加えて、領主家が後ろ盾となる中央区・東区境のクロス医院(`world/crossroad/71_crossroad_clinic.md`)の衛生担当も兼ねる
+- 配置：中央区・都市中枢区(主に行政庁舎・領主邸・その周辺)、およびクロス医院(中央区・東区の境)
 - 役割：浄化・衛生管理・防疫・照明・加温・環境維持
 - 通り名：浄火のあかり
 
