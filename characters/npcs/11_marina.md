@@ -68,3 +68,4 @@
 - 泡姫(下水道の異変や落とし物の相談を持ちかけられることがある住み着き。`characters/npcs/40_awahime.md`)
 - 銀雪(廃研究施設のリビングアーマー。世間話でよく顔を合わせる。`characters/npcs/54_ginsetsu.md`)
 - 豊根(東区に根を張る長命の巨大トレント。住民の建材・食料・地盤の困りごとを取り次ぐ最も近い窓口。`characters/npcs/56_toyone.md`)
+- 海原(クロス医院の感染症研究者。感染の兆しや体調を崩した住民の報せを取り次ぐ相手。`characters/npcs/58_unabara.md`)

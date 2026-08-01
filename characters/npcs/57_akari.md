@@ -82,3 +82,4 @@
 - エイダ・ロックウェル(中央区の衛生・防疫で連携する衛兵隊長。`characters/npcs/04_ada_lockwell.md`)
 - ルカ・フェンネル(行政庁舎に出入りする若手騎士・連絡役。`characters/npcs/05_luca_fennel.md`)
 - 仁礼(浄化院に滞在する双槌の聖戦修道女団のベテラン。重い穢れ・アンデッド案件を引き継ぐ相手。`characters/npcs/49_ninrei.md`)
+- 海原(クロス医院の感染症・再生医療研究者。清潔な院内・無菌管理で頼りにされる人魚の研究者。`characters/npcs/58_unabara.md`)

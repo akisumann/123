@@ -76,3 +76,4 @@
 - 小夜(東区で見かける顔。噂話仲間。`characters/npcs/38_sayo.md`)
 - エリアス・ヴェイル(興行歌唱の仕事で接点のある西区の劇作家。`characters/npcs/23_elias_veil.md`)
 - 豊根(共同井戸周辺に根を張る東区の長命トレント。弾き語りに葉擦れで拍子を合わせてくる。`characters/npcs/56_toyone.md`)
+- 海原(同じ内陸暮らしの人魚。クロス医院の研究者で、研究に没頭しがちなのを世間話ついでに気遣う相手。`characters/npcs/58_unabara.md`)
