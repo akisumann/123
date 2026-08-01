@@ -32,7 +32,7 @@
 | 目のアスカ | アスカ | 黒針会幹部(`world/crossroad/32_black_needle_society.md`) |
 | 刃のザラ | ザラ | 黒針会幹部(`characters/npcs/15_zara.md`) |
 | 黒針会のギデオン | ギデオン | 黒針会会主(`characters/npcs/16_gideon.md`) |
-| 恋バナのリエラ | リエラ | ギルド受付職員(`characters/npcs/17_riera.md`) |
+| 恋バナ受付のリエラ | リエラ | ギルド受付職員(`characters/npcs/17_riera.md`) |
 | 魔法サークルのミレイ | ミレイ | 民間魔法サークルの取りまとめ役(`characters/npcs/18_milei.md`) |
 | 赤巫女のロザリア | ロザリア | 紅玻璃館の筆頭花魁(`characters/npcs/19_rosalia.md`) |
 | 呼び声のベルナデッタ | ベルナデッタ | 桃灯楼の人気嬢・街中連絡役(`characters/npcs/20_bernadette.md`) |
@@ -52,7 +52,7 @@
 | 空輸の空咲 | 空咲 | 独立の空輸便利屋(`characters/npcs/39_sorasaki.md`) |
 | 下水道の泡姫 | 泡姫 | 下水道に住み着いた自称・管理人(`characters/npcs/40_awahime.md`) |
 | 護衛双盾のマモリ | マモリ | 領主クラリス専属護衛(`characters/npcs/41_mamori.md`) |
-| 横一線の唯一 | 唯一 | ソロ冒険者・雑魚討伐の臨時要員(`characters/npcs/42_yuiitsu.md`) |
+| 広範囲斬撃の唯一 | 唯一 | ソロ冒険者・雑魚討伐の臨時要員(`characters/npcs/42_yuiitsu.md`) |
 | 猪突の紅葉 | 紅葉 | 武者修行中の旅の騎士(`characters/npcs/43_momiji.md`) |
 | 規律の黒羽 | 黒羽 | 紅葉の旅の同行者・天狗の剣士(`characters/npcs/44_kokuu.md`) |
 | 井戸端の鈴代 | 鈴代 | 旅の吟遊詩人(`characters/npcs/45_suzuyo.md`) |

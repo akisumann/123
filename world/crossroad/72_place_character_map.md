@@ -27,3 +27,24 @@
 - **研究医の海原**(人魚の感染症・再生医療研究者。患者搬送も担う。`characters/npcs/58_unabara.md`)
 - **衛生浄化のあかり**(衛生担当。浄火で消毒・防疫・清潔維持。領主邸と兼務。`characters/npcs/57_akari.md`)
 - (関連)無名の常勤職員(日常診療を担う医療魔導士Lv30前後・看護・産科・受付ほか)が病院を回している。施設詳細は`world/crossroad/71_crossroad_hospital.md`
+
+## 北区(商業・交易・冒険者ギルド)
+
+### 冒険者ギルド支部
+- **ギルド長のダリオ**(支部長。依頼精査・人材鑑定。`characters/npcs/07_dario_langford.md`)
+- **恋バナ受付のリエラ**(受付職員。恋愛脳で即カップリング認定。`characters/npcs/17_riera.md`)
+- **情報屋のリネット**(中堅斥候・情報屋。四辻の炉亭周辺が拠点。`characters/npcs/10_linette.md`)
+- **銀鴉の羽根**(Bランク女性4人組。ギルドを活動拠点。銀鴉のレナ/シェリル/イリス/マリベル。`characters/npcs/08_silver_raven_feather.md`)
+- **広範囲斬撃の唯一**(ソロ冒険者。雑魚討伐の臨時要員。`characters/npcs/42_yuiitsu.md`)
+- **九槍の九重＋結界のクサビ**(旅の二人組。回復役を探して滞在中。`characters/npcs/50_kokonoe.md`、`characters/npcs/51_kusabi.md`)
+
+### 北門《王都門》
+- **北門のバルト**(古参門衛。出入り確認・道案内。`characters/npcs/22_balto.md`)
+
+### 商業組合・ガルド大商会
+- **ボルガン・ガルド**(北区商業組合長・ガルド大商会会頭。通り名は蔑称「醜悪オーク(豚王)」。Lv48だが鑑定偽装でLv18を装う。`characters/npcs/29_vorgan_gard.md`)
+
+### 宿・市場・その他
+- **白鳩楼**(高級宿)拠点：統制パーティー(統率のミズシロ/受け流しの蒼龍/静穏の睡蓮/水球の青葉。`characters/npcs/31_mizushiro.md`ほか)
+- **空輸の空咲**(荷馬車駅外れを離着陸場にする空輸便利屋。`characters/npcs/39_sorasaki.md`)
+- (流動)**囮のロゼ・スリのリゼ**(盗人姉妹。北区・西区・裏路地で活動。`characters/npcs/12_roze_and_rize.md`)
