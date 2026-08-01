@@ -66,10 +66,10 @@
 | 巡回双槌の仁礼 | 仁礼 | 双槌の聖戦修道女団のベテラン。浄化院に滞在(`characters/npcs/49_ninrei.md`) |
 | 九槍の九重 | 九重 | 旅の投槍魔導士・クサビの幼馴染(`characters/npcs/50_kokonoe.md`) |
 | 結界のクサビ | クサビ | 旅の巫女・九重の幼馴染(`characters/npcs/51_kusabi.md`) |
-| 廃研の琥珀 | 琥珀 | 南区の廃研究施設を拠点にする錬金術師(`characters/npcs/52_kohaku.md`) |
-| 怪力の白金 | 白金 | 廃研究施設のメイドロボ(`characters/npcs/53_hakkin.md`) |
+| 伝説錬金の琥珀 | 琥珀 | 南区の廃研究施設を拠点にする錬金術師(`characters/npcs/52_kohaku.md`) |
+| 巨大腕の白金 | 白金 | 廃研究施設のメイドロボ(`characters/npcs/53_hakkin.md`) |
 | 空鎧の銀雪 | 銀雪 | 廃研究施設のリビングアーマー(`characters/npcs/54_ginsetsu.md`) |
-| 気怠げの妲己 | 妲己 | 廃研究施設の生体兵装(`characters/npcs/55_dakki.md`) |
+| 範囲制圧の妲己 | 妲己 | 廃研究施設の生体兵装(`characters/npcs/55_dakki.md`) |
 | 実りの豊根 | 豊根 | 東区に根を張る長命のトレント。住民は土地神様とも呼ぶ(`characters/npcs/56_toyone.md`) |
 | 衛生浄化のあかり | あかり | 領主家お抱えの浄火精霊。中央区・領主邸＋クロスロード大病院の衛生担当(`characters/npcs/57_akari.md`) |
 | 研究医の海原 | 海原 | クロスロード大病院の感染症・再生医療研究者。車椅子で疾走し患者搬送も担う人魚(`characters/npcs/58_unabara.md`) |

@@ -91,7 +91,7 @@
 
 ### 廃研究施設(「災害パーティー」)
 ※火山の国から逃げてきた4人組。廃研究施設を拠点に街へ根付き始めている(過去の悪事は知られていない)。
-- **廃研の琥珀**(錬金術師・ホムンクルス。`characters/npcs/52_kohaku.md`)
-- **怪力の白金**(メイドロボ。怪力の持ち主。`characters/npcs/53_hakkin.md`)
+- **伝説錬金の琥珀**(錬金術師・ホムンクルス。`characters/npcs/52_kohaku.md`)
+- **巨大腕の白金**(メイドロボ。怪力の持ち主。`characters/npcs/53_hakkin.md`)
 - **空鎧の銀雪**(リビングアーマー。ゴースト憑依型の空鎧。`characters/npcs/54_ginsetsu.md`)
-- **気怠げの妲己**(生体兵装。巨大肉塊オクトパス。`characters/npcs/55_dakki.md`)
+- **範囲制圧の妲己**(生体兵装。巨大肉塊オクトパス。`characters/npcs/55_dakki.md`)
