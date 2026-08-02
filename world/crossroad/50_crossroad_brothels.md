@@ -1,6 +1,7 @@
 # 西区の主要娼館
 
 > **TL;DR:** 西区の主要娼館三軒(紅玻璃館・桃灯楼・百花迷宮)の格と客層。
+> ここに登場・所属するNPCは`world/crossroad/72_place_character_map.md`(場所×キャラ対応マップ)で一覧・逆引きできる。
 
 クロスロード西区(`world/crossroad/20_crossroad_city_districts.md`)の娼館通りには多数の娼館が存在するが、その中でも特に知名度の高い三軒。
 

@@ -1,6 +1,7 @@
 # クロスロードの酒場・茶屋・高級料理店
 
 > **TL;DR:** 区画ごとに客層が棲み分けられた酒場6・茶屋6・高級料理店7軒。
+> ここに登場・所属するNPCは`world/crossroad/72_place_character_map.md`(場所×キャラ対応マップ)で一覧・逆引きできる。
 
 クロスロードの飲食店は、区画(`world/crossroad/20_crossroad_city_districts.md`)ごとに客層が被らないよう自然と棲み分けられている。以下はその代表例。
 

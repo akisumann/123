@@ -1,6 +1,7 @@
 # クロスロード浄化院
 
 > **TL;DR:** 中央区の浄化院。土地浄化・呪物処理・結界維持・対アンデッド支援。
+> ここに登場・所属するNPCは`world/crossroad/72_place_character_map.md`(場所×キャラ対応マップ)で一覧・逆引きできる。
 
 - **場所**：中央区・神殿街寄り(`world/crossroad/20_crossroad_city_districts.md`)
 - **役割**：土地浄化・呪物処理・結界維持・瘴気対策・鎮魂儀式・対アンデッド支援
