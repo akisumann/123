@@ -77,6 +77,7 @@
 - **年次追加改修祭**:年に一度、南区の職人が一斉にアイアンくんを改修する催し(`characters/npcs/30_ultimate_patchwork_iron_kun.md`)。
 - **双槌の墓原掃討**:骨鳴り墓原(`world/crossroad/63_bone_toll_moor.md`)への双槌の聖戦修道女団(`world/nations/19_twin_hammer_order.md`)による定期的な掃討。
 - **区画市・夜市**:市場ごとの開催周期(`world/crossroad/45_crossroad_district_markets.md`)。
+- **相棒籤杯(くじ引き二人組)**:年に数回、コロッセオが客寄せに開く小規模トーナメント。街の実力者16人を毎回籤で2人組に組み直して勝ち抜く(`world/crossroad/73_colosseum_random_pair_tournament.md`)。
 
 ## GM運用
 

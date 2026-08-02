@@ -118,6 +118,7 @@
 ### コロッセオ
 - **爆声のヴィヴィアナ**(専属実況者。`characters/npcs/24_viviana_loudbell.md`)
 - **氷装甲の氷室**(専属剣闘士・住み込み。`characters/npcs/35_himuro.md`)
+- ※お祭り興行「相棒籤杯」(`world/crossroad/73_colosseum_random_pair_tournament.md`)の際は、街の実力者16人が既存NPCから集まる会場になる。
 
 ### 大カジノ
 - **レオン《灰色の切り札》**(カジノ常連の勝負師。生活能力は皆無。`characters/npcs/25_leon_grave.md`)
