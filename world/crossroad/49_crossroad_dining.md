@@ -19,7 +19,7 @@
 
 南区の職人酒場。鍛冶師や工房労働者が集まり、酒も料理も濃くて量が多い。壁には客が打ち込んだ古い釘が並ぶ。
 
-- **常連・顔ぶれ**：鍛冶頭のガルム(`characters/npcs/06_galm_forgelight.md`)、ヘンテコ薬品のミルカ(`characters/npcs/13_mika.md`)、仕掛屋のセレナ(`characters/npcs/26_serena_gearford.md`)、伝説錬金の琥珀(素材の話をしに顔を出す数少ない災害パーティー。`characters/npcs/52_kohaku.md`)。アイアンくんの年次改修祭(`characters/npcs/30_ultimate_patchwork_iron_kun.md`)もこの界隈。**職人が素材と酒で語り合う南区の溜まり場**。
+- **常連・顔ぶれ**：鍛冶頭のガルム(`characters/npcs/06_galm_forgelight.md`)、ヘンテコ薬品のミルカ(`characters/npcs/13_mika.md`)、仕掛屋のセレナ(`characters/npcs/26_serena_gearford.md`)、伝説錬金の琥珀(素材の話をしに。南区廃施設が拠点の災害パーティー。`characters/npcs/52_kohaku.md`)、巨大腕の白金(琥珀の供で力仕事を手伝い、うっかり皿を割る。`characters/npcs/53_hakkin.md`)。アイアンくんの年次改修祭(`characters/npcs/30_ultimate_patchwork_iron_kun.md`)もこの界隈。**職人が素材と酒で語り合う南区の溜まり場**。
 
 ### 夜鴉の止まり木
 
@@ -45,7 +45,7 @@ Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/0
 
 西区でも比較的静かな酒場。個室や仕切り席が多く、密談、男女の逢瀬、落ち着いた飲酒に使われる。値段は少し高め。
 
-- **常連・顔ぶれ**：歓楽街のミレーヌ(`characters/npcs/02_milene_weissfeld.md`)、黒針会のギデオン(`characters/npcs/16_gideon.md`)、蠍尾のザラ(`characters/npcs/15_zara.md`)、劇作家のエリアス、レオン《灰色の切り札》(賭けの算段を練りに。`characters/npcs/25_leon_grave.md`)。**表と裏の話が個室で交わる密談の場**。
+- **常連・顔ぶれ**：歓楽街のミレーヌ(`characters/npcs/02_milene_weissfeld.md`)、黒針会のギデオン(`characters/npcs/16_gideon.md`)、蠍尾のザラ(`characters/npcs/15_zara.md`)、劇作家のエリアス、レオン《灰色の切り札》(賭けの算段を練りに。`characters/npcs/25_leon_grave.md`)、範囲制圧の妲己(気だるげに仕切り席で寛ぐ。`characters/npcs/55_dakki.md`)。**表と裏の話が個室で交わる密談の場**。
 
 ## 茶屋
 
@@ -77,7 +77,7 @@ Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/0
 
 南区との境にある薬草茶屋。体調や疲労に合わせて茶葉を調合する。軽い魔力疲労や二日酔い向けの茶も扱う。
 
-- **常連・顔ぶれ**：幻惑のエルシア(昼の「オタクのエルシア」の顔で。`characters/npcs/21_elsia.md`)、魔法サークルのミレイ(魔力疲労の茶を求めて。`characters/npcs/18_milei.md`)、ヘンテコ薬品のミルカ(薬草の目利きに時々。`characters/npcs/13_mika.md`)。**魔法まわりの疲れを癒やす東南境の茶屋**。
+- **常連・顔ぶれ**：幻惑のエルシア(昼の「オタクのエルシア」の顔で。`characters/npcs/21_elsia.md`)、魔法サークルのミレイ(魔力疲労の茶を求めて。`characters/npcs/18_milei.md`)、ヘンテコ薬品のミルカ(薬草の目利きに時々。`characters/npcs/13_mika.md`)、空鎧の銀雪(南区廃施設が近く、のんびり茶を啜りにすり足で。`characters/npcs/54_ginsetsu.md`)。**魔法まわりの疲れを癒やす東南境の茶屋**。
 
 ### 白雲
 
@@ -138,7 +138,6 @@ Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/0
 飲食店の動線には乗らない者もいる。人を捕まえたい時、以下は酒場・茶屋では会えない。
 
 - **下水道のニート達**(泡姫`characters/npcs/40_awahime.md`・真白`characters/npcs/46_mashiro.md`・徒然`characters/npcs/47_tsurezure.md`・芍薬`characters/npcs/48_shakuyaku.md`)…地下暮らしで表の店には出ない。会うなら下水道(`world/crossroad/72_place_character_map.md`「下水道」)へ。
-- **災害パーティー**(廃研究施設拠点)…過去を隠して街に根付き始めた途中で、まだ大っぴらには出歩かない。人型の伝説錬金の琥珀(`characters/npcs/52_kohaku.md`)だけが素材の買い付けついでに赤釘亭へ顔を出す程度。巨大腕の白金・空鎧の銀雪・範囲制圧の妲己は廃研究施設に潜む。
 - **実りの豊根**(`characters/npcs/56_toyone.md`)…本体は動かない巨大トレント。店には来ないが、その木陰そのものが東区住民の天然の集いの場になっている。
 - **観光名所のアイアンくん**(`characters/npcs/30_ultimate_patchwork_iron_kun.md`)…南区中央広場の巨大ゴーレム。飲み食いはしないが、改修祭のときは赤釘亭界隈が沸く。
 
