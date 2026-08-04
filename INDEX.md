@@ -15,7 +15,7 @@
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,542 |
-| `PROGRESS.md` | PROGRESS | 37,722 |
+| `PROGRESS.md` | PROGRESS | 38,219 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,682 |
 
@@ -145,7 +145,7 @@
 | `characters/npcs/07_dario_langford.md` | 冒険者ギルド支部長ダリオ。元斥候兼鑑定士で人材鑑定に長ける。 | 3,999 |
 | `characters/npcs/08_silver_raven_feather.md` | Bランク女性冒険者4人組「銀鴉の羽根」。街屈指の実力派パーティー。 | 4,131 |
 | `characters/npcs/09_celia.md` | 浄化院の若手神官セリア。浄化依頼・軽治療・アンデッド相談の窓口。 | 1,969 |
-| `characters/npcs/10_linette.md` | 情報屋リネット。中堅斥候で、有料で依頼の裏事情を教える。 | 2,157 |
+| `characters/npcs/10_linette.md` | 情報屋リネット。中堅斥候で、有料で依頼の裏事情を教える。 | 2,257 |
 | `characters/npcs/11_marina.md` | 東区の世話役マリナ。住民の小さな困りごと・住民依頼の窓口。 | 1,859 |
 | `characters/npcs/12_roze_and_rize.md` | 盗人姉妹ロゼ&リゼ。色仕掛けとスリの小悪党、街の軽いトラブル役。 | 2,460 |
 | `characters/npcs/13_mika.md` | 南区の薬品職人ミルカ。ヘンテコ薬に紛れて有用な薬も置く掘り出し物店。 | 2,567 |
@@ -153,50 +153,50 @@
 | `characters/npcs/15_zara.md` | 黒針会幹部「蠍尾のザラ」。蠍獣人で暗殺・追跡・裏切り者処理担当のA級。 | 2,854 |
 | `characters/npcs/16_gideon.md` | 黒針会会主ギデオン。組織の最終裁定を担う老練な会主。 | 3,399 |
 | `characters/npcs/17_riera.md` | ギルド受付リエラ。世話焼きだがかなりの恋愛脳で即カップリング認定。 | 1,642 |
-| `characters/npcs/18_milei.md` | 民間魔法サークル取りまとめ役ミレイ。基礎魔法指導・魔法相談の窓口。 | 2,358 |
+| `characters/npcs/18_milei.md` | 民間魔法サークル取りまとめ役ミレイ。基礎魔法指導・魔法相談の窓口。 | 2,442 |
 | `characters/npcs/19_rosalia.md` | 紅玻璃館の筆頭花魁ロザリア。精霊憑依と陰陽循環術を操る。 | 1,546 |
 | `characters/npcs/20_bernadette.md` | 桃灯楼の人気嬢ベルナデッタ。犬獣人で広い人脈を持つ緊急招集役。 | 2,453 |
 | `characters/npcs/21_elsia.md` | 昼は術師会・夜は百花迷宮の幻術娼婦エルシア。Lv40のレベルキャップ到達者。 | 2,980 |
 | `characters/npcs/22_balto.md` | 北門の古参門衛バルト。出入り確認・道案内を担う街の顔役。 | 1,556 |
 | `characters/npcs/23_elias_veil.md` | 巡業劇団専属脚本家エリアス・ヴェイル。万象座の代表作を手掛ける。 | 3,935 |
-| `characters/npcs/24_viviana_loudbell.md` | コロッセオ専属実況者ヴィヴィアナ。熱狂を作る名物職員。 | 4,040 |
-| `characters/npcs/25_leon_grave.md` | カジノの勝負師レオン「灰色の切り札」。勝負に強いが生活能力皆無。 | 5,558 |
+| `characters/npcs/24_viviana_loudbell.md` | コロッセオ専属実況者ヴィヴィアナ。熱狂を作る名物職員。 | 4,127 |
+| `characters/npcs/25_leon_grave.md` | カジノの勝負師レオン「灰色の切り札」。勝負に強いが生活能力皆無。 | 5,642 |
 | `characters/npcs/26_serena_gearford.md` | 南区・仕掛屋六番工房の店主セレナ。注文制作と機能付与の魔導機構技師。 | 2,431 |
 | `characters/npcs/27_lara.md` | 天才児ララ(Lv35)。Lv50到達を境に街を出る計画を立てる。 | 5,842 |
 | `characters/npcs/28_karla.md` | ララの相棒カーラ(Lv35)。街を出る計画の同行者。 | 5,539 |
-| `characters/npcs/29_vorgan_gard.md` | 北区商業組合長ボルガン・ガルド(Lv48・偽装Lv18)。強欲な大商会会頭。 | 4,215 |
+| `characters/npcs/29_vorgan_gard.md` | 北区商業組合長ボルガン・ガルド(Lv48・偽装Lv18)。強欲な大商会会頭。 | 4,326 |
 | `characters/npcs/30_ultimate_patchwork_iron_kun.md` | 南区中央広場のツギハギ巨大ゴーレム(起動時Lv59相当)。街の名所。 | 3,474 |
-| `characters/npcs/31_mizushiro.md` | 統制パーティー隊長・水城。水精霊。アクア・フロウ貴族令嬢一行。 | 3,267 |
-| `characters/npcs/32_souryuu.md` | 統制パーティー前衛・蒼龍。水精霊、受け流しの守り手。 | 1,869 |
-| `characters/npcs/33_suiren.md` | 統制パーティー中衛・睡蓮。水精霊、戦場制御役。 | 1,795 |
-| `characters/npcs/34_aoba.md` | 統制パーティー後衛・青葉。水精霊、決定打役。 | 1,728 |
-| `characters/npcs/35_himuro.md` | コロッセオ専属剣闘士・氷室。アルマジロ獣人の氷装甲住み込み選手。 | 2,382 |
-| `characters/npcs/36_tsubaki.md` | 斥候系冒険者ツバキ。ホビットの忍び。 | 3,915 |
-| `characters/npcs/37_tenrai.md` | 出稼ぎの弓手・天雷。アマゾネスの一射の名手。 | 2,131 |
-| `characters/npcs/38_sayo.md` | 独立のコソ泥・小夜。裏路地を根城にする。 | 4,045 |
-| `characters/npcs/39_sorasaki.md` | 独立の空輸便利屋・空咲。飛竜人の運び屋。 | 1,836 |
+| `characters/npcs/31_mizushiro.md` | 統制パーティー隊長・水城。水精霊。アクア・フロウ貴族令嬢一行。 | 3,371 |
+| `characters/npcs/32_souryuu.md` | 統制パーティー前衛・蒼龍。水精霊、受け流しの守り手。 | 1,956 |
+| `characters/npcs/33_suiren.md` | 統制パーティー中衛・睡蓮。水精霊、戦場制御役。 | 1,876 |
+| `characters/npcs/34_aoba.md` | 統制パーティー後衛・青葉。水精霊、決定打役。 | 1,816 |
+| `characters/npcs/35_himuro.md` | コロッセオ専属剣闘士・氷室。アルマジロ獣人の氷装甲住み込み選手。 | 2,466 |
+| `characters/npcs/36_tsubaki.md` | 斥候系冒険者ツバキ。ホビットの忍び。 | 4,000 |
+| `characters/npcs/37_tenrai.md` | 出稼ぎの弓手・天雷。アマゾネスの一射の名手。 | 2,214 |
+| `characters/npcs/38_sayo.md` | 独立のコソ泥・小夜。裏路地を根城にする。 | 4,133 |
+| `characters/npcs/39_sorasaki.md` | 独立の空輸便利屋・空咲。飛竜人の運び屋。 | 1,943 |
 | `characters/npcs/40_awahime.md` | 下水道の自称管理人・泡姫。ヘドロスライムで浄化・分解を担い衛生を支える。 | 2,962 |
-| `characters/npcs/41_mamori.md` | 領主クラリス専属護衛マモリ「双盾」。 | 3,544 |
-| `characters/npcs/42_yuiitsu.md` | ソロ冒険者・唯一「横一線」。雑魚討伐の臨時要員。 | 1,976 |
-| `characters/npcs/43_momiji.md` | 武者修行中の旅の騎士・紅葉。竜翼人の猪突猛進型。 | 2,080 |
-| `characters/npcs/44_kokuu.md` | 紅葉の同行者・黒羽。規律を重んじる天狗の剣士。 | 2,084 |
-| `characters/npcs/45_suzuyo.md` | 旅の吟遊詩人・鈴代。人魚で井戸端の噂・情報の担い手。 | 2,172 |
+| `characters/npcs/41_mamori.md` | 領主クラリス専属護衛マモリ「双盾」。 | 3,634 |
+| `characters/npcs/42_yuiitsu.md` | ソロ冒険者・唯一「横一線」。雑魚討伐の臨時要員。 | 2,073 |
+| `characters/npcs/43_momiji.md` | 武者修行中の旅の騎士・紅葉。竜翼人の猪突猛進型。 | 2,174 |
+| `characters/npcs/44_kokuu.md` | 紅葉の同行者・黒羽。規律を重んじる天狗の剣士。 | 2,177 |
+| `characters/npcs/45_suzuyo.md` | 旅の吟遊詩人・鈴代。人魚で井戸端の噂・情報の担い手。 | 2,266 |
 | `characters/npcs/46_mashiro.md` | 下水道のホームレス・真白。アラクネで罠と糸細工の名手、泡姫の親友。 | 2,094 |
 | `characters/npcs/47_tsurezure.md` | 下水道仲間・徒然。エルフで精神リンクの使い手。 | 2,358 |
 | `characters/npcs/48_shakuyaku.md` | ボルガンお抱えの岩石精霊・芍薬。鉱物鑑定と精製の専門家。 | 3,069 |
-| `characters/npcs/49_ninrei.md` | 双槌の聖戦修道女団のベテラン・仁礼。鬼族のシスターで巡回担当。 | 2,184 |
-| `characters/npcs/50_kokonoe.md` | 旅の投槍魔導士・九重。クサビの幼馴染。 | 1,899 |
-| `characters/npcs/51_kusabi.md` | 旅の巫女・クサビ。結界術の使い手、九重の幼馴染。 | 1,899 |
-| `characters/npcs/52_kohaku.md` | 南区の廃研究施設を拠点にする錬金術師・琥珀。ホムンクルス。 | 4,200 |
-| `characters/npcs/53_hakkin.md` | 廃研究施設のメイドロボ・白金。怪力の持ち主。 | 2,132 |
-| `characters/npcs/54_ginsetsu.md` | 廃研究施設のリビングアーマー・銀雪。ゴースト憑依型の空鎧。 | 2,632 |
-| `characters/npcs/55_dakki.md` | 廃研究施設の生体兵装・妲己。巨大肉塊オクトパスの気怠げな存在。 | 1,965 |
+| `characters/npcs/49_ninrei.md` | 双槌の聖戦修道女団のベテラン・仁礼。鬼族のシスターで巡回担当。 | 2,272 |
+| `characters/npcs/50_kokonoe.md` | 旅の投槍魔導士・九重。クサビの幼馴染。 | 1,989 |
+| `characters/npcs/51_kusabi.md` | 旅の巫女・クサビ。結界術の使い手、九重の幼馴染。 | 1,993 |
+| `characters/npcs/52_kohaku.md` | 南区の廃研究施設を拠点にする錬金術師・琥珀。ホムンクルス。 | 4,289 |
+| `characters/npcs/53_hakkin.md` | 廃研究施設のメイドロボ・白金。怪力の持ち主。 | 2,215 |
+| `characters/npcs/54_ginsetsu.md` | 廃研究施設のリビングアーマー・銀雪。ゴースト憑依型の空鎧。 | 2,716 |
+| `characters/npcs/55_dakki.md` | 廃研究施設の生体兵装・妲己。巨大肉塊オクトパスの気怠げな存在。 | 2,038 |
 | `characters/npcs/56_toyone.md` | 東区に根を張る長命の巨大トレント・豊根。食料・建材・環境を供給し、住民に土地神様と慕われる。 | 3,995 |
-| `characters/npcs/57_akari.md` | 中央区・領主邸に常駐する領主家お抱えの浄火精霊・あかり。攻撃性のない炎で浄化・衛生・防疫・照明を担う。 | 3,340 |
-| `characters/npcs/58_unabara.md` | クロスロード大病院の感染症・再生医療研究者・海原。人魚。車椅子に担架を連結して疾走・患者搬送も担う。自身の人魚肉に再生効果。 | 3,123 |
-| `characters/npcs/59_kazama.md` | クロスロード大病院の外科医・風間。カマイタチの妖怪。大量のメスと鎌鼬の切断力で精密切開、切った端から瞬間治療で閉じる外科の切り札。 | 3,067 |
-| `characters/npcs/60_shiromine.md` | クロスロード大病院の院長・白峰。八尺様の妖怪でMP:Sの院内最高の回復術師。大型の治癒砲(ヒールビーム/ヒールキャノン)で重症・集団治療を担う最後の砦。運営は苦手。 | 3,052 |
+| `characters/npcs/57_akari.md` | 中央区・領主邸に常駐する領主家お抱えの浄火精霊・あかり。攻撃性のない炎で浄化・衛生・防疫・照明を担う。 | 3,425 |
+| `characters/npcs/58_unabara.md` | クロスロード大病院の感染症・再生医療研究者・海原。人魚。車椅子に担架を連結して疾走・患者搬送も担う。自身の人魚肉に再生効果。 | 3,205 |
+| `characters/npcs/59_kazama.md` | クロスロード大病院の外科医・風間。カマイタチの妖怪。大量のメスと鎌鼬の切断力で精密切開、切った端から瞬間治療で閉じる外科の切り札。 | 3,155 |
+| `characters/npcs/60_shiromine.md` | クロスロード大病院の院長・白峰。八尺様の妖怪でMP:Sの院内最高の回復術師。大型の治癒砲(ヒールビーム/ヒールキャノン)で重症・集団治療を担う最後の砦。運営は苦手。 | 3,153 |
 
 ---
 
-合計 **147 ファイル / 513,131 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **147 ファイル / 516,326 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
