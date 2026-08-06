@@ -126,8 +126,12 @@
 ### 大劇場《万象座》
 - **劇作家のエリアス**(巡業劇団《渡り灯一座》専属脚本家。滞在中の拠点。`characters/npcs/23_elias_veil.md`)
 
-### 練兵場
-- **猪突の紅葉＋規律の黒羽**(武者修行中の旅の騎士コンビ。稽古中。`characters/npcs/43_momiji.md`、`characters/npcs/44_kokuu.md`)
+### 練兵場(コロッセオ隣接の公営稽古場。詳細`world/crossroad/74_crossroad_training_ground.md`)
+- **猪突の紅葉＋規律の黒羽**(武者修行中の旅の騎士コンビ。連日入り浸って特訓中。`characters/npcs/43_momiji.md`、`characters/npcs/44_kokuu.md`)
+- **氷装甲の氷室**(朝の軽い体慣らしに。`characters/npcs/35_himuro.md`)
+- **蒼龍(そうりゅう)**(統制パーティー前衛。紅葉・氷室と顔見知り。`characters/npcs/32_souryuu.md`)
+- **水球の青葉**(休日に模擬戦見物。`characters/npcs/34_aoba.md`)
+- **忍びのツバキ**(斥候仕事の合間に顔を出す。`characters/npcs/36_tsubaki.md`)
 
 ### 西区拠点の冒険者・その他
 - **忍びのツバキ**(斥候。西区の安酒場を拠点代わりに。表と裏から勧誘を受け保留中。`characters/npcs/36_tsubaki.md`)

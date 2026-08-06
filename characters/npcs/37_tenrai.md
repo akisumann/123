@@ -96,4 +96,4 @@
 - 氷室、ツバキ(狩人パーティーの仲間。`characters/npcs/35_himuro.md`、`characters/npcs/36_tsubaki.md`)
 - 飛鳥(二人を介して顔見知りになった黒針会の幹部。`world/crossroad/32_black_needle_society.md`)
 - ヴィヴィアナ・ラウドベル(新米弓手として取材してきそうな実況者。`characters/npcs/24_viviana_loudbell.md`)
-- 紅葉(西区の練兵場で見かける旅の騎士。`characters/npcs/43_momiji.md`)
+- 紅葉(西区の練兵場(`world/crossroad/74_crossroad_training_ground.md`)で見かける旅の騎士。`characters/npcs/43_momiji.md`)

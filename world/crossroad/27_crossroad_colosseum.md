@@ -15,6 +15,8 @@
 
 観客席には顔なじみの常連も多い。紅葉・黒羽(`characters/npcs/43_momiji.md`、`characters/npcs/44_kokuu.md`)は稽古熱心が高じて選手の動きを観察しに来る組、唯一(`characters/npcs/42_yuiitsu.md`)や天雷(`characters/npcs/37_tenrai.md`)は単純に派手な打ち合いを楽しみに来る組。賭け卓ではレオン・グレイヴ(`characters/npcs/25_leon_grave.md`)の読みが頭一つ抜けており、選手の癖や決まり手まで的中させることも珍しくない。
 
+すぐ隣には、実力抑制リングも観客も賭けもない、自主練習のための練兵場(`world/crossroad/74_crossroad_training_ground.md`)がある。興行として見せたいならコロッセオ、黙々と鍛えたいなら練兵場、という住み分け。
+
 キャラクター同士の1対1公開模擬決闘には、`rules/11_colosseum_duel_system.md`の3ターン判定ルールを使用する。
 
 ## 料金と収益構造

@@ -628,10 +628,13 @@
 - 紅葉(武者修行中の旅の騎士。練兵場で特訓中。`characters/npcs/43_momiji.md`)
 - 黒羽(紅葉の旅の同行者。練兵場で稽古に付き合う天狗の剣士。`characters/npcs/44_kokuu.md`)
 
+練兵場そのものの詳細(設備・顔ぶれ・コロッセオとの違い)は`world/crossroad/74_crossroad_training_ground.md`を参照。
+
 ### 主な施設(具体的な店舗・拠点)
 
 - 大カジノ。`world/crossroad/28_crossroad_casino.md`(魔導盤レース：`world/crossroad/29_crossroad_magic_board_race.md`、魔導スロット：`world/crossroad/33_crossroad_magic_slot.md`)を参照
 - コロッセオ。`world/crossroad/27_crossroad_colosseum.md`を参照
+- 練兵場(コロッセオ隣接の公営稽古場)。`world/crossroad/74_crossroad_training_ground.md`を参照
 - クロスロード大劇場《万象座》(コロッセオ・カジノと並ぶ西区三大娯楽施設のひとつ。巡業劇団《渡り灯一座》の主要公演地)。`world/crossroad/54_crossroad_theater.md`を参照
 - 娼館通り(紅玻璃館・桃灯楼・百花迷宮)。`world/crossroad/50_crossroad_brothels.md`を参照
 - 赤幕の借宿(特色宿)。`world/crossroad/21_crossroad_inns.md`を参照

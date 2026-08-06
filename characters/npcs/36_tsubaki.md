@@ -109,4 +109,4 @@
 - 氷室、天雷(狩人パーティーの仲間。`characters/npcs/35_himuro.md`、`characters/npcs/37_tenrai.md`)
 - 飛鳥(裏路地の情報交換で顔見知りになった黒針会の幹部。地の目・足として勧誘してくる。`world/crossroad/32_black_needle_society.md`)
 - エイダ(隠密捕縛の即戦力として勧誘してくる衛兵隊長。表側の窓口。`characters/npcs/04_ada_lockwell.md`)
-- 紅葉、黒羽(西区の練兵場で見かける旅の騎士たち。`characters/npcs/43_momiji.md`、`characters/npcs/44_kokuu.md`)
+- 紅葉、黒羽(西区の練兵場(`world/crossroad/74_crossroad_training_ground.md`)で見かける旅の騎士たち。`characters/npcs/43_momiji.md`、`characters/npcs/44_kokuu.md`)
