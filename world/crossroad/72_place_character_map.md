@@ -132,6 +132,8 @@
 - **蒼龍(そうりゅう)**(統制パーティー前衛。紅葉・氷室と顔見知り。`characters/npcs/32_souryuu.md`)
 - **水球の青葉**(休日に模擬戦見物。`characters/npcs/34_aoba.md`)
 - **忍びのツバキ**(斥候仕事の合間に顔を出す。`characters/npcs/36_tsubaki.md`)
+- **巨大腕の白金**(南区から通い、丸太人形相手に全力の怪力を発散。`characters/npcs/53_hakkin.md`)
+- **空鎧の銀雪**(柔術大剣の受け流しを黙々と磨く。`characters/npcs/54_ginsetsu.md`)
 
 ### 西区拠点の冒険者・その他
 - **忍びのツバキ**(斥候。西区の安酒場を拠点代わりに。表と裏から勧誘を受け保留中。`characters/npcs/36_tsubaki.md`)

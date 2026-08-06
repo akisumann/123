@@ -15,7 +15,7 @@
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,702 |
-| `PROGRESS.md` | PROGRESS | 41,736 |
+| `PROGRESS.md` | PROGRESS | 42,420 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,682 |
 
@@ -123,9 +123,9 @@
 | `world/crossroad/68_crossroad_casino_war.md` | カジノのカードゲーム・カジノウォーの遊び方とルール。 | 1,478 |
 | `world/crossroad/69_crossroad_seven_indian_poker.md` | カジノのカードゲーム・セブンインディアンポーカーのルール。 | 1,715 |
 | `world/crossroad/71_crossroad_hospital.md` | 中央区・東区境の総合医院クロスロード大病院。世俗の回復魔法(非教会系)を主軸に日常医療を担い、聖属性・対アンデッドは扱わない。あかりが衛生担当。名前あり4人+モブ職員(大枠)。 | 4,068 |
-| `world/crossroad/72_place_character_map.md` | 場所×キャラ対応マップ。区画・施設ごとに常駐/関係NPCを速攻参照できる索引(場所を一つずつ整備中)。 | 7,310 |
+| `world/crossroad/72_place_character_map.md` | 場所×キャラ対応マップ。区画・施設ごとに常駐/関係NPCを速攻参照できる索引(場所を一つずつ整備中)。 | 7,436 |
 | `world/crossroad/73_colosseum_random_pair_tournament.md` | コロッセオが年に数回開く小規模お祭りトーナメント「相棒籤杯(くじ引き二人組)」。街の実力者16人を毎回籤で2人組へ組み直し16→8→4→2で勝ち抜く運用ルール。 | 3,579 |
-| `world/crossroad/74_crossroad_training_ground.md` | 西区・コロッセオ隣接の公営稽古場。観客も賭けもなく、有志が自主的に模擬戦・自主練を行う無料開放の広場。判定は通常のrules/03をそのまま使用。 | 1,934 |
+| `world/crossroad/74_crossroad_training_ground.md` | 西区・コロッセオ隣接の公営稽古場。観客も賭けもなく、有志が自主的に模擬戦・自主練を行う無料開放の広場。判定は通常のrules/03をそのまま使用。 | 2,233 |
 
 ## characters/ — キャラクター雛形
 
@@ -189,8 +189,8 @@
 | `characters/npcs/50_kokonoe.md` | 旅の投槍魔導士・九重。クサビの幼馴染。 | 1,989 |
 | `characters/npcs/51_kusabi.md` | 旅の巫女・クサビ。結界術の使い手、九重の幼馴染。 | 1,993 |
 | `characters/npcs/52_kohaku.md` | 南区の廃研究施設を拠点にする錬金術師・琥珀。ホムンクルス。 | 4,289 |
-| `characters/npcs/53_hakkin.md` | 廃研究施設のメイドロボ・白金。怪力の持ち主。 | 2,215 |
-| `characters/npcs/54_ginsetsu.md` | 廃研究施設のリビングアーマー・銀雪。ゴースト憑依型の空鎧。 | 2,716 |
+| `characters/npcs/53_hakkin.md` | 廃研究施設のメイドロボ・白金。怪力の持ち主。 | 2,374 |
+| `characters/npcs/54_ginsetsu.md` | 廃研究施設のリビングアーマー・銀雪。ゴースト憑依型の空鎧。 | 2,840 |
 | `characters/npcs/55_dakki.md` | 廃研究施設の生体兵装・妲己。巨大肉塊オクトパスの気怠げな存在。 | 2,038 |
 | `characters/npcs/56_toyone.md` | 東区に根を張る長命の巨大トレント・豊根。食料・建材・環境を供給し、住民に土地神様と慕われる。 | 3,995 |
 | `characters/npcs/57_akari.md` | 中央区・領主邸に常駐する領主家お抱えの浄火精霊・あかり。攻撃性のない炎で浄化・衛生・防疫・照明を担う。 | 3,425 |
@@ -200,4 +200,4 @@
 
 ---
 
-合計 **148 ファイル / 525,772 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **148 ファイル / 527,164 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
