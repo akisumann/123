@@ -92,6 +92,8 @@ def validate(rows: list[dict]) -> list[str]:
     for r in rows:
         if r["同行"] and r["同行"] not in names:
             problems.append(f"{r['名前']}:同行先「{r['同行']}」が表にない")
+        if r.get("追従") and parse_follow(r["追従"])[0] not in names:
+            problems.append(f"{r['名前']}:追従先「{r['追従']}」が表にない")
         for col in ["遠出先", "既定"] + SLOTS:
             for loc, _ in parse_weights(r.get(col, "")):
                 if loc not in KNOWN:
@@ -130,13 +132,29 @@ def is_unusual(row: dict, slot: str, place: str) -> bool:
     return weights.get(place, 0) < top / 2
 
 
-def locate(row: dict, day: int, slot: str, by_name: dict[str, dict]) -> tuple[str, str]:
+def parse_follow(cell: str) -> tuple[str, float]:
+    name, _, prob = cell.partition(":")
+    return name.strip(), (float(prob) if prob.strip() else 100.0)
+
+
+def locate(row: dict, day: int, slot: str, by_name: dict[str, dict],
+           depth: int = 0) -> tuple[str, str]:
     """(場所, 注記)を返す。"""
     dest = away_today(row, day, by_name)
     if dest and slot in AWAY_SLOTS:
         lead = leader_of(row, by_name)
         note = "" if lead["名前"] == row["名前"] else f"{lead['名前']}に同行"
         return dest, note
+
+    # 供として付いて回る者は、その確率で相手と同じ区画に出る
+    follow = row.get("追従", "")
+    if follow and depth < 3:
+        target, prob = parse_follow(follow)
+        if target in by_name and rng("follow", day, slot, row["名前"]).random() * 100 < prob:
+            place, _ = locate(by_name[target], day, slot, by_name, depth + 1)
+            if place in IN_TOWN:  # 相手が市外にいる時は置いていかれる(自分の重みで動く)
+                return place, f"{target}の供"
+
     weights = parse_weights(row.get(slot, "")) or parse_weights(row["既定"])
     place = pick(weights, rng("place", day, slot, row["名前"]))
     return place, ("いつもと違う" if is_unusual(row, slot, place) else "")
