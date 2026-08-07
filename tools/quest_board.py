@@ -171,10 +171,12 @@ def render(day: int, rank: str = "") -> str:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--day", type=int, default=1, help="作中の日付")
+    ap.add_argument("--day", type=int, default=None, help="作中の日付")
     ap.add_argument("--rank", default="", help="このランクだけ表示(F〜S)")
     ap.add_argument("--all", action="store_true", help="掲示例の全件を出す(表の元データ確認用)")
     args = ap.parse_args()
+    if args.day is None:
+        args.day = dp.current_day()
 
     if args.all:
         for q in load_quests():

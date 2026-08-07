@@ -81,10 +81,12 @@ def brief(day: int, slots: list[str]) -> dict:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--day", type=int, default=1)
+    ap.add_argument("--day", type=int, default=None)
     ap.add_argument("--time", default="", help=f"時間帯({'/'.join(dp.SLOTS)})。省略で一日ぶん")
     ap.add_argument("--json", action="store_true", help="JSONで出力(他のAIへ渡す用)")
     args = ap.parse_args()
+    if args.day is None:
+        args.day = dp.current_day()
 
     slots = [args.time] if args.time else dp.SLOTS
     if args.time and args.time not in dp.SLOTS:

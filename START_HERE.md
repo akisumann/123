@@ -127,6 +127,11 @@
   珍しい場所で見かけた、高ランク依頼が貼られた、荒天・祭り）から機械的に拾う。噂は日を追って広まり、
   悪天候の日は情報網の伝達が遅れる（`51`）。裏稼業の人物の動きは噂に上がらない。
   例：`python3 tools/street_talk.py --day 8 --place 東区`
+- `tools/battle_roll.py` … **戦闘ダイスを実際に振る**。`characters/npcs/` からステータス表とスキル表を読み、
+  出目を一つずつ表示して敵戦況値との差分まで出す（`rules/03_combat_system.md`）。雰囲気で数字を作れなくなる。
+  例：`python3 tools/battle_roll.py --enemy 大型魔物 --act 天雷:超遠隔照準:DEX --act ツバキ:鎖鎌術:DEX --mob Lv30x3`
+- `tools/session_day.txt` … **作中の今日が何日目か**。各ツールは `--day` を省略するとこの日付を使う。
+  日を進めるのは `python3 tools/day_plan.py --advance`（既定 1 日）。
 - `tools/scene_context.py` … **GM 進行用シーンパック生成**。場面の入力（人物・場所・時間帯）から
   必要な canon（ステータス・スキル・口調・行きつけ・その場の顔ぶれ）を機械抽出して 1 ブロックで出力。
   記憶や雰囲気で進行せず、**各場面の前にこれを実行し、出力を読んでから描写する**。

@@ -138,9 +138,11 @@ def render(day: int, place_filter: str = "") -> str:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--day", type=int, default=1, help="作中の日付")
+    ap.add_argument("--day", type=int, default=None, help="作中の日付")
     ap.add_argument("--place", default="", help="この区画に届いている噂だけ")
     args = ap.parse_args()
+    if args.day is None:
+        args.day = dp.current_day()
     print(render(args.day, args.place))
     return 0
 

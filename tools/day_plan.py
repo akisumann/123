@@ -33,6 +33,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ROUTINE_FILE = os.path.join(ROOT, "tools", "routines.tsv")
+DAY_FILE = os.path.join(ROOT, "tools", "session_day.txt")
 
 SLOTS = ["未明", "朝", "昼", "夕", "宵", "夜半"]
 AWAY_SLOTS = ["朝", "昼", "夕"]  # 遠出は日帰り想定。宵には街に戻る
@@ -58,6 +59,19 @@ MAX_TRIP = 4
 # 暦(`world/70_calendar_and_climate.md`):1年12ヶ月×30日×三旬
 MONTH_NAMES = ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "十一", "十二"]
 WEATHER = [(3, "晴れ／薄曇り"), (4, "曇り"), (5, "小雨〜雨"), (6, "荒天")]
+
+
+def current_day() -> int:
+    """今が作中の何日目か(`tools/session_day.txt`)。日付を省略した時に使う。"""
+    try:
+        return int(open(DAY_FILE, encoding="utf-8").read().strip())
+    except (OSError, ValueError):
+        return 1
+
+
+def set_day(day: int) -> None:
+    with open(DAY_FILE, "w", encoding="utf-8") as f:
+        f.write(f"{day}\n")
 
 
 def rng(*parts) -> random.Random:
@@ -481,12 +495,20 @@ FOOTER = """【この配置の使い方】
 def main() -> int:
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--day", type=int, default=1, help="作中の日付(同じ数字なら同じ配置)")
+    ap.add_argument("--day", type=int, default=None, help="作中の日付(省略で session_day.txt の今日)")
+    ap.add_argument("--advance", type=int, nargs="?", const=1, default=None,
+                    help="今日を N 日進めて session_day.txt を更新する(既定1日)")
     ap.add_argument("--time", default="", help=f"時間帯({'/'.join(SLOTS)})。省略で一日ぶん")
     ap.add_argument("--place", default="", help="この場所だけ表示")
     ap.add_argument("--who", default="", help="この人物の一日を追う")
     ap.add_argument("--check", action="store_true", help="ルーティン表の整合だけ確認する")
     args = ap.parse_args()
+    if args.advance is not None:
+        set_day(current_day() + args.advance)
+        print(f"作中の日付を {current_day()} 日目にした({calendar_of(current_day())['表記']})")
+        return 0
+    if args.day is None:
+        args.day = current_day()
 
     rows = load_rows()
     by_name = {r["名前"]: r for r in rows}
