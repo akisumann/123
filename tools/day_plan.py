@@ -5,7 +5,8 @@
 居場所を確定させる。GMが「誰をどこに出すか」を都合で選ぶのではなく、街の側が
 勝手に動いている状態を先に作り、GMはその配置を見てから場面を選ぶ。
 
-同じ日付・時間帯なら何度実行しても同じ配置が出る(日付を種にした固定乱数)。
+日付からは暦(1年12ヶ月×30日×三旬)・年中行事・空模様も同時に決まる(`world/70_calendar_and_climate.md`)。
+同じ日付・時間帯なら何度実行しても同じ配置・同じ天候が出る(日付を種にした固定乱数)。
 
 住人は行動型で分かれる。不動(持ち場を離れない店主・門衛・受付など)は毎日そこにいる。
 定住は拠点を持ちつつ時々ふらつく。遊動(衛兵隊長・連絡役・情報屋・潜入・盗人など)は
@@ -19,6 +20,7 @@
     python3 tools/day_plan.py --day 3                # 一日ぶん(6時間帯)を通しで
     python3 tools/day_plan.py --day 3 --place 東区   # 特定の場所だけ
     python3 tools/day_plan.py --day 3 --who ミルカ   # 一人の一日を追う
+    python3 tools/day_plan.py --check                # ルーティン表の整合確認
 """
 from __future__ import annotations
 import argparse
@@ -40,6 +42,20 @@ ROADS = ["王都街道", "麦穂街道", "森境街道", "灰岩街道"]
 KNOWN = IN_TOWN + DANGER + DUNGEON + ROADS
 
 COLUMNS = ["名前", "ファイル", "行動型", "同行", "追従", "遠出率", "遠出先", "既定"] + SLOTS
+
+NPC_DIR = os.path.join(ROOT, "characters", "npcs")
+
+# 遠出の泊まり数(`world/crossroad/11_crossroad_city.md`の距離感。ダンジョンは泊まりがけ)
+TRIP_DAYS = {
+    "黒硝子遺跡": (2, 3), "忘れられた鉱山": (2, 3), "星喰いの地下神殿": (3, 4),
+    "骨鳴り墓原": (1, 2), "灰岩峡谷": (1, 2), "赤牙森林": (1, 1), "さざめき平原": (1, 1),
+    "王都街道": (2, 3), "麦穂街道": (1, 1), "森境街道": (1, 2), "灰岩街道": (2, 2),
+}
+MAX_TRIP = 4
+
+# 暦(`world/70_calendar_and_climate.md`):1年12ヶ月×30日×三旬
+MONTH_NAMES = ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "十一", "十二"]
+WEATHER = [(3, "晴れ／薄曇り"), (4, "曇り"), (5, "小雨〜雨"), (6, "荒天")]
 
 
 def rng(*parts) -> random.Random:
@@ -119,17 +135,102 @@ def leader_of(row: dict, by_name: dict[str, dict]) -> dict:
     return cur
 
 
-def away_today(row: dict, day: int, by_name: dict[str, dict]) -> str | None:
-    """その日、市外へ出ているなら行き先を返す。"""
-    lead = leader_of(row, by_name)
+def trip_started(lead: dict, day: int) -> tuple[str, int] | None:
+    """その日に市外へ発つなら(行き先, 泊まりを含む日数)を返す。"""
     rate = float(lead["遠出率"] or 0)
     dests = parse_weights(lead["遠出先"])
     if rate <= 0 or not dests:
         return None
-    r = rng("away", day, lead["名前"])
-    if r.random() * 100 >= rate:
+    # 天候の影響(world/70):荒天は門の出入りが制限され商隊も足止め、雨も出足が鈍る
+    sky = weather_of(day)
+    if sky == "荒天":
+        rate *= 0.25
+    elif sky == "小雨〜雨":
+        rate *= 0.85
+    if rng("away", day, lead["名前"]).random() * 100 >= rate:
         return None
-    return pick(dests, rng("dest", day, lead["名前"]))
+    dest = pick(dests, rng("dest", day, lead["名前"]))
+    lo, hi = TRIP_DAYS.get(dest, (1, 1))
+    return dest, rng("triplen", day, lead["名前"]).randint(lo, hi)
+
+
+def away_today(row: dict, day: int, by_name: dict[str, dict]) -> tuple[str, bool, bool] | None:
+    """その日、市外にいるなら(行き先, 出発日か, 帰還日か)を返す(泊まりがけを含む)。"""
+    lead = leader_of(row, by_name)
+    for start in range(max(1, day - MAX_TRIP + 1), day + 1):
+        trip = trip_started(lead, start)
+        if trip and start <= day < start + trip[1]:  # 先に始まった旅程が優先
+            return trip[0], day == start, day == start + trip[1] - 1
+    return None
+
+
+def away_at(slot: str, first: bool, last: bool) -> bool:
+    """その時間帯に市外にいるか。出発日は朝発ち、帰還日は宵に街へ戻る。"""
+    if first and last:
+        return slot in AWAY_SLOTS          # 日帰り:朝〜夕
+    if first:
+        return slot != "未明"               # 出発日:朝発ち、その晩は野営や宿
+    if last:
+        return slot in ["未明"] + AWAY_SLOTS  # 帰還日:宵に街へ戻る
+    return True                             # 道中の日は終日
+
+
+def calendar_of(day: int) -> dict:
+    """通し日数から暦(年・月・旬・日)を出す。1日目=一年目 一の月 上旬 1日。"""
+    idx = day - 1
+    year, rest = idx // 360 + 1, idx % 360
+    month, dom = rest // 30 + 1, rest % 30 + 1
+    jun = "上旬" if dom <= 10 else ("中旬" if dom <= 20 else "下旬")
+    return {"年": year, "月": month, "日": dom, "旬": jun,
+            "表記": f"{year}年 {MONTH_NAMES[month - 1]}の月 {jun}{dom}日"}
+
+
+def weather_of(day: int) -> str:
+    """その日の空模様(world/70の1d6表)。
+
+    毎日を機械生成すると1/6では荒天が多すぎる(canonは「荒天は稀」)ため、
+    6が出た時だけもう一度振り、6でのみ荒天とする(1/36≒年に10日)。
+    """
+    r = rng("weather", day)
+    roll = r.randint(1, 6)
+    if roll == 6 and r.randint(1, 6) < 6:
+        return "曇り"
+    for limit, name in WEATHER:
+        if roll <= limit:
+            return name
+    return WEATHER[-1][1]
+
+
+def festivals_of(day: int) -> list[str]:
+    """その日の年中行事(world/70「年中行事の位置づけ」)。"""
+    cal = calendar_of(day)
+    out = []
+    # 巡穣祭:月に一度・一日。開催日は収穫状況を見て決まる(47)ので月ごとに揺れる
+    fest_day = rng("harvest", cal["年"], cal["月"]).randint(18, 28)
+    if cal["日"] == fest_day:
+        out.append("巡穣祭(月に一度の食の祭り。街全体が一つの食材に染まる。"
+                   "`world/crossroad/47_crossroad_harvest_festival.md`)")
+    # 結び路の祝祭:年に一度・七日間(五の月 中旬11〜17日)。中央区が祭り区域
+    if cal["月"] == 5 and 11 <= cal["日"] <= 17:
+        out.append(f"結び路の祝祭 {cal['日'] - 10}日目/7日間(婚活祭り。中央大広場一帯。"
+                   "`world/crossroad/46_crossroad_matchmaking_festival.md`)")
+    # 年次追加改修祭:年に一度、南区の職人が一斉にアイアンくんを改修(十の月 中旬15日)
+    if cal["月"] == 10 and cal["日"] == 15:
+        out.append("年次追加改修祭(南区の職人が一斉にアイアンくんを改修。"
+                   "`characters/npcs/30_ultimate_patchwork_iron_kun.md`)")
+    return out
+
+
+def festival_place(day: int) -> tuple[str, str] | None:
+    """祭りが人を集めている区画と、その注記。"""
+    cal = calendar_of(day)
+    if cal["月"] == 5 and 11 <= cal["日"] <= 17:
+        return "中央区", "結び路の祝祭"      # 中央大広場一帯が祭り区域(46)
+    if cal["月"] == 10 and cal["日"] == 15:
+        return "南区", "年次追加改修祭"       # 南区中央広場のアイアンくん(30)
+    if cal["日"] == rng("harvest", cal["年"], cal["月"]).randint(18, 28):
+        return "中央区", "巡穣祭"            # 中央広場の朝市を中心に街全体(47)
+    return None
 
 
 def slot_weights(row: dict, slot: str) -> list[tuple[str, float]]:
@@ -170,11 +271,13 @@ def parse_follow(cell: str) -> tuple[str, float]:
 def locate(row: dict, day: int, slot: str, by_name: dict[str, dict],
            depth: int = 0) -> tuple[str, str]:
     """(場所, 注記)を返す。"""
-    dest = away_today(row, day, by_name)
-    if dest and slot in AWAY_SLOTS:
+    trip = away_today(row, day, by_name)
+    if trip and away_at(slot, trip[1], trip[2]):
         lead = leader_of(row, by_name)
         note = "" if lead["名前"] == row["名前"] else f"{lead['名前']}に同行"
-        return dest, note
+        if not trip[1]:  # 出発日でない=泊まりがけの途中
+            note = (note + "・" if note else "") + ("帰路" if trip[2] else "泊まり")
+        return trip[0], note
 
     # 供として付いて回る者は、その確率で相手と同じ区画に出る
     follow = row.get("追従", "")
@@ -188,16 +291,89 @@ def locate(row: dict, day: int, slot: str, by_name: dict[str, dict],
     weights = slot_weights(row, slot)
     if move_type(row) == "不動":  # 持ち場から動かない者は毎日そこにいる
         return max(weights, key=lambda x: x[1])[0], ""
+
+    # 祭りの日は、そこへ足を運ぶ者が出る(持ち場を離れない不動型は動かない)
+    fest = festival_place(day)
+    if fest and slot in ("昼", "夕", "宵") and \
+            rng("fest", day, slot, row["名前"]).random() < 0.45:
+        return fest[0], fest[1]
     place = pick(weights, rng("place", day, slot, row["名前"]))
     return place, ("いつもと違う" if is_unusual(row, slot, place) else "")
+
+
+def relations(rows: list[dict]) -> dict[str, set[str]]:
+    """各`characters/npcs/`の「よく接する人物」から知人関係を作る(ファイル番号で照合)。"""
+    import re
+    by_num = {r["ファイル"]: r["名前"] for r in rows}
+    graph: dict[str, set[str]] = {r["名前"]: set() for r in rows}
+    for row in rows:
+        path = None
+        for fn in os.listdir(NPC_DIR):
+            if fn.startswith(row["ファイル"] + "_"):
+                path = os.path.join(NPC_DIR, fn)
+                break
+        if not path:
+            continue
+        text = open(path, encoding="utf-8").read()
+        m = re.search(r"(?m)^## よく接する人物\n(.*?)(?=\n## |\Z)", text, re.S)
+        if not m:
+            continue
+        for num in re.findall(r"characters/npcs/(\d+)_", m.group(1)):
+            other = by_num.get(num)
+            if other and other != row["名前"]:
+                graph[row["名前"]].add(other)
+                graph[other].add(row["名前"])
+    return graph
+
+
+def render_encounters(rows: list[dict], by_name: dict[str, dict], day: int, slot: str,
+                      located: dict[str, tuple[str, str]]) -> str:
+    """今日のめぐり合わせ(市外での鉢合わせ・珍しい場所での顔合わせ)を拾う。"""
+    graph = relations(rows)
+    lines = []
+
+    # 市外で別々のグループが同じ場所に居合わせている
+    outside: dict[str, list[dict]] = {}
+    for row in rows:
+        place, _ = located[row["名前"]]
+        if place not in IN_TOWN:
+            outside.setdefault(place, []).append(row)
+    for place, members in outside.items():
+        groups = {}
+        for row in members:
+            groups.setdefault(leader_of(row, by_name)["名前"], []).append(row["名前"])
+        if len(groups) > 1:
+            desc = "／".join("・".join(g) for g in groups.values())
+            lines.append(f"- {place}に{len(groups)}組が居合わせている:{desc}")
+
+    # いつもと違う区画にいる者が、そこで知人と鉢合わせている(同じ組み合わせは一度だけ)
+    seen: set[frozenset] = set()
+    for row in rows:
+        place, note = located[row["名前"]]
+        if note != "いつもと違う":
+            continue
+        here = []
+        for other in sorted(graph[row["名前"]]):
+            if located[other][0] != place or frozenset((row["名前"], other)) in seen:
+                continue
+            seen.add(frozenset((row["名前"], other)))
+            here.append(other)
+        if here:
+            lines.append(f"- ※{row['名前']}が{place}にいて、{'・'.join(here)}と同じ区画")
+
+    if not lines:
+        return ""
+    return "【今日のめぐり合わせ】\n" + "\n".join(lines)
 
 
 def render_slot(rows: list[dict], by_name: dict[str, dict], day: int, slot: str,
                 place_filter: str = "") -> str:
     placed: dict[str, list[str]] = {}
     passing: dict[str, list[str]] = {}  # 遊動型が巡回で通りかかる先
+    located: dict[str, tuple[str, str]] = {}
     for row in rows:
         place, note = locate(row, day, slot, by_name)
+        located[row["名前"]] = (place, note)
         label = row["名前"]
         if note == "いつもと違う":
             label = "※" + label
@@ -227,6 +403,9 @@ def render_slot(rows: list[dict], by_name: dict[str, dict], day: int, slot: str,
     if outside:
         lines.append("【市外】")
         lines += outside
+    meets = render_encounters(rows, by_name, day, slot, located)
+    if meets:
+        lines += ["", meets]
     return "\n".join(lines)
 
 
@@ -257,7 +436,10 @@ FOOTER = """【この配置の使い方】
 - 区画の中のどの店・施設かは `world/crossroad/72_place_character_map.md`・`world/crossroad/49_crossroad_dining.md` で決める。
 - 場面に出す人物が決まったら `python3 tools/scene_context.py --chars ... --place ... --time ...` で
   ステータス・スキル・口調を引いてから描写する。
-- 遠出は日帰り想定(朝〜夕が市外)。泊まりがけにしたい時は翌日も同じ行き先に据え置いてよい。"""
+- 遠出は行き先の遠さで日数が決まる。近場(さざめき平原・赤牙森林)は日帰り、ダンジョンや王都街道は泊まりがけで、
+  `泊まり`は道中の日、`帰路`は宵に街へ戻る日。荒天の日は門が制限され、新たに発つ者が減る。
+- 【今日のめぐり合わせ】は、同じ場所に別々の組が居合わせた・珍しい場所で知人と鉢合わせた、を機械的に拾ったもの。
+  依頼先が被る、街で顔を合わせるはずのない二人が並ぶ——といった偶然を、GMの作為なしに場面の起点として使える。"""
 
 
 def main() -> int:
@@ -287,9 +469,17 @@ def main() -> int:
         print(f"時間帯は {'/'.join(SLOTS)} のいずれか", file=sys.stderr)
         return 1
 
-    blocks = ["=" * 60,
-              f"クロスロードの街の様子({args.day}日目) 機械生成:ルーティン表+固定乱数",
-              "=" * 60]
+    cal = calendar_of(args.day)
+    sky = weather_of(args.day)
+    head = [f"クロスロードの街の様子({args.day}日目)  {cal['表記']}／空模様:{sky}"]
+    for ev in festivals_of(args.day):
+        head.append(f"◎ 本日:{ev}")
+    if sky == "荒天":
+        head.append("　荒天:四大門の出入りが制限され商隊が足止め。空咲の空輸便は止まり、屋外の催事は順延。"
+                    "遠出も控えられる(`world/70_calendar_and_climate.md`)")
+    elif sky == "小雨〜雨":
+        head.append("　雨:露店と散策が静かになり、洗濯場・公衆浴場は混む。街道と危険地域の作業もやや悪化")
+    blocks = ["=" * 60] + head + ["=" * 60]
     if args.who:
         blocks.append(render_who(rows, by_name, args.day, args.who))
     else:
