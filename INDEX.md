@@ -15,7 +15,7 @@
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,999 |
-| `PROGRESS.md` | PROGRESS | 50,356 |
+| `PROGRESS.md` | PROGRESS | 50,589 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,682 |
 
@@ -91,7 +91,7 @@
 | `world/crossroad/28_crossroad_casino.md` | 西区の合法賭博施設。各種ゲームと乱数運用のルール。 | 2,923 |
 | `world/crossroad/29_crossroad_magic_board_race.md` | カジノの人気遊戯・魔導盤レース(光の幻獣を走らせるミニ競馬)。 | 4,011 |
 | `world/crossroad/30_crossroad_purification_institute.md` | 中央区の浄化院。土地浄化・呪物処理・結界維持・対アンデッド支援。 | 2,272 |
-| `world/crossroad/31_crossroad_security_forces.md` | 衛兵隊・騎士団・ギルド・浄化院の役割分担と衛兵の階級別レベル目安。 | 2,288 |
+| `world/crossroad/31_crossroad_security_forces.md` | 衛兵隊・騎士団・ギルド・浄化院の役割分担と衛兵の階級別レベル目安。 | 2,790 |
 | `world/crossroad/32_black_needle_society.md` | 街の裏の情報・暗殺組織「黒針会」。会主・幹部・ミレーヌとの関係。 | 10,294 |
 | `world/crossroad/33_crossroad_magic_slot.md` | カジノの遊技台・魔導スロット(三本リールの絵柄揃え)。 | 1,498 |
 | `world/crossroad/42_crossroad_artisan_goods.md` | 南区職人区で危険地域の素材が加工された、冒険者向け商品の数々。 | 3,913 |
@@ -175,7 +175,7 @@
 | `characters/npcs/35_himuro.md` | コロッセオ専属剣闘士・氷室。アルマジロ獣人の氷装甲住み込み選手。 | 2,518 |
 | `characters/npcs/36_tsubaki.md` | 斥候系冒険者ツバキ。ホビットの忍び。 | 4,257 |
 | `characters/npcs/37_tenrai.md` | 出稼ぎの弓手・天雷。アマゾネスの一射の名手。 | 2,621 |
-| `characters/npcs/38_sayo.md` | 独立のコソ泥・小夜。裏路地を根城にする。 | 4,133 |
+| `characters/npcs/38_sayo.md` | 独立のコソ泥・小夜。裏路地を根城にする。 | 4,515 |
 | `characters/npcs/39_sorasaki.md` | 独立の空輸便利屋・空咲。飛竜人の運び屋。 | 1,943 |
 | `characters/npcs/40_awahime.md` | 下水道の自称管理人・泡姫。ヘドロスライムで浄化・分解を担い衛生を支える。 | 2,962 |
 | `characters/npcs/41_mamori.md` | 領主クラリス専属護衛マモリ「双盾」。 | 3,634 |
@@ -201,4 +201,4 @@
 
 ---
 
-合計 **149 ファイル / 551,496 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **149 ファイル / 552,613 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
