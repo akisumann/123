@@ -7,6 +7,10 @@
 
 同じ日付・時間帯なら何度実行しても同じ配置が出る(日付を種にした固定乱数)。
 
+住人は行動型で分かれる。不動(持ち場を離れない店主・門衛・受付など)は毎日そこにいる。
+定住は拠点を持ちつつ時々ふらつく。遊動(衛兵隊長・連絡役・情報屋・潜入・盗人など)は
+一日中街をうろつくため、その刻に回る先も併せて出る。
+
 粒度は区画レベル(5区画+下水道+危険地域4+ダンジョン3+街道4)。
 その区画の中のどの店・施設かは`tools/scene_context.py`と`world/crossroad/72_place_character_map.md`で詰める。
 
@@ -35,7 +39,7 @@ DUNGEON = ["黒硝子遺跡", "忘れられた鉱山", "星喰いの地下神殿
 ROADS = ["王都街道", "麦穂街道", "森境街道", "灰岩街道"]
 KNOWN = IN_TOWN + DANGER + DUNGEON + ROADS
 
-COLUMNS = ["名前", "ファイル", "同行", "遠出率", "遠出先", "既定"] + SLOTS
+COLUMNS = ["名前", "ファイル", "行動型", "同行", "追従", "遠出率", "遠出先", "既定"] + SLOTS
 
 
 def rng(*parts) -> random.Random:
@@ -98,6 +102,9 @@ def validate(rows: list[dict]) -> list[str]:
             for loc, _ in parse_weights(r.get(col, "")):
                 if loc not in KNOWN:
                     problems.append(f"{r['名前']}/{col}:未知の場所「{loc}」")
+        mv = r.get("行動型") or "定住"
+        if mv not in ("不動", "定住", "遊動"):
+            problems.append(f"{r['名前']}:行動型「{mv}」は不動/定住/遊動のいずれか")
         if not r["既定"]:
             problems.append(f"{r['名前']}:既定の居場所が空")
     return problems
@@ -125,11 +132,34 @@ def away_today(row: dict, day: int, by_name: dict[str, dict]) -> str | None:
     return pick(dests, rng("dest", day, lead["名前"]))
 
 
+def slot_weights(row: dict, slot: str) -> list[tuple[str, float]]:
+    return parse_weights(row.get(slot, "")) or parse_weights(row["既定"])
+
+
+def move_type(row: dict) -> str:
+    return row.get("行動型") or "定住"
+
+
 def is_unusual(row: dict, slot: str, place: str) -> bool:
-    """その人にしては珍しい場所か(いつもの場所の半分未満の重みなら珍しい扱い)。"""
-    weights = dict(parse_weights(row.get(slot, "")) or parse_weights(row["既定"]))
+    """その人にしては珍しい場所か(いつもの場所の半分未満の重みなら珍しい扱い)。
+
+    持ち場を動かない者(不動)と、元から街中を巡る者(遊動)には珍しいも何もないので付けない。
+    """
+    if move_type(row) != "定住":
+        return False
+    weights = dict(slot_weights(row, slot))
     top = max(weights.values())
     return weights.get(place, 0) < top / 2
+
+
+def route_of(row: dict, day: int, slot: str, place: str) -> str:
+    """遊動型が、その刻のうちに合わせて回る先(なければ空)。"""
+    if move_type(row) != "遊動" or place not in IN_TOWN:
+        return ""
+    rest = [(p, w) for p, w in slot_weights(row, slot) if p != place]
+    if not rest:
+        return ""
+    return pick(rest, rng("route", day, slot, row["名前"]))
 
 
 def parse_follow(cell: str) -> tuple[str, float]:
@@ -155,7 +185,9 @@ def locate(row: dict, day: int, slot: str, by_name: dict[str, dict],
             if place in IN_TOWN:  # 相手が市外にいる時は置いていかれる(自分の重みで動く)
                 return place, f"{target}の供"
 
-    weights = parse_weights(row.get(slot, "")) or parse_weights(row["既定"])
+    weights = slot_weights(row, slot)
+    if move_type(row) == "不動":  # 持ち場から動かない者は毎日そこにいる
+        return max(weights, key=lambda x: x[1])[0], ""
     place = pick(weights, rng("place", day, slot, row["名前"]))
     return place, ("いつもと違う" if is_unusual(row, slot, place) else "")
 
@@ -163,6 +195,7 @@ def locate(row: dict, day: int, slot: str, by_name: dict[str, dict],
 def render_slot(rows: list[dict], by_name: dict[str, dict], day: int, slot: str,
                 place_filter: str = "") -> str:
     placed: dict[str, list[str]] = {}
+    passing: dict[str, list[str]] = {}  # 遊動型が巡回で通りかかる先
     for row in rows:
         place, note = locate(row, day, slot, by_name)
         label = row["名前"]
@@ -170,17 +203,24 @@ def render_slot(rows: list[dict], by_name: dict[str, dict], day: int, slot: str,
             label = "※" + label
         elif note:
             label = f"{label}({note})"
-        placed.setdefault(place, []).append(label)
+        route = route_of(row, day, slot, place)
+        placed.setdefault(place, []).append(label + (f"→{route}" if route else ""))
+        if route:
+            passing.setdefault(route, []).append(row["名前"])
 
     order = [p for p in KNOWN if p in placed]
     lines = [f"── {day}日目・{slot} ──"]
     town, outside = [], []
     for place in order:
-        who = "／".join(placed[place])
-        entry = f"■ {place}({len(placed[place])}人)\n   {who}"
+        entry = f"■ {place}({len(placed[place])}人)\n   " + "／".join(placed[place])
+        if place in passing:
+            entry += "\n   (巡回で通りかかる:" + "／".join(passing[place]) + ")"
         (town if place in IN_TOWN else outside).append(entry)
     if place_filter:
         hits = [e for e in town + outside if e.startswith(f"■ {place_filter}")]
+        if not hits and place_filter in passing:
+            hits = [f"■ {place_filter}(0人)\n   (巡回で通りかかる:"
+                    + "／".join(passing[place_filter]) + ")"]
         lines += hits or [f"(この刻、{place_filter}には誰もいない)"]
         return "\n".join(lines)
     lines += town
@@ -197,9 +237,12 @@ def render_who(rows: list[dict], by_name: dict[str, dict], day: int, who: str) -
     out = []
     for row in hits:
         lines = [f"── {row['名前']}の{day}日目 ──"]
+        lines[0] += f"({move_type(row)}型)"
         for slot in SLOTS:
             place, note = locate(row, day, slot, by_name)
-            suffix = f"  ({note})" if note else ""
+            route = route_of(row, day, slot, place)
+            suffix = f"→{route}" if route else ""
+            suffix += f"  ({note})" if note else ""
             lines.append(f"  {slot:<4}… {place}{suffix}")
         out.append("\n".join(lines))
     return "\n\n".join(out)
@@ -208,6 +251,9 @@ def render_who(rows: list[dict], by_name: dict[str, dict], day: int, who: str) -
 FOOTER = """【この配置の使い方】
 - ここで決まった居場所は、GMの都合ではなく街のルーティン+乱数の結果。※印は「その人にしては珍しい場所」で、
   場面の種として使いやすい(なぜ今日はそこにいるのか、はGMが自由に決めてよい)。
+- 住人は行動型で分かれる。**不動**(店主・門衛・受付・病院・下水道など持ち場を離れない者)は毎日そこにいるので、
+  その区画へ行けば必ず会える。**定住**は拠点はあるが時々ふらつく。**遊動**(衛兵隊長・連絡役・情報屋・潜入・
+  盗人・取材屋など)は一日中うろつくため、`→区画`で「その刻のうちに回る先」も出る——どちらの区画で出しても矛盾しない。
 - 区画の中のどの店・施設かは `world/crossroad/72_place_character_map.md`・`world/crossroad/49_crossroad_dining.md` で決める。
 - 場面に出す人物が決まったら `python3 tools/scene_context.py --chars ... --place ... --time ...` で
   ステータス・スキル・口調を引いてから描写する。
