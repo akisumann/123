@@ -106,6 +106,12 @@
   読むだけで概要を掴め、必要なファイルだけ開けばよい。元データは `tools/summaries.tsv`。
 - `INDEX.md` … 全ファイルの地図（TL;DR ＋文字数）。
 - `world/crossroad/72_place_character_map.md` … **場所→そこにいるキャラ**の対応マップ。区画・施設へ入った時「誰がいるか」を速攻参照。通り名（速攻参照キー）付き。
+- `tools/scene_context.py` … **GM 進行用シーンパック生成**。場面の入力（人物・場所・時間帯）から
+  必要な canon（ステータス・スキル・口調・行きつけ・その場の顔ぶれ）を機械抽出して 1 ブロックで出力。
+  記憶や雰囲気で進行せず、**各場面の前にこれを実行し、出力を読んでから描写する**。
+  例：`python3 tools/scene_context.py --chars 天雷,ツバキ --place 夜鴉の止まり木 --time 宵`
+- `tools/generate_character_stats.py` / `tools/check_character_stats.py` … 新キャラのステータスを
+  コードで生成・検算（AI が数値を雰囲気で決めない。`rules/10_new_character_format.md`）。
 - `tools/apply_summaries.py` … `summaries.tsv` を各ファイル冒頭へ挿入（冪等）。
 - `tools/make_all.py` … zip 非対応 AI 用の `123_all.md`（先頭に正典＋目次）を生成。
 - `tools/make_digest.py` … 核だけの `DIGEST.md`（約 2 万字）を生成。
