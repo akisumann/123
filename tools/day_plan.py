@@ -12,8 +12,9 @@
 定住は拠点を持ちつつ時々ふらつく。遊動(衛兵隊長・連絡役・情報屋・潜入・盗人など)は
 一日中街をうろつくため、その刻に回る先も併せて出る。
 
-粒度は区画レベル(5区画+下水道+危険地域4+ダンジョン3+街道4)。
-その区画の中のどの店・施設かは`tools/scene_context.py`と`world/crossroad/72_place_character_map.md`で詰める。
+場所は区画(5区画+下水道+危険地域4+ダンジョン3+街道4)で決まり、市内はさらに区画の中の
+店・施設まで割り振る(`world/crossroad/72_place_character_map.md`の施設常駐と行きつけ・宿から
+`tools/venue_map.py`が抽出。店の種別と時間帯が噛み合う所へ入る)。
 
 使い方:
     python3 tools/day_plan.py --day 3 --time 宵      # その刻の街全体の配置
@@ -27,6 +28,7 @@ import argparse
 import hashlib
 import os
 import random
+import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -366,6 +368,39 @@ def render_encounters(rows: list[dict], by_name: dict[str, dict], day: int, slot
     return "【今日のめぐり合わせ】\n" + "\n".join(lines)
 
 
+_VENUES: dict[str, list[dict]] | None = None
+
+
+def venue_table(rows: list[dict]) -> dict[str, list[dict]]:
+    global _VENUES
+    if _VENUES is None:
+        import venue_map
+        _VENUES = venue_map.load(rows)
+    return _VENUES
+
+
+def render_venues(place: str, slot: str, day: int, labels: list[str],
+                  by_name: dict[str, dict]) -> str:
+    """区画の中を、店・施設ごとに割り振って書き出す(市外や該当なしはそのまま)。"""
+    import venue_map
+    if place not in IN_TOWN:
+        return "   " + "／".join(labels)
+    venues = venue_table(list(by_name.values()))
+    groups: dict[str, list[str]] = {}
+    loose: list[str] = []
+    for label in labels:
+        person = re.sub(r"^※|[(→].*", "", label)
+        row = by_name.get(person)
+        slack = 1.0 if row and move_type(row) == "不動" else 3.0
+        spot = venue_map.pick_venue(person, place, slot, venues,
+                                    rng("venue", day, slot, person), slack)
+        (groups.setdefault(spot, []) if spot else loose).append(label)
+    out = [f"   《{v}》" + "／".join(who) for v, who in groups.items()]
+    if loose:
+        out.append("   (区画内)" + "／".join(loose))
+    return "\n".join(out)
+
+
 def render_slot(rows: list[dict], by_name: dict[str, dict], day: int, slot: str,
                 place_filter: str = "") -> str:
     placed: dict[str, list[str]] = {}
@@ -388,7 +423,8 @@ def render_slot(rows: list[dict], by_name: dict[str, dict], day: int, slot: str,
     lines = [f"── {day}日目・{slot} ──"]
     town, outside = [], []
     for place in order:
-        entry = f"■ {place}({len(placed[place])}人)\n   " + "／".join(placed[place])
+        entry = f"■ {place}({len(placed[place])}人)\n" + render_venues(
+            place, slot, day, placed[place], by_name)
         if place in passing:
             entry += "\n   (巡回で通りかかる:" + "／".join(passing[place]) + ")"
         (town if place in IN_TOWN else outside).append(entry)
