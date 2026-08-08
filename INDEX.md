@@ -15,7 +15,7 @@
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,996 |
-| `PROGRESS.md` | PROGRESS | 62,447 |
+| `PROGRESS.md` | PROGRESS | 62,785 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 5,755 |
 
@@ -156,13 +156,13 @@
 | `characters/npcs/16_gideon.md` | 黒針会会主ギデオン。組織の最終裁定を担う老練な会主。 | 3,399 |
 | `characters/npcs/17_riera.md` | ギルド受付リエラ。世話焼きだがかなりの恋愛脳で即カップリング認定。 | 1,788 |
 | `characters/npcs/18_milei.md` | 民間魔法サークル取りまとめ役ミレイ。基礎魔法指導・魔法相談の窓口。 | 2,828 |
-| `characters/npcs/19_rosalia.md` | 紅玻璃館の筆頭花魁ロザリア。精霊憑依と陰陽循環術を操る。 | 1,546 |
+| `characters/npcs/19_rosalia.md` | 紅玻璃館の筆頭花魁ロザリア。精霊憑依と陰陽循環術を操る。 | 1,957 |
 | `characters/npcs/20_bernadette.md` | 桃灯楼の人気嬢ベルナデッタ。犬獣人で広い人脈を持つ緊急招集役。 | 2,453 |
 | `characters/npcs/21_elsia.md` | 昼は術師会・夜は百花迷宮の幻術娼婦エルシア。Lv40のレベルキャップ到達者。 | 2,980 |
 | `characters/npcs/22_balto.md` | 北門の古参門衛バルト。出入り確認・道案内を担う街の顔役。 | 1,959 |
-| `characters/npcs/23_elias_veil.md` | 巡業劇団専属脚本家エリアス・ヴェイル。万象座の代表作を手掛ける。 | 3,935 |
+| `characters/npcs/23_elias_veil.md` | 巡業劇団専属脚本家エリアス・ヴェイル。万象座の代表作を手掛ける。 | 4,288 |
 | `characters/npcs/24_viviana_loudbell.md` | コロッセオ専属実況者ヴィヴィアナ。熱狂を作る名物職員。 | 4,127 |
-| `characters/npcs/25_leon_grave.md` | カジノの勝負師レオン「灰色の切り札」。勝負に強いが生活能力皆無。 | 5,642 |
+| `characters/npcs/25_leon_grave.md` | カジノの勝負師レオン「灰色の切り札」。勝負に強いが生活能力皆無。 | 5,986 |
 | `characters/npcs/26_serena_gearford.md` | 南区・仕掛屋六番工房の店主セレナ。注文制作と機能付与の魔導機構技師。 | 2,431 |
 | `characters/npcs/27_lara.md` | 天才児ララ(Lv35)。Lv50到達を境に街を出る計画を立てる。 | 5,842 |
 | `characters/npcs/28_karla.md` | ララの相棒カーラ(Lv35)。街を出る計画の同行者。 | 5,539 |
@@ -201,4 +201,4 @@
 
 ---
 
-合計 **149 ファイル / 577,270 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **149 ファイル / 578,716 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
