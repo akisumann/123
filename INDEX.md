@@ -15,7 +15,7 @@
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,996 |
-| `PROGRESS.md` | PROGRESS | 63,574 |
+| `PROGRESS.md` | PROGRESS | 63,951 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 5,755 |
 
@@ -171,15 +171,15 @@
 | `characters/npcs/31_mizushiro.md` | 統制パーティー隊長・水城。水精霊。アクア・フロウ貴族令嬢一行。 | 3,776 |
 | `characters/npcs/32_souryuu.md` | 統制パーティー前衛・蒼龍。水精霊、受け流しの守り手。 | 2,415 |
 | `characters/npcs/33_suiren.md` | 統制パーティー中衛・睡蓮。水精霊、戦場制御役。 | 2,203 |
-| `characters/npcs/34_aoba.md` | 統制パーティー後衛・青葉。水精霊、決定打役。 | 1,861 |
-| `characters/npcs/35_himuro.md` | コロッセオ専属剣闘士・氷室。アルマジロ獣人の氷装甲住み込み選手。 | 2,518 |
+| `characters/npcs/34_aoba.md` | 統制パーティー後衛・青葉。水精霊、決定打役。 | 2,401 |
+| `characters/npcs/35_himuro.md` | コロッセオ専属剣闘士・氷室。アルマジロ獣人の氷装甲住み込み選手。 | 2,871 |
 | `characters/npcs/36_tsubaki.md` | 斥候系冒険者ツバキ。ホビットの忍び。 | 4,257 |
 | `characters/npcs/37_tenrai.md` | 出稼ぎの弓手・天雷。アマゾネスの一射の名手。 | 2,621 |
 | `characters/npcs/38_sayo.md` | 独立のコソ泥・小夜。裏路地を根城にする。 | 4,896 |
 | `characters/npcs/39_sorasaki.md` | 独立の空輸便利屋・空咲。飛竜人の運び屋。 | 1,943 |
 | `characters/npcs/40_awahime.md` | 下水道の自称管理人・泡姫。ヘドロスライムで浄化・分解を担い衛生を支える。 | 2,962 |
 | `characters/npcs/41_mamori.md` | 領主クラリス専属護衛マモリ「双盾」。 | 3,823 |
-| `characters/npcs/42_yuiitsu.md` | ソロ冒険者・唯一「横一線」。雑魚討伐の臨時要員。 | 2,073 |
+| `characters/npcs/42_yuiitsu.md` | ソロ冒険者・唯一「横一線」。雑魚討伐の臨時要員。 | 2,400 |
 | `characters/npcs/43_momiji.md` | 武者修行中の旅の騎士・紅葉。竜翼人の猪突猛進型。 | 2,225 |
 | `characters/npcs/44_kokuu.md` | 紅葉の同行者・黒羽。規律を重んじる天狗の剣士。 | 2,228 |
 | `characters/npcs/45_suzuyo.md` | 旅の吟遊詩人・鈴代。人魚で井戸端の噂・情報の担い手。 | 2,266 |
@@ -198,8 +198,8 @@
 | `characters/npcs/58_unabara.md` | クロスロード大病院の感染症・再生医療研究者・海原。人魚。車椅子に担架を連結して疾走・患者搬送も担う。自身の人魚肉に再生効果。 | 3,205 |
 | `characters/npcs/59_kazama.md` | クロスロード大病院の外科医・風間。カマイタチの妖怪。大量のメスと鎌鼬の切断力で精密切開、切った端から瞬間治療で閉じる外科の切り札。 | 3,155 |
 | `characters/npcs/60_shiromine.md` | クロスロード大病院の院長・白峰。八尺様の妖怪でMP:Sの院内最高の回復術師。大型の治癒砲(ヒールビーム/ヒールキャノン)で重症・集団治療を担う最後の砦。運営は苦手。 | 3,153 |
-| `characters/npcs/PROGRESS.md` | 口調セクション整備(第5弾:ララ・カーラ・小夜) | 452 |
+| `characters/npcs/PROGRESS.md` | 口調セクション整備(第5弾:ララ・カーラ・小夜) | 840 |
 
 ---
 
-合計 **150 ファイル / 583,449 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **150 ファイル / 585,434 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
