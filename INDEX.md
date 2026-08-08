@@ -15,9 +15,9 @@
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,996 |
-| `PROGRESS.md` | PROGRESS | 60,464 |
+| `PROGRESS.md` | PROGRESS | 61,160 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
-| `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 5,602 |
+| `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 5,666 |
 
 ## rules/ — ゲームルール(判定・戦闘・レベル・スキル・魔法)
 
@@ -86,7 +86,7 @@
 | `world/crossroad/11_crossroad_city.md` | 主舞台クロスロードの総合設定。人口・統治・街の転機・街道・危険地域4/ダンジョン3。 | 18,587 |
 | `world/crossroad/20_crossroad_city_districts.md` | 市内5区画(中央/北/東/南/西)の役割・主な施設・主なNPC一覧。 | 15,316 |
 | `world/crossroad/21_crossroad_inns.md` | 冒険者向けの宿5軒(安宿〜高級・歓楽街寄り・工房付き)と料金帯。 | 2,785 |
-| `world/crossroad/22_crossroad_bulletin_boards.md` | ギルド正式依頼板とは別の、区画ごとの街区掲示板(軽い仕事・求人・告知)。 | 718 |
+| `world/crossroad/22_crossroad_bulletin_boards.md` | ギルド正式依頼板とは別の、区画ごとの街区掲示板(軽い仕事・求人・告知)。 | 3,345 |
 | `world/crossroad/27_crossroad_colosseum.md` | 西区の大型闘技施設。実力抑制リング・賭け・興行試合の運営ルール。 | 5,142 |
 | `world/crossroad/28_crossroad_casino.md` | 西区の合法賭博施設。各種ゲームと乱数運用のルール。 | 2,923 |
 | `world/crossroad/29_crossroad_magic_board_race.md` | カジノの人気遊戯・魔導盤レース(光の幻獣を走らせるミニ競馬)。 | 4,011 |
@@ -201,4 +201,4 @@
 
 ---
 
-合計 **149 ファイル / 570,353 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **149 ファイル / 573,740 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
