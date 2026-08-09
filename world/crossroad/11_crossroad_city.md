@@ -337,114 +337,37 @@
 
 ## 主要NPC(初期)
 
-住民の多くは「〇〇の[名前]」形式の通り名で呼ばれ、街で出会った時に所属や役割が一目で分かるようになっている。一覧は`world/crossroad/44_crossroad_nicknames.md`を参照。
+住民の多くは「〇〇の[名前]」形式の通り名で呼ばれ、街で出会った時に所属や役割が一目で分かるようになっている。一覧は`world/crossroad/44_crossroad_nicknames.md`、口調・行きつけまで含む一行紹介は`CHARACTERS.md`を参照。
 
-### ギルド支部長：ダリオ・ラングフォード
-
-クロスロード冒険者ギルド支部を預かる支部長。元斥候兼鑑定士で、人材鑑定能力を活かした支部運営で知られる。詳細は`characters/npcs/07_dario_langford.md`を参照。
-
-### ギルド受付：リエラ
-
-クロスロード冒険者ギルドの受付職員。人間、20代半ば。てきぱきとした対応で、新規登録の冒険者に街のルールや依頼の選び方を教えてくれる世話焼きタイプ。召喚士のような珍しい職業にも動じず、興味津々で質問してくることがある。支部長ダリオが見出した職員の一人。かなりの恋愛脳で、連れ立って現れた一行はほぼ即カップリング認定してしまう。詳細は`characters/npcs/17_riera.md`を参照。
-
-### 女性冒険者チーム：銀鴉の羽根
-
-クロスロードを拠点に活動するBランクの女性冒険者パーティー(4人)。街でも指折りの実力派。詳細は`characters/npcs/08_silver_raven_feather.md`を参照。
-
-### 盗人姉妹：ロゼとリゼ
-
-北区・西区・裏路地を中心に活動する小悪党姉妹。色仕掛けとスリのコンビ技で観光客や酔客を狙う。大悪党ではなく、街の軽いトラブル役。詳細は`characters/npcs/12_roze_and_rize.md`を参照。
-
-### 薬品職人：ミルカ
-
-南区でミルカ薬品工房を営む薬品職人。ヘンテコ薬に紛れて有用な薬も置いている、南区の掘り出し物ショップ。詳細は`characters/npcs/13_mika.md`を参照。
-
-### 領主：クラリス・ヴァイスフェルト
-
-クロスロードを治める女性領主。詳細は`characters/npcs/01_clarisse_weissfeld.md`を参照。
-
-### 歓楽街組合トップ：ミレーヌ・ヴァイスフェルト
-
-西区を実質的に統治する歓楽街組合のトップ。クラリスの実妹(生き別れて最近再会)。詳細は`characters/npcs/02_milene_weissfeld.md`を参照。
-
-### 領主騎士団長：ヴァレリア・グレンツ
-
-クラリス直属の領主騎士団長。「特大剣の騎士団長」の通り名を持つ。詳細は`characters/npcs/03_valeria_grenz.md`を参照。
+| 立場 | 名前 | 要点 | 詳細 |
+|---|---|---|---|
+| 領主 | クラリス・ヴァイスフェルト | 街全体の方針と調整 | `characters/npcs/01_clarisse_weissfeld.md` |
+| 歓楽街組合トップ | ミレーヌ・ヴァイスフェルト | 西区を実質統治。クラリスの実妹 | `characters/npcs/02_milene_weissfeld.md` |
+| 領主騎士団長 | ヴァレリア・グレンツ | 街道と都市外の防衛。「特大剣の騎士団長」 | `characters/npcs/03_valeria_grenz.md` |
+| 衛兵隊長 | エイダ・ロックウェル | 都市内の治安 | `characters/npcs/04_ada_lockwell.md` |
+| 若手騎士・連絡役 | ルカ・フェンネル | ヴァレリアの部下。冒険者と領主側を繋ぐ | `characters/npcs/05_luca_fennel.md` |
+| ギルド支部長 | ダリオ・ラングフォード | 元斥候兼鑑定士。人材鑑定を活かした支部運営 | `characters/npcs/07_dario_langford.md` |
+| ギルド受付 | リエラ | 新規登録者の世話焼き。かなりの恋愛脳 | `characters/npcs/17_riera.md` |
+| 冒険者パーティー | 銀鴉の羽根 | Bランクの女性4人組。街でも指折りの実力派 | `characters/npcs/08_silver_raven_feather.md` |
+| 鍛冶師・武具職人 | ガルム・フォージライト | 南区に工房。武器修理・特注武具の窓口 | `characters/npcs/06_galm_forgelight.md` |
+| 薬品職人 | ミルカ | 南区の薬品工房。ヘンテコ薬に有用な薬が紛れる | `characters/npcs/13_mika.md` |
+| 特殊機構工房店主 | セレナ・ギアフォード | 《仕掛屋・六番工房》。注文制作・機能付与 | `characters/npcs/26_serena_gearford.md` |
+| 施設 | クロスロード浄化院 | 中央区。土地浄化・呪物処理・結界維持。討伐はギルドへ流す | `world/crossroad/30_crossroad_purification_institute.md` |
+| 浄化院の窓口 | セリア | 若手神官。浄化依頼・軽治療・アンデッド相談 | `characters/npcs/09_celia.md` |
+| 情報屋 | リネット | 中堅斥候。有料で依頼の裏事情を教える | `characters/npcs/10_linette.md` |
+| 生活区の世話役 | マリナ | 東区の住民に顔が利く。住民依頼の窓口 | `characters/npcs/11_marina.md` |
+| 民間術師会の取りまとめ役 | ミレイ | 基礎魔法指導・魔法相談の窓口 | `characters/npcs/18_milei.md` |
+| 北門の古参門衛 | バルト | 北門《王都門》。出入り確認と道案内、街の顔役 | `characters/npcs/22_balto.md` |
+| 紅玻璃館の筆頭花魁 | ロザリア | 西区最高級娼館の頂点。精霊憑依と陰陽循環術 | `characters/npcs/19_rosalia.md` |
+| 桃灯楼の人気嬢 | ベルナデッタ | 犬獣人。広い人脈で緊急時の招集役も担う | `characters/npcs/20_bernadette.md` |
+| 百花迷宮の幻術娼婦 | エルシア | 昼は内気な魔法使い、夜は完全変身の幻術娼婦。Lv40 | `characters/npcs/21_elsia.md` |
+| 巡業劇団専属脚本家 | エリアス・ヴェイル | 《渡り灯一座》専属。《万象座》の代表作3作 | `characters/npcs/23_elias_veil.md` |
+| コロッセオ専属実況者 | ヴィヴィアナ・ラウドベル | 魔導拡声器で実況する名物職員 | `characters/npcs/24_viviana_loudbell.md` |
+| カジノの勝負師 | レオン・グレイヴ | 《灰色の切り札》。卓では異常に強いが生活能力は皆無 | `characters/npcs/25_leon_grave.md` |
+| 盗人姉妹 | ロゼとリゼ | 色仕掛けとスリの小悪党。軽いトラブル役 | `characters/npcs/12_roze_and_rize.md` |
+| 黒針会・耳の幹部 | ミーナ | ネズミ系獣人。潜入・偽装 | `characters/npcs/14_mina.md` |
+| 黒針会・刃の幹部 | ザラ | 蠍系獣人。暗殺・追跡・裏切り者処理 | `characters/npcs/15_zara.md` |
+| 黒針会会主 | ギデオン | 最終裁定を担う老いた会主 | `characters/npcs/16_gideon.md` |
 
 領主騎士団(ヴァレリア指揮)は、街道の防衛と都市外の脅威への対応を担う領主直属の戦力。都市内の治安を担う衛兵隊、駐屯するセントラル・ヘイヴン王国軍とは別組織で、対外防衛/対内治安/国家防衛と役割が分かれる。
 
-### 衛兵隊長：エイダ・ロックウェル
-
-クロスロード衛兵隊を率いる都市内治安の責任者。詳細は`characters/npcs/04_ada_lockwell.md`を参照。
-
-### 若手騎士・連絡役：ルカ・フェンネル
-
-領主騎士団に所属する若手騎士。ヴァレリアの部下で、冒険者と領主側を繋ぐ現場連絡役になりやすい。詳細は`characters/npcs/05_luca_fennel.md`を参照。
-
-### 鍛冶師・武具職人：ガルム・フォージライト
-
-南区(`world/crossroad/20_crossroad_city_districts.md`)に工房を構える腕利きの鍛冶師。武器修理・特注武具製作の窓口。詳細は`characters/npcs/06_galm_forgelight.md`を参照。
-
-### クロスロード浄化院
-
-中央区にある宗教系施設。土地浄化・呪物処理・結界維持・瘴気対策・鎮魂儀式・対アンデッド支援を担う。直接戦闘は専門外で、アンデッド討伐そのものは冒険者ギルドへ依頼として流れる。詳細は`world/crossroad/30_crossroad_purification_institute.md`を参照。
-
-### 浄化院の窓口：セリア
-
-中央区の浄化院に所属する若手神官。浄化依頼・軽治療・アンデッド相談の窓口担当。詳細は`characters/npcs/09_celia.md`を参照。
-
-### 情報屋：リネット
-
-北区・四辻の炉亭や冒険者ギルド周辺に顔を出す中堅斥候兼情報屋。有料で依頼の裏事情を教えてくれる。詳細は`characters/npcs/10_linette.md`を参照。
-
-### 生活区の世話役：マリナ
-
-東区の住民たちに顔が利く世話焼き女性。日常の小さな困りごとや住民依頼の窓口。詳細は`characters/npcs/11_marina.md`を参照。
-
-### 民間術師会の取りまとめ役：ミレイ
-
-クロスロード民間魔法サークル(`world/crossroad/43_crossroad_magic_circle.md`)の取りまとめ役。基礎魔法指導・魔法相談の窓口。詳細は`characters/npcs/18_milei.md`を参照。
-
-### 紅玻璃館の筆頭花魁：ロザリア
-
-西区の最高級娼館「紅玻璃館」(`world/crossroad/50_crossroad_brothels.md`)の頂点に立つ花魁。精霊憑依と陰陽循環術を操る。詳細は`characters/npcs/19_rosalia.md`を参照。
-
-### 桃灯楼の人気嬢：ベルナデッタ
-
-西区の大衆娼館「桃灯楼」(`world/crossroad/50_crossroad_brothels.md`)の人気嬢。犬獣人で、街中に築いた広い人脈を通じて緊急時の招集役も担う。詳細は`characters/npcs/20_bernadette.md`を参照。
-
-### 百花迷宮の幻術娼婦・民間術師会の会員：エルシア
-
-昼は民間魔法サークル(`world/crossroad/43_crossroad_magic_circle.md`)で研究に没頭する内気な魔法使い、夜は百花迷宮(`world/crossroad/50_crossroad_brothels.md`)で完全変身の幻術娼婦。レベルキャップ到達済みのLv40。詳細は`characters/npcs/21_elsia.md`を参照。
-
-### 北門の古参門衛：バルト
-
-北門《王都門》(`world/crossroad/52_crossroad_gates_streets.md`)に詰める古参の衛兵。出入り確認や道案内を担う、街の顔役的存在。詳細は`characters/npcs/22_balto.md`を参照。
-
-### 巡業劇団専属脚本家：エリアス・ヴェイル
-
-巡業劇団《渡り灯一座》の専属脚本家。西区の大劇場《万象座》(`world/crossroad/54_crossroad_theater.md`)で定期的に上演される代表作3作を手掛けている。詳細は`characters/npcs/23_elias_veil.md`を参照。
-
-### コロッセオ専属実況者：ヴィヴィアナ・ラウドベル
-
-魔導拡声器で試合を実況する、コロッセオの熱狂を作る名物職員。一部の人気選手に匹敵する知名度を持つ。詳細は`characters/npcs/24_viviana_loudbell.md`を参照。
-
-### カジノの勝負師：レオン・グレイヴ
-
-異名《灰色の切り札》。勝負卓では異常な強さを見せる一方、生活能力が皆無な自称・勝負師。裏社会の重大な決断へごく稀に助言役として呼ばれることもある。詳細は`characters/npcs/25_leon_grave.md`を参照。
-
-### 特殊機構工房店主：セレナ・ギアフォード
-
-南区《仕掛屋・六番工房》(`world/crossroad/56_crossroad_gadget_workshop.md`)の店主。注文制作・機能付与を専門とする魔導機構技師。詳細は`characters/npcs/26_serena_gearford.md`を参照。
-
-### 黒針会幹部：ミーナ
-
-ネズミ系獣人。子供のような外見を利用した潜入・偽装を得意とする現場寄りの幹部。詳細は上記「裏組織:黒針会」および`characters/npcs/14_mina.md`を参照。
-
-### 黒針会幹部：ザラ
-
-蠍系獣人。「刃の幹部」として暗殺・追跡・裏切り者処理を担当する。詳細は上記「裏組織:黒針会」および`characters/npcs/15_zara.md`を参照。
-
-### 黒針会会主：ギデオン
-
-黒針会全体の最終裁定を担う老いた会主。詳細は上記「裏組織:黒針会」および`characters/npcs/16_gideon.md`を参照。
