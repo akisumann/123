@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "123.json")
 SKIP_DIRS = {".git", "tools", "__pycache__"}
-SKIP_FILES = {"123_all.md", "123.json"}
+SKIP_FILES = {"123_all.md", "123.json", "PROGRESS.md"}  # 作業ログは配布物に含めない
 CANON = ["START_HERE.md", "CLAUDE.md", "INDEX.md"]
 
 

@@ -28,7 +28,7 @@ python3 tools/make_json.py
 echo "[6/9] 123.zip (zip 対応 AI 用。生成物と .git は除外)"
 rm -f 123.zip
 zip -q -r 123.zip . \
-  -x '.git/*' 'tools/*' '123_all.md' 'DIGEST.md' '123.zip' '123.json'
+  -x '.git/*' 'tools/*' '123_all.md' 'DIGEST.md' '123.zip' '123.json' 'PROGRESS.md'
 
 echo "[7/9] 123_tools.zip (機械側だけを分けた一式)"
 rm -f 123_tools.zip
