@@ -14,9 +14,9 @@
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
-| `CHARACTERS.md` | 主要NPC60人の要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 10,624 |
+| `CHARACTERS.md` | 主要NPC60人の要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 10,861 |
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,969 |
-| `PROGRESS.md` | PROGRESS | 81,799 |
+| `PROGRESS.md` | PROGRESS | 83,802 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 4,595 |
 
@@ -139,14 +139,14 @@
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
-| `characters/npcs/01_clarisse_weissfeld.md` | 領主クラリス。街全体の方針・調整を担う。ミレーヌの実姉。 | 5,474 |
-| `characters/npcs/02_milene_weissfeld.md` | 西区・歓楽街組合トップのミレーヌ。黒針会を統制下に。クラリスの実妹。 | 4,595 |
+| `characters/npcs/01_clarisse_weissfeld.md` | 領主クラリス。街全体の方針・調整を担う。ミレーヌの実姉。 | 3,958 |
+| `characters/npcs/02_milene_weissfeld.md` | 西区・歓楽街組合トップのミレーヌ。黒針会を統制下に。クラリスの実妹。 | 4,019 |
 | `characters/npcs/03_valeria_grenz.md` | 領主騎士団長ヴァレリア「特大剣の騎士団長」。街道・都市外防衛のA級。 | 3,843 |
 | `characters/npcs/04_ada_lockwell.md` | 衛兵隊長エイダ。都市内の治安責任者。 | 3,096 |
 | `characters/npcs/05_luca_fennel.md` | 若手騎士ルカ。冒険者と領主側を繋ぐ現場連絡役。 | 2,223 |
 | `characters/npcs/06_galm_forgelight.md` | 南区の腕利き鍛冶師ガルム。武器修理・特注武具の窓口。 | 2,716 |
 | `characters/npcs/07_dario_langford.md` | 冒険者ギルド支部長ダリオ。元斥候兼鑑定士で人材鑑定に長ける。 | 4,344 |
-| `characters/npcs/08_silver_raven_feather.md` | Bランク女性冒険者4人組「銀鴉の羽根」。街屈指の実力派パーティー。 | 4,528 |
+| `characters/npcs/08_silver_raven_feather.md` | Bランク女性冒険者4人組「銀鴉の羽根」。街屈指の実力派パーティー。 | 4,128 |
 | `characters/npcs/09_celia.md` | 浄化院の若手神官セリア。浄化依頼・軽治療・アンデッド相談の窓口。 | 2,353 |
 | `characters/npcs/10_linette.md` | 情報屋リネット。中堅斥候で、有料で依頼の裏事情を教える。 | 2,704 |
 | `characters/npcs/11_marina.md` | 東区の世話役マリナ。住民の小さな困りごと・住民依頼の窓口。 | 1,996 |
@@ -163,10 +163,10 @@
 | `characters/npcs/22_balto.md` | 北門の古参門衛バルト。出入り確認・道案内を担う街の顔役。 | 1,959 |
 | `characters/npcs/23_elias_veil.md` | 巡業劇団専属脚本家エリアス・ヴェイル。万象座の代表作を手掛ける。 | 4,288 |
 | `characters/npcs/24_viviana_loudbell.md` | コロッセオ専属実況者ヴィヴィアナ。熱狂を作る名物職員。 | 4,494 |
-| `characters/npcs/25_leon_grave.md` | カジノの勝負師レオン「灰色の切り札」。勝負に強いが生活能力皆無。 | 5,986 |
+| `characters/npcs/25_leon_grave.md` | カジノの勝負師レオン「灰色の切り札」。勝負に強いが生活能力皆無。 | 3,840 |
 | `characters/npcs/26_serena_gearford.md` | 南区・仕掛屋六番工房の店主セレナ。注文制作と機能付与の魔導機構技師。 | 2,911 |
-| `characters/npcs/27_lara.md` | 天才児ララ(Lv35)。Lv50到達を境に街を出る計画を立てる。 | 6,409 |
-| `characters/npcs/28_karla.md` | ララの相棒カーラ(Lv35)。街を出る計画の同行者。 | 5,913 |
+| `characters/npcs/27_lara.md` | 天才児ララ(Lv35)。Lv50到達を境に街を出る計画を立てる。 | 5,102 |
+| `characters/npcs/28_karla.md` | ララの相棒カーラ(Lv35)。街を出る計画の同行者。 | 4,707 |
 | `characters/npcs/29_vorgan_gard.md` | 北区商業組合長ボルガン・ガルド(Lv48・偽装Lv18)。強欲な大商会会頭。 | 4,326 |
 | `characters/npcs/30_ultimate_patchwork_iron_kun.md` | 南区中央広場のツギハギ巨大ゴーレム(起動時Lv59相当)。街の名所。 | 3,906 |
 | `characters/npcs/31_mizushiro.md` | 統制パーティー隊長・水城。水精霊。アクア・フロウ貴族令嬢一行。 | 3,988 |
@@ -174,9 +174,9 @@
 | `characters/npcs/33_suiren.md` | 統制パーティー中衛・睡蓮。水精霊、戦場制御役。 | 2,254 |
 | `characters/npcs/34_aoba.md` | 統制パーティー後衛・青葉。水精霊、決定打役。 | 2,401 |
 | `characters/npcs/35_himuro.md` | コロッセオ専属剣闘士・氷室。アルマジロ獣人の氷装甲住み込み選手。 | 2,871 |
-| `characters/npcs/36_tsubaki.md` | 斥候系冒険者ツバキ。ホビットの忍び。 | 4,681 |
+| `characters/npcs/36_tsubaki.md` | 斥候系冒険者ツバキ。ホビットの忍び。 | 3,860 |
 | `characters/npcs/37_tenrai.md` | 出稼ぎの弓手・天雷。アマゾネスの一射の名手。 | 2,621 |
-| `characters/npcs/38_sayo.md` | 独立のコソ泥・小夜。裏路地を根城にする。 | 4,896 |
+| `characters/npcs/38_sayo.md` | 独立のコソ泥・小夜。裏路地を根城にする。 | 4,164 |
 | `characters/npcs/39_sorasaki.md` | 独立の空輸便利屋・空咲。飛竜人の運び屋。 | 2,283 |
 | `characters/npcs/40_awahime.md` | 下水道の自称管理人・泡姫。ヘドロスライムで浄化・分解を担い衛生を支える。 | 3,372 |
 | `characters/npcs/41_mamori.md` | 領主クラリス専属護衛マモリ「双盾」。 | 4,244 |
@@ -190,7 +190,7 @@
 | `characters/npcs/49_ninrei.md` | 双槌の聖戦修道女団のベテラン・仁礼。鬼族のシスターで巡回担当。 | 2,647 |
 | `characters/npcs/50_kokonoe.md` | 旅の投槍魔導士・九重。クサビの幼馴染。 | 2,397 |
 | `characters/npcs/51_kusabi.md` | 旅の巫女・クサビ。結界術の使い手、九重の幼馴染。 | 2,386 |
-| `characters/npcs/52_kohaku.md` | 南区の廃研究施設を拠点にする錬金術師・琥珀。ホムンクルス。 | 5,026 |
+| `characters/npcs/52_kohaku.md` | 南区の廃研究施設を拠点にする錬金術師・琥珀。ホムンクルス。 | 4,171 |
 | `characters/npcs/53_hakkin.md` | 廃研究施設のメイドロボ・白金。怪力の持ち主。 | 3,005 |
 | `characters/npcs/54_ginsetsu.md` | 廃研究施設のリビングアーマー・銀雪。ゴースト憑依型の空鎧。 | 3,423 |
 | `characters/npcs/55_dakki.md` | 廃研究施設の生体兵装・妲己。巨大肉塊オクトパスの気怠げな存在。 | 2,915 |
@@ -202,4 +202,4 @@
 
 ---
 
-合計 **150 ファイル / 623,853 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **150 ファイル / 616,534 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
