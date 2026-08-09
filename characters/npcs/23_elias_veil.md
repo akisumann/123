@@ -4,7 +4,7 @@
 
 - 種族：人間
 - 年齢：27歳　　性別：男性
-- レベル：36(冒険者ランク基準ではDランク相当。`world/14_adventurers_guild.md`)
+- レベル：36(冒険者ランク基準ではCランク相当。`world/14_adventurers_guild.md`)
 - 所属：巡業劇団《渡り灯一座》(`world/crossroad/54_crossroad_theater.md`)
 - 立場：劇団専属脚本家・演目企画担当
 - 通り名：劇作家のエリアス

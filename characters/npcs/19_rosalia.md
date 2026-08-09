@@ -4,7 +4,7 @@
 
 - 種族：人間
 - 年齢：29歳
-- レベル：42(冒険者ランク基準ではCランク相当。`world/14_adventurers_guild.md`)
+- レベル：42(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
 - 所属：紅玻璃館(`world/crossroad/50_crossroad_brothels.md`)
 - 立場：筆頭花魁
 - 役割：精霊憑依・宴席演出・陰陽循環術
