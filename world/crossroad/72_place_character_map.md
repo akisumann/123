@@ -122,6 +122,11 @@
 
 ### 大カジノ
 - **レオン《灰色の切り札》**(カジノ常連の勝負師。生活能力は皆無。`characters/npcs/25_leon_grave.md`)
+- **睡蓮《静穏の睡蓮》**(数字で決まる卓で静かに勝つ常連。統制パーティー中衛。`characters/npcs/33_suiren.md`)
+- **妲己《範囲制圧の妲己》**(スロットと魔導盤レースに居座る常連。災害パーティー。`characters/npcs/55_dakki.md`)
+- **唯一《広範囲斬撃の唯一》**(定石が通じない無策の打ち手。ソロ冒険者。`characters/npcs/42_yuiitsu.md`)
+- **海原《研究医の海原》**(西区巡回の合間に寄る大病院の研究医。`characters/npcs/58_unabara.md`)
+- **鈴代《歌い手の鈴代》**(賭けない。余興枠で歌う日がある。`characters/npcs/45_suzuyo.md`)
 
 ### 大劇場《万象座》
 - **劇作家のエリアス**(巡業劇団《渡り灯一座》専属脚本家。滞在中の拠点。`characters/npcs/23_elias_veil.md`)

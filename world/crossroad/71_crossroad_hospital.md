@@ -68,6 +68,7 @@
 - **豊根(`characters/npcs/56_toyone.md`)**…薬草の供給元。
 - **マリナ(`characters/npcs/11_marina.md`)**…東区住民の困りごとを取り次ぐ窓口。
 - **クラリス／領主家(`characters/npcs/01_clarisse_weissfeld.md`)**…医院の後ろ盾。あかりを通じた領主家との繋がり。
+- **西区への定期巡回**…娼館三軒(`world/crossroad/50_crossroad_brothels.md`)の衛生・健康検診と、コロッセオ(`world/crossroad/27_crossroad_colosseum.md`)の剣闘士の経過確認。感染症・再生医療が専門の海原(`characters/npcs/58_unabara.md`)が担当する。娼館側は歓楽街組合の統括下で衛生管理が義務づけられており、コロッセオには治療担当が常駐しているため、海原が見るのは常駐医が扱わない感染症と再生医療の領域にあたる。
 
 ## 規模・費用・入院
 
