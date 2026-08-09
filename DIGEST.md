@@ -344,7 +344,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,969 |
-| `PROGRESS.md` | PROGRESS | 74,641 |
+| `PROGRESS.md` | PROGRESS | 75,126 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 6,067 |
 
@@ -404,7 +404,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/dragons/36_forest_five_dragons.md` | 森林龍に連なる五体の守護竜「森林五枝竜」。エターナル・グローブ王国の最高位。 | 1,003 |
 | `world/dragons/37_earth_dragon.md` | 五龍の一柱・大地龍(Lv95)。中央平原と生命力の源。 | 1,055 |
 | `world/dragons/38_volcano_dragon.md` | 五龍の一柱・火山龍(Lv97)。火山地帯を形作った最強格。 | 903 |
-| `world/dragons/39_ice_dragon.md` | 五龍の一柱・氷結龍(Lv93)。氷雪地帯の主。 | 1,176 |
+| `world/dragons/39_ice_dragon.md` | 五龍の一柱・氷結龍(Lv93)。氷雪地帯の主。 | 1,604 |
 | `world/dragons/40_ocean_dragon.md` | 五龍の一柱・海洋龍(Lv96)。海洋地帯の主。 | 993 |
 | `world/dragons/41_forest_dragon.md` | 五龍の一柱・森林龍(Lv94)。巨大森林の主。 | 1,315 |
 
@@ -429,7 +429,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/crossroad/45_crossroad_district_markets.md` | 5区画それぞれ性格の異なる市場(中央広場市・西の夜市・南の投げ売り市等)。 | 4,107 |
 | `world/crossroad/46_crossroad_matchmaking_festival.md` | 年一度の婚活祭り「結び路の祝祭」。領主クラリスも強制参加の名物行事。 | 4,263 |
 | `world/crossroad/47_crossroad_harvest_festival.md` | 月一度の食の祭り「巡穣祭」。その月最多の作物を街ぐるみで消費。 | 3,935 |
-| `world/crossroad/48_grand_temple_dragon_records.md` | 中央区で大地龍を祀る大神殿と、その大地龍石膏像・龍の記録＋他四龍の比較展示。 | 6,004 |
+| `world/crossroad/48_grand_temple_dragon_records.md` | 中央区で大地龍を祀る大神殿と、その大地龍石膏像・龍の記録＋他四龍の比較展示。 | 6,072 |
 | `world/crossroad/49_crossroad_dining.md` | 区画ごとに客層が棲み分けられた酒場6・茶屋6・高級料理店7軒。各店に常連の顔ぶれを明記し、全NPCがどこかの店で会える「出会いの動線」として運用する。 | 7,654 |
 | `world/crossroad/50_crossroad_brothels.md` | 西区の主要娼館三軒(紅玻璃館・桃灯楼・百花迷宮)の格と客層。 | 2,589 |
 | `world/crossroad/51_black_needle_info_network.md` | 黒針会が運営し生活インフラ化した、伝言・情報屋網の拠点網。 | 5,456 |
@@ -530,4 +530,4 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 ---
 
-合計 **149 ファイル / 610,411 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **149 ファイル / 611,392 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
