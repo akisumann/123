@@ -130,6 +130,7 @@
 - クラリス・ヴァイスフェルト(都市運営上の協力関係にある領主。`characters/npcs/01_clarisse_weissfeld.md`)
 - ヴァレリア・グレンツ(騎士団と冒険者の役割分担を調整する騎士団長。`characters/npcs/03_valeria_grenz.md`)
 - エイダ・ロックウェル(冒険者絡みのトラブルで連絡を取り合う衛兵隊長。`characters/npcs/04_ada_lockwell.md`)
+- セレスティナ(西区で客側につく未登録の護衛。Lv50。「そもそも狙われない形で連れて歩ける人」が要る護衛依頼の候補として名前を控えている。`characters/npcs/61_celestina.md`)
 
 ## シナリオでの役割
 
