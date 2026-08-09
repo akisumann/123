@@ -142,3 +142,5 @@
 - ザラ(最後の刃として動く幹部。`characters/npcs/15_zara.md`)
 - ミレーヌ・ヴァイスフェルト(黒針会を統制下に置く歓楽街組合トップ。孫を見るような感情を抱いている。`characters/npcs/02_milene_weissfeld.md`)
 - ベルナデッタ(西区の古参として、どこかで接点のある桃灯楼の人気嬢。`characters/npcs/20_bernadette.md`)
+- セレスティナ(西区で客側につく臨時護衛。揉め事処理の管轄が重ならないよう互いに距離を測っている。`characters/npcs/61_celestina.md`)
+

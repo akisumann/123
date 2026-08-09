@@ -89,3 +89,5 @@
 - エルシア(百花迷宮の幻術娼婦。娼館街の同業。`characters/npcs/21_elsia.md`)
 - ギデオン(街の顔役同士で面識のある黒針会会主。`characters/npcs/16_gideon.md`)
 - バルト(街中人脈の一つになっている北門の古参門衛。`characters/npcs/22_balto.md`)
+- セレスティナ(西区の護衛。不慣れな客に付ける相手として時々紹介する。`characters/npcs/61_celestina.md`)
+

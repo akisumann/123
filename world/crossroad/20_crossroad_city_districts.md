@@ -627,6 +627,7 @@
 - 天雷(出稼ぎの弓手。`characters/npcs/37_tenrai.md`)
 - 紅葉(武者修行中の旅の騎士。練兵場で特訓中。`characters/npcs/43_momiji.md`)
 - 黒羽(紅葉の旅の同行者。練兵場で稽古に付き合う天狗の剣士。`characters/npcs/44_kokuu.md`)
+- セレスティナ(歓楽街組合に登録した臨時護衛。娼婦側ではなく客側につく。`characters/npcs/61_celestina.md`)
 
 練兵場そのものの詳細(設備・顔ぶれ・コロッセオとの違い)は`world/crossroad/74_crossroad_training_ground.md`を参照。
 

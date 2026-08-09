@@ -110,3 +110,5 @@
 - 飛鳥(裏路地の情報交換で顔見知りになった黒針会の幹部。地の目・足として勧誘してくる。`world/crossroad/32_black_needle_society.md`)
 - エイダ(隠密捕縛の即戦力として勧誘してくる衛兵隊長。表側の窓口。`characters/npcs/04_ada_lockwell.md`)
 - 紅葉、黒羽(西区の練兵場(`world/crossroad/74_crossroad_training_ground.md`)で見かける旅の騎士たち。`characters/npcs/43_momiji.md`、`characters/npcs/44_kokuu.md`)
+- セレスティナ(同じホビットで小柄な技巧型。西区の護衛稼業。夜鴉の止まり木で顔を合わせる。`characters/npcs/61_celestina.md`)
+

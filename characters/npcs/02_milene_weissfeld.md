@@ -105,6 +105,7 @@
 - ベルナデッタ(街の人脈を動かす際に頼る桃灯楼の人気嬢。`characters/npcs/20_bernadette.md`)
 - エイダ・ロックウェル(西区の現場判断で信頼し合う衛兵隊長。`characters/npcs/04_ada_lockwell.md`)
 - レオン・グレイヴ(重大な相談で呼ぶが、金は持たせないカジノの勝負師。`characters/npcs/25_leon_grave.md`)
+- セレスティナ(組合の用心棒名簿に載る臨時護衛。客側につく変わり種。`characters/npcs/61_celestina.md`)
 
 ## エリアス・ヴェイルとの関わり
 
