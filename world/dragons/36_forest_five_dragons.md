@@ -42,4 +42,6 @@
 
 エルフたちは五竜を「守護者」というより、森の長兄として畏敬している。
 
+五竜のステータスとスキルは、あえて事前に決めていない。**実際に登場させる必要が生じた時点で、上のレベルから`python3 tools/generate_character_stats.py --level 84 --stats ...`で組む**(`rules/10_new_character_format.md`)。Lv80台はこの世界の最上位帯にあたり、即興で数値を作ると必ずブレるため、その場の感覚で決めない。
+
 レベル帯としては、森林龍を含む大陸の五龍(`world/02_alvein_continent.md`、Lv90台・神話級)の一段下にあたる伝説級(Lv81〜90)〜大陸級超一流(Lv71〜80、`rules/00_level_system.md`)に位置する。
