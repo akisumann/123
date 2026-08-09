@@ -26,6 +26,7 @@ REF = re.compile(r'([A-Za-z0-9_./]+\.md)')
 
 
 def all_md():
+    """参照元として検査する正典ファイル(tools/配下は対象外)。"""
     for dp, dns, fns in os.walk(ROOT):
         dns[:] = [d for d in dns if d not in (".git", "tools")]
         for n in sorted(fns):
@@ -33,8 +34,18 @@ def all_md():
                 yield os.path.relpath(os.path.join(dp, n), ROOT).replace(os.sep, "/")
 
 
+def link_targets():
+    """参照先として実在を認めるファイル。tools/配下(README等)も含める。"""
+    out = set(all_md())
+    tools_dir = os.path.join(ROOT, "tools")
+    if os.path.isdir(tools_dir):
+        out |= {f"tools/{n}" for n in os.listdir(tools_dir) if n.endswith(".md")}
+    return out
+
+
 def main() -> int:
     existing = set(all_md())
+    targets = link_targets()
     broken = []  # (source, ref)
     for rel in existing:
         if rel in SKIP_FILES:
@@ -47,7 +58,7 @@ def main() -> int:
                 continue
             # 相対でルート基準のパスとして解決
             norm = m.lstrip("./")
-            if norm in existing:
+            if norm in targets:
                 continue
             # ルート直下ファイル(CLAUDE.md 等)への言及も existing に含まれる
             broken.append((rel, m))

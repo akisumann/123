@@ -779,3 +779,8 @@
 - ツールが11本に増えてSTART_HERE.mdが6,181文字まで膨らみ、常時ロード分(CLAUDE.md+START_HERE.md)が16,150文字になっていた。同じ内容の詳細版が`tools/README.md`に既にあるため、START_HERE側は「進行中に通す4ステップ＋詳細は`tools/README.md`」へ畳んだ。
 - 結果:START_HERE.md 6,181→4,595文字、常時ロード分 16,150→14,564文字。CLAUDE.mdは9,969のまま。
 - あわせて`tools/README.md`側を補強:CHARACTERS.md(名簿)を進行手順の1.5として追加、ファイル一覧に`vetting_report.py`・`make_roster.py`・`scene_context.py --edit`を追記。
+
+## check_links.pyがtools/README.mdを参照先として認識できていなかったのを修正
+- START_HERE.mdから`tools/README.md`を参照するようにしたところ、リンク整合チェックが「リンク切れ1件」と報告した。実ファイルは存在するが、checkerが参照先の集合を「正典ファイル(tools/配下を除く)」だけで作っていたため。
+- 参照元の集合(tools/を除く)と、参照先として実在を認める集合(tools/配下の.mdも含む)を分けて修正。リンク切れゼロに戻った。
+- なお、この修正前の状態で一度コミットしてしまっている(検証がコミットの後になった)。以後もbuild.shの出力を確認してからコミットする。
