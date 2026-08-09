@@ -91,6 +91,9 @@
 - 空咲(北区の空輸便利屋。大荷物の運搬で組むことがある。`characters/npcs/39_sorasaki.md`)
 - 氷室(コロッセオの剣闘士。互いの怪力ぶりで妙に意気投合している。`characters/npcs/35_himuro.md`)
 - マモリ(領主専属護衛の重騎士。力自慢同士で気が合う。`characters/npcs/41_mamori.md`)
+- 琥珀(「先生」と慕う製造主。腕の整備も任せている。`characters/npcs/52_kohaku.md`)
+- 銀雪(同じ廃研究施設で暮らす仲間。連携ではタイミングがずれやすい。`characters/npcs/54_ginsetsu.md`)
+- 妲己(同じ廃研究施設で暮らす仲間。無邪気さを微笑ましく見られている。`characters/npcs/55_dakki.md`)
 
 ## 災害パーティーの連携
 

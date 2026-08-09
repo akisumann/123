@@ -331,10 +331,13 @@ def relations(rows: list[dict]) -> dict[str, set[str]]:
         if not path:
             continue
         text = open(path, encoding="utf-8").read()
-        m = re.search(r"(?m)^## よく接する人物\n(.*?)(?=\n## |\Z)", text, re.S)
-        if not m:
+        # 「よく接する人物」だけでなく「◯◯との関係」「相互関係」も拾う。
+        # 災害パーティーのように、仲間の話を専用節に書いているファイルがあるため
+        chunks = [m.group(1) for m in re.finditer(
+            r"(?m)^## (?:よく接する人物|[^\n]*関係)\n(.*?)(?=\n## |\Z)", text, re.S)]
+        if not chunks:
             continue
-        for num in re.findall(r"characters/npcs/(\d+)_", m.group(1)):
+        for num in re.findall(r"characters/npcs/(\d+)_", "\n".join(chunks)):
             other = by_num.get(num)
             if other and other != row["名前"]:
                 graph[row["名前"]].add(other)

@@ -86,6 +86,8 @@
 - 泡姫(下水道住み着きのヘドロスライム。だらけ具合が波長ぴったり。`characters/npcs/40_awahime.md`)
 - 真白(下水道住み着きのアラクネ。まったり過ごす者同士。`characters/npcs/46_mashiro.md`)
 - 徒然(下水道住み着きの元僧侶。のんびりした空気を共有する。`characters/npcs/47_tsurezure.md`)
+- 琥珀(内部に格納する相手。居室・装甲・移動手段を兼ねている。`characters/npcs/52_kohaku.md`)
+- 白金(同じ廃研究施設で暮らす仲間。無邪気さを微笑ましく見ている。`characters/npcs/53_hakkin.md`)
 
 ## 災害パーティーの連携
 
