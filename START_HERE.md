@@ -139,6 +139,9 @@
   必要な canon（ステータス・スキル・口調・行きつけ・その場の顔ぶれ）を機械抽出して 1 ブロックで出力。
   記憶や雰囲気で進行せず、**各場面の前にこれを実行し、出力を読んでから描写する**。
   例：`python3 tools/scene_context.py --chars 天雷,ツバキ --place 夜鴉の止まり木 --time 宵`
+  **`--edit <名前>` は編集用**。人物ファイルを書き換える前に全文・git 履歴（未検分の記述かどうか）・
+  参照している他キャラ・書く前に守ること 5 項を出す。読まずに書く／未検分の記述をユーザー指示より
+  優先する／多面性を一つのタグに畳む、という失敗への歯止め。例：`--edit ララ`
 - `tools/generate_character_stats.py` / `tools/check_character_stats.py` … 新キャラのステータスを
   コードで生成・検算（AI が数値を雰囲気で決めない。`rules/10_new_character_format.md`）。
 - `tools/apply_summaries.py` … `summaries.tsv` を各ファイル冒頭へ挿入（冪等）。
