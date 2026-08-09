@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+
+検査するのは次の4点:
+  1. ステータス7項目の評価値合計 ≒ レベル(±2)
+  2. スキルLvの合計 ≒ レベルの半分(±3)
+  3. レベルと「◯ランク相当」表記の対応(`world/06_economy.md`のランク表)
+  4. SS(規格外)の誤用。SSは五龍のような神話級にのみ使う例外ランク
 """キャラクターのステータス・スキル合計を機械的に検算するツール。
 
 AI(人)がキャラクターを生成・編集するたびに暗算で検算すると、
@@ -23,6 +29,12 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NPC_DIR = os.path.join(ROOT, "characters", "npcs")
 
 RANK_VALUE = {"S": 25, "A": 16, "B": 9, "C": 4, "D": 1, "E": -1, "F": -4}
+
+# 冒険者ランクの帯(`world/06_economy.md`)。レベルとランク表記の食い違いを検出する
+GUILD_BANDS = [(10, "F"), (20, "E"), (30, "D"), (40, "C"), (50, "B"), (60, "A"), (100, "S")]
+GUILD_RE = re.compile(r"レベル\*{0,2}：\*{0,2}(\d+)\(冒険者ランク基準では([A-S])ランク相当")
+# SS(規格外)は五龍のような神話級にのみ使う例外ランク(`rules/02_status_system.md`)
+SS_RE = re.compile(r"(?m)^\|\s*(HP|MP|ATK|DEF|INT|SPD|DEX)\s*\|\s*SS\s*\|")
 STAT_ORDER = ["HP", "MP", "ATK", "DEF", "INT", "SPD", "DEX"]
 
 STAT_TOLERANCE = 2   # rules/02, rules/10 が定める許容差
@@ -168,6 +180,29 @@ def check_member(level: int, window: str, label: str) -> list[str]:
     return problems
 
 
+def guild_band(level: int) -> str:
+    for hi, rank in GUILD_BANDS:
+        if level <= hi:
+            return rank
+    return "S"
+
+
+def check_document(text: str) -> list[str]:
+    """ファイル全体に対する検査(レベル↔冒険者ランク、SSの誤用)。"""
+    problems = []
+    for m in GUILD_RE.finditer(text):
+        level, stated = int(m.group(1)), m.group(2)
+        correct = guild_band(level)
+        if stated != correct:
+            problems.append(
+                f"Lv{level}は{correct}ランク帯なのに「{stated}ランク相当」と書かれている"
+                f"(`world/06_economy.md`のランク表)")
+    if SS_RE.search(text):
+        problems.append("ステータスにSSが使われている。SSは五龍のような神話級にのみ使う"
+                        "例外ランク(`rules/02_status_system.md`)")
+    return problems
+
+
 def check_file(path: str) -> tuple[list[str], bool]:
     """(problems, skipped) を返す。skipped=Trueは検査対象外(起動時ランダム生成など)。"""
     with open(path, encoding="utf-8") as f:
@@ -178,9 +213,9 @@ def check_file(path: str) -> tuple[list[str], bool]:
         return ["レベル行(`- レベル：NN`)が見つからない"], False
 
     if len(windows) == 1 and RUNTIME_RANDOM_HINT.search(text):
-        return [], True  # 起動のたびにランダム割り振りする特殊個体(例:アイアンくん)
+        return check_document(text), True  # 起動のたびにランダム割り振りする特殊個体
 
-    problems: list[str] = []
+    problems: list[str] = check_document(text)
     for level_str, start, end in windows:
         level = int(level_str)
         window = text[start:end]
