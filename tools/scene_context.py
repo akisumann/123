@@ -32,7 +32,11 @@ DINING_FILE = os.path.join(ROOT, "world", "crossroad", "49_crossroad_dining.md")
 CALENDAR_FILE = os.path.join(ROOT, "world", "70_calendar_and_climate.md")
 
 # キャラクターファイルから抜き出す節(この順で出力する)
-CHAR_SECTIONS = ["ステータス", "スキル", "口調", "装備", "日常", "よく接する人物"]
+CHAR_SECTIONS = ["人物", "ステータス", "スキル", "口調", "装備", "日常", "よく接する人物"]
+
+# 「その人が何者か」を書く節は、ファイルによって名前が割れている。
+# 最初に見つかったものを「人物」として拾う(複数あれば全部出す)
+PROFILE_ALIASES = ["プロフィール", "人物像", "性格", "概要", "人物", "立ち位置", "コア特性"]
 
 
 def read(path: str) -> str:
@@ -79,6 +83,20 @@ def render_char(path: str) -> str:
     head, sections = split_sections(text)
     out = [head.rstrip()]
     for want in CHAR_SECTIONS:
+        if want == "人物":
+            # 節名が割れているので、該当する見出しを全部拾う(「性格・特徴」等の前方一致も)
+            hit = False
+            for alias in PROFILE_ALIASES:
+                for title, body in sections.items():
+                    if title == alias or title.startswith(alias):
+                        out.append(f"## {title}\n{body}")
+                        hit = True
+            if not hit:
+                # 複数人ファイルは、人物ごとの節(中に### プロフィール等を持つ)を丸ごと出す
+                for title, body in sections.items():
+                    if "### プロフィール" in body or "### ステータス" in body:
+                        out.append(f"## {title}\n{body}")
+            continue
         for title, body in sections.items():
             # 「日常」「日常の仕事」のような前方一致も拾う
             if title == want or title.startswith(want):
