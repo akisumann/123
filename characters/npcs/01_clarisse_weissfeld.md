@@ -129,7 +129,7 @@
 
 実務一辺倒に見えて、身を固めること自体に背を向けているわけではない。むしろ、自分と対等に渡り合えるような、高レベルで芯の強い異性(彼女にとっては男性)と結婚したい、という願望は人並みに持っている。質実剛健な気質だけに、見目や家柄よりも「芯が通っているか」「打たれても折れないか」を重んじる。
 
-ところが、この街で有力・高名とされる人物は揃いも揃って女性ばかり。妹のミレーヌ(`characters/npcs/02_milene_weissfeld.md`)、騎士団長ヴァレリア(`characters/npcs/03_valeria_grenz.md`)、衛兵隊長エイダ(`characters/npcs/04_ada_lockwell.md`)、名の知れた冒険者パーティー(銀鴉の羽根`characters/npcs/08_silver_raven_feather.md`、統制パーティー`characters/npcs/31_mizushiro.md`)——見回しても該当者がいない。
+ところが、この街で有力・高名とされる人物は揃いも揃って女性ばかり。妹のミレーヌ(`characters/npcs/02_milene_weissfeld.md`)、騎士団長ヴァレリア(`characters/npcs/03_valeria_grenz.md`)、衛兵隊長エイダ(`characters/npcs/04_ada_lockwell.md`)、名の知れた冒険者パーティー(銀鴉の羽根`characters/npcs/08_silver_raven_feather.md`、統制パーティー`characters/npcs/31_mizushiro.md`)。どれだけ見回しても該当者が見当たらない。
 
 しかも、数少ない男性の有力者へ目を向けたところで、今度は年齢が噛み合わない。クラリスは29歳だが、冒険者ギルド支部長ダリオ(44歳。`characters/npcs/07_dario_langford.md`)、北区商業組合長ボルガン(54歳。`characters/npcs/29_vorgan_gard.md`)、鍛冶師ガルム(46歳。`characters/npcs/06_galm_forgelight.md`)といった腕も名も通った男たちは軒並み一回り以上の年上で、どうにも父や叔父の世代に近い。逆に歳の釣り合う若手はといえば、騎士のルカ(22歳・Lv28。`characters/npcs/05_luca_fennel.md`)のようにまだ若く実力も伴わず、クラリス相手に緊張してしまう者ばかり。かろうじて同年代といえるカジノ常連レオン(31歳。`characters/npcs/25_leon_grave.md`)に至っては、芯の強い実務家を求めるクラリスからすれば最も遠い自称・勝負師である。「高レベル・芯が強い・歳も釣り合う・そのうえ男」という条件を全部満たす相手が、この街にはどうにも見当たらない。
 
