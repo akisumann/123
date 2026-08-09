@@ -36,6 +36,11 @@ python3 tools/quest_board.py --district 東区  # 区画の街区掲示板(軽�
 python3 tools/street_talk.py --place 東区  # その区画に届いている噂
 ```
 
+### 1.5 誰が何者かを掴む
+
+`CHARACTERS.md`(自動生成の名簿)に60人の要点が1枚でまとまっている。まずここで当たりを付け、
+描写する人物だけ次の`scene_context.py`へ降りる。生成は`python3 tools/make_roster.py`(build.shに同梱)。
+
 ### 2. 場面に出す人物の情報を引く
 
 ```bash
@@ -109,8 +114,13 @@ canonを直せばツールの出力も変わる。二重管理にならないた
 | `venue_map.py` | 72から施設×人物を抽出(区画の中のどの店にいるかを決める) |
 | `quest_board.py` | ギルドの依頼板／区画の街区掲示板 |
 | `street_talk.py` | 噂の発生と伝播(悪天候で伝達が遅れる) |
-| `scene_context.py` | 場面に必要なcanonを1ブロックに抽出 |
+| `scene_context.py` | 場面に必要なcanonを1ブロックに抽出／`--edit`で編集前の全文と注意点 |
 | `battle_roll.py` | 戦闘ダイスを実際に振る |
-| `generate_character_stats.py` / `check_character_stats.py` | 新キャラの数値生成・検算 |
+| `generate_character_stats.py` / `check_character_stats.py` | 新キャラの数値生成・検算(ステータス合計・スキル合計・冒険者ランク・SS誤用) |
+| `vetting_report.py` | 未検分レポート(インポート当時のまま手が入っていないファイルの洗い出し) |
+| `make_roster.py` | NPC名簿`CHARACTERS.md`を生成 |
 | `build.sh` | 配布物の再生成(以下をまとめて実行) |
 | `apply_summaries.py` / `make_index.py` / `make_all.py` / `make_digest.py` / `make_json.py` / `count.py` / `check_links.py` | 索引・全部載せ・ダイジェスト・JSON・文字数・リンク整合 |
+
+編集時は`scene_context.py --edit <名前>`、未検分の確認は`vetting_report.py`。
+どちらも「読まずに書く」「ユーザーが目を通していない記述を指示より優先する」を防ぐためのもの。

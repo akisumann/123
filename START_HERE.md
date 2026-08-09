@@ -110,49 +110,19 @@
 - `CHARACTERS.md` … **NPC 名簿（自動生成）**。60 人の要点を 1 枚に——レベル・拠点区画・得意/不得意・
   看板スキル・口調・行きつけ。**まずこれで「誰が何者か」を掴み、描写する人物だけ個別ファイルへ降りる。**
 - `world/crossroad/72_place_character_map.md` … **場所→そこにいるキャラ**の対応マップ。区画・施設へ入った時「誰がいるか」を速攻参照。通り名（速攻参照キー）付き。
-- `tools/day_plan.py` … **街の配置生成**。日付と時間帯を入れると、住人 60 人の生活ルーティン
-  （`tools/routines.tsv`）＋重み付き乱数で「今どこに誰がいるか」が決まる。GM が都合で人を選ぶ前に、
-  街が勝手に動いている状態を先に作るためのもの。住人は**不動**（店主・門衛・受付など持ち場を離れず、
-  行けば必ず会える）／**定住**（拠点はあるが時々ふらつく。`※`印＝その人にしては珍しい場所＝場面の種）／
-  **遊動**（衛兵隊長・連絡役・情報屋・盗人など一日中うろつく。`→区画`で回る先も出る）に分かれる。
-  市内は区画の中の**店・施設**まで割り振られる（`《帰還者の杯》ルカ／リエラ` のように出る。
-  対応は `tools/venue_map.py` が 72 の施設常駐・行きつけ・宿から抽出し、店の種別と時間帯で噛み合わせる）。
-  日付からは暦（年・月・旬）・年中行事・空模様も同時に決まり、祭りの日は人が祭り区域へ集まり、
-  荒天の日は門が制限されて遠出が減る。冒険者は行き先の遠さに応じて泊まりがけで街を空ける。
-  末尾の**【今日のめぐり合わせ】**は、依頼先が被った・珍しい場所で知人と鉢合わせた偶然の一覧＝そのまま場面の起点。
-  例：`python3 tools/day_plan.py --day 3 --time 宵` / `--place 東区` / `--who ミルカ`
-- `tools/day_brief.py` … **その日の街を一枚に**（暦・天候・行事・配置・掲示板・噂をまとめて出す）。
-  `--json` を付けると機械可読な形で出るので、**Python を実行できない AI へ貼り付けて渡せる**。
-  例：`python3 tools/day_brief.py --day 8 --json`
-- `tools/quest_board.py` … **その日のギルド掲示板**。依頼はその場で考えず、既存の依頼表（`64・65・66`）の
-  掲示例から日付固定の乱数で選ぶ。報酬額も表の値なので `world/06_economy.md` の相場を外さない。
-  未受注の依頼は数日貼られ続け、現地に出ている顔ぶれも併記される。例：`python3 tools/quest_board.py --day 8`
-  `--district 東区` でギルド板とは別の**街区掲示板**（`22`。軽い仕事・告知・怪しい張り紙。住民と接触する動線）。
-- `tools/street_talk.py` … **その日、街で流れている噂**。噂の種は実際に起きたこと（誰が発った・戻った、
-  珍しい場所で見かけた、高ランク依頼が貼られた、荒天・祭り）から機械的に拾う。噂は日を追って広まり、
-  悪天候の日は情報網の伝達が遅れる（`51`）。裏稼業の人物の動きは噂に上がらない。
-  例：`python3 tools/street_talk.py --day 8 --place 東区`
-- `tools/battle_roll.py` … **戦闘ダイスを実際に振る**。`characters/npcs/` からステータス表とスキル表を読み、
-  出目を一つずつ表示して敵戦況値との差分まで出す（`rules/03_combat_system.md`）。雰囲気で数字を作れなくなる。
-  例：`python3 tools/battle_roll.py --enemy 大型魔物 --act 天雷:超遠隔照準:DEX --act ツバキ:鎖鎌術:DEX --mob Lv30x3`
-- `tools/session_day.txt` … **作中の今日が何日目か**。各ツールは `--day` を省略するとこの日付を使う。
-  日を進めるのは `python3 tools/day_plan.py --advance`（既定 1 日）。
-- `tools/scene_context.py` … **GM 進行用シーンパック生成**。場面の入力（人物・場所・時間帯）から
-  必要な canon（ステータス・スキル・口調・行きつけ・その場の顔ぶれ）を機械抽出して 1 ブロックで出力。
-  記憶や雰囲気で進行せず、**各場面の前にこれを実行し、出力を読んでから描写する**。
-  例：`python3 tools/scene_context.py --chars 天雷,ツバキ --place 夜鴉の止まり木 --time 宵`
-  **`--edit <名前>` は編集用**。人物ファイルを書き換える前に全文・git 履歴（未検分の記述かどうか）・
-  参照している他キャラ・書く前に守ること 5 項を出す。読まずに書く／未検分の記述をユーザー指示より
-  優先する／多面性を一つのタグに畳む、という失敗への歯止め。例：`--edit ララ`
-- `tools/vetting_report.py` … **未検分レポート**。初回の一括インポート（外部 AI 生成データ）当時のまま
-  内容に手が入っていないファイルを git 履歴から洗い出す。ここに挙がった記述は**ユーザーの指示より
-  優先してはならない**。例：`python3 tools/vetting_report.py` / `--all`
-- `tools/generate_character_stats.py` / `tools/check_character_stats.py` … 新キャラのステータスを
-  コードで生成・検算（AI が数値を雰囲気で決めない。`rules/10_new_character_format.md`）。
-- `tools/apply_summaries.py` … `summaries.tsv` を各ファイル冒頭へ挿入（冪等）。
-- `tools/make_all.py` … zip 非対応 AI 用の `123_all.md`（先頭に正典＋目次）を生成。
-- `tools/make_digest.py` … 核だけの `DIGEST.md`（約 2 万字）を生成。
-- `tools/count.py` … 文字数計測（`--budget` で入口が肥大していないか警告）。
+- **`tools/` のツール群** … 詳細と使い方は **`tools/README.md`**（機械側だけを分けた `123_tools.zip` にも同梱）。
+  進行中はこの順に通す:
+  1. `python3 tools/day_brief.py` … その日の街を一枚に（暦・天候・行事・配置・掲示板・噂）。`--json` で他の AI へ渡せる
+  2. `python3 tools/scene_context.py --chars <名前> --place <場所> --time <刻>` … 場面に必要な canon を 1 ブロックで
+     （人物・ステータス・スキル・口調・行きつけ・その場の顔ぶれ）。**読んでから描写する**
+  3. `python3 tools/battle_roll.py --enemy 大型魔物 --act 名前:スキル:ステータス` … 戦闘ダイスを実際に振る
+  4. `python3 tools/day_plan.py --advance` … 日を進める（作中の日付は `tools/session_day.txt` の 1 行）
+  内訳を個別に見るなら `day_plan.py`（配置）/ `quest_board.py`（ギルド板・`--district` で街区掲示板）/
+  `street_talk.py`（噂）。編集時は `scene_context.py --edit <名前>`（全文＋未検分かどうか＋書く前に守ること）。
+  世界を編集する時は `generate_character_stats.py`（数値生成）→ `check_character_stats.py`（検算）→
+  `vetting_report.py`（未検分の洗い出し）。
+- 配布物の生成系（`apply_summaries` / `make_index` / `make_all` / `make_digest` / `make_json` /
+  `make_roster` / `count` / `check_links`）は `bash tools/build.sh` が一括で回す。個別の説明は `tools/README.md`。
 
 > **ファイルを追加・編集したら `bash tools/build.sh` を実行**すれば、TL;DR 挿入・索引・全部載せ・
 > ダイジェスト・zip がすべて最新に揃う。新規ファイルを足したら `summaries.tsv` に 1 行追記する。
