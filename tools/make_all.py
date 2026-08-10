@@ -99,9 +99,8 @@ def build() -> str:
         for rel in group:
             parts.append(f"\n\n{'-'*72}\n## ▼ {rel}\n{'-'*72}\n\n{read(rel)}")
 
-    # 4. 付録: 作業ログ
-    if os.path.exists(os.path.join(ROOT, "PROGRESS.md")):
-        parts.append(f"\n\n{'='*72}\n# 付録: PROGRESS.md(作業ログ・参照用)\n{'='*72}\n\n{read('PROGRESS.md')}")
+    # PROGRESS.md(作業ログ)は入れない。プレイにも設定参照にも使わない履歴で、
+    # 全部載せの分量だけを押し上げるため。zip側も build.sh で除外している。
 
     return "".join(parts)
 
