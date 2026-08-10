@@ -22,13 +22,16 @@ python3 tools/make_all.py
 echo "[4/9] DIGEST.md (核だけの貼り付け版)"
 python3 tools/make_digest.py
 
-echo "[5/9] 123.json (JSON として食えるAI・外部ツール用)"
+echo "[5/9] 123_city.md (クロスロード編。他国・五龍を除いた街のセッション用)"
+python3 tools/make_city.py
+
+echo "[5b/9] 123.json (JSON として食えるAI・外部ツール用)"
 python3 tools/make_json.py
 
 echo "[6/9] 123.zip (zip 対応 AI 用。生成物と .git は除外)"
 rm -f 123.zip
 zip -q -r 123.zip . \
-  -x '.git/*' 'tools/*' '123_all.md' 'DIGEST.md' '123.zip' '123.json' 'PROGRESS.md' '123_tools.zip'
+  -x '.git/*' 'tools/*' '123_all.md' '123_city.md' 'DIGEST.md' '123.zip' '123.json' 'PROGRESS.md' '123_tools.zip'
 
 echo "[7/9] 123_tools.zip (機械側だけを分けた一式)"
 rm -f 123_tools.zip
@@ -37,5 +40,5 @@ zip -q -r 123_tools.zip tools -x 'tools/__pycache__/*'
 echo "[8/9] リンク整合チェック"
 python3 tools/check_links.py || true
 
-echo "done. 配布物: 123.zip(設定) / 123_all.md / 123.json / DIGEST.md / 123_tools.zip(機械側)"
+echo "done. 配布物: 123.zip(設定) / 123_all.md(全部) / 123_city.md(クロスロード編) / 123.json / DIGEST.md / 123_tools.zip(機械側)"
 python3 tools/count.py --budget || true
