@@ -15,7 +15,7 @@ world/nations/           五大国+関連組織(セントラル・ヘイヴン�
 world/dragons/           五龍(大地龍・火山龍・氷結龍・海洋龍・森林龍)+森林五枝竜
 world/crossroad/         クロスロードの全設定(区画・施設・NPC所属先・組織・祭り)
 rules/                   判定・戦闘・レベル・スキル・魔法などのゲームルール
-characters/npcs/         クロスロードの主要NPC(60人、通り名は`world/crossroad/44_crossroad_nicknames.md`に一覧)
+characters/npcs/         クロスロードの主要NPC(62人、通り名は`world/crossroad/44_crossroad_nicknames.md`に一覧)
 PROGRESS.md              作業ログ(時系列)。「今何があるか」の索引ではなく「何を追加したか」の記録。
 ```
 
@@ -49,15 +49,15 @@ PROGRESS.md              作業ログ(時系列)。「今何があるか」の�
 
 | 場面 | 参照先 |
 |---|---|
-| 場所が変わった(区画・施設に入った) | クロスロード内の区画(中央・北・東・南・西)なら、まず`world/crossroad/20_crossroad_city_districts.md`のその区画の「主なNPC」「主な施設」を確認する。実際に登場させる際の基準は下記「区画の主なNPCは背景に埋もれさせない」を参照。**その区画・施設に誰がいるかは`world/crossroad/72_place_character_map.md`(場所×キャラ対応マップ)で速攻参照できる。** 他国は`world/nations/`、街道・危険地域・ダンジョンは`world/`直下を参照 |
+| 場所が変わった(区画・施設に入った) | クロスロード内の区画なら`world/crossroad/20_crossroad_city_districts.md`のその区画の「主なNPC」「主な施設」、および`world/crossroad/72_place_character_map.md`(場所×キャラ対応マップ)。登場させる基準は下記「区画の主なNPCは背景に埋もれさせない」。他国は`world/nations/`、街道・危険地域・ダンジョンは`world/`直下 |
 | NPCが登場・言及された | `characters/npcs/`。名前が分からなければ`world/crossroad/44_crossroad_nicknames.md`の通り名一覧から逆引き。行動描写の基準は下記「登場するキャラクターの行動はステータス・スキルを踏まえる」を参照 |
 | 戦闘が始まった | `rules/02_status_system.md`(ステータス)、`rules/03_combat_system.md`(判定・戦況処理) |
 | 魔法の種類・階位が話題になった | `rules/05_magic_theory.md` |
-| 依頼(クエスト)を受ける | `world/14_adventurers_guild.md`(依頼の流れ・ランク制度)、`world/06_economy.md`(ランク別報酬額の目安)。報酬額は必ずここの相場に照らして決める、雰囲気だけで金額を決めない。**表の額は基準額**で、単独で受けられる依頼はそれが総額、複数人が必須の依頼は**基準額の2〜4倍が総額**になり、それをパーティーで分配する。総額は依頼票の時点で確定していて受け手の人数では変わらない(推奨人数は安全の目安であって支払いの根拠ではない) |
-| 依頼を新しく提示する(掲示板・NPCからの依頼など) | まず`world/crossroad/64_danger_zone_quest_board.md`(4つの危険地域)、`world/crossroad/65_dungeon_quest_board.md`(3つのダンジョン)、`world/crossroad/66_civilian_security_quest_board.md`(護衛・盗賊討伐・犯罪者の捕縛・警備)の掲示例から選べないか確認する。討伐依頼のたびに裏の陰謀や調査要素を挟まない。`world/14_adventurers_guild.md`の「定期討伐(素材調達)」の通り、討伐依頼の大半は特別な背景を持たない日常的な間引き・素材調達であるべきで、これが基本形。`world/nations/17_central_haven_undead_problem.md`級の異常事態を伴う依頼は例外として稀に出す程度に留め、護衛・採取・調査・護送なども含めて依頼の種類が偏らないようにする。依頼の舞台は上記の依頼表や`world/crossroad/11_crossroad_city.md`の4つの危険地域・3つのダンジョンに縛られる必要はなく、`world/07_settlement_generation.md`・`world/08_danger_zone_generation.md`・`world/09_dungeon_generation.md`の生成ルールに沿って、名もない村・森・洞窟など都度その場で新しい舞台を作ってよい |
+| 依頼(クエスト)を受ける | `world/14_adventurers_guild.md`(依頼の流れ・ランク制度)、`world/06_economy.md`(ランク別報酬額・**基準額と総額の決まり方**)。金額を動かす場面では必ず参照し、雰囲気で額を決めない |
+| 依頼を新しく提示する(掲示板・NPCからの依頼など) | まず`world/crossroad/64_danger_zone_quest_board.md`(危険地域)・`65`(ダンジョン)・`66`(護衛・盗賊討伐・捕縛・警備)の掲示例から選べないか確認する。**出し方の方針は`world/14_adventurers_guild.md`「依頼を新しく提示する時(GM運用)」に従う**(討伐に毎回陰謀を挟まない／異常事態は稀に／種類を偏らせない／舞台は`world/07・08・09`の生成ルールでその場に作ってよい) |
 | 買い物・値段・素材の売買・所持金の増減 | `world/06_economy.md`(金額感覚・価格帯・素材買い取りランク制度)、`world/crossroad/42,45,49,50`(職人区商品・市場・飲食店・娼館)。金額を動かす場面では必ず参照し、相場から外れた金額を即興で出さない |
 | 特に目的なく街を散策している | `world/crossroad/53_crossroad_wandering_events.md`。世間話・軽い手伝い・噂話程度の小さなシーンで十分で、毎回オチや報酬、戦闘、新しい陰謀を用意する必要はない。挟む頻度にも余白を残す |
-| 食事・休憩・一杯・待ち合わせ・馴染みに会う・噂を集める・時間を潰す | まず`world/crossroad/49_crossroad_dining.md`(酒場6・茶屋6・高級店7、各店に常連の顔ぶれを明記)。**人と会う・場面を切り替える・既存NPCを自然に出す時の既定の受け皿**。無名の通行人で埋めず、その店の常連から今の時間帯・状況に合う人物を出す。どの店が生きるかは時間帯次第(`world/70_calendar_and_climate.md`。朝〜昼＝茶屋・井戸端、夕〜宵＝酒場、西区は夜) |
+| 食事・休憩・一杯・待ち合わせ・馴染みに会う・噂を集める・時間を潰す | `world/crossroad/49_crossroad_dining.md`(酒場6・茶屋6・高級店7、各店に常連を明記)。**人と会う・場面を切り替える時の既定の受け皿。** 無名の通行人で埋めず、その店の常連から出す。運用の詳細は同ファイル「店へ自然に足が向く動線」 |
 | 五龍や国家規模の話題 | `world/dragons/`、`world/nations/`、`world/02_alvein_continent.md` |
 | 伏線を使いたい・物語に深みを足したい | `world/crossroad/75_scenario_seeds.md`(ネタ帳)。消化すべきToDoではなく、場面に困った時に引ける引き出し。結末は決めず、使うかどうかもGMの裁量 |
 
