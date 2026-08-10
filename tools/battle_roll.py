@@ -8,10 +8,14 @@
 出目は毎回変わる本物の乱数(街の配置と違い、戦闘は再現しない)。
 
 使い方:
-    python3 tools/battle_roll.py --enemy 大型魔物 \\
+    python3 tools/battle_roll.py --enemy 骨鳴り墓原 \\
         --act 天雷:超遠隔照準:DEX --act ツバキ:鎖鎌術:DEX --act 氷室:氷装甲:DEF
     python3 tools/battle_roll.py --enemy 50 --act 唯一:広範囲斬撃:ATK --mob 30x3
     python3 tools/battle_roll.py --who 天雷          # その人のステータスとスキルを一覧
+
+`--enemy`は**舞台の名前で指定するのが基本**(赤牙森林・骨鳴り墓原など)。敵戦況値は
+敵の見た目ではなく舞台のLv帯で決まるため(rules/03「敵戦況値は舞台のLv帯に合わせて
+選ぶ」)、「大型だから80」と分類から入ると、中級の採取地へ上位の数字を置く事故が起きる。
 """
 from __future__ import annotations
 import argparse
@@ -31,6 +35,13 @@ STATS = ["HP", "MP", "ATK", "DEF", "INT", "SPD", "DEX"]
 # 敵戦況値の目安(rules/03)
 ENEMY_LEVEL = {"小型魔物の群れ": 30, "通常モンスター集団": 50, "大型魔物": 80,
                "強力なボス": 120, "災害級存在": 200}
+
+# 舞台のLv帯から引く用(rules/03「敵戦況値は舞台のLv帯に合わせて選ぶ」)。
+# 敵の見た目(大型/群れ)ではなく、舞台のLv帯が敵戦況値を決める。
+ZONE_LEVEL = {"さざめき平原": 30, "赤牙森林": 50, "苔むし地下遺構": 50,
+              "灰岩峡谷": 80, "灰岩坑道": 80, "骨鳴り墓原": 120,
+              "星食いのダンジョン": 200,
+              "Lv20": 30, "Lv30": 50, "Lv45": 80, "Lv60": 120}
 # レベル別モブダイス(rules/03「名前なしの味方」)
 MOB_DICE = [(20, 3, 3), (30, 3, 4), (40, 4, 4), (45, 4, 5), (50, 5, 5)]
 
@@ -174,10 +185,15 @@ def main() -> int:
     print(f"\n味方の戦況変化値 合計 = {total}")
 
     if args.enemy:
-        enemy = ENEMY_LEVEL.get(args.enemy)
+        enemy = ENEMY_LEVEL.get(args.enemy) or ZONE_LEVEL.get(args.enemy)
         if enemy is None:
             enemy = int(args.enemy) if args.enemy.isdigit() else 0
-        label = args.enemy if args.enemy in ENEMY_LEVEL else f"敵戦況値{enemy}"
+        if args.enemy in ZONE_LEVEL:
+            label = f"{args.enemy}のLv帯相当"
+        elif args.enemy in ENEMY_LEVEL:
+            label = args.enemy
+        else:
+            label = f"敵戦況値{enemy}"
         diff = total - enemy
         ratio = abs(diff) / enemy if enemy else 0
         size = "小さい" if ratio < 0.25 else ("中程度" if ratio < 0.75 else "大きい")
@@ -188,7 +204,10 @@ def main() -> int:
 - 小さい…戦況はほとんど変化しない。軽い攻防や小さな有利・不利程度。
 - 中程度…戦況が明確に変化する。押し返す、負傷する、包囲される、突破口を開くなど。
 - 大きい…戦局が大きく動く。敵主力の崩壊、撤退、制圧、討伐など決定的な出来事。
-※上の割合は読み違え防止の目安で、描写の規模は差分の大小に対応させること。""")
+※上の割合は読み違え防止の目安で、描写の規模は差分の大小に対応させること。
+※敵戦況値は敵の見た目(大型/群れ)ではなく**舞台のLv帯**で決める(rules/03)。
+　Lv10〜20＝30／Lv25〜35＝50／Lv40〜50＝80／Lv55〜70＝120。
+　Lv帯を超える数字を置く時は「その地域に本来いない異常個体」として描写すること。""")
     return 0
 
 
