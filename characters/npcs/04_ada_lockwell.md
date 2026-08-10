@@ -95,7 +95,7 @@
 
 - クラリス・ヴァイスフェルト(職務上の敬意を持つ領主。`characters/npcs/01_clarisse_weissfeld.md`)
 - ヴァレリア・グレンツ(治安と防衛の役割分担をする騎士団長。`characters/npcs/03_valeria_grenz.md`)
-- ミレーヌ・ヴァイスフェルト(西区の現場判断で信頼し合う歓楽街組合トップ。`characters/npcs/02_milene_weissfeld.md`)
+- ミレーヌ・ヴァイスフェルト(西区の現場判断で信頼し合う歓楽街組合トップ。大きな事態では組合の用心棒を臨時警邏として借り、書面より先に口頭で話をつける相手。`characters/npcs/02_milene_weissfeld.md`、`world/crossroad/31_crossroad_security_forces.md`)
 - ダリオ・ラングフォード(冒険者絡みのトラブル対応で連絡を取る支部長。`characters/npcs/07_dario_langford.md`)
 - バルト(長年信頼を寄せている北門の古参門衛。`characters/npcs/22_balto.md`)
 - ツバキ(隠密戦力の不足を埋めるべく勧誘している斥候。黒針会と取り合いの状態。`characters/npcs/36_tsubaki.md`)
