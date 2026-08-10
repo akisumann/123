@@ -190,6 +190,30 @@ def board_of(day: int, quests: list[dict]) -> list[dict]:
     return board
 
 
+MULTIPLIERS = (2, 2.5, 3, 3.5, 4)
+
+
+def party_min(nin: str) -> int:
+    """推奨人数の表記("4名" "2名〜" "3〜4名")から下限人数を読む。"""
+    m = re.findall(r"\d+", nin or "")
+    return int(m[0]) if m else 1
+
+
+def payout(q: dict, start: int) -> str:
+    """依頼票に出す総額。基準額は表の値で、複数必須なら2〜4倍が総額になる
+    (`world/06_economy.md`)。倍率は掲示日と依頼名から決まるので、継続掲示でもぶれない。"""
+    m = re.match(r"([\d,]+)G(.*)", (q.get("報酬") or "").strip())
+    if not m:
+        return q.get("報酬", "")
+    base, tail = int(m.group(1).replace(",", "")), m.group(2)
+    if party_min(q.get("人数", "")) <= 1:
+        return f"総額{base:,}G(単独){tail}"
+    mult = dp.rng("payout", start, q["名"]).choice(MULTIPLIERS)
+    total = int(base * mult)
+    label = f"{mult:g}"
+    return f"総額{total:,}G(基準{base:,}G×{label}){tail}"
+
+
 def render(day: int, rank: str = "") -> str:
     quests = load_quests()
     board = board_of(day, quests)
@@ -220,7 +244,7 @@ def render(day: int, rank: str = "") -> str:
         for q in group:
             place = stage_place(q)
             head = f"[{q['ランク']}] {q['名']}"
-            meta = f"{q['舞台']}／{q['人数']}／{q['報酬']}"
+            meta = f"{q['舞台']}／{q['人数']}／{payout(q, day - q['経過'])}"
             if q["経過"]:
                 meta += f"／掲示{q['経過'] + 1}日目"
             out.append(f"- {head}\n    {meta}\n    {q['内容']}")
@@ -235,7 +259,10 @@ def render(day: int, rank: str = "") -> str:
     out.append("""
 【使い方】
 - ここに出た依頼は`world/crossroad/64・65・66`の掲示例そのままで、報酬額も`world/06_economy.md`の
-  相場に沿った表の値。金額を場の勢いで決めないための土台として使う(報酬は1人あたりの目安)。
+  相場に沿った表の値。金額を場の勢いで決めないための土台として使う。
+- **表示しているのは総額。** 表の額は基準額で、単独で受けられる依頼はそれが総額、複数人が必須の
+  依頼は基準額の2〜4倍が総額になる。パーティーはこの総額を分配する(`world/06_economy.md`)。
+  総額は受け手の人数では変わらない——四人で行けば一人あたりが薄くなるだけである。
 - 討伐依頼の大半は特別な背景を持たない日常的な間引き・素材調達(`world/14_adventurers_guild.md`)。
   裏の陰謀を毎回挟まない。大きな案件をやる時は`world/crossroad/75_scenario_seeds.md`から持ってくる。
 - 表にない舞台(名もない村・森・洞窟)で依頼を作りたい時は、`world/07・08・09`の生成ルールに沿って

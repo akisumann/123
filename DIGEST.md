@@ -198,7 +198,7 @@ PROGRESS.md              作業ログ(時系列)。「今何があるか」の�
 | NPCが登場・言及された | `characters/npcs/`。名前が分からなければ`world/crossroad/44_crossroad_nicknames.md`の通り名一覧から逆引き。行動描写の基準は下記「登場するキャラクターの行動はステータス・スキルを踏まえる」を参照 |
 | 戦闘が始まった | `rules/02_status_system.md`(ステータス)、`rules/03_combat_system.md`(判定・戦況処理) |
 | 魔法の種類・階位が話題になった | `rules/05_magic_theory.md` |
-| 依頼(クエスト)を受ける | `world/14_adventurers_guild.md`(依頼の流れ・ランク制度)、`world/06_economy.md`(ランク別報酬額の目安)。報酬額は必ずここの相場に照らして決める、雰囲気だけで金額を決めない。この相場は1人あたりの平均取り分であり、パーティー人数で等分する総額ではない |
+| 依頼(クエスト)を受ける | `world/14_adventurers_guild.md`(依頼の流れ・ランク制度)、`world/06_economy.md`(ランク別報酬額の目安)。報酬額は必ずここの相場に照らして決める、雰囲気だけで金額を決めない。**表の額は基準額**で、単独で受けられる依頼はそれが総額、複数人が必須の依頼は**基準額の2〜4倍が総額**になり、それをパーティーで分配する。総額は依頼票の時点で確定していて受け手の人数では変わらない(推奨人数は安全の目安であって支払いの根拠ではない) |
 | 依頼を新しく提示する(掲示板・NPCからの依頼など) | まず`world/crossroad/64_danger_zone_quest_board.md`(4つの危険地域)、`world/crossroad/65_dungeon_quest_board.md`(3つのダンジョン)、`world/crossroad/66_civilian_security_quest_board.md`(護衛・盗賊討伐・犯罪者の捕縛・警備)の掲示例から選べないか確認する。討伐依頼のたびに裏の陰謀や調査要素を挟まない。`world/14_adventurers_guild.md`の「定期討伐(素材調達)」の通り、討伐依頼の大半は特別な背景を持たない日常的な間引き・素材調達であるべきで、これが基本形。`world/nations/17_central_haven_undead_problem.md`級の異常事態を伴う依頼は例外として稀に出す程度に留め、護衛・採取・調査・護送なども含めて依頼の種類が偏らないようにする。依頼の舞台は上記の依頼表や`world/crossroad/11_crossroad_city.md`の4つの危険地域・3つのダンジョンに縛られる必要はなく、`world/07_settlement_generation.md`・`world/08_danger_zone_generation.md`・`world/09_dungeon_generation.md`の生成ルールに沿って、名もない村・森・洞窟など都度その場で新しい舞台を作ってよい |
 | 買い物・値段・素材の売買・所持金の増減 | `world/06_economy.md`(金額感覚・価格帯・素材買い取りランク制度)、`world/crossroad/42,45,49,50`(職人区商品・市場・飲食店・娼館)。金額を動かす場面では必ず参照し、相場から外れた金額を即興で出さない |
 | 特に目的なく街を散策している | `world/crossroad/53_crossroad_wandering_events.md`。世間話・軽い手伝い・噂話程度の小さなシーンで十分で、毎回オチや報酬、戦闘、新しい陰謀を用意する必要はない。挟む頻度にも余白を残す |
@@ -316,8 +316,8 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `CHARACTERS.md` | 主要NPC60人の要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 11,383 |
-| `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,969 |
-| `PROGRESS.md` | PROGRESS | 90,311 |
+| `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 10,059 |
+| `PROGRESS.md` | PROGRESS | 91,242 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 4,595 |
 
@@ -344,7 +344,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/03_history.md` | 神代(五龍到来)→開拓→国家成立→戦乱→現在、の歴史年表。 | 916 |
 | `world/04_monster_taxonomy.md` | モンスターの基本種族分類(非網羅的な管理用リスト)。 | 1,755 |
 | `world/05_civilization_classification.md` | 知性ある存在を文明圏との関係で分ける「文明人分類」。 | 1,123 |
-| `world/06_economy.md` | 通貨G・物価・冒険者ランク別報酬・素材買い取りランク制度。金額を動かす場面の基準。 | 7,335 |
+| `world/06_economy.md` | 通貨G・物価・冒険者ランク別報酬・素材買い取りランク制度。金額を動かす場面の基準。 | 7,668 |
 | `world/07_settlement_generation.md` | 集落・都市を規模に応じて生成するルール(付随する危険地域等)。 | 522 |
 | `world/08_danger_zone_generation.md` | 魔物・魔力で危険化した「危険地域」を生成するルール。 | 2,035 |
 | `world/09_dungeon_generation.md` | 自然発生・遺構・人工など、ダンジョンを生成するルール。 | 1,366 |
@@ -418,9 +418,9 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/crossroad/61_red_fang_forest.md` | 危険地域②赤牙森林(Lv25〜35)。薬効資源を守る縄張り持ちの魔獣。 | 3,893 |
 | `world/crossroad/62_grey_rock_canyon.md` | 危険地域③灰岩峡谷(Lv40〜50)。飛行魔物と鉱石・結晶の採取地。 | 4,894 |
 | `world/crossroad/63_bone_toll_moor.md` | 危険地域④骨鳴り墓原(Lv55〜65)。アンデッドを集める古戦場跡の墓原。 | 5,541 |
-| `world/crossroad/64_danger_zone_quest_board.md` | 4つの危険地域を舞台にした、ギルド定番依頼の掲示例。 | 3,744 |
-| `world/crossroad/65_dungeon_quest_board.md` | 3つのダンジョンを舞台にした、ギルド定番依頼の掲示例。 | 4,233 |
-| `world/crossroad/66_civilian_security_quest_board.md` | 街道・都市が舞台の護衛・盗賊討伐・捕縛・警備の定番依頼例。 | 2,938 |
+| `world/crossroad/64_danger_zone_quest_board.md` | 4つの危険地域を舞台にした、ギルド定番依頼の掲示例。 | 3,987 |
+| `world/crossroad/65_dungeon_quest_board.md` | 3つのダンジョンを舞台にした、ギルド定番依頼の掲示例。 | 4,483 |
+| `world/crossroad/66_civilian_security_quest_board.md` | 街道・都市が舞台の護衛・盗賊討伐・捕縛・警備の定番依頼例。 | 3,202 |
 | `world/crossroad/67_crossroad_casino_high_and_low.md` | カジノのカードゲーム・ハイアンドローの遊び方とルール。 | 1,684 |
 | `world/crossroad/68_crossroad_casino_war.md` | カジノのカードゲーム・カジノウォーの遊び方とルール。 | 1,077 |
 | `world/crossroad/69_crossroad_seven_indian_poker.md` | カジノのカードゲーム・セブンインディアンポーカーのルール。 | 1,715 |
@@ -505,4 +505,4 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 ---
 
-合計 **152 ファイル / 640,374 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **152 ファイル / 642,485 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。

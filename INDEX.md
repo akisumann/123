@@ -15,8 +15,8 @@
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `CHARACTERS.md` | 主要NPC60人の要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 11,383 |
-| `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,969 |
-| `PROGRESS.md` | PROGRESS | 90,311 |
+| `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 10,059 |
+| `PROGRESS.md` | PROGRESS | 91,242 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 4,595 |
 
@@ -43,7 +43,7 @@
 | `world/03_history.md` | 神代(五龍到来)→開拓→国家成立→戦乱→現在、の歴史年表。 | 916 |
 | `world/04_monster_taxonomy.md` | モンスターの基本種族分類(非網羅的な管理用リスト)。 | 1,755 |
 | `world/05_civilization_classification.md` | 知性ある存在を文明圏との関係で分ける「文明人分類」。 | 1,123 |
-| `world/06_economy.md` | 通貨G・物価・冒険者ランク別報酬・素材買い取りランク制度。金額を動かす場面の基準。 | 7,335 |
+| `world/06_economy.md` | 通貨G・物価・冒険者ランク別報酬・素材買い取りランク制度。金額を動かす場面の基準。 | 7,668 |
 | `world/07_settlement_generation.md` | 集落・都市を規模に応じて生成するルール(付随する危険地域等)。 | 522 |
 | `world/08_danger_zone_generation.md` | 魔物・魔力で危険化した「危険地域」を生成するルール。 | 2,035 |
 | `world/09_dungeon_generation.md` | 自然発生・遺構・人工など、ダンジョンを生成するルール。 | 1,366 |
@@ -117,9 +117,9 @@
 | `world/crossroad/61_red_fang_forest.md` | 危険地域②赤牙森林(Lv25〜35)。薬効資源を守る縄張り持ちの魔獣。 | 3,893 |
 | `world/crossroad/62_grey_rock_canyon.md` | 危険地域③灰岩峡谷(Lv40〜50)。飛行魔物と鉱石・結晶の採取地。 | 4,894 |
 | `world/crossroad/63_bone_toll_moor.md` | 危険地域④骨鳴り墓原(Lv55〜65)。アンデッドを集める古戦場跡の墓原。 | 5,541 |
-| `world/crossroad/64_danger_zone_quest_board.md` | 4つの危険地域を舞台にした、ギルド定番依頼の掲示例。 | 3,744 |
-| `world/crossroad/65_dungeon_quest_board.md` | 3つのダンジョンを舞台にした、ギルド定番依頼の掲示例。 | 4,233 |
-| `world/crossroad/66_civilian_security_quest_board.md` | 街道・都市が舞台の護衛・盗賊討伐・捕縛・警備の定番依頼例。 | 2,938 |
+| `world/crossroad/64_danger_zone_quest_board.md` | 4つの危険地域を舞台にした、ギルド定番依頼の掲示例。 | 3,987 |
+| `world/crossroad/65_dungeon_quest_board.md` | 3つのダンジョンを舞台にした、ギルド定番依頼の掲示例。 | 4,483 |
+| `world/crossroad/66_civilian_security_quest_board.md` | 街道・都市が舞台の護衛・盗賊討伐・捕縛・警備の定番依頼例。 | 3,202 |
 | `world/crossroad/67_crossroad_casino_high_and_low.md` | カジノのカードゲーム・ハイアンドローの遊び方とルール。 | 1,684 |
 | `world/crossroad/68_crossroad_casino_war.md` | カジノのカードゲーム・カジノウォーの遊び方とルール。 | 1,077 |
 | `world/crossroad/69_crossroad_seven_indian_poker.md` | カジノのカードゲーム・セブンインディアンポーカーのルール。 | 1,715 |
@@ -204,4 +204,4 @@
 
 ---
 
-合計 **152 ファイル / 640,374 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **152 ファイル / 642,485 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。

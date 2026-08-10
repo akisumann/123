@@ -53,7 +53,7 @@ PROGRESS.md              作業ログ(時系列)。「今何があるか」の�
 | NPCが登場・言及された | `characters/npcs/`。名前が分からなければ`world/crossroad/44_crossroad_nicknames.md`の通り名一覧から逆引き。行動描写の基準は下記「登場するキャラクターの行動はステータス・スキルを踏まえる」を参照 |
 | 戦闘が始まった | `rules/02_status_system.md`(ステータス)、`rules/03_combat_system.md`(判定・戦況処理) |
 | 魔法の種類・階位が話題になった | `rules/05_magic_theory.md` |
-| 依頼(クエスト)を受ける | `world/14_adventurers_guild.md`(依頼の流れ・ランク制度)、`world/06_economy.md`(ランク別報酬額の目安)。報酬額は必ずここの相場に照らして決める、雰囲気だけで金額を決めない。この相場は1人あたりの平均取り分であり、パーティー人数で等分する総額ではない |
+| 依頼(クエスト)を受ける | `world/14_adventurers_guild.md`(依頼の流れ・ランク制度)、`world/06_economy.md`(ランク別報酬額の目安)。報酬額は必ずここの相場に照らして決める、雰囲気だけで金額を決めない。**表の額は基準額**で、単独で受けられる依頼はそれが総額、複数人が必須の依頼は**基準額の2〜4倍が総額**になり、それをパーティーで分配する。総額は依頼票の時点で確定していて受け手の人数では変わらない(推奨人数は安全の目安であって支払いの根拠ではない) |
 | 依頼を新しく提示する(掲示板・NPCからの依頼など) | まず`world/crossroad/64_danger_zone_quest_board.md`(4つの危険地域)、`world/crossroad/65_dungeon_quest_board.md`(3つのダンジョン)、`world/crossroad/66_civilian_security_quest_board.md`(護衛・盗賊討伐・犯罪者の捕縛・警備)の掲示例から選べないか確認する。討伐依頼のたびに裏の陰謀や調査要素を挟まない。`world/14_adventurers_guild.md`の「定期討伐(素材調達)」の通り、討伐依頼の大半は特別な背景を持たない日常的な間引き・素材調達であるべきで、これが基本形。`world/nations/17_central_haven_undead_problem.md`級の異常事態を伴う依頼は例外として稀に出す程度に留め、護衛・採取・調査・護送なども含めて依頼の種類が偏らないようにする。依頼の舞台は上記の依頼表や`world/crossroad/11_crossroad_city.md`の4つの危険地域・3つのダンジョンに縛られる必要はなく、`world/07_settlement_generation.md`・`world/08_danger_zone_generation.md`・`world/09_dungeon_generation.md`の生成ルールに沿って、名もない村・森・洞窟など都度その場で新しい舞台を作ってよい |
 | 買い物・値段・素材の売買・所持金の増減 | `world/06_economy.md`(金額感覚・価格帯・素材買い取りランク制度)、`world/crossroad/42,45,49,50`(職人区商品・市場・飲食店・娼館)。金額を動かす場面では必ず参照し、相場から外れた金額を即興で出さない |
 | 特に目的なく街を散策している | `world/crossroad/53_crossroad_wandering_events.md`。世間話・軽い手伝い・噂話程度の小さなシーンで十分で、毎回オチや報酬、戦闘、新しい陰謀を用意する必要はない。挟む頻度にも余白を残す |
