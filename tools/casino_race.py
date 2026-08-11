@@ -29,14 +29,16 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # --- 走りの定数(race.js の考え方を借りている) ---------------------------------
 GOAL = 100.0
-STEP = (1.4, 6.6)      # 1歩の進み(幅が広いほど運の比重が上がる)
+STEP = (1.2, 6.8)      # 1歩の進み(幅が広いほど運の比重が上がる)
 LEGS = 4               # 四区画
-FAM_GOOD, FAM_BAD = 1.30, 0.77   # 系統が地形と合う/合わない(公開情報)
+FAM_GOOD, FAM_BAD = 1.16, 0.88   # 系統が地形と合う/合わない(公開情報)
 RUN_GOOD, RUN_BAD = 1.15, 0.87   # 脚質が区画と合う/合わない(非公開・倍率に載らない)
 EVENT_P_HAZARD = 0.15  # 第三区画(妨害区画)で何かが起きる割合
 EVENT_P_OTHER = 0.05   # それ以外の区画
 TAKE = 0.80            # 控除後の払い戻し率(倍率＝勝率の逆数×これ)
 TRIALS = 4000          # 倍率を出すための試走回数
+POP = 0.10             # 人気による倍率の揺れ(±この割合)
+ODDS_MAX = 30.0        # これ以上は付かない(穴にも義理の金が入るため)
 
 # 有利と不利が完全対称なので、演出を足しても期待値は動かない
 EVENTS = [(6, "ぐんと伸びた"), (4, "外から追い上げた"), (3, "前に出た"),
@@ -168,17 +170,29 @@ def run_once(entries, terrain, r: random.Random, use_style: bool):
 
 
 def odds_for(entries, terrain, day, race):
-    """脚質を伏せたまま試走して勝率を出し、倍率へ直す。"""
+    """脚質を伏せたまま試走して勝率を出し、倍率へ直す。
+
+    最後に人気の揺れを乗せる。同じ系統が二頭出れば読みの上では区別が付かないが、
+    賭場の倍率は客の金の寄り方で必ずわずかにずれるため、**同値にはならない。**
+    """
     r = rng("odds", day, race)
     wins = [0] * len(entries)
     for _ in range(TRIALS):
         order, _ = run_once(entries, terrain, r, use_style=False)
         wins[order[0]] += 1
+    pop = rng("pop", day, race)
     out = []
     for w in wins:
-        p = max(w / TRIALS, 0.004)
-        o = TAKE / p
-        out.append(min(max(round(o * 2) / 2, 1.5), 50.0))
+        p = max(w / TRIALS, 0.02)
+        o = TAKE / p * (1.0 + pop.uniform(-POP, POP))
+        out.append(round(min(max(o, 1.5), ODDS_MAX), 1))
+    # 賭場の板に同じ数字は二つ並ばない。重なったら0.1ずつずらす。
+    seen = set()
+    for i, o in enumerate(out):
+        while round(o, 1) in seen:
+            o += 0.1
+        out[i] = round(o, 1)
+        seen.add(out[i])
     return out, [w / TRIALS for w in wins]
 
 
