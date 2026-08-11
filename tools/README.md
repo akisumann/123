@@ -60,6 +60,18 @@ python3 tools/battle_roll.py --who 天雷    # その人のステータス・ス
 
 `スキルLv d ステータスランク`(S=d7〜F=d1)を実際に振り、出目を一つずつ出す。
 
+### 3.5 カジノ(魔導盤レース)
+
+```bash
+python3 tools/casino_race.py --day 93 --race 3          # 出走表(客が見る情報だけ)
+python3 tools/casino_race.py --day 93 --race 3 --run    # 本番を走らせる
+python3 tools/casino_race.py --day 93 --race 3 --run --reveal   # 脚質も見る(GM専用)
+```
+
+**倍率を決めてから1着を引かない。** 何千回も試走して勝率を出し、そこから倍率を付ける。
+**脚質(区画ごとの得手不得手)は非公開で倍率に載らない**ので、盤を長く見ている常連だけが
+歪みを取れる。作中の人物に脚質を言葉で説明させないこと。
+
 ### 4. 日を進める
 
 ```bash
@@ -116,6 +128,7 @@ canonを直せばツールの出力も変わる。二重管理にならないた
 | `street_talk.py` | 噂の発生と伝播(悪天候で伝達が遅れる) |
 | `scene_context.py` | 場面に必要なcanonを1ブロックに抽出／`--edit`で編集前の全文と注意点 |
 | `battle_roll.py` | 戦闘ダイスを実際に振る |
+| `casino_race.py` | 魔導盤レースの出走表・倍率・本番を処理する |
 | `generate_character_stats.py` / `check_character_stats.py` | 新キャラの数値生成・検算(ステータス合計・スキル合計・冒険者ランク・SS誤用) |
 | `vetting_report.py` | 未検分レポート(インポート当時のまま手が入っていないファイルの洗い出し) |
 | `make_roster.py` | NPC名簿`CHARACTERS.md`を生成 |
