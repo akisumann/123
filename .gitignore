@@ -5,3 +5,7 @@
 123_all.md
 123.json
 123_tools.zip
+
+# Python のバイトコードキャッシュ（実行のたびに変わり、差分の意味がない）
+__pycache__/
+*.pyc
