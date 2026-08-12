@@ -65,7 +65,7 @@ def main() -> int:
 
     if not broken:
         print(f"OK: リンク切れなし({len(existing)} ファイルを検査)")
-        return 0
+        return check_hangouts()
 
     # 参照先ごとにまとめて表示
     by_ref = {}
@@ -77,6 +77,41 @@ def main() -> int:
         for src in sorted(set(by_ref[ref])):
             print(f"      ← {src}")
     return 1 if "--strict" in sys.argv else 0
+
+
+def check_hangouts() -> int:
+    """各NPCの「行きつけ」と、飲食店(49)の「常連・顔ぶれ」が食い違っていないか見る。
+
+    同じ事実が人物側と店側の二箇所にあるため、片方だけ書き換えると静かにずれる。
+    (実際に、店側にしかいない常連・人物側にしかない行きつけが溜まっていた。)
+    """
+    import make_place_map as mp
+    rows = mp.parse_dining()
+    shop_members = {shop: set(nums) for _, shop, _, _, nums in rows}
+    names = mp.short_names()
+    bad = []
+    for fn in sorted(os.listdir(mp.NPC_DIR)):
+        if not fn.endswith(".md"):
+            continue
+        num = fn.split("_")[0]
+        text = open(os.path.join(mp.NPC_DIR, fn), encoding="utf-8").read()
+        m = re.search(r"\*\*行きつけ\*\*[：:](.+)", text)
+        if not m:
+            continue
+        for shop, members in shop_members.items():
+            if shop in m.group(1) and num not in members:
+                bad.append((names.get(num, num), shop))
+    if not bad:
+        print("OK: 行きつけと常連の食い違いなし")
+        return 0
+    print(f"⚠ 行きつけ／常連の食い違い {len(bad)} 件"
+          "(人物側に店名があるのに、49のその店の常連に入っていない):")
+    for who, shop in bad:
+        print(f"  ✗ {who} … {shop}"
+              f"  → world/crossroad/49_crossroad_dining.md の《{shop}》へ追記するか、"
+              "人物側の行きつけを直す")
+    return 1
+
 
 
 if __name__ == "__main__":

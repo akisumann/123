@@ -36,7 +36,7 @@
 
 Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/08_silver_raven_feather.md`)は、この店で知り合った者たちによって結成された。パーティー名も店名をもじって付けられている。結成後も主な溜まり場としており、店の奥の壁際の広い卓は結成を決めた席として、常連客から半ば「銀鴉の席」と呼ばれている。
 
-- **常連・顔ぶれ**：歓楽街のミレーヌ(`characters/npcs/02_milene_weissfeld.md`)、銀鴉の羽根、劇作家のエリアス(`characters/npcs/23_elias_veil.md`)、爆声のヴィヴィアナ(興行帰り。`characters/npcs/24_viviana_loudbell.md`)、氷装甲の氷室(`characters/npcs/35_himuro.md`)、一射の天雷(`characters/npcs/37_tenrai.md`)、忍びのツバキ(定宿を持たず拠点代わりに入り浸る。`characters/npcs/36_tsubaki.md`)、潜入のミーナ(黒針会の耳。子供の姿で紛れる。`characters/npcs/14_mina.md`)、呼び声のベルナデッタ、歌い手の鈴代(時々弾き語り。`characters/npcs/45_suzuyo.md`)。**西区の夜の結節点**。
+- **常連・顔ぶれ**：歓楽街のミレーヌ(`characters/npcs/02_milene_weissfeld.md`)、銀鴉の羽根、劇作家のエリアス(`characters/npcs/23_elias_veil.md`)、爆声のヴィヴィアナ(興行帰り。`characters/npcs/24_viviana_loudbell.md`)、氷装甲の氷室(`characters/npcs/35_himuro.md`)、一射の天雷(`characters/npcs/37_tenrai.md`)、忍びのツバキ(定宿を持たず拠点代わりに入り浸る。`characters/npcs/36_tsubaki.md`)、客側護衛のセレスティナ(仕事上がりの一杯。`characters/npcs/61_celestina.md`)、潜入のミーナ(黒針会の耳。子供の姿で紛れる。`characters/npcs/14_mina.md`)、呼び声のベルナデッタ、歌い手の鈴代(時々弾き語り。`characters/npcs/45_suzuyo.md`)。**西区の夜の結節点**。
 
 ### 七つ樽
 
@@ -46,7 +46,7 @@ Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/0
 
 ### 帰還者の杯
 
-冒険者ギルド(`world/14_adventurers_guild.md`)近くの酒場。依頼帰りの冒険者が集まり、無事に帰還した者には最初の一杯が安くなる。壁に壊れた武具や記念札が飾られている。
+北区の、冒険者ギルド(`world/14_adventurers_guild.md`)近くの酒場。依頼帰りの冒険者が集まり、無事に帰還した者には最初の一杯が安くなる。壁に壊れた武具や記念札が飾られている。
 
 - **常連・顔ぶれ**：ギルド長のダリオ(`characters/npcs/07_dario_langford.md`)、恋バナ受付のリエラ(`characters/npcs/17_riera.md`)、連絡役のルカ(`characters/npcs/05_luca_fennel.md`)、広範囲斬撃の唯一(依頼帰りの単独冒険者。`characters/npcs/42_yuiitsu.md`)、九槍の九重・結界のクサビ(回復役を探して滞在中。`characters/npcs/50_kokonoe.md`、`characters/npcs/51_kusabi.md`)、情報屋のリネット(依頼帰りの噂を拾いに。`characters/npcs/10_linette.md`)。**冒険者と依頼が行き交うギルド前の一杯**。
 
@@ -60,7 +60,7 @@ Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/0
 
 ### 土香る庵
 
-大神殿(`world/crossroad/48_grand_temple_dragon_records.md`)近くの茶屋。穀物茶、根菜茶、薬草茶など素朴な飲み物が中心。参拝後の休憩所として親しまれている。
+中央区の、大神殿(`world/crossroad/48_grand_temple_dragon_records.md`)近くの茶屋。穀物茶、根菜茶、薬草茶など素朴な飲み物が中心。参拝後の休憩所として親しまれている。
 
 - **常連・顔ぶれ**：浄化院のセリア(`characters/npcs/09_celia.md`)、巡回双槌の仁礼(骨鳴り墓原の視察で滞在中、参拝帰りに。`characters/npcs/49_ninrei.md`)。**信仰まわりの者が一息つく茶屋**。
 
@@ -84,7 +84,7 @@ Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/0
 
 ### 芽吹き棚
 
-南区との境にある薬草茶屋。体調や疲労に合わせて茶葉を調合する。軽い魔力疲労や二日酔い向けの茶も扱う。
+東区の、南区との境にある薬草茶屋。体調や疲労に合わせて茶葉を調合する。軽い魔力疲労や二日酔い向けの茶も扱う。
 
 - **常連・顔ぶれ**：幻惑のエルシア(昼の「オタクのエルシア」の顔で。`characters/npcs/21_elsia.md`)、魔法サークルのミレイ(魔力疲労の茶を求めて。`characters/npcs/18_milei.md`)、ヘンテコ薬品のミルカ(薬草の目利きに時々。`characters/npcs/13_mika.md`)、空鎧の銀雪(南区廃施設が近く、のんびり茶を啜りにすり足で。`characters/npcs/54_ginsetsu.md`)。**魔法まわりの疲れを癒やす東南境の茶屋**。
 

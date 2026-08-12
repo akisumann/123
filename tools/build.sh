@@ -11,6 +11,8 @@ echo "[0/9] 各ファイルへ TL;DR を挿入/更新"
 python3 tools/apply_summaries.py
 
 echo "[1/9] CHARACTERS.md (NPC名簿。個別ファイルから生成)"
+python3 tools/make_place_map.py
+
 python3 tools/make_roster.py
 
 echo "[2/9] INDEX.md"

@@ -71,9 +71,15 @@ def main() -> int:
         print(f"{rel.ljust(width)}  {n:>7,}{tag}")
     print("-" * (width + 12))
     print(f"{'合計'.ljust(width)}  {total:>7,}")
-    print(f"{'うち常時ロード(正典)'.ljust(width)}  {core_total:>7,}")
+    core_limit = sum(CORE_FILES.values())
+    print(f"{'うち常時ロード(正典)'.ljust(width)}  {core_total:>7,}"
+          f"  (上限合計 {core_limit:,})")
     print()
-    print("目安: 常時ロード分は 1 万文字以内に収めると、AI が安定して全部読めます。")
+    if core_total > core_limit:
+        print(f"⚠ 常時ロードが上限合計を {core_total - core_limit:,} 文字超えています。")
+    else:
+        print(f"目安: 常時ロードは残り {core_limit - core_total:,} 文字。"
+              "AI が安定して全部読める範囲に収まっています。")
 
     if check_budget and over:
         print("\n⚠ 正典の上限を超えているファイルがあります。要約して圧縮してください:")
