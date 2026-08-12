@@ -65,7 +65,7 @@ def main() -> int:
 
     if not broken:
         print(f"OK: リンク切れなし({len(existing)} ファイルを検査)")
-        return check_hangouts()
+        return check_hangouts() or check_unique_claims()
 
     # 参照先ごとにまとめて表示
     by_ref = {}
@@ -110,6 +110,59 @@ def check_hangouts() -> int:
         print(f"  ✗ {who} … {shop}"
               f"  → world/crossroad/49_crossroad_dining.md の《{shop}》へ追記するか、"
               "人物側の行きつけを直す")
+    return 1
+
+
+
+# 「これは街に一つしかない」と主張している言い回し。
+# 同じ物を二箇所で別々に作ってしまう事故(回復杖の件)を、目視できる一覧にして防ぐ。
+UNIQUE_RE = re.compile(
+    r"(?:街に|世界に|他に)?[一１]本しかな[いく]|[一１]つしかな[いく]|街で唯一|"
+    r"複製ではなく現物|他に例がない|現存する唯一")
+# 一意性の主張の近くに出てくる「物」の名前。ここが一致したら同じ物の疑い。
+THING_RE = re.compile(r"[杖剣槍刀弓盾鎧兜鍵書板玉珠石環鎖笛鏡札像柱門]")
+
+
+def check_unique_claims() -> int:
+    """「街に一つしかない」と書かれた物を一覧にし、種類が重なったら警告する。"""
+    hits = []          # (ファイル, 行番号, 抜粋, 物の字)
+    for dirpath, dirnames, filenames in os.walk(ROOT):
+        dirnames[:] = [d for d in dirnames if not d.startswith((".", "__"))
+                       and d not in ("tools",)]
+        for name in sorted(filenames):
+            if not name.endswith(".md") or name.startswith(
+                        ("123_", "DIGEST", "INDEX", "PROGRESS", "CHARACTERS")):
+                continue
+            rel = os.path.relpath(os.path.join(dirpath, name), ROOT)
+            heading = ""
+            for i, line in enumerate(open(os.path.join(dirpath, name),
+                                          encoding="utf-8"), 1):
+                if line.startswith("#"):
+                    heading = line.lstrip("# ").strip()
+                m = UNIQUE_RE.search(line)
+                if not m:
+                    continue
+                near = line[max(0, m.start() - 40):m.end() + 40]
+                # 「何が一つしかないのか」は見出しに書いてあることが多い
+                # (48は本文ではなく「## 大地龍の杖」の側に杖がある)ので、
+                # 直近の見出しも文脈に含める。
+                things = set(THING_RE.findall(heading + near))
+                hits.append((rel, i, f"[{heading}] {near.strip()}", things))
+
+    dup = {}
+    for rel, i, near, things in hits:
+        for t in things:
+            dup.setdefault(t, []).append((rel, i, near))
+    clash = {t: v for t, v in dup.items() if len({r for r, _, _ in v}) > 1}
+    if not clash:
+        print(f"OK: 一意な物の重複なし(一意性の主張 {len(hits)} 箇所を照合)")
+        return 0
+    print(f"⚠ 同じ種類の「一つしかない物」が別々のファイルにあります "
+          f"({len(clash)} 種類)。同じ物を二重に作っていないか確認してください:")
+    for t, v in sorted(clash.items()):
+        print(f"  ✗ 「{t}」")
+        for rel, i, near in v:
+            print(f"      {rel}:{i}  …{near}…")
     return 1
 
 

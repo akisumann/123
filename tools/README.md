@@ -134,7 +134,8 @@ canonを直せばツールの出力も変わる。二重管理にならないた
 | `vetting_report.py` | 未検分レポート(インポート当時のまま手が入っていないファイルの洗い出し) |
 | `make_roster.py` | NPC名簿`CHARACTERS.md`を生成 |
 | `build.sh` | 配布物の再生成(以下をまとめて実行) |
-| `apply_summaries.py` / `make_index.py` / `make_all.py` / `make_digest.py` / `make_json.py` / `count.py` / `check_links.py` | 索引・全部載せ・ダイジェスト・JSON・文字数・リンク整合 |
+| `apply_summaries.py` / `make_index.py` / `make_all.py` / `make_digest.py` / `make_json.py` / `count.py` | 索引・全部載せ・ダイジェスト・JSON・文字数 |
+| `check_links.py` | リンク整合＋**行きつけと常連の食い違い**＋**「一つしかない物」の重複**を検査 |
 
 編集時は`scene_context.py --edit <名前>`、未検分の確認は`vetting_report.py`。
 どちらも「読まずに書く」「ユーザーが目を通していない記述を指示より優先する」を防ぐためのもの。
