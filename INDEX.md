@@ -104,7 +104,7 @@
 | `world/crossroad/45_crossroad_district_markets.md` | 5区画それぞれ性格の異なる市場(中央広場市・西の夜市・南の投げ売り市等)。 | 4,107 |
 | `world/crossroad/46_crossroad_matchmaking_festival.md` | 年一度の婚活祭り「結び路の祝祭」。領主クラリスも強制参加の名物行事。 | 4,259 |
 | `world/crossroad/47_crossroad_harvest_festival.md` | 月一度の食の祭り「巡穣祭」。その月最多の作物を街ぐるみで消費。 | 3,935 |
-| `world/crossroad/48_grand_temple_dragon_records.md` | 中央区で大地龍を祀る大神殿と、その大地龍石膏像・龍の記録＋他四龍の比較展示。＋台座に差さった大地龍の杖(資格ある者だけが抜ける・誰でも挑戦可・抜いた者へ貸出)。 | 8,406 |
+| `world/crossroad/48_grand_temple_dragon_records.md` | 中央区で大地龍を祀る大神殿と、その大地龍石膏像・龍の記録＋他四龍の比較展示。＋台座に差さった大地龍の杖(資格ある者だけが抜ける・誰でも挑戦可・抜いた者へ貸出)。 | 8,764 |
 | `world/crossroad/49_crossroad_dining.md` | 区画ごとに客層が棲み分けられた酒場6・茶屋6・高級料理店7軒。各店に常連の顔ぶれを明記し、全NPCがどこかの店で会える「出会いの動線」として運用する。 | 7,723 |
 | `world/crossroad/50_crossroad_brothels.md` | 西区の主要娼館三軒(紅玻璃館・桃灯楼・百花迷宮)の格と客層。 | 2,077 |
 | `world/crossroad/51_black_needle_info_network.md` | 黒針会が運営し生活インフラ化した、伝言・情報屋網の拠点網。 | 4,937 |
@@ -208,4 +208,4 @@
 
 ---
 
-合計 **156 ファイル / 1,286,585 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **156 ファイル / 1,286,943 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
