@@ -16,7 +16,7 @@ world/05_civilization_classification.md	知性ある存在を文明圏との関�
 world/06_economy.md	通貨G・物価・冒険者ランク別報酬・素材買い取りランク制度。金額を動かす場面の基準。
 world/07_settlement_generation.md	集落・都市を規模に応じて生成するルール(付随する危険地域等)。
 world/08_danger_zone_generation.md	魔物・魔力で危険化した「危険地域」を生成するルール。
-world/09_dungeon_generation.md	自然発生・遺構・人工など、ダンジョンを生成するルール。
+world/09_dungeon_generation.md	自然発生・遺構・人工など、ダンジョンを生成するルール。どのダンジョンにも魔物と資源を補充するコアがあり、壊すと止まるので収支の面で壊さない。
 world/10_road_generation.md	集落を結ぶ街道の生成ルールと、街道から外れるほど上がる危険度。
 world/12_mermaid.md	海洋種族「人魚」。アクア・フロウ連合の主要種族。
 world/13_giant.md	極寒適応の大型種族「巨人」。クリスタル・フロスト帝国の主要種族。
