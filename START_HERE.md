@@ -101,7 +101,7 @@
 - **`tools/` のツール群** … 詳細と使い方は **`tools/README.md`**（`123_tools.zip` にも同梱）。
   進行中は `day_brief.py`（その日の街）→ `scene_context.py`（場面に必要な canon）→
   `battle_roll.py`（戦闘ダイス）→ `day_plan.py --advance`（日を進める）の順に通す。
-  カジノのレースは `casino_race.py`。編集時は `scene_context.py --edit <名前>`、
+  カジノのレースは `casino_race.py`、巡穣祭の料理大会は `cook_off.py`。編集時は `scene_context.py --edit <名前>`、
   数値は `generate_character_stats.py` → `check_character_stats.py`。
 - 配布物の生成系（`apply_summaries` / `make_index` / `make_all` / `make_digest` / `make_json` /
   `make_roster` / `count` / `check_links`）は `bash tools/build.sh` が一括で回す。個別の説明は `tools/README.md`。

@@ -60,6 +60,16 @@ python3 tools/battle_roll.py --who 天雷    # その人のステータス・ス
 
 `スキルLv d ステータスランク`(S=d7〜F=d1)を実際に振り、出目を一つずつ出す。
 
+### 3.4 巡穣祭の料理大会
+
+```bash
+python3 tools/cook_off.py                 # 今日の月の大会(出場者・腕前・順位)
+python3 tools/cook_off.py --crop 芋       # 主役作物を指定する
+```
+
+**出場者も腕前も乱数。** 街に「料理の腕」という格付けは無いので、**結果を`characters/`へ
+書き戻さない。** 毎回振り直す前提で回す(`world/crossroad/47_crossroad_harvest_festival.md`)。
+
 ### 3.5 カジノ(魔導盤レース)
 
 ```bash
@@ -129,6 +139,7 @@ canonを直せばツールの出力も変わる。二重管理にならないた
 | `scene_context.py` | 場面に必要なcanonを1ブロックに抽出／`--edit`で編集前の全文と注意点 |
 | `battle_roll.py` | 戦闘ダイスを実際に振る |
 | `casino_race.py` | 魔導盤レースの出走表・倍率・本番を処理する |
+| `cook_off.py` | 巡穣祭の料理大会(出場者・腕前を乱数で引く。結果は設定にしない) |
 | `make_place_map.py` | 72の「行きつけの店」を49から生成する(手書きしない) |
 | `generate_character_stats.py` / `check_character_stats.py` | 新キャラの数値生成・検算(ステータス合計・スキル合計・冒険者ランク・SS誤用) |
 | `vetting_report.py` | 未検分レポート(インポート当時のまま手が入っていないファイルの洗い出し) |
