@@ -100,3 +100,5 @@
 - 水城、睡蓮、青葉(統制パーティーの仲間。`characters/npcs/31_mizushiro.md`、`characters/npcs/33_suiren.md`、`characters/npcs/34_aoba.md`)
 - ヴィヴィアナ・ラウドベル(コロッセオでの模擬戦を実況で度々取り上げる実況者。`characters/npcs/24_viviana_loudbell.md`)
 - ガルム・フォージライト(頑丈な革具目当てで通う南区の職人。`characters/npcs/06_galm_forgelight.md`)
+- 紅葉(西区の練兵場で連日模擬戦を挑んでくる旅の武者。受け流しの稽古相手。`characters/npcs/43_momiji.md`、`world/crossroad/74_crossroad_training_ground.md`)
+- 銀雪(同じ練兵場で受け流しの型を黙々と磨く常連。組手の相手を頼み合う間柄。`characters/npcs/54_ginsetsu.md`)

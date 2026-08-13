@@ -89,3 +89,5 @@
 - 蒼龍、水城、青葉(統制パーティーの仲間。`characters/npcs/32_souryuu.md`、`characters/npcs/31_mizushiro.md`、`characters/npcs/34_aoba.md`)
 - リエラ(「実は一番頼りになる子」と評してくれるギルド受付職員。`characters/npcs/17_riera.md`)
 - 鈴代(水生植物の観察中に東区の水路で顔を合わせそうな人魚の詩人。`characters/npcs/45_suzuyo.md`)
+- マリナ(東区の世話役。《ひだまり縁側》の主のような存在で、水路の異変を伝える窓口でもある。`characters/npcs/11_marina.md`)
+- 豊根(東区に根を張る巨大トレント。水路沿いにどの水草が生えているかを根で把握している。`characters/npcs/56_toyone.md`)

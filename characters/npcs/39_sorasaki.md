@@ -86,3 +86,4 @@
 - バルト(離着陸場代わりの空き地近くにいる北門の門衛。`characters/npcs/22_balto.md`)
 - 唯一(北区拠点のソロ冒険者。依頼で絡むことがある。`characters/npcs/42_yuiitsu.md`)
 - 白金(廃研究施設のメイドロボ。大荷物の運搬で組むことがある。`characters/npcs/53_hakkin.md`)
+- 水城(《旅籠前茶屋・一服》の常連仲間。街道と空の見通しを尋ねてくる統制パーティー隊長。`characters/npcs/31_mizushiro.md`)

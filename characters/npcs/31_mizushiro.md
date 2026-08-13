@@ -121,3 +121,5 @@
 - 蒼龍、睡蓮、青葉(統制パーティーの仲間。`characters/npcs/32_souryuu.md`、`characters/npcs/33_suiren.md`、`characters/npcs/34_aoba.md`)
 - ダリオ・ラングフォード(面識のある冒険者ギルド支部長。`characters/npcs/07_dario_langford.md`)
 - リエラ(ギルド受付職員。依頼や模擬戦の日程調整で顔を合わせる。`characters/npcs/17_riera.md`)
+- バルト(北門の門衛。《旅籠前茶屋・一服》の常連同士で、街道の出入りと荷の滞りを聞く相手。`characters/npcs/22_balto.md`)
+- 空咲(北区の空輸屋。同じく《一服》の常連で、荒天や街道封鎖の見通しはこの人に聞くのが早い。`characters/npcs/39_sorasaki.md`)
