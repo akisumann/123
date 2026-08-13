@@ -14,10 +14,10 @@
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
-| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 582,194 |
-| `CHARACTERS.md` | 主要NPC62人の要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 11,458 |
+| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 584,071 |
+| `CHARACTERS.md` | 主要NPC62人の要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 11,658 |
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,810 |
-| `PROGRESS.md` | PROGRESS | 126,291 |
+| `PROGRESS.md` | PROGRESS | 127,107 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,899 |
 
@@ -95,17 +95,17 @@
 | `world/crossroad/29_crossroad_magic_board_race.md` | カジノの人気遊戯・魔導盤レース(光の幻獣を走らせるミニ競馬)。系統×地形は公開、四区画の脚は非公開で倍率に載らない。判定は`tools/casino_race.py`。 | 6,567 |
 | `world/crossroad/30_crossroad_purification_institute.md` | 中央区の浄化院。土地浄化・呪物処理・結界維持・対アンデッド支援。 | 2,272 |
 | `world/crossroad/31_crossroad_security_forces.md` | 衛兵隊・騎士団・ギルド・浄化院の役割分担と衛兵の階級別レベル目安。 | 5,309 |
-| `world/crossroad/32_black_needle_society.md` | 街の裏の情報・暗殺組織「黒針会」。会主・幹部・ミレーヌとの関係。 | 9,689 |
+| `world/crossroad/32_black_needle_society.md` | 街の裏の情報・暗殺組織「黒針会」。会主・幹部・ミレーヌとの関係。 | 6,842 |
 | `world/crossroad/33_crossroad_magic_slot.md` | カジノの遊技台・魔導スロット(三本リールの絵柄揃え)。 | 1,498 |
 | `world/crossroad/34_crossroad_justice.md` | 捕まえた者が裁かれ牢に入るまで。刑は記録・賠償・労役・出禁・収監・追放、重罪は王都送り。 | 1,431 |
 | `world/crossroad/42_crossroad_artisan_goods.md` | 南区職人区で危険地域の素材が加工された、冒険者向け商品の数々。 | 3,502 |
 | `world/crossroad/43_crossroad_magic_circle.md` | 街の魔法使いが集う民間魔法サークル(相談・講習・共同作業場)。 | 5,467 |
-| `world/crossroad/44_crossroad_nicknames.md` | 主要NPC60人の通り名・本名・所属の対応一覧(NPC逆引きの起点)。 | 5,548 |
+| `world/crossroad/44_crossroad_nicknames.md` | 主要NPC60人の通り名・本名・所属の対応一覧(NPC逆引きの起点)。 | 5,533 |
 | `world/crossroad/45_crossroad_district_markets.md` | 5区画それぞれ性格の異なる市場(中央広場市・西の夜市・南の投げ売り市等)。 | 4,107 |
 | `world/crossroad/46_crossroad_matchmaking_festival.md` | 年一度の婚活祭り「結び路の祝祭」。領主クラリスも強制参加の名物行事。 | 4,259 |
 | `world/crossroad/47_crossroad_harvest_festival.md` | 月一度の食の祭り「巡穣祭」。その月最多の作物を街ぐるみで消費。 | 4,471 |
 | `world/crossroad/48_grand_temple_dragon_records.md` | 中央区で大地龍を祀る大神殿と、その大地龍石膏像・龍の記録＋他四龍の比較展示。＋台座に差さった大地龍の杖(資格ある者だけが抜ける・誰でも挑戦可・抜いた者へ貸出)。 | 8,467 |
-| `world/crossroad/49_crossroad_dining.md` | 区画ごとに客層が棲み分けられた酒場6・茶屋6・高級料理店7軒。各店に常連の顔ぶれを明記し、全NPCがどこかの店で会える「出会いの動線」として運用する。 | 7,723 |
+| `world/crossroad/49_crossroad_dining.md` | 区画ごとに客層が棲み分けられた酒場6・茶屋6・高級料理店7軒。各店に常連の顔ぶれを明記し、全NPCがどこかの店で会える「出会いの動線」として運用する。 | 7,779 |
 | `world/crossroad/50_crossroad_brothels.md` | 西区の主要娼館三軒(紅玻璃館・桃灯楼・百花迷宮)の格と客層。 | 2,077 |
 | `world/crossroad/51_black_needle_info_network.md` | 黒針会が運営し生活インフラ化した、伝言・情報屋網の拠点網。 | 4,937 |
 | `world/crossroad/52_crossroad_gates_streets.md` | 四街道に対応する四大門と、中央広場へ延びる四本の大通り。 | 1,729 |
@@ -127,7 +127,7 @@
 | `world/crossroad/68_crossroad_casino_war.md` | カジノのカードゲーム・カジノウォーの遊び方とルール。 | 1,077 |
 | `world/crossroad/69_crossroad_seven_indian_poker.md` | カジノのカードゲーム・セブンインディアンポーカーのルール。 | 1,715 |
 | `world/crossroad/71_crossroad_hospital.md` | 中央区・東区境の総合医院クロスロード大病院。世俗の回復魔法(非教会系)を主軸に日常医療を担い、聖属性・対アンデッドは扱わない。あかりが衛生担当。名前あり4人+モブ職員(大枠)。 | 4,334 |
-| `world/crossroad/72_place_character_map.md` | 場所×キャラ対応マップ。区画・施設ごとに常駐/関係NPCを速攻参照できる索引(場所を一つずつ整備中)。 | 7,889 |
+| `world/crossroad/72_place_character_map.md` | 場所×キャラ対応マップ。区画・施設ごとに常駐/関係NPCを速攻参照できる索引(場所を一つずつ整備中)。 | 7,877 |
 | `world/crossroad/73_colosseum_random_pair_tournament.md` | コロッセオが年に数回開く小規模お祭りトーナメント「相棒籤杯(くじ引き二人組)」。街の実力者16人を毎回籤で2人組へ組み直し16→8→4→2で勝ち抜く運用ルール。 | 3,579 |
 | `world/crossroad/74_crossroad_training_ground.md` | 西区・コロッセオ隣接の公営稽古場。観客も賭けもなく、有志が自主的に模擬戦・自主練を行う無料開放の広場。判定は通常のrules/03をそのまま使用。 | 2,233 |
 | `world/crossroad/75_scenario_seeds.md` | 観覧モードで使える伏線・展開の種のネタ帳(紅葉の星喰いリベンジ、ツバキの決断、ララ・カーラの教え乞い、エルシアの二重生活ニアミス、琥珀の隠しきれなさ、下水道ニート達への細い導線、マモリのファンクラブ、九重・クサビの回復役探し、エリアスの取材癖、レオンのダメと鋭さの落差、黒針会古参の懐古、結び路の祝祭、男女反転薬の流行、下水道の竜の怪談、新人冒険者の大量登録期、娼婦達の客引き合戦、白金の無自覚パワー騒動、銀雪の格納・憑依指南、九重・クサビの大病院凸、墓原の水の巨人の噂、水球の怪物を作った琥珀の師匠、大地龍の杖を抜く余興、みんなでカジノ／コロッセオ／芝居へ行こう)＋初手から大きい案件の種(黒硝子遺跡のリッチ、赤牙森林の緊急薬効採取、謎の奇病流行、アイアンくん無断起動、双槌の大規模掃討、ボルガン襲撃、都市規模の姉妹喧嘩、ボルガンの鉱山一攫千金作戦)。結末は決めずGMの裁量に委ねる。 | 27,732 |
@@ -161,7 +161,7 @@
 | `characters/npcs/16_gideon.md` | 黒針会会主ギデオン。組織の最終裁定を担う老練な会主。 | 3,821 |
 | `characters/npcs/17_riera.md` | ギルド受付リエラ。世話焼きだがかなりの恋愛脳で即カップリング認定。 | 1,788 |
 | `characters/npcs/18_milei.md` | 民間魔法サークル取りまとめ役ミレイ。基礎魔法指導・魔法相談の窓口。 | 2,828 |
-| `characters/npcs/19_rosalia.md` | 紅玻璃館の筆頭花魁ロザリア。精霊憑依と陰陽循環術を操る。 | 1,957 |
+| `characters/npcs/19_rosalia.md` | 紅玻璃館の筆頭花魁ロザリア。精霊憑依と陰陽循環術を操る。 | 1,942 |
 | `characters/npcs/20_bernadette.md` | 桃灯楼の人気嬢ベルナデッタ。犬獣人で広い人脈を持つ緊急招集役。 | 2,947 |
 | `characters/npcs/21_elsia.md` | 昼は術師会・夜は百花迷宮の幻術娼婦エルシア。Lv40のレベルキャップ到達者。 | 3,478 |
 | `characters/npcs/22_balto.md` | 北門の古参門衛バルト。出入り確認・道案内を担う街の顔役。 | 1,959 |
@@ -178,7 +178,7 @@
 | `characters/npcs/33_suiren.md` | 統制パーティー中衛・睡蓮。水精霊、戦場制御役。アクア・フロウの貴族家門の当主で、四人はこの家の一行。 | 2,507 |
 | `characters/npcs/34_aoba.md` | 統制パーティー後衛・青葉。水精霊、決定打役。当主・睡蓮の妹で、四人の最年少。 | 2,536 |
 | `characters/npcs/35_himuro.md` | コロッセオ専属剣闘士・氷室。アルマジロ獣人の氷装甲住み込み選手。 | 2,871 |
-| `characters/npcs/36_tsubaki.md` | 斥候系冒険者ツバキ。ホビットの忍び。 | 3,952 |
+| `characters/npcs/36_tsubaki.md` | 斥候系冒険者ツバキ。ホビットの忍び。 | 3,907 |
 | `characters/npcs/37_tenrai.md` | 出稼ぎの弓手・天雷。アマゾネスの一射の名手。 | 2,621 |
 | `characters/npcs/38_sayo.md` | 独立のコソ泥・小夜。裏路地を根城にする。 | 4,251 |
 | `characters/npcs/39_sorasaki.md` | 独立の空輸便利屋・空咲。飛竜人の運び屋。 | 2,283 |
@@ -205,7 +205,8 @@
 | `characters/npcs/60_shiromine.md` | クロスロード大病院の院長・白峰。八尺様の妖怪でMP:Sの院内最高の回復術師。大型の治癒砲(ヒールビーム/ヒールキャノン)で重症・集団治療を担う最後の砦。運営は苦手。 | 3,508 |
 | `characters/npcs/61_celestina.md` | 西区の臨時護衛セレスティナ。長槍の間合い支配で、娼婦側ではなく場慣れしていない客側につく護衛。伸縮式のテレスコピックスピア(1〜3m)を杖として持ち歩き、スリと絡みを寄せつけない動線管理を売りにする。ホビット・Lv50。 | 7,557 |
 | `characters/npcs/62_kasumi.md` | 東区・豊根の幹に住み着いた小型妖精カスミ(身長40cm)。家も食事も豊根で、近所で悪戯をして暮らす。実はLv47・DEX:Sで、味方の見た目偽装・透明化・装備化という街に他の持ち手がいない他者掛け幻覚の使い手だが、行政からは害のない悪戯者としか思われておらずスペックを誰も把握していない。 | 5,333 |
+| `characters/npcs/63_asuka.md` | 黒針会「目の幹部」飛鳥。鳥弾視界での広域索敵を交渉材料に使う対外折衝役。狩人パーティーの司令塔。 | 4,397 |
 
 ---
 
-合計 **156 ファイル / 1,301,918 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **157 ファイル / 1,306,330 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。

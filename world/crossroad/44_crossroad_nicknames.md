@@ -31,7 +31,7 @@
 | スリのリゼ | リゼ | 盗人姉妹・スリ役(`characters/npcs/12_roze_and_rize.md`) |
 | ヘンテコ薬品のミルカ | ミルカ | 薬品職人(`characters/npcs/13_mika.md`) |
 | 潜入のミーナ | ミーナ | 黒針会幹部(`characters/npcs/14_mina.md`) |
-| 監視鳥の飛鳥 | 飛鳥 | 黒針会幹部(`world/crossroad/32_black_needle_society.md`) |
+| 監視鳥の飛鳥 | 飛鳥 | 黒針会幹部(`characters/npcs/63_asuka.md`) |
 | 蠍尾のザラ | ザラ | 黒針会幹部(`characters/npcs/15_zara.md`) |
 | 黒針会のギデオン | ギデオン | 黒針会会主(`characters/npcs/16_gideon.md`) |
 | 恋バナ受付のリエラ | リエラ | ギルド受付職員(`characters/npcs/17_riera.md`) |
