@@ -298,10 +298,10 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
-| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 578,748 |
+| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 579,090 |
 | `CHARACTERS.md` | 主要NPC62人の要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 11,383 |
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,810 |
-| `PROGRESS.md` | PROGRESS | 121,808 |
+| `PROGRESS.md` | PROGRESS | 122,359 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,899 |
 
@@ -313,7 +313,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `rules/01_skill_system.md` | 技術・才能を表す「スキル」の仕組みとレベル、習得の考え方。 | 1,305 |
 | `rules/02_status_system.md` | HP/MP/ATK/DEF/INT/SPD/DEXの7ステータスとランク評価値(S=25〜F=-4)。評価値は段階値(F=−2〜S=5)を符号付きで二乗して導き、7能力の合計を基礎Lv、±2補正で表示Lvとする。 | 1,688 |
 | `rules/03_combat_system.md` | HPではなく「戦況値」で進める戦闘判定ルール(スキルLv d ステータスランク)。 | 6,030 |
-| `rules/05_magic_theory.md` | 第一〜第七階位で構成される魔法の体系と、各階位でできること。 | 6,712 |
+| `rules/05_magic_theory.md` | 第一〜第七階位で構成される魔法の体系と、各階位でできること。 | 6,914 |
 | `rules/06_personality_conversion.md` | 戦闘用ステータス・スキルを性格・コミュ力・対人態度へ読み替える補助表。 | 1,987 |
 | `rules/10_new_character_format.md` | 新規キャラを作る共通フォーマット(核を一つに絞る・生活面・数値検算)。 | 4,456 |
 | `rules/11_colosseum_duel_system.md` | コロッセオ公開試合用の、3ターンで決着する簡易決闘ルール。 | 3,244 |
@@ -371,7 +371,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `world/crossroad/11_crossroad_city.md` | 主舞台クロスロードの総合設定。人口・統治・街の転機・街道・危険地域4/ダンジョン3。 | 17,178 |
-| `world/crossroad/20_crossroad_city_districts.md` | 市内5区画(中央/北/東/南/西)の役割・主な施設・主なNPC一覧。 | 15,477 |
+| `world/crossroad/20_crossroad_city_districts.md` | 市内5区画(中央/北/東/南/西)の役割・主な施設・主なNPC一覧。 | 15,749 |
 | `world/crossroad/21_crossroad_inns.md` | 冒険者向けの宿5軒(安宿〜高級・歓楽街寄り・工房付き)と料金帯。 | 2,785 |
 | `world/crossroad/22_crossroad_bulletin_boards.md` | ギルド正式依頼板とは別の、区画ごとの街区掲示板(軽い仕事・求人・告知)。 | 3,345 |
 | `world/crossroad/27_crossroad_colosseum.md` | 西区の大型闘技施設。実力抑制リング・賭け・興行試合の運営ルール。 | 5,142 |
@@ -383,7 +383,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/crossroad/33_crossroad_magic_slot.md` | カジノの遊技台・魔導スロット(三本リールの絵柄揃え)。 | 1,498 |
 | `world/crossroad/34_crossroad_justice.md` | 捕まえた者が裁かれ牢に入るまで。刑は記録・賠償・労役・出禁・収監・追放、重罪は王都送り。 | 1,431 |
 | `world/crossroad/42_crossroad_artisan_goods.md` | 南区職人区で危険地域の素材が加工された、冒険者向け商品の数々。 | 3,502 |
-| `world/crossroad/43_crossroad_magic_circle.md` | 街の魔法使いが集う民間魔法サークル(相談・講習・共同作業場)。 | 4,937 |
+| `world/crossroad/43_crossroad_magic_circle.md` | 街の魔法使いが集う民間魔法サークル(相談・講習・共同作業場)。 | 5,197 |
 | `world/crossroad/44_crossroad_nicknames.md` | 主要NPC60人の通り名・本名・所属の対応一覧(NPC逆引きの起点)。 | 5,548 |
 | `world/crossroad/45_crossroad_district_markets.md` | 5区画それぞれ性格の異なる市場(中央広場市・西の夜市・南の投げ売り市等)。 | 4,107 |
 | `world/crossroad/46_crossroad_matchmaking_festival.md` | 年一度の婚活祭り「結び路の祝祭」。領主クラリスも強制参加の名物行事。 | 4,259 |
@@ -492,4 +492,4 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 ---
 
-合計 **156 ファイル / 1,290,437 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **156 ファイル / 1,292,064 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
