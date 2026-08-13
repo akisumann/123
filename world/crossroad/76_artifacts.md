@@ -53,7 +53,7 @@
 
 **そして、大きさが直剣であることが二つ目の錠になっている。**
 
-膂力だけなら、この街にも軽々と持ち上げられる者がいる。芍薬の岩石ティラノ化(`characters/npcs/48_shakuyaku.md`)、東区の豊根(`characters/npcs/56_toyone.md`)、南区広場のアイアンくん(`characters/npcs/30_ultimate_patchwork_iron_kun.md`)、白金の巨腕(`characters/npcs/53_hakkin.md`)——**巨体や大型の腕にとって、この剣は重くない。**
+膂力だけなら、この街にも軽々と持ち上げられる者がいる。芍薬の岩石ティラノ化(`characters/npcs/48_shakuyaku.md`)、東区の豊根(`characters/npcs/56_toyone.md`)、南区広場のアイアンくん(`characters/npcs/30_ultimate_patchwork_iron_kun.md`)、白金の巨大腕(`characters/npcs/53_hakkin.md`)——**巨体や大型の腕にとって、この剣は重くない。**
 
 だが**重くないだけで、振っても何も起きない。** 人が両手で構える寸法の刃を、丸太のような腕で握ったところで、間合いも刃筋も成立しない。**大きい者にとっては、ただの爪楊枝である。**
 
