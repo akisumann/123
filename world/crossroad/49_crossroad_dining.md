@@ -28,7 +28,7 @@
 
 南区の職人酒場。鍛冶師や工房労働者が集まり、酒も料理も濃くて量が多い。壁には客が打ち込んだ古い釘が並ぶ。
 
-- **常連・顔ぶれ**：鍛冶頭のガルム(`characters/npcs/06_galm_forgelight.md`)、ヘンテコ薬品のミルカ(`characters/npcs/13_mika.md`)、仕掛屋のセレナ(`characters/npcs/26_serena_gearford.md`)、伝説錬金の琥珀(素材の話をしに。南区廃施設が拠点の災害パーティー。`characters/npcs/52_kohaku.md`)、巨大腕の白金(琥珀の供で力仕事を手伝い、うっかり皿を割る。`characters/npcs/53_hakkin.md`)。アイアンくんの年次改修祭(`characters/npcs/30_ultimate_patchwork_iron_kun.md`)もこの界隈。**職人が素材と酒で語り合う南区の溜まり場**。
+- **常連・顔ぶれ**：鍛冶頭のガルム(`characters/npcs/06_galm_forgelight.md`)、ヘンテコ薬品のミルカ(`characters/npcs/13_mika.md`)、仕掛屋のセレナ(`characters/npcs/26_serena_gearford.md`)、伝説錬金の琥珀(素材の話をしに。南区廃施設が拠点の災害パーティー。`characters/npcs/52_kohaku.md`)、巨大腕の白金(琥珀の供で力仕事を手伝い、うっかり皿を割る。`characters/npcs/53_hakkin.md`)、受け流しの蒼龍(革具と武具の相談ついでに、量の出る飯を黙々と平らげる。`characters/npcs/32_souryuu.md`)。アイアンくんの年次改修祭(`characters/npcs/30_ultimate_patchwork_iron_kun.md`)もこの界隈。**職人が素材と酒で語り合う南区の溜まり場**。
 
 ### 夜鴉の止まり木
 
@@ -74,13 +74,13 @@ Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/0
 
 東区の住宅街にある家庭的な茶屋。焼き菓子、団子、温かい茶が中心。老人、親子連れ、近隣住民が多い。
 
-- **常連・顔ぶれ**：世話役のマリナ(`characters/npcs/11_marina.md`)、歌い手の鈴代(井戸端会議のあとに。`characters/npcs/45_suzuyo.md`)、天才児のララ・カーラ(学校帰りのおやつ。`characters/npcs/27_lara.md`、`characters/npcs/28_karla.md`)。**東区の暮らしが集まる縁側**。
+- **常連・顔ぶれ**：世話役のマリナ(`characters/npcs/11_marina.md`)、歌い手の鈴代(井戸端会議のあとに。`characters/npcs/45_suzuyo.md`)、天才児のララ・カーラ(学校帰りのおやつ。`characters/npcs/27_lara.md`、`characters/npcs/28_karla.md`)、静穏の睡蓮(水路歩きの帰りに。人混みが無いので長居する。`characters/npcs/33_suiren.md`)。**東区の暮らしが集まる縁側**。
 
 ### 旅籠前茶屋・一服
 
 北区の街道入口近くにある茶屋。荷物を置ける広い席があり、商人や御者が休憩する。濃い茶と塩気のある軽食が人気。
 
-- **常連・顔ぶれ**：北門のバルト(持ち場のすぐ近く。`characters/npcs/22_balto.md`)、空輸の空咲(荷運びの合間に。`characters/npcs/39_sorasaki.md`)、情報屋のリネット(街道の出入りの噂を拾いに)。**街道の出入りが交わる休憩所**。
+- **常連・顔ぶれ**：北門のバルト(持ち場のすぐ近く。`characters/npcs/22_balto.md`)、空輸の空咲(荷運びの合間に。`characters/npcs/39_sorasaki.md`)、情報屋のリネット(街道の出入りの噂を拾いに)、統率のミズシロ(街道の出入りと荷の動きを把握しに、一人で長居する。`characters/npcs/31_mizushiro.md`)。**街道の出入りが交わる休憩所**。
 
 ### 芽吹き棚
 
