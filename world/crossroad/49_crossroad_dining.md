@@ -36,7 +36,7 @@
 
 Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/08_silver_raven_feather.md`)は、この店で知り合った者たちによって結成された。パーティー名も店名をもじって付けられている。結成後も主な溜まり場としており、店の奥の壁際の広い卓は結成を決めた席として、常連客から半ば「銀鴉の席」と呼ばれている。
 
-- **常連・顔ぶれ**：歓楽街のミレーヌ(`characters/npcs/02_milene_weissfeld.md`)、銀鴉の羽根、劇作家のエリアス(`characters/npcs/23_elias_veil.md`)、爆声のヴィヴィアナ(興行帰り。`characters/npcs/24_viviana_loudbell.md`)、氷装甲の氷室(`characters/npcs/35_himuro.md`)、一射の天雷(`characters/npcs/37_tenrai.md`)、忍びのツバキ(定宿を持たず拠点代わりに入り浸る。`characters/npcs/36_tsubaki.md`)、客側護衛のセレスティナ(仕事上がりの一杯。`characters/npcs/61_celestina.md`)、潜入のミーナ(黒針会の耳。子供の姿で紛れる。`characters/npcs/14_mina.md`)、監視鳥の飛鳥(黒針会の目。交渉と情報交換を兼ねて。`characters/npcs/63_asuka.md`)、呼び声のベルナデッタ、歌い手の鈴代(時々弾き語り。`characters/npcs/45_suzuyo.md`)、気まぐれの野雷(店に属さない街娼。飲みにではなく、誰かが飯を分けてくれるので寄る。`characters/npcs/64_norai.md`)。**西区の夜の結節点**。
+- **常連・顔ぶれ**：歓楽街のミレーヌ(`characters/npcs/02_milene_weissfeld.md`)、銀鴉の羽根、劇作家のエリアス(`characters/npcs/23_elias_veil.md`)、爆声のヴィヴィアナ(興行帰り。`characters/npcs/24_viviana_loudbell.md`)、氷装甲の氷室(`characters/npcs/35_himuro.md`)、一射の天雷(`characters/npcs/37_tenrai.md`)、忍びのツバキ(定宿を持たず拠点代わりに入り浸る。`characters/npcs/36_tsubaki.md`)、客側護衛のセレスティナ(仕事上がりの一杯。`characters/npcs/61_celestina.md`)、潜入のミーナ(黒針会の耳。子供の姿で紛れる。`characters/npcs/14_mina.md`)、監視鳥の飛鳥(黒針会の目。交渉と情報交換を兼ねて。`characters/npcs/63_asuka.md`)、呼び声のベルナデッタ、歌い手の鈴代(時々弾き語り。`characters/npcs/45_suzuyo.md`)、気まぐれの雷華(店に属さない街娼。飲みにではなく、誰かが飯を分けてくれるので寄る。`characters/npcs/64_raika.md`)。**西区の夜の結節点**。
 
 ### 七つ樽
 
