@@ -135,5 +135,5 @@
 - ツバキ(狩人パーティーの斥候。黒針会へ勧誘中で、表側とも取り合いになっている。`characters/npcs/36_tsubaki.md`)
 - 氷室、天雷(狩人パーティーの仲間。西区で顔なじみ。`characters/npcs/35_himuro.md`、`characters/npcs/37_tenrai.md`)
 - ダリオ・ラングフォード(黒針会の人間だと察した上でスルーしているギルド支部長。`characters/npcs/07_dario_langford.md`)
-- リド・カーウェン(北区の新興商人。情報を流して育てている線の一本。向こうは対等な知り合いだと思っている。`characters/npcs/65_rido_carwen.md`)
+- リド・カーウェン(北区の新興商人。**黒針会が丸ごと担いでいる商会の窓口担当。** 金も人手も安全も飛鳥経由で入っているが、向こうは対等な知り合いだと思っている。`characters/npcs/65_rido_carwen.md`)
 - ロザリア(娼館街の裏事情で顔を合わせる紅玻璃館の筆頭花魁。`characters/npcs/19_rosalia.md`)
