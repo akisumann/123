@@ -44,8 +44,28 @@
 ### 北門《王都門》
 - **北門のバルト**(古参門衛。出入り確認・道案内。`characters/npcs/22_balto.md`)
 
-### 商業組合・ガルド大商会
-- **金塊商会長のボルガン**(北区商業組合長・ガルド大商会会頭。陰では蔑称「醜悪オーク(豚王)」。Lv48だが鑑定偽装でLv18を装う。`characters/npcs/29_vorgan_gard.md`)
+### 商業組合・ガルド大商会本館《金蔵》(大通り沿い。`world/crossroad/77_north_district_trading_houses.md`)
+- **金塊商会長のボルガン**(北区商業組合長・ガルド大商会会頭。陰では蔑称「醜悪オーク(豚王)」。Lv48だが鑑定偽装でLv18を装う。**三階から降りてこない**。`characters/npcs/29_vorgan_gard.md`)
+- **岩石採掘の芍薬**(お抱えの岩石精霊。鉱物の鑑定・精製の報告に上がる。三階まで通る数少ない一人。`characters/npcs/48_shakuyaku.md`)
+- **空輸の空咲**(大口輸送を頼まれて来る。`characters/npcs/39_sorasaki.md`)
+- **仕掛屋のセレナ**(特注品の相談で呼ばれる南区の工房店主。`characters/npcs/26_serena_gearford.md`)
+- **ギルド長のダリオ**(商会との調整で顔を出す。`characters/npcs/07_dario_langford.md`)
+- **情報屋のリネット**(荷の動きを売りに来る。一階の待合止まり。`characters/npcs/10_linette.md`)
+- (関連)無名の番頭と門番。**用件の格に応じて待たせる長さを決める**のがこの番頭の仕事
+
+### カーウェン商会《空店》(《金蔵》の真向かい。`world/crossroad/77_north_district_trading_houses.md`)
+- **早耳のリド**(カーウェン商会会頭。**大抵いない**。街を歩いている本人を捕まえるのが早い。`characters/npcs/65_rido_carwen.md`)
+- **鍛冶のガルム**(交易市場に出た武具の真贋を見に来る。素材鑑定Lv2。`characters/npcs/06_galm_forgelight.md`)
+- **調合のミルカ**(森の薬と薬草を新しいうちに欲しがる。`characters/npcs/13_mika.md`)
+- **サークルのミレイ**(氷晶の触媒を工面したがっている。良い粒が出た月に相談へ来る。`characters/npcs/18_milei.md`)
+- **王子様の飛鳥**(黒針会の目の幹部。**支援の窓口だが、商会には用も無く立ち寄る形でしか現れない**。`characters/npcs/63_asuka.md`)
+- (関連)無名の書き役と荷運びが四十人ほど。**大半が若く、半分は開業から一年以内に入った者**
+- (流動)素材を早く売りたい冒険者。急ぎの小口を頼む小商人
+
+### 商会前(二つの商会に挟まれた大通りの一区画)
+- **北区の待ち合わせ場所。** 通りの真ん中に立てば両方の掲示板が読める
+- 朝は人足が列を作り、荷馬車が両側に並ぶ。**見物人と賭けが付く**(レオン。`characters/npcs/25_leon_grave.md`)
+- **北門のバルト**(荷の出入りで両商会の人間と毎日顔を合わせる。`characters/npcs/22_balto.md`)
 
 ### 宿・市場・その他
 - **白鳩楼**(高級宿)拠点：統制パーティー(アクア・フロウの貴族令嬢一行)。統率のミズシロ(`characters/npcs/31_mizushiro.md`)／受け流しの蒼龍(`characters/npcs/32_souryuu.md`)／静穏の睡蓮(`characters/npcs/33_suiren.md`)／水球の青葉(`characters/npcs/34_aoba.md`)
