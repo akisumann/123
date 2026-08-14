@@ -83,7 +83,7 @@
 
 - ダリオ・ラングフォード(北区冒険者ギルド支部長。急ぎの輸送依頼で顔を合わせることがある。`characters/npcs/07_dario_langford.md`)
 - ボルガン・ガルド(北区商業組合長。大口輸送の依頼元になり得る大商人。`characters/npcs/29_vorgan_gard.md`)
-- リド・カーウェン(新興カーウェン商会の会頭。専属契約を持ちかけてくるが、どちらの専属にもならない構えでいる。`characters/npcs/65_rido_carwen.md`)
+- リド・カーウェン(新興カーウェン商会の会頭。急ぎの小荷物を頼んでくる客の一人。ガルド側からも同じように頼まれるので、朝に二度声をかけられる日がある。`characters/npcs/65_rido_carwen.md`)
 - リネット(北区の情報屋。荷の動きに詳しい。`characters/npcs/10_linette.md`)
 - バルト(離着陸場代わりの空き地近くにいる北門の門衛。`characters/npcs/22_balto.md`)
 - 唯一(北区拠点のソロ冒険者。依頼で絡むことがある。`characters/npcs/42_yuiitsu.md`)
