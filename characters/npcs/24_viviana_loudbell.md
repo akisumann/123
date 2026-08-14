@@ -129,6 +129,7 @@
 - レオン・グレイヴ(西区の顔役同士、噂話でお互いを知っているカジノの勝負師。`characters/npcs/25_leon_grave.md`)
 - エリアス・ヴェイル(大劇場の特別公演案内で協力する劇作家。`characters/npcs/23_elias_veil.md`)
 - セレスティナ(西区の護衛。技術が通用するか試したくなると相談に来る。`characters/npcs/61_celestina.md`)
+- 野雷(西区の街角で見かける街娼。街で唯一のSPD:Sを持つが本人に自覚がなく、「コロッセオに出せば化ける」と時々こぼしている相手。`characters/npcs/64_norai.md`)
 
 ## シナリオでの役割
 

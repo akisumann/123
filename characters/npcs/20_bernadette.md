@@ -90,4 +90,5 @@
 - ギデオン(街の顔役同士で面識のある黒針会会主。`characters/npcs/16_gideon.md`)
 - バルト(街中人脈の一つになっている北門の古参門衛。`characters/npcs/22_balto.md`)
 - セレスティナ(西区の護衛。不慣れな客に付ける相手として時々紹介する。`characters/npcs/61_celestina.md`)
+- 野雷(店に属さない街娼。《夜鴉の止まり木》で飯を分けてやっている相手。話は通じないが放っておけない。`characters/npcs/64_norai.md`)
 
