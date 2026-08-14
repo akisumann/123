@@ -4,6 +4,7 @@
 
 - 種族：犬獣人
 - 年齢：26歳
+- 身長：175cm　　スリーサイズ：B95/W60/H95
 - レベル：36(冒険者ランク基準ではCランク相当。`world/14_adventurers_guild.md`)
 - 愛称：ベル
 - 所属：桃灯楼(`world/crossroad/50_crossroad_brothels.md`)

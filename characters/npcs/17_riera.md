@@ -4,6 +4,7 @@
 
 - 種族：人間
 - 年齢：20代半ば
+- 身長：158cm　　スリーサイズ：B82/W57/H84
 - レベル：20(冒険者ランク基準ではEランク相当。`world/14_adventurers_guild.md`)
 - 配置：北区・冒険者ギルド支部(`world/crossroad/20_crossroad_city_districts.md`)
 - 役割：ギルド受付職員

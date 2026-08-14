@@ -4,6 +4,7 @@
 
 - 種族：人間
 - 年齢：34歳
+- 身長：161cm　　スリーサイズ：B80/W58/H83
 - レベル：36(冒険者ランク基準ではCランク相当。`world/14_adventurers_guild.md`)
 - 所属：クロスロード民間術師会の取りまとめ役(`world/crossroad/43_crossroad_magic_circle.md`)
 - 役割：基礎魔法指導・簡易術式・魔法相談

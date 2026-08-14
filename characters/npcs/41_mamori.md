@@ -4,6 +4,7 @@
 
 - 種族：人間
 - 年齢：26歳　　性別：女性
+- 身長：182cm　　スリーサイズ：B94/W63/H95
 - レベル：48(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
 - 所属：クロスロード領主騎士団(`characters/npcs/03_valeria_grenz.md`)
 - 立場：領主クラリス専属護衛

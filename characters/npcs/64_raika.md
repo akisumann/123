@@ -4,6 +4,7 @@
 
 - 種族：妖怪(雷獣)
 - 年齢：24歳　　性別：女性
+- 身長：165cm　　スリーサイズ：B96/W57/H93
 - レベル：40(冒険者ランク基準ではCランク相当。`world/14_adventurers_guild.md`)
 - 所属：無所属
 - 配置：クロスロード西区・娼館通りとその周辺の路地(`world/crossroad/20_crossroad_city_districts.md`)

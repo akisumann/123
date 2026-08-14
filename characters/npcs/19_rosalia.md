@@ -4,6 +4,7 @@
 
 - 種族：人間
 - 年齢：29歳
+- 身長：165cm　　スリーサイズ：B92/W56/H91
 - レベル：42(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
 - 所属：紅玻璃館(`world/crossroad/50_crossroad_brothels.md`)
 - 立場：筆頭花魁

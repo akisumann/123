@@ -4,6 +4,7 @@
 
 - 種族：人魚
 - 年齢：26歳　　性別：女性
+- 身長：163cm　　スリーサイズ：B84/W58/H86
 - レベル：42(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
 - 所属：クロスロード大病院(`world/crossroad/71_crossroad_hospital.md`)
 - 立場：感染症・再生医療研究者

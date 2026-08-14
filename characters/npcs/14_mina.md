@@ -4,6 +4,7 @@
 
 - 種族：ネズミ系獣人
 - 年齢：26歳
+- 身長：148cm　　スリーサイズ：B76/W54/H78
 - レベル：40(冒険者ランク基準ではCランク相当。`world/14_adventurers_guild.md`)
 - 所属：黒針会(`world/crossroad/32_black_needle_society.md`)
 - 役割：黒針会幹部・潜入偽装・盗賊技術・逃走・街中情報収集

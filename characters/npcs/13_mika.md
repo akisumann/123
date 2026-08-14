@@ -4,6 +4,7 @@
 
 - 種族：人間
 - 年齢：27歳
+- 身長：159cm　　スリーサイズ：B84/W58/H85
 - レベル：31(冒険者ランク基準ではCランク相当。`world/14_adventurers_guild.md`)
 - 配置：南区・ミルカ薬品工房(`world/crossroad/20_crossroad_city_districts.md`)
 - 役割：薬品職人・変薬売り・掘り出し物枠

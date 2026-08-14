@@ -3,6 +3,7 @@
 > **TL;DR:** 領主クラリス。街全体の方針・調整を担う。ミレーヌの実姉。
 
 - 年齢：29歳
+- 身長：163cm　　スリーサイズ：B82/W58/H84
 - レベル：45(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
 - 立場：クロスロード領主
 - 所属：クロスロード中央区・行政庁舎(`world/crossroad/20_crossroad_city_districts.md`)

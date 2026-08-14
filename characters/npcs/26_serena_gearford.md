@@ -4,6 +4,7 @@
 
 - 種族：人間
 - 年齢：38歳　　性別：女性
+- 身長：163cm　　スリーサイズ：B96/W62/H94
 - レベル：47(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
 - 職業：魔導機構技師／付与術師
 - 所属：南区・特殊機構工房《仕掛屋・六番工房》(`world/crossroad/56_crossroad_gadget_workshop.md`)

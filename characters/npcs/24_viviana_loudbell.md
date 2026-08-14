@@ -4,6 +4,7 @@
 
 - 種族：人間
 - 年齢：25歳　　性別：女性
+- 身長：164cm　　スリーサイズ：B85/W59/H86
 - レベル：34(冒険者ランク基準ではCランク相当。`world/14_adventurers_guild.md`)
 - 所属：クロスロード・コロッセオ(`world/crossroad/27_crossroad_colosseum.md`)
 - 立場：専属実況者兼、興行案内役

@@ -4,6 +4,7 @@
 
 - 種族：ホビット
 - 年齢：22歳　　性別：女性
+- 身長：142cm　　スリーサイズ：B76/W52/H78
 - レベル：50(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
 - 所属：歓楽街組合の用心棒稼業に登録した臨時護衛(`world/crossroad/20_crossroad_city_districts.md`)
 - 配置：クロスロード西区・歓楽街の通り

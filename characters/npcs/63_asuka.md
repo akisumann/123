@@ -4,6 +4,7 @@
 
 - 種族：エルフ
 - 年齢：26歳　　性別：女性
+- 身長：166cm　　スリーサイズ：B85/W57/H87
 - レベル：49(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
 - 所属：黒針会(`world/crossroad/32_black_needle_society.md`)の幹部／冒険者ギルド登録パーティー「狩人パーティー」(氷室・ツバキ・天雷との四人組)
 - 配置：クロスロード西区・黒針会まわり(`world/crossroad/20_crossroad_city_districts.md`)

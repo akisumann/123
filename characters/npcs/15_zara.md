@@ -4,6 +4,7 @@
 
 - 種族：蠍系獣人
 - 年齢：32歳
+- 身長：170cm　　スリーサイズ：B85/W57/H87
 - レベル：54(冒険者ランク基準ではAランク相当。`world/14_adventurers_guild.md`)
 - 所属：黒針会(`world/crossroad/32_black_needle_society.md`)
 - 役割：刃の幹部・暗殺・追跡・毒針・裏切り者処理
