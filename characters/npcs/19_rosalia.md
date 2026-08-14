@@ -81,3 +81,4 @@
 - エルシア(百花迷宮の幻術娼婦。娼館街の同業。`characters/npcs/21_elsia.md`)
 - 飛鳥(娼館街の裏事情に通じる黒針会の幹部。`characters/npcs/63_asuka.md`)
 - レオン・グレイヴ(西区の顔なじみ、娼館街の噂にも通じるカジノの勝負師。`characters/npcs/25_leon_grave.md`)
+- 雷華(店に属さず街角に立つ街娼。娼館街では「あの猫」で通っている。危ない客の話を一方的に教えてやる相手。`characters/npcs/64_raika.md`)

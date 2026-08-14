@@ -120,6 +120,7 @@
 - ヴィヴィアナ・ラウドベル(西区の顔役同士、噂話でお互いを知っている実況者。`characters/npcs/24_viviana_loudbell.md`)
 - 氷室(西区の酒場で顔なじみになった剣闘士。`characters/npcs/35_himuro.md`)
 - ツバキ(西区の安酒場を拠点にする斥候。飲み仲間圏で顔を合わせる。`characters/npcs/36_tsubaki.md`)
+- 雷華(西区の街娼。勝った晩に飯を奢る相手。金の感覚が壊れている者同士、妙に居心地がいい。`characters/npcs/64_raika.md`)
 
 ## シナリオでの役割
 

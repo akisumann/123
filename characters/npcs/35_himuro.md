@@ -97,3 +97,4 @@
 - ヴィヴィアナ・ラウドベル(実況でたびたび取り上げてくれる専属実況者。`characters/npcs/24_viviana_loudbell.md`)
 - 蒼龍(練兵場で顔を合わせる統制パーティーの前衛。`characters/npcs/32_souryuu.md`)
 - 白金(廃研究施設のメイドロボ。互いの怪力ぶりで妙に意気投合している。`characters/npcs/53_hakkin.md`)
+- 雷華(コロッセオの物置で勝手に寝ている西区の街娼。追い出しても翌週にはまた寝ている。飯を分けてやることもある。`characters/npcs/64_raika.md`)
