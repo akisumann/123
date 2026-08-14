@@ -3,7 +3,7 @@
 > **TL;DR:** 北門の古参門衛バルト。出入り確認・道案内を担う街の顔役。
 
 - 種族：人間
-- 年齢：52歳
+- 年齢：52歳　　性別：男性
 - レベル：28(冒険者ランク基準ではDランク相当。`world/14_adventurers_guild.md`)
 - 所属：クロスロード衛兵隊・北門(王都門)詰め(`world/crossroad/52_crossroad_gates_streets.md`)
 - 立場：古参門衛

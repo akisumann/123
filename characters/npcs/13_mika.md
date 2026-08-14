@@ -3,7 +3,7 @@
 > **TL;DR:** 南区の薬品職人ミルカ。ヘンテコ薬に紛れて有用な薬も置く掘り出し物店。
 
 - 種族：人間
-- 年齢：27歳
+- 年齢：27歳　　性別：女性
 - 身長：159cm　　スリーサイズ：B84/W58/H85
 - レベル：31(冒険者ランク基準ではCランク相当。`world/14_adventurers_guild.md`)
 - 配置：南区・ミルカ薬品工房(`world/crossroad/20_crossroad_city_districts.md`)

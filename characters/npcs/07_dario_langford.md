@@ -2,7 +2,7 @@
 
 > **TL;DR:** 冒険者ギルド支部長ダリオ。元斥候兼鑑定士で人材鑑定に長ける。
 
-- 年齢：44歳
+- 年齢：44歳　　性別：男性
 - レベル：41(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
 - 立場：冒険者ギルド支部長
 - 所属：クロスロード北区・冒険者ギルド支部(`world/crossroad/20_crossroad_city_districts.md`)

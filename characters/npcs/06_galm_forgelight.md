@@ -2,7 +2,7 @@
 
 > **TL;DR:** 南区の腕利き鍛冶師ガルム。武器修理・特注武具の窓口。
 
-- 年齢：46歳
+- 年齢：46歳　　性別：男性
 - レベル：36(冒険者ランク基準ではCランク相当。`world/14_adventurers_guild.md`)
 - 立場：鍛冶師・武具職人
 - 所属：クロスロード南区・職人組合(`world/crossroad/20_crossroad_city_districts.md`)

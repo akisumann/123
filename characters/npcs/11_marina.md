@@ -3,7 +3,7 @@
 > **TL;DR:** 東区の世話役マリナ。住民の小さな困りごと・住民依頼の窓口。
 
 - 種族：人間
-- 年齢：29歳
+- 年齢：29歳　　性別：女性
 - 身長：162cm　　スリーサイズ：B86/W60/H88
 - レベル：22(冒険者ランク基準ではDランク相当。`world/14_adventurers_guild.md`)
 - 配置：東区・公衆浴場《四路の湯》(`world/crossroad/55_crossroad_bathhouse.md`)／洗濯場／町内会館周辺(`world/crossroad/20_crossroad_city_districts.md`)

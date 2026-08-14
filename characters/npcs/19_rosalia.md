@@ -3,7 +3,7 @@
 > **TL;DR:** 紅玻璃館の筆頭花魁ロザリア。精霊憑依と陰陽循環術を操る。
 
 - 種族：人間
-- 年齢：29歳
+- 年齢：29歳　　性別：女性
 - 身長：165cm　　スリーサイズ：B92/W56/H91
 - レベル：42(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
 - 所属：紅玻璃館(`world/crossroad/50_crossroad_brothels.md`)
