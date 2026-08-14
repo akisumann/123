@@ -217,6 +217,7 @@
 - バルト(北門の古参門衛。`characters/npcs/22_balto.md`)
 - ロゼとリゼ(盗人姉妹。北区・西区・裏路地を中心に活動。`characters/npcs/12_roze_and_rize.md`)
 - ボルガン・ガルド(北区商業組合長・ガルド大商会会頭。北区商業の実質的な顔役。`characters/npcs/29_vorgan_gard.md`)
+- リド・カーウェン(新興のカーウェン商会会頭。小口・速達の取次で、北区で唯一ガルド大商会と張り合っている。`characters/npcs/65_rido_carwen.md`)
 - 統制パーティー(アクア・フロウの貴族令嬢一行。白鳩楼を拠点にギルド登録済み。水城・蒼龍・睡蓮・青葉の四人。`characters/npcs/31_mizushiro.md`ほか)
 - 空咲(独立の空輸便利屋。荷馬車駅外れの空き地を離着陸場代わりにする。`characters/npcs/39_sorasaki.md`)
 - 唯一(ソロ冒険者。雑魚討伐依頼で臨時招集されることが多い。`characters/npcs/42_yuiitsu.md`)
@@ -226,6 +227,7 @@
 
 - 荷馬車亭(安宿)、四辻の炉亭(中宿)、白鳩楼(高級宿)。いずれも`world/crossroad/21_crossroad_inns.md`を参照
 - 七つ樽(交易酒場)、帰還者の杯(ギルド近くの酒場)、旅籠前茶屋・一服(茶屋)、琥珀の匙(高級交易料理店)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
+- ガルド大商会(ボルガンの本拠。市場・倉庫・荷馬車を抱える北区最大の商会)、カーウェン商会(新興。倉庫を持たず小口・速達の取次に絞る)。`characters/npcs/29_vorgan_gard.md`、`characters/npcs/65_rido_carwen.md`
 - 北方交易市場。`world/crossroad/45_crossroad_district_markets.md`を参照
 - 冒険者ギルド支部。`world/14_adventurers_guild.md`を参照
 - 街区掲示板の傾向は`world/crossroad/22_crossroad_bulletin_boards.md`を参照

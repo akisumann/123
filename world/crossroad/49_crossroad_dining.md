@@ -42,7 +42,7 @@ Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/0
 
 北区の交易酒場。常時七種類以上の地域酒を置き、商隊の到着によって品揃えが変わる。外国語が飛び交う騒がしい店。人混みに紛れやすく、素性を隠したい者にも都合がいい。
 
-- **常連・顔ぶれ**：北門のバルト(`characters/npcs/22_balto.md`)、囮のロゼ・スリのリゼ(人混みで稼ぐ盗人姉妹。`characters/npcs/12_roze_and_rize.md`)、転移コソ泥の小夜(同業として人混みに紛れる。`characters/npcs/38_sayo.md`)、潜入のミーナ(交易の噂拾い)、水球の青葉(統制の中では気さくに顔を出す。`characters/npcs/34_aoba.md`)。**交易の噂と盗人稼業が交じる北区の雑踏**。
+- **常連・顔ぶれ**：北門のバルト(`characters/npcs/22_balto.md`)、囮のロゼ・スリのリゼ(人混みで稼ぐ盗人姉妹。`characters/npcs/12_roze_and_rize.md`)、転移コソ泥の小夜(同業として人混みに紛れる。`characters/npcs/38_sayo.md`)、潜入のミーナ(交易の噂拾い)、水球の青葉(統制の中では気さくに顔を出す。`characters/npcs/34_aoba.md`)、早耳のリド(カーウェン商会会頭。小商人と荷運びが集まるからここに通う。`characters/npcs/65_rido_carwen.md`)。**交易の噂と盗人稼業が交じる北区の雑踏**。
 
 ### 帰還者の杯
 

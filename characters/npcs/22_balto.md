@@ -77,4 +77,5 @@
 - ダリオ・ラングフォード(北門を利用する北区ギルド支部長。`characters/npcs/07_dario_langford.md`)
 - 空咲(荷馬車駅付近を拠点にする北区の空輸屋。`characters/npcs/39_sorasaki.md`)
 - ボルガン・ガルド(大口取引の荷が北門を通る北区商業組合長。`characters/npcs/29_vorgan_gard.md`)
+- リド・カーウェン(小口の荷で毎日北門を通る新興商人。門衛の名前を覚えて挨拶してくる若造。`characters/npcs/65_rido_carwen.md`)
 - 水城(《旅籠前茶屋・一服》で一人長居する統制パーティー隊長。街道の出入りをよく聞きに来る。`characters/npcs/31_mizushiro.md`)

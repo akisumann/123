@@ -46,6 +46,7 @@
 | 天才術式のララ | ララ | 東区の学校に通う天才児。第四階位術式構築・自動魔法制御(`characters/npcs/27_lara.md`) |
 | 天才剣士のカーラ | カーラ | 東区の学校に通う天才児。近接剣士・技術模倣、ララの相棒(`characters/npcs/28_karla.md`) |
 | 金塊商会長のボルガン | ボルガン・ガルド | 北区商業組合長・ガルド大商会会頭。陰では蔑称「醜悪オーク(豚王)」とも(`characters/npcs/29_vorgan_gard.md`) |
+| 早耳のリド | リド・カーウェン | カーウェン商会会頭。小口・速達の取次でガルド大商会と張り合う新興商人(`characters/npcs/65_rido_carwen.md`) |
 | 観光名所のアルティメットツギハギアイアンくん | アルティメットツギハギアイアンくん | 南区中央広場の巨大複合ゴーレム。街の象徴・非常時の最終兵器(`characters/npcs/30_ultimate_patchwork_iron_kun.md`) |
 | 統率のミズシロ | 水城 | アクア・フロウ貴族令嬢一行「統制パーティー」隊長(`characters/npcs/31_mizushiro.md`) |
 | 受け流しの蒼龍 | 蒼龍 | 「統制パーティー」前衛(`characters/npcs/32_souryuu.md`) |

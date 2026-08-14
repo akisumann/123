@@ -119,6 +119,7 @@
 - 芍薬(極上の鉱脈をちらつかせて手元に置いているお抱えの岩石精霊。`characters/npcs/48_shakuyaku.md`)
 - クラリス・ヴァイスフェルト(本当の実力に気づいている唯一の身内以外の人物。`characters/npcs/01_clarisse_weissfeld.md`)
 - ダリオ・ラングフォード(北区商業組合長として調整することが多い冒険者ギルド支部長。`characters/npcs/07_dario_langford.md`)
+- リド・カーウェン(新興カーウェン商会の会頭。北区で唯一まともに商売を削ってくる競合。小僧と呼んでいる。`characters/npcs/65_rido_carwen.md`)
 - 空咲(大口輸送を頼むことがある北区の空輸屋。`characters/npcs/39_sorasaki.md`)
 - セレナ・ギアフォード(特注品を注文することがある南区の工房店主。`characters/npcs/26_serena_gearford.md`)
 
