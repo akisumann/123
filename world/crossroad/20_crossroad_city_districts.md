@@ -356,7 +356,7 @@
 ### 主なNPC
 
 - マリナ(生活区の世話役。公衆浴場《四路の湯》・洗濯場・町内会館周辺。`characters/npcs/11_marina.md`)
-- 織部(東区の学校の教師。全身を白い霊布で巻いて壁と天井を這うが、住民は慣れている。昔どこかの小国で退魔師をしていた。`characters/npcs/66_oribe.md`)
+- 織部(《東区第四学校》の教師。全身を白い霊布で巻いて壁と天井を這うが、住民は慣れている。昔どこかの小国で退魔師をしていた。`characters/npcs/66_oribe.md`)
 - ミレイ(民間魔法サークルの取りまとめ役。東区と南区の境目の魔法サークルを拠点とする。`characters/npcs/18_milei.md`)
 - 小夜(独立のコソ泥。裏路地や空き家を転々としている。`characters/npcs/38_sayo.md`)
 - 泡姫(下水道に住み着いたヘドロスライム。公衆浴場《四路の湯》周辺の水路に出没しやすい。`characters/npcs/40_awahime.md`)
@@ -369,7 +369,7 @@
 
 ### 主な施設(具体的な店舗・拠点)
 
-- 東区の学校(住宅街の二階建て一棟。生徒120〜150人、教師4〜5人。ララ・カーラが通い、織部が教えている)。`world/crossroad/78_east_district_school.md`を参照
+- 《東区第四学校》(住宅街の二階建て一棟。生徒120〜150人、教師4〜5人。ララ・カーラが通い、織部が教えている)。`world/crossroad/78_east_district_school.md`を参照
 - 茶屋《ひだまり縁側》、茶屋《芽吹き棚》(南区との境の薬草茶屋)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
 - 民間魔法サークル(南区との境目)。`world/crossroad/43_crossroad_magic_circle.md`を参照
 - 公衆浴場《四路の湯》(市内最大規模、混浴が基本の公衆浴場)。`world/crossroad/55_crossroad_bathhouse.md`を参照

@@ -91,12 +91,12 @@
 ## よく接する人物
 
 - マリナ(共同井戸周辺で顔を合わせる東区の世話役。`characters/npcs/11_marina.md`)
-- ララ、カーラ(井戸端で歌をせがんでくる東区の学校の生徒。`characters/npcs/27_lara.md`、`characters/npcs/28_karla.md`)
+- ララ、カーラ(井戸端で歌をせがんでくる《東区第四学校》の生徒。`characters/npcs/27_lara.md`、`characters/npcs/28_karla.md`)
 - ミレイ(東区と南区の境目の魔法サークルを取りまとめる住民。`characters/npcs/18_milei.md`)
 - 小夜(東区で見かける顔。噂話仲間。`characters/npcs/38_sayo.md`)
 - エリアス・ヴェイル(興行歌唱の仕事で接点のある西区の劇作家。`characters/npcs/23_elias_veil.md`)
 - 豊根(共同井戸周辺に根を張る東区の長命トレント。弾き語りに葉擦れで拍子を合わせてくる。`characters/npcs/56_toyone.md`)
 - 海原(同じ内陸暮らしの人魚。クロスロード大病院の研究者で、研究に没頭しがちなのを世間話ついでに気遣う相手。`characters/npcs/58_unabara.md`)
 - カスミ(井戸端の悪戯妖精。歌に合わせて幻覚で光を散らすことがあり、これは歓迎されている。`characters/npcs/62_kasumi.md`)
-- 織部(東区の学校の教師。茶屋《ひだまり縁側》で顔を合わせる。昔の話を歌にしようとしたが、本人の説明が長すぎて諦めた。`characters/npcs/66_oribe.md`)
+- 織部(《東区第四学校》の教師。茶屋《ひだまり縁側》で顔を合わせる。昔の話を歌にしようとしたが、本人の説明が長すぎて諦めた。`characters/npcs/66_oribe.md`)
 

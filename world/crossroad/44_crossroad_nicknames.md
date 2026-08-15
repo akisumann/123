@@ -43,8 +43,8 @@
 | 劇作家のエリアス | エリアス・ヴェイル | 巡業劇団《渡り灯一座》専属脚本家(`characters/npcs/23_elias_veil.md`) |
 | 爆声のヴィヴィアナ | ヴィヴィアナ・ラウドベル | コロッセオ専属実況者(`characters/npcs/24_viviana_loudbell.md`) |
 | 仕掛屋のセレナ | セレナ・ギアフォード | 特殊機構工房《仕掛屋・六番工房》店主(`characters/npcs/26_serena_gearford.md`) |
-| 天才術式のララ | ララ | 東区の学校に通う天才児。第四階位術式構築・自動魔法制御(`characters/npcs/27_lara.md`) |
-| 天才剣士のカーラ | カーラ | 東区の学校に通う天才児。近接剣士・技術模倣、ララの相棒(`characters/npcs/28_karla.md`) |
+| 天才術式のララ | ララ | 《東区第四学校》に通う天才児。第四階位術式構築・自動魔法制御(`characters/npcs/27_lara.md`) |
+| 天才剣士のカーラ | カーラ | 《東区第四学校》に通う天才児。近接剣士・技術模倣、ララの相棒(`characters/npcs/28_karla.md`) |
 | 金塊商会長のボルガン | ボルガン・ガルド | 北区商業組合長・ガルド大商会会頭。陰では蔑称「醜悪オーク(豚王)」とも(`characters/npcs/29_vorgan_gard.md`) |
 | 早耳のリド | リド・カーウェン | カーウェン商会会頭。小口・速達の取次でガルド大商会と張り合う新興商人(`characters/npcs/65_rido_carwen.md`) |
 | 観光名所のアルティメットツギハギアイアンくん | アルティメットツギハギアイアンくん | 南区中央広場の巨大複合ゴーレム。街の象徴・非常時の最終兵器(`characters/npcs/30_ultimate_patchwork_iron_kun.md`) |
@@ -81,7 +81,7 @@
 | 悪戯のカスミ | カスミ | 東区・豊根の幹に住み着いた小型妖精。味方に幻覚を掛ける唯一の使い手だが誰も知らない(`characters/npcs/62_kasumi.md`) |
 | 間縫いのセレスティナ | セレスティナ | 西区の臨時護衛。客側につく伸縮槍の使い手。《間縫い》とも(`characters/npcs/61_celestina.md`) |
 | 気まぐれの雷華 | 雷華 | 西区の街角に立つ店に属さない街娼。雷獣の妖怪で、街で唯一のSPD:S(`characters/npcs/64_raika.md`) |
-| 布ゴキブリの織部 | 織部 | 東区の学校の教師。全身を白い霊布で巻いて壁と天井を這う、街の面白名物(`characters/npcs/66_oribe.md`) |
+| 布ゴキブリの織部 | 織部 | 《東区第四学校》の教師。全身を白い霊布で巻いて壁と天井を這う、街の面白名物(`characters/npcs/66_oribe.md`) |
 | 防具のイチカ | イチカ・ハイドウェル | 南区工房街の防具職人。ハイドウェル三姉妹の長女(`characters/npcs/67_ichika_hidewell.md`) |
 | 矢売りのニノ | ニノ・ハイドウェル | 南区工房街の弓師・矢師。三姉妹の次女(`characters/npcs/68_nino_hidewell.md`) |
 | 折れずのサン | サン・ハイドウェル | 南区工房街の小物職人。小型刃物・針・金具。三姉妹の三女(`characters/npcs/69_san_hidewell.md`) |

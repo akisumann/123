@@ -76,7 +76,7 @@
 
 - 鈴代(共同井戸の井戸端会議で毎朝顔を合わせる旅の吟遊詩人。`characters/npcs/45_suzuyo.md`)
 - ミレイ(東区と南区の境目の魔法サークルを取りまとめる、住民の魔法相談窓口。`characters/npcs/18_milei.md`)
-- ララ、カーラ(東区の学校に通う地域の子供として世話を焼く相手。`characters/npcs/27_lara.md`、`characters/npcs/28_karla.md`)
+- ララ、カーラ(《東区第四学校》に通う地域の子供として世話を焼く相手。`characters/npcs/27_lara.md`、`characters/npcs/28_karla.md`)
 - 小夜(軒先荒らしの噂を聞きつける立場にある東区のコソ泥。`characters/npcs/38_sayo.md`)
 - 泡姫(下水道の異変や落とし物の相談を持ちかけられることがある住み着き。`characters/npcs/40_awahime.md`)
 - 銀雪(廃研究施設のリビングアーマー。世間話でよく顔を合わせる。`characters/npcs/54_ginsetsu.md`)
@@ -85,5 +85,5 @@
 - 風間(クロスロード大病院の外科医。急な怪我人・重症の住民を病院へ繋ぐ相手。`characters/npcs/59_kazama.md`)
 - カスミ(豊根の幹に住む悪戯妖精。苦情が集まる相手だが、実害がないので毎回注意で終わる。`characters/npcs/62_kasumi.md`)
 - 睡蓮(水路歩きの帰りに茶屋《ひだまり縁側》へ寄る北区の令嬢。水路の崩れや異変を知らせに来る。`characters/npcs/33_suiren.md`)
-- 織部(東区の学校の教師。学校は町内会の下にあるので、給金も屋根の修理も相談も全部マリナを通る。`characters/npcs/66_oribe.md`)
+- 織部(《東区第四学校》の教師。学校は町内会の下にあるので、給金も屋根の修理も相談も全部マリナを通る。`characters/npcs/66_oribe.md`)
 
