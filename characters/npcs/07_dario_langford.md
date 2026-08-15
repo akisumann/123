@@ -132,7 +132,7 @@
 - エイダ・ロックウェル(冒険者絡みのトラブルで連絡を取り合う衛兵隊長。`characters/npcs/04_ada_lockwell.md`)
 - リド・カーウェン(北区の新興商人。急ぎの護衛を高値で出してくる上客。`characters/npcs/65_rido_carwen.md`)
 - セレスティナ(西区で客側につく未登録の護衛。Lv50。「そもそも狙われない形で連れて歩ける人」が要る護衛依頼の候補として名前を控えている。`characters/npcs/61_celestina.md`)
-- ハイドウェル三姉妹(南区工房街の解体・革・防具。冒険者が持ち帰った素材の一番太い行き先。`characters/npcs/69_san_hidewell.md`ほか)
+- ハイドウェル三姉妹(南区工房街の防具・弓矢・小物。冒険者の装備がほぼ全部この三軒から出ている。`characters/npcs/67_ichika_hidewell.md`ほか)
 
 ## シナリオでの役割
 

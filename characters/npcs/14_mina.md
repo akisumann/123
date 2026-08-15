@@ -110,3 +110,4 @@
 - 飛鳥(黒針会の「目」の幹部。`world/crossroad/32_black_needle_society.md`)
 - リネット、ロゼとリゼ(黒針会の情報網に引っかかっている下位協力者。`characters/npcs/10_linette.md`、`characters/npcs/12_roze_and_rize.md`)
 - ミレーヌ・ヴァイスフェルト(黒針会を統制下に置く歓楽街組合トップ。`characters/npcs/02_milene_weissfeld.md`)
+- サン・ハイドウェル(南区工房街の小物職人。**子供の姿のまま普通に買いに来ている**。サンは気づいていない。`characters/npcs/69_san_hidewell.md`)

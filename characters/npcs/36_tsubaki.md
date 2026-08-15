@@ -112,4 +112,5 @@
 - エイダ(隠密捕縛の即戦力として勧誘してくる衛兵隊長。表側の窓口。`characters/npcs/04_ada_lockwell.md`)
 - 紅葉、黒羽(西区の練兵場(`world/crossroad/74_crossroad_training_ground.md`)で見かける旅の騎士たち。`characters/npcs/43_momiji.md`、`characters/npcs/44_kokuu.md`)
 - セレスティナ(同じホビットで小柄な技巧型。西区の護衛稼業。夜鴉の止まり木で顔を合わせる。`characters/npcs/61_celestina.md`)
+- サン・ハイドウェル(南区工房街の小物職人。**手入れの要らない小物**を作る。斥候にとって油も研ぎも要らないのは決定的で、一番評価している客がツバキ。`characters/npcs/69_san_hidewell.md`)
 

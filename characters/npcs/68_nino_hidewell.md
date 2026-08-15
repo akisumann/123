@@ -102,7 +102,7 @@
 ## よく接する人物
 
 - イチカ(長女。防具屋。`characters/npcs/67_ichika_hidewell.md`)
-- サン(三女。`characters/npcs/69_san_hidewell.md`)
+- サン(三女。隣の小物屋。矢尻の焼き入れを頼む相手で、**商売が下手だと毎回言っている**。`characters/npcs/69_san_hidewell.md`)
 - 天雷(出稼ぎの弓手。矢の一番の得意先で、**故郷仕込みの大弓の調整も引き受けている**。`characters/npcs/37_tenrai.md`)
 - ダリオ・ラングフォード(冒険者ギルド支部長。どの依頼が出ているかを教えてもらう相手。**行き先が分かれば売る矢が決まる。** `characters/npcs/07_dario_langford.md`)
 - ガルム・フォージライト(同じ工房街の鍛冶頭。矢尻の仕入れ先。`characters/npcs/06_galm_forgelight.md`)
