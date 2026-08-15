@@ -399,7 +399,7 @@
 
 | 帯 | 何があるか |
 |---|---|
-| **① 中央広場まわり** | **真っ当な商業。** 工房の店頭、ちゃんとした店が並ぶ。フォージライト工房、仕掛屋・六番工房、そして街の象徴アイアンくんが立っている |
+| **① 中央広場まわり** | **真っ当な商業。** 工房の店頭、ちゃんとした店が並ぶ。フォージライト工房、仕掛屋・六番工房、**職人の通りに面した「ハイドウェルの三軒」**(防具・弓矢・小物)、そして街の象徴アイアンくんが立っている |
 | **② 外れ(東区との境目あたり)** | **南の投げ売り市**(`world/crossroad/45_crossroad_district_markets.md`)と**民間魔法サークル**(`world/crossroad/43_crossroad_magic_circle.md`)。試作品と失敗作、変わり者の職人、寄り合い所帯の術師たち。ミルカとミレイはここ。**東区の薬草茶屋《芽吹き棚》も同じ一帯**(`world/crossroad/49_crossroad_dining.md`) |
 | **③ 人が寄り付かない一角** | **廃研究施設。** 災害パーティーの4人が住み着いている |
 
@@ -521,7 +521,7 @@
 - ミルカ(薬品職人。工房は工房街だが、本人は毎日、外れの南の投げ売り市に出ている。`characters/npcs/13_mika.md`)
 - ミレイ(民間魔法サークルの取りまとめ役。東区と南区の境目の魔法サークルを拠点とする。`characters/npcs/18_milei.md`)
 - セレナ・ギアフォード(特殊機構工房《仕掛屋・六番工房》店主。`characters/npcs/26_serena_gearford.md`)
-- ハイドウェル三姉妹(工房街に三軒並んでいる一般の職人。**店はそれぞれ別で、一人が一軒を回している。** 防具屋は長女イチカだけで、次女ニノは弓師・矢師、三女サンは小物職人(小型刃物・針・金具)。`characters/npcs/67_ichika_hidewell.md`、`characters/npcs/68_nino_hidewell.md`、`characters/npcs/69_san_hidewell.md`)
+- ハイドウェル三姉妹(**職人の通りに面して三軒並んでいる**一般の職人。**店はそれぞれ別で、一人が一軒を回している。** 通り側から小物のサン、弓矢のニノ、防具のイチカ。`characters/npcs/67_ichika_hidewell.md`、`characters/npcs/68_nino_hidewell.md`、`characters/npcs/69_san_hidewell.md`)
 - アルティメットツギハギアイアンくん(南区中央広場の巨大複合ゴーレム。南区の象徴・非常時の最終兵器。`characters/npcs/30_ultimate_patchwork_iron_kun.md`)
 - 災害パーティー(火山の国から逃げてきた琥珀・白金・銀雪・妲己の4人組。廃研究施設を拠点に街へ根付き始めている。過去の悪事だけは知られていない。`characters/npcs/52_kohaku.md`ほか)
 
@@ -530,6 +530,7 @@
 - 鉄靴休み(簡易工房付きの特色宿)。`world/crossroad/21_crossroad_inns.md`を参照
 - 赤釘亭(職人酒場)。`world/crossroad/49_crossroad_dining.md`を参照
 - フォージライト工房、ミルカ薬品工房。危険地域産の素材が具体的にどう加工されるかは`world/crossroad/42_crossroad_artisan_goods.md`を参照
+- **ハイドウェルの三軒**(職人の通りに面して並ぶ、真っ当な一般の店。通り側から《ハイドウェル小物店》(サン)、《ハイドウェル弓矢店》(ニノ)、《ハイドウェル防具店》(イチカ)。**一人が一軒を回していて、扱う物が三軒とも違う。** 冒険者の買い出しがこの並びで一通り済む)。`characters/npcs/67_ichika_hidewell.md`を参照
 - 特殊機構工房《仕掛屋・六番工房》(注文制作・機能付与の専門店)。`world/crossroad/56_crossroad_gadget_workshop.md`を参照
 - 民間魔法サークル(東区との境目)。`world/crossroad/43_crossroad_magic_circle.md`を参照
 - 南の投げ売り市。`world/crossroad/45_crossroad_district_markets.md`を参照
