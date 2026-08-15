@@ -82,6 +82,9 @@
 | 間縫いのセレスティナ | セレスティナ | 西区の臨時護衛。客側につく伸縮槍の使い手。《間縫い》とも(`characters/npcs/61_celestina.md`) |
 | 気まぐれの雷華 | 雷華 | 西区の街角に立つ店に属さない街娼。雷獣の妖怪で、街で唯一のSPD:S(`characters/npcs/64_raika.md`) |
 | 布ゴキブリの織部 | 織部 | 東区の学校の教師。全身を白い霊布で巻いて壁と天井を這う、街の面白名物(`characters/npcs/66_oribe.md`) |
+| 防具のイチカ | イチカ・ハイドウェル | 南区工房街の防具職人。ハイドウェル三姉妹の長女(`characters/npcs/67_ichika_hidewell.md`) |
+| 革のニノ | ニノ・ハイドウェル | 南区工房街の革細工・旅装職人。三姉妹の次女(`characters/npcs/68_nino_hidewell.md`) |
+| 解体のサン | サン・ハイドウェル | 南区工房街の解体師・素材処理。三姉妹の三女(`characters/npcs/69_san_hidewell.md`) |
 
 ## 集団の総称
 

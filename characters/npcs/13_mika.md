@@ -104,3 +104,4 @@
 - 妲己(廃研究施設の生体兵装。気だるいながらも顔を合わせる。`characters/npcs/55_dakki.md`)
 - 豊根(東区の長命トレント。育てた薬草を分けてくれる仕入れ先の一つ。`characters/npcs/56_toyone.md`)
 - 海原(クロスロード大病院の人魚研究者。培養・試薬・薬で材料を融通し合う研究肌の同類。`characters/npcs/58_unabara.md`)
+- ハイドウェル三姉妹(工房街の革の職人。鞣しの薬品を融通し、解体で出た器官や体液を買っている。`characters/npcs/68_nino_hidewell.md`、`characters/npcs/69_san_hidewell.md`)

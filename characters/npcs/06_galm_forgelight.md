@@ -104,6 +104,7 @@
 - アルティメットツギハギアイアンくん(年次追加改修祭で毎年部品を持ち寄る南区の象徴。`characters/npcs/30_ultimate_patchwork_iron_kun.md`)
 - 琥珀(廃研究施設を拠点にする錬金術師。腕を認め合っており、自分でも打ち直せない複雑な機構物は琥珀へ回すことがある。`characters/npcs/52_kohaku.md`)
 - 白金(重い資材の運搬を頼むことがあるメイドロボ。`characters/npcs/53_hakkin.md`)
+- ハイドウェル三姉妹(同じ工房街の革の職人。革と金属の合わせ物で分担し、留め具と金具を卸している。`characters/npcs/67_ichika_hidewell.md`ほか)
 
 ## シナリオでの役割
 

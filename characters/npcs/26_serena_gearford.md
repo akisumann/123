@@ -93,6 +93,7 @@
 - ミレーヌ・ヴァイスフェルト(成人向け付与品などを注文する西区の取引先。`characters/npcs/02_milene_weissfeld.md`)
 - 琥珀(廃研究施設を拠点にする錬金術師。機械の話が合う相手で、仕掛屋でも解けない古い魔道具の不具合を琥珀へ回すことがある。`characters/npcs/52_kohaku.md`)
 - 白金(廃研究施設のメイドロボ。機械の扱いで話が合う。`characters/npcs/53_hakkin.md`)
+- イチカ・ハイドウェル(同じ工房街の防具職人。防具へ機構を仕込む注文が回ってくる。`characters/npcs/67_ichika_hidewell.md`)
 
 ## シナリオでの役割
 
