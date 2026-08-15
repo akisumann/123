@@ -300,7 +300,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
-| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 634,293 |
+| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 634,475 |
 | `CHARACTERS.md` | 主要NPC62人の要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 12,363 |
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,993 |
 | `PROGRESS.md` | PROGRESS | 167,295 |
@@ -332,12 +332,12 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/05_civilization_classification.md` | 知性ある存在を文明圏との関係で分ける「文明人分類」。 | 1,123 |
 | `world/06_economy.md` | 通貨G・物価・冒険者ランク別報酬・素材買い取りランク制度。金額を動かす場面の基準。 | 8,610 |
 | `world/07_settlement_generation.md` | 集落・都市を規模に応じて生成するルール(付随する危険地域等)。 | 522 |
-| `world/08_danger_zone_generation.md` | 魔物・魔力で危険化した「危険地域」を生成するルール。 | 2,035 |
+| `world/08_danger_zone_generation.md` | 魔物・魔力で危険化した「危険地域」を生成するルール。 | 2,185 |
 | `world/09_dungeon_generation.md` | 自然発生・遺構・人工など、ダンジョンを生成するルール。どのダンジョンにもコアがあり(作り出すクリエイトコア／忘れさせるオブリビオンコア／操るパペッターコア)、壊すと止まるので収支の面で壊さない。半起動という状態もある。 | 3,312 |
 | `world/10_road_generation.md` | 集落を結ぶ街道の生成ルールと、街道から外れるほど上がる危険度。 | 1,181 |
 | `world/12_mermaid.md` | 海洋種族「人魚」。アクア・フロウ連合の主要種族。 | 1,069 |
 | `world/13_giant.md` | 極寒適応の大型種族「巨人」。クリスタル・フロスト帝国の主要種族。 | 1,194 |
-| `world/14_adventurers_guild.md` | 世界最大の中立組織・冒険者ギルド。依頼の流れ・F〜Sランク制度・素材買取。 | 5,040 |
+| `world/14_adventurers_guild.md` | 世界最大の中立組織・冒険者ギルド。依頼の流れ・F〜Sランク制度・素材買取。 | 5,214 |
 | `world/16_minor_nations.md` | セントラル・ヘイヴン王国周辺に点在する多数の小国。 | 1,178 |
 | `world/26_amamiya.md` | 統制パーティー4人が水の身体を融合させた合体形態「雨宮(水精女王)」。 | 2,202 |
 | `world/27_ginsetsu_soukaku_mamori.md` | マモリが銀雪を着ただけの姿・銀雪装殻(Lv65)。それだけで十字剣クロスブレードが振れてしまう。 | 5,220 |
@@ -372,14 +372,14 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
-| `world/crossroad/11_crossroad_city.md` | 主舞台クロスロードの総合設定。人口・統治・街の転機・街道・危険地域4/ダンジョン3。 | 17,178 |
+| `world/crossroad/11_crossroad_city.md` | 主舞台クロスロードの総合設定。人口・統治・街の転機・街道・危険地域4/ダンジョン3。 | 17,334 |
 | `world/crossroad/20_crossroad_city_districts.md` | 市内5区画(中央/北/東/南/西)の役割・主な施設・主なNPC一覧。 | 16,556 |
 | `world/crossroad/21_crossroad_inns.md` | 冒険者向けの宿5軒(安宿〜高級・歓楽街寄り・工房付き)と料金帯。 | 2,785 |
 | `world/crossroad/22_crossroad_bulletin_boards.md` | ギルド正式依頼板とは別の、区画ごとの街区掲示板(軽い仕事・求人・告知)。 | 3,672 |
 | `world/crossroad/27_crossroad_colosseum.md` | 西区の大型闘技施設。実力抑制リング・賭け・興行試合の運営ルール。 | 5,142 |
 | `world/crossroad/28_crossroad_casino.md` | 西区の合法賭博施設。各種ゲームと乱数運用のルール。 | 3,917 |
 | `world/crossroad/29_crossroad_magic_board_race.md` | カジノの人気遊戯・魔導盤レース(光の幻獣を走らせるミニ競馬)。系統×地形は公開、四区画の脚は非公開で倍率に載らない。判定は`tools/casino_race.py`。 | 6,567 |
-| `world/crossroad/30_crossroad_purification_institute.md` | 中央区の浄化院。土地浄化・呪物処理・結界維持・対アンデッド支援。 | 2,448 |
+| `world/crossroad/30_crossroad_purification_institute.md` | 中央区の浄化院。土地浄化・呪物処理・結界維持・対アンデッド支援。 | 2,515 |
 | `world/crossroad/31_crossroad_security_forces.md` | 衛兵隊・騎士団・ギルド・浄化院の役割分担と衛兵の階級別レベル目安。 | 5,309 |
 | `world/crossroad/32_black_needle_society.md` | 街の裏の情報・暗殺組織「黒針会」。会主・幹部・ミレーヌとの関係。 | 7,216 |
 | `world/crossroad/33_crossroad_magic_slot.md` | カジノの遊技台・魔導スロット(三本リールの絵柄揃え)。 | 1,498 |
@@ -405,7 +405,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/crossroad/60_sazameki_plains.md` | 危険地域①さざめき平原(Lv10〜20)。冒険者デビューの定番地。 | 2,790 |
 | `world/crossroad/61_red_fang_forest.md` | 危険地域②赤牙森林(Lv25〜35)。薬効資源を守る縄張り持ちの魔獣。 | 3,893 |
 | `world/crossroad/62_grey_rock_canyon.md` | 危険地域③灰岩峡谷(Lv40〜50)。飛行魔物と鉱石・結晶の採取地。 | 4,894 |
-| `world/crossroad/63_bone_toll_moor.md` | 危険地域④骨鳴り墓原(Lv55〜65)。アンデッドを集める古戦場跡の墓原。 | 6,071 |
+| `world/crossroad/63_bone_toll_moor.md` | 危険地域④骨鳴り墓原(Lv55〜65)。アンデッドを集める古戦場跡の墓原。 | 6,202 |
 | `world/crossroad/64_danger_zone_quest_board.md` | 4つの危険地域を舞台にした、ギルド定番依頼の掲示例。 | 4,373 |
 | `world/crossroad/65_dungeon_quest_board.md` | 3つのダンジョンを舞台にした、ギルド定番依頼の掲示例。 | 4,483 |
 | `world/crossroad/66_civilian_security_quest_board.md` | 街道・都市が舞台の護衛・盗賊討伐・捕縛・警備の定番依頼例。 | 3,259 |
@@ -498,4 +498,4 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 ---
 
-合計 **160 ファイル / 1,446,308 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **160 ファイル / 1,447,168 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
