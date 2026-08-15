@@ -300,10 +300,10 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
-| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 633,384 |
+| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 634,405 |
 | `CHARACTERS.md` | 主要NPC62人の要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 12,363 |
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,993 |
-| `PROGRESS.md` | PROGRESS | 166,383 |
+| `PROGRESS.md` | PROGRESS | 167,109 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,899 |
 
@@ -405,8 +405,8 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/crossroad/60_sazameki_plains.md` | 危険地域①さざめき平原(Lv10〜20)。冒険者デビューの定番地。 | 2,790 |
 | `world/crossroad/61_red_fang_forest.md` | 危険地域②赤牙森林(Lv25〜35)。薬効資源を守る縄張り持ちの魔獣。 | 3,893 |
 | `world/crossroad/62_grey_rock_canyon.md` | 危険地域③灰岩峡谷(Lv40〜50)。飛行魔物と鉱石・結晶の採取地。 | 4,894 |
-| `world/crossroad/63_bone_toll_moor.md` | 危険地域④骨鳴り墓原(Lv55〜65)。アンデッドを集める古戦場跡の墓原。 | 5,541 |
-| `world/crossroad/64_danger_zone_quest_board.md` | 4つの危険地域を舞台にした、ギルド定番依頼の掲示例。 | 3,987 |
+| `world/crossroad/63_bone_toll_moor.md` | 危険地域④骨鳴り墓原(Lv55〜65)。アンデッドを集める古戦場跡の墓原。 | 6,101 |
+| `world/crossroad/64_danger_zone_quest_board.md` | 4つの危険地域を舞台にした、ギルド定番依頼の掲示例。 | 4,273 |
 | `world/crossroad/65_dungeon_quest_board.md` | 3つのダンジョンを舞台にした、ギルド定番依頼の掲示例。 | 4,483 |
 | `world/crossroad/66_civilian_security_quest_board.md` | 街道・都市が舞台の護衛・盗賊討伐・捕縛・警備の定番依頼例。 | 3,259 |
 | `world/crossroad/67_crossroad_casino_high_and_low.md` | カジノのカードゲーム・トゥエルブハイアンドローの遊び方とルール。 | 1,892 |
@@ -498,4 +498,4 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 ---
 
-合計 **160 ファイル / 1,443,571 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **160 ファイル / 1,446,164 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
