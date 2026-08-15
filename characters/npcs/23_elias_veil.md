@@ -117,8 +117,8 @@
 - ミレーヌ・ヴァイスフェルト(未上演演目『歓楽街の女王』の題材となった歓楽街組合トップ。`characters/npcs/02_milene_weissfeld.md`)
 - ヴィヴィアナ・ラウドベル(西区娯楽施設で顔を合わせる実況者。特別公演の案内で協力することもある。`characters/npcs/24_viviana_loudbell.md`)
 - レオン・グレイヴ(劇の題材になりそうな西区の名物男。`characters/npcs/25_leon_grave.md`)
-- ロザリア(紅玻璃館の筆頭花魁。物語の材料を求めて娼館街にも出入りする。`characters/npcs/19_rosalia.md`)
-- ベルナデッタ(桃灯楼の人気嬢。街の噂話を集める上での情報源。`characters/npcs/20_bernadette.md`)
+- ロザリア(娼館《紅玻璃館》の筆頭花魁。物語の材料を求めて娼館街にも出入りする。`characters/npcs/19_rosalia.md`)
+- ベルナデッタ(娼館《桃灯楼》の人気嬢。街の噂話を集める上での情報源。`characters/npcs/20_bernadette.md`)
 
 ## シナリオでの役割
 

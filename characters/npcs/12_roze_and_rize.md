@@ -142,7 +142,7 @@
 - リネット(黒針会の情報網に薄く繋がる者同士、末端で顔を合わせることがある情報屋。`characters/npcs/10_linette.md`)
 - ミレーヌ・ヴァイスフェルト(目をつけられている西区の統治者。`characters/npcs/02_milene_weissfeld.md`)
 - エイダ・ロックウェル(捕まった時に説教される衛兵隊長。`characters/npcs/04_ada_lockwell.md`)
-- ベルナデッタ(街中人脈が広く、噂で顔を知られている桃灯楼の人気嬢。`characters/npcs/20_bernadette.md`)
+- ベルナデッタ(街中人脈が広く、噂で顔を知られている娼館《桃灯楼》の人気嬢。`characters/npcs/20_bernadette.md`)
 - セレスティナ(西区で客側につく護衛。狙う側と狙わせない側。**客への注意喚起で「片方が話しかけて片方が抜く二人組」として実名で教材にされている。** 顔は割れており、目が合うと双方黙って進路を変える。`characters/npcs/61_celestina.md`)
 - 青葉(酒場《七つ樽》で一人で飲んでいる統制パーティーの令嬢。気安く卓に混ざってくる。`characters/npcs/34_aoba.md`)
 

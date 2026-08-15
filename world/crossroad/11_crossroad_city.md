@@ -327,7 +327,7 @@
 
 ## 西区の主要娼館
 
-西区の娼館通りにある知名度の高い三軒(紅玻璃館・桃灯楼・百花迷宮)。格式・大衆向け・演出の豊富さでそれぞれ客層と料金帯が明確に分かれている。詳細は`world/crossroad/50_crossroad_brothels.md`を参照。
+西区の娼館通りにある知名度の高い三軒(《紅玻璃館》《桃灯楼》《百花迷宮》)。格式・大衆向け・演出の豊富さでそれぞれ客層と料金帯が明確に分かれている。詳細は`world/crossroad/50_crossroad_brothels.md`を参照。
 
 ## クロスロードの門と大通り
 
@@ -360,9 +360,9 @@
 | 生活区の世話役 | マリナ | 東区の住民に顔が利く。住民依頼の窓口 | `characters/npcs/11_marina.md` |
 | 民間術師会の取りまとめ役 | ミレイ | 基礎魔法指導・魔法相談の窓口 | `characters/npcs/18_milei.md` |
 | 北門の古参門衛 | バルト | 北門《王都門》。出入り確認と道案内、街の顔役 | `characters/npcs/22_balto.md` |
-| 紅玻璃館の筆頭花魁 | ロザリア | 西区最高級娼館の頂点。精霊憑依と陰陽循環術 | `characters/npcs/19_rosalia.md` |
-| 桃灯楼の人気嬢 | ベルナデッタ | 犬獣人。広い人脈で緊急時の招集役も担う | `characters/npcs/20_bernadette.md` |
-| 百花迷宮の幻術娼婦 | エルシア | 昼は内気な魔法使い、夜は完全変身の幻術娼婦。Lv40 | `characters/npcs/21_elsia.md` |
+| 娼館《紅玻璃館》の筆頭花魁 | ロザリア | 西区最高級娼館の頂点。精霊憑依と陰陽循環術 | `characters/npcs/19_rosalia.md` |
+| 娼館《桃灯楼》の人気嬢 | ベルナデッタ | 犬獣人。広い人脈で緊急時の招集役も担う | `characters/npcs/20_bernadette.md` |
+| 娼館《百花迷宮》の幻術娼婦 | エルシア | 昼は内気な魔法使い、夜は完全変身の幻術娼婦。Lv40 | `characters/npcs/21_elsia.md` |
 | 巡業劇団専属脚本家 | エリアス・ヴェイル | 《渡り灯一座》専属。《万象座》の代表作3作 | `characters/npcs/23_elias_veil.md` |
 | コロッセオ専属実況者 | ヴィヴィアナ・ラウドベル | 魔導拡声器で実況する名物職員 | `characters/npcs/24_viviana_loudbell.md` |
 | カジノの勝負師 | レオン・グレイヴ | 《灰色の切り札》。卓では異常に強いが生活能力は皆無 | `characters/npcs/25_leon_grave.md` |

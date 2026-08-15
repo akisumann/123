@@ -142,6 +142,6 @@
 - ザラ(最後の刃として動く幹部。`characters/npcs/15_zara.md`)
 - ミレーヌ・ヴァイスフェルト(黒針会を統制下に置く歓楽街組合トップ。孫を見るような感情を抱いている。`characters/npcs/02_milene_weissfeld.md`)
 - リド・カーウェン(北区の新興商人。**ギデオンが決めた長期投資の対象**だが、リド本人はギデオンの存在を知らない。窓口は飛鳥。`characters/npcs/65_rido_carwen.md`)
-- ベルナデッタ(西区の古参として、どこかで接点のある桃灯楼の人気嬢。`characters/npcs/20_bernadette.md`)
+- ベルナデッタ(西区の古参として、どこかで接点のある娼館《桃灯楼》の人気嬢。`characters/npcs/20_bernadette.md`)
 - セレスティナ(西区で客側につく臨時護衛。歓楽街組合側の人間だが、ミレーヌの統制下では動線を長く辿れば同僚にあたる。`characters/npcs/61_celestina.md`)
 

@@ -101,7 +101,7 @@
 ## よく接する人物
 
 - ララ(術師会に出入りする東区の天才児。会員の術式の穴を指摘してくる、煙たいが頼りになる存在。`characters/npcs/27_lara.md`)
-- エルシア(サークル所属の会員。夜は百花迷宮で働いていることを明かしていない。`characters/npcs/21_elsia.md`)
+- エルシア(サークル所属の会員。夜は娼館《百花迷宮》で働いていることを明かしていない。`characters/npcs/21_elsia.md`)
 - マリナ(住民の魔法相談を回してくる東区の世話役。`characters/npcs/11_marina.md`)
 - ミルカ(南区の薬品職人。境界で顔なじみ。`characters/npcs/13_mika.md`)
 - ガルム・フォージライト(壊れた備品を持ち込む先の南区の鍛冶師。`characters/npcs/06_galm_forgelight.md`)

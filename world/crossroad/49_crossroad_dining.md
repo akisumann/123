@@ -132,7 +132,7 @@ Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/0
 
 西区寄りの華やかな高級料理店。照明、音楽、香り、盛り付けまで演出に含まれる。婚活祭り(`world/crossroad/46_crossroad_matchmaking_festival.md`)中は特に予約が取れない。
 
-- **使う顔ぶれ**：赤巫女のロザリア(紅玻璃館の筆頭花魁。晴れの席に。`characters/npcs/19_rosalia.md`)、歓楽街のミレーヌ(西区の顔として接待に。`characters/npcs/02_milene_weissfeld.md`)。
+- **使う顔ぶれ**：赤巫女のロザリア(娼館《紅玻璃館》の筆頭花魁。晴れの席に。`characters/npcs/19_rosalia.md`)、歓楽街のミレーヌ(西区の顔として接待に。`characters/npcs/02_milene_weissfeld.md`)。
 
 ### 高級店《月桂樹の間》
 

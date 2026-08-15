@@ -36,9 +36,9 @@
 | 黒針会のギデオン | ギデオン | 黒針会会主(`characters/npcs/16_gideon.md`) |
 | 恋バナ受付のリエラ | リエラ | ギルド受付職員(`characters/npcs/17_riera.md`) |
 | 魔法サークルのミレイ | ミレイ | 民間魔法サークルの取りまとめ役(`characters/npcs/18_milei.md`) |
-| 赤巫女のロザリア | ロザリア | 紅玻璃館の筆頭花魁(`characters/npcs/19_rosalia.md`) |
-| 呼び声のベルナデッタ | ベルナデッタ | 桃灯楼の人気嬢・街中連絡役(`characters/npcs/20_bernadette.md`) |
-| オタクのエルシア(魔法サークル)／幻惑のエルシア(娼館) | エルシア | 百花迷宮の幻術娼婦・民間術師会の会員(`characters/npcs/21_elsia.md`) |
+| 赤巫女のロザリア | ロザリア | 娼館《紅玻璃館》の筆頭花魁(`characters/npcs/19_rosalia.md`) |
+| 呼び声のベルナデッタ | ベルナデッタ | 娼館《桃灯楼》の人気嬢・街中連絡役(`characters/npcs/20_bernadette.md`) |
+| オタクのエルシア(魔法サークル)／幻惑のエルシア(娼館) | エルシア | 娼館《百花迷宮》の幻術娼婦・民間術師会の会員(`characters/npcs/21_elsia.md`) |
 | 北門のバルト | バルト | 北門《王都門》の古参門衛(`characters/npcs/22_balto.md`) |
 | 劇作家のエリアス | エリアス・ヴェイル | 巡業劇団《渡り灯一座》専属脚本家(`characters/npcs/23_elias_veil.md`) |
 | 爆声のヴィヴィアナ | ヴィヴィアナ・ラウドベル | コロッセオ専属実況者(`characters/npcs/24_viviana_loudbell.md`) |

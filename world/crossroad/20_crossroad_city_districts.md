@@ -660,9 +660,9 @@
 - ミーナ(黒針会幹部。`characters/npcs/14_mina.md`)
 - ザラ(黒針会幹部。`characters/npcs/15_zara.md`)
 - ギデオン(黒針会会主。`characters/npcs/16_gideon.md`)
-- ロザリア(紅玻璃館の筆頭花魁。`characters/npcs/19_rosalia.md`)
-- ベルナデッタ(桃灯楼の人気嬢。`characters/npcs/20_bernadette.md`)
-- エルシア(百花迷宮の幻術娼婦。夜はこの区、昼は東区・南区境目の魔法サークル。`characters/npcs/21_elsia.md`)
+- ロザリア(娼館《紅玻璃館》の筆頭花魁。`characters/npcs/19_rosalia.md`)
+- ベルナデッタ(娼館《桃灯楼》の人気嬢。`characters/npcs/20_bernadette.md`)
+- エルシア(娼館《百花迷宮》の幻術娼婦。夜はこの区、昼は東区・南区境目の魔法サークル。`characters/npcs/21_elsia.md`)
 - ロゼとリゼ(盗人姉妹。北区・西区・裏路地を中心に活動。`characters/npcs/12_roze_and_rize.md`)
 - エリアス・ヴェイル(巡業劇団《渡り灯一座》専属脚本家。滞在中は大劇場《万象座》を拠点にする。`characters/npcs/23_elias_veil.md`)
 - ヴィヴィアナ・ラウドベル(コロッセオ専属実況者。`characters/npcs/24_viviana_loudbell.md`)
@@ -684,7 +684,7 @@
 - コロッセオ。`world/crossroad/27_crossroad_colosseum.md`を参照
 - 練兵場(コロッセオ隣接の公営稽古場)。`world/crossroad/74_crossroad_training_ground.md`を参照
 - クロスロード大劇場《万象座》(コロッセオ・カジノと並ぶ西区三大娯楽施設のひとつ。巡業劇団《渡り灯一座》の主要公演地)。`world/crossroad/54_crossroad_theater.md`を参照
-- 娼館通り(紅玻璃館・桃灯楼・百花迷宮)。`world/crossroad/50_crossroad_brothels.md`を参照
+- 娼館通り(《紅玻璃館》《桃灯楼》《百花迷宮》)。`world/crossroad/50_crossroad_brothels.md`を参照
 - 宿屋《赤幕の借宿》(特色宿)。`world/crossroad/21_crossroad_inns.md`を参照
 - 酒場《夜鴉の止まり木》(深夜酒場)、酒場《月裏亭》、高級店《銀燭館》。いずれも`world/crossroad/49_crossroad_dining.md`を参照
 - 西の夜市。`world/crossroad/45_crossroad_district_markets.md`を参照
