@@ -74,7 +74,7 @@
 
 ## 日常
 
-**行きつけ**：相棒の紅葉とともに中央区の《折れ角の牡鹿亭》へ。騎士つながりで中央勢と同じ卓に着く(`world/crossroad/49_crossroad_dining.md`)。
+**行きつけ**：相棒の紅葉とともに中央区の酒場《折れ角の牡鹿亭》へ。騎士つながりで中央勢と同じ卓に着く(`world/crossroad/49_crossroad_dining.md`)。
 
 紅葉と同じ西区の安宿に部屋を取り、大抵は練兵場(`world/crossroad/74_crossroad_training_ground.md`)で紅葉の稽古に付き合っている。空いた時間は刀の手入れや読書に充てる、落ち着いた過ごし方を好む。
 

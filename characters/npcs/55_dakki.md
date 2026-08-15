@@ -72,7 +72,7 @@
 
 ## 日常
 
-**行きつけ**：気だるげに寛ぐなら西区《月裏亭》の仕切り席(`world/crossroad/49_crossroad_dining.md`)。
+**行きつけ**：気だるげに寛ぐなら西区酒場《月裏亭》の仕切り席(`world/crossroad/49_crossroad_dining.md`)。
 
 西区の大カジノ(`world/crossroad/28_crossroad_casino.md`)にもよく居座っている。賭け先は自分で決めるが、読み合いは面倒なのでカードの卓には近寄らず、魔導スロット(`world/crossroad/33_crossroad_magic_slot.md`)と魔導盤レース(`world/crossroad/29_crossroad_magic_board_race.md`)しかやらない。座ったまま待っているだけで結果が出るからである。同じ席に何時間でもいるため、琥珀か白金が迎えに来るのが定番になっている。
 

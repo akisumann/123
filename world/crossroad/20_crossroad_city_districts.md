@@ -117,8 +117,8 @@
 
 ### 主な施設(具体的な店舗・拠点)
 
-- 折れ角の牡鹿亭(大衆酒場)、水音茶房(茶屋)、白雲(茶屋)、金穂宮(高級料理店)、月桂樹の間(高級料理店)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
-- 土香る庵(大神殿近くの茶屋)、眠龍楼(大神殿近くの高級料理店)。`world/crossroad/49_crossroad_dining.md`を参照
+- 酒場《折れ角の牡鹿亭》(大衆酒場)、茶屋《水音茶房》、茶屋《白雲》、高級店《金穂宮》、高級店《月桂樹の間》。いずれも`world/crossroad/49_crossroad_dining.md`を参照
+- 茶屋《土香る庵》(大神殿近く)、高級店《眠龍楼》(大神殿近く)。`world/crossroad/49_crossroad_dining.md`を参照
 - 中央広場市。`world/crossroad/45_crossroad_district_markets.md`を参照
 - 公式掲示板。区画ごとの掲示板の傾向は`world/crossroad/22_crossroad_bulletin_boards.md`を参照
 - 情報屋(黒針会運営の伝言・情報網の中央区支店)。`world/crossroad/51_black_needle_info_network.md`を参照
@@ -235,8 +235,8 @@
 
 ### 主な施設(具体的な店舗・拠点)
 
-- 荷馬車亭(安宿)、四辻の炉亭(中宿)、白鳩楼(高級宿)。いずれも`world/crossroad/21_crossroad_inns.md`を参照
-- 七つ樽(交易酒場)、帰還者の杯(ギルド近くの酒場)、旅籠前茶屋・一服(茶屋)、琥珀の匙・五つの地平・蒼天卓(高級料理店。五つの地平は交易市場に五地域の食材が揃うため、蒼天卓はギルドと素材買取所が近いため、いずれも北区にある)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
+- 宿屋《荷馬車亭》(安宿)、宿屋《四辻の炉亭》(中宿)、宿屋《白鳩楼》(高級宿)。いずれも`world/crossroad/21_crossroad_inns.md`を参照
+- 酒場《七つ樽》(交易酒場)、酒場《帰還者の杯》(ギルド近く)、茶屋《旅籠前茶屋・一服》、高級店《琥珀の匙》・高級店《五つの地平》・高級店《蒼天卓》(いずれも高級料理店。五つの地平は交易市場に五地域の食材が揃うため、蒼天卓はギルドと素材買取所が近いため、いずれも北区にある)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
 - ガルド大商会本館《金蔵》とカーウェン商会《空店》。大通りを挟んで向かい合う二大商会の建物と、その間の通り「商会前」。`world/crossroad/77_north_district_trading_houses.md`を参照
 - 北方交易市場。`world/crossroad/45_crossroad_district_markets.md`を参照
 - 冒険者ギルド支部。`world/14_adventurers_guild.md`を参照
@@ -370,7 +370,7 @@
 ### 主な施設(具体的な店舗・拠点)
 
 - 東区の学校(住宅街の二階建て一棟。生徒120〜150人、教師4〜5人。ララ・カーラが通い、織部が教えている)。`world/crossroad/78_east_district_school.md`を参照
-- ひだまり縁側(茶屋)、芽吹き棚(南区との境の薬草茶屋)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
+- 茶屋《ひだまり縁側》、茶屋《芽吹き棚》(南区との境の薬草茶屋)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
 - 民間魔法サークル(南区との境目)。`world/crossroad/43_crossroad_magic_circle.md`を参照
 - 公衆浴場《四路の湯》(市内最大規模、混浴が基本の公衆浴場)。`world/crossroad/55_crossroad_bathhouse.md`を参照
 - クロスロード大病院(中央区との境に建つ、世俗の回復魔法を主軸とする総合病院。日常医療の受け皿)。`world/crossroad/71_crossroad_hospital.md`を参照
@@ -405,7 +405,7 @@
 
 **①で売れない物が②へ流れ、②の奥に③がある。** 順番に歩けば、真っ当な店先から、よく分からない物が並ぶ露店を抜けて、誰も近寄らない廃墟へ出る。
 
-**③は無人地帯ではない。** 4人は周辺住民とそれなりに交流しており(`world/nations/23_volcanic_forge_empire.md`)、銀雪は②の《芽吹き棚》へ茶を飲みに来る。**近所付き合いはある。**
+**③は無人地帯ではない。** 4人は周辺住民とそれなりに交流しており(`world/nations/23_volcanic_forge_empire.md`)、銀雪は②の茶屋《芽吹き棚》へ茶を飲みに来る。**近所付き合いはある。**
 
 ### 名前のある店は、目立つ店にすぎない
 
@@ -540,8 +540,8 @@
 
 ### 主な施設(具体的な店舗・拠点)
 
-- 鉄靴休み(簡易工房付きの特色宿)。`world/crossroad/21_crossroad_inns.md`を参照
-- 赤釘亭(職人酒場)。`world/crossroad/49_crossroad_dining.md`を参照
+- 宿屋《鉄靴休み》(簡易工房付きの特色宿)。`world/crossroad/21_crossroad_inns.md`を参照
+- 酒場《赤釘亭》(職人酒場)。`world/crossroad/49_crossroad_dining.md`を参照
 - フォージライト工房、ミルカ薬品工房。危険地域産の素材が具体的にどう加工されるかは`world/crossroad/42_crossroad_artisan_goods.md`を参照
 - **ハイドウェルの三軒**(職人の通りに面して並ぶ、真っ当な一般の店。通り側から《サン小物店》(サン)、《ニノ弓矢店》(ニノ)、《イチカ防具店》(イチカ)。**一人が一軒を回していて、扱う物が三軒とも違う。** 冒険者の買い出しがこの並びで一通り済む)。`characters/npcs/67_ichika_hidewell.md`を参照
 - 特殊機構工房《仕掛屋・六番工房》(注文制作・機能付与の専門店)。`world/crossroad/56_crossroad_gadget_workshop.md`を参照
@@ -685,8 +685,8 @@
 - 練兵場(コロッセオ隣接の公営稽古場)。`world/crossroad/74_crossroad_training_ground.md`を参照
 - クロスロード大劇場《万象座》(コロッセオ・カジノと並ぶ西区三大娯楽施設のひとつ。巡業劇団《渡り灯一座》の主要公演地)。`world/crossroad/54_crossroad_theater.md`を参照
 - 娼館通り(紅玻璃館・桃灯楼・百花迷宮)。`world/crossroad/50_crossroad_brothels.md`を参照
-- 赤幕の借宿(特色宿)。`world/crossroad/21_crossroad_inns.md`を参照
-- 夜鴉の止まり木、月裏亭(酒場)、銀燭館(高級料理店)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
+- 宿屋《赤幕の借宿》(特色宿)。`world/crossroad/21_crossroad_inns.md`を参照
+- 酒場《夜鴉の止まり木》(深夜酒場)、酒場《月裏亭》、高級店《銀燭館》。いずれも`world/crossroad/49_crossroad_dining.md`を参照
 - 西の夜市。`world/crossroad/45_crossroad_district_markets.md`を参照
 - 街区掲示板の傾向は`world/crossroad/22_crossroad_bulletin_boards.md`を参照
 - 情報屋(歓楽街・裏事情に強い西区の情報屋網の中心)。黒針会そのものの詳細は`world/crossroad/32_black_needle_society.md`、伝言・情報網の仕組みは`world/crossroad/51_black_needle_info_network.md`を参照

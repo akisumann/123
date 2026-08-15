@@ -71,7 +71,7 @@
 
 ## 日常
 
-**行きつけ**：住み込みのコロッセオを出て一杯やるなら、西区の《夜鴉の止まり木》(`world/crossroad/49_crossroad_dining.md`)。
+**行きつけ**：住み込みのコロッセオを出て一杯やるなら、西区の酒場《夜鴉の止まり木》(`world/crossroad/49_crossroad_dining.md`)。
 
 朝はコロッセオ隣の練兵場(`world/crossroad/74_crossroad_training_ground.md`)で軽く体を慣らし、試合がない日は控室でごろごろしている。西区の酒場に顔なじみが多く、試合終わりにそのまま飲みに繰り出すことも多い。
 

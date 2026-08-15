@@ -236,7 +236,7 @@
 - セリア(浄化院の若手神官。霊布の仕入れ先。`characters/npcs/09_celia.md`)
 - ミレイ(民間魔法サークルの取りまとめ役。学校で魔力の扱いが身に付かなかった生徒の行き先。`characters/npcs/18_milei.md`)
 - カスミ(豊根の幹に住む悪戯妖精。漂っている索敵の糸を引っ張って遊ぶ。`characters/npcs/62_kasumi.md`)
-- 鈴代(共同井戸の井戸端に加わる吟遊詩人。《ひだまり縁側》で顔を合わせる。`characters/npcs/45_suzuyo.md`)
+- 鈴代(共同井戸の井戸端に加わる吟遊詩人。茶屋《ひだまり縁側》で顔を合わせる。`characters/npcs/45_suzuyo.md`)
 
 ## 扱いの注意(GM運用)
 

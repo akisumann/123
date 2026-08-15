@@ -91,6 +91,9 @@ def parse_dining():
         for sec in re.split(r"(?m)^### ", block)[1:]:
             lines = sec.splitlines()
             shop = lines[0].strip()
+            # 見出しは「酒場《赤釘亭》」形式。種別を剥がして店名だけ取る
+            # (名前そのものに種別が入る「旅籠前茶屋・一服」は素のまま)。
+            shop = re.sub(r"^(酒場|茶屋|宿屋|高級店)《(.+)》$", r"\2", shop)
             desc = " ".join(lines[1:5])
             district = next((d for d in DISTRICTS if d in desc), "")
             label = "深夜酒場" if "深夜酒場" in desc else kind
@@ -123,7 +126,7 @@ def render(rows) -> str:
             if k != kind:
                 continue
             who = "／".join(names.get(n, f"?{n}") for n in nums)
-            out.append(f"- **{shop}**({district}・{label})…{who}")
+            out.append(f"- **{label}《{shop}》**({district})…{who}")
         out.append("")
     return "\n".join(out).rstrip() + "\n"
 

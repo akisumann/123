@@ -91,5 +91,5 @@
 - 水城、蒼龍、睡蓮(統制パーティーの仲間。`characters/npcs/31_mizushiro.md`、`characters/npcs/32_souryuu.md`、`characters/npcs/33_suiren.md`)
 - ヴィヴィアナ・ラウドベル(「水球の青葉」の通り名で紹介してくれる実況者。`characters/npcs/24_viviana_loudbell.md`)
 - 氷室(コロッセオや練兵場で見かける剣闘士。`characters/npcs/35_himuro.md`)
-- ロゼ・リゼ(《七つ樽》の常連仲間。人混みの中から気安く声をかけてくる姉妹。`characters/npcs/12_roze_and_rize.md`)
-- 小夜(同じく《七つ樽》で見かける東区のコソ泥。`characters/npcs/38_sayo.md`)
+- ロゼ・リゼ(酒場《七つ樽》の常連仲間。人混みの中から気安く声をかけてくる姉妹。`characters/npcs/12_roze_and_rize.md`)
+- 小夜(同じく酒場《七つ樽》で見かける東区のコソ泥。`characters/npcs/38_sayo.md`)
