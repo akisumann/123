@@ -65,7 +65,7 @@ def main() -> int:
 
     if not broken:
         print(f"OK: リンク切れなし({len(existing)} ファイルを検査)")
-        return check_hangouts() or check_unique_claims()
+        return check_hangouts() or check_unique_claims() or check_mutual_contacts()
 
     # 参照先ごとにまとめて表示
     by_ref = {}
@@ -167,6 +167,54 @@ def check_unique_claims() -> int:
             print(f"      {rel}:{i}  …{near}…")
     return 1
 
+
+
+def check_mutual_contacts() -> int:
+    """「よく接する人物」が片側にしか書かれていない線を数える(報告のみ)。
+
+    **これは失敗ではない。** 関係は対称とは限らないためである。滞在中の修道女が
+    領主を挙げるのは自然でも、領主の側が彼女を挙げるとは限らない。黒針会の幹部が
+    「察した上でスルーしてくる相手」を挙げていても、相手側には書く理由が無い。
+    **格下から格上への線、片方だけが意識している線は、片側で正しい。**
+
+    それでも数を見せるのは、**両側に書くべき線を書き忘れた場合**(同格の相棒、
+    同じ店の常連同士、取引相手など)がこの中に紛れるためである。増減を眺めて、
+    心当たりのあるものだけ直せばよい。一覧は `--contacts` で出る。
+    """
+    import make_place_map as mp
+
+    npc_dir = mp.NPC_DIR
+    files = [f for f in sorted(os.listdir(npc_dir)) if f.endswith(".md")]
+    names = {}
+    contacts = {}
+    for fn in files:
+        text = open(os.path.join(npc_dir, fn), encoding="utf-8").read()
+        names[fn] = text.split("\n")[0].lstrip("# ").strip()
+        m = re.search(r"^## よく接する人物\n(.*?)(?=^## |\Z)", text, re.S | re.M)
+        sec = m.group(1) if m else ""
+        contacts[fn] = {os.path.basename(x) for x in
+                        re.findall(r"characters/npcs/([0-9]+_[A-Za-z0-9_]+\.md)", sec)}
+
+    known = set(files)
+    bad = []
+    for fn in files:
+        for other in sorted(contacts[fn]):
+            if other not in known:
+                continue          # 存在しないパスはリンク切れ検査の担当
+            if fn not in contacts.get(other, set()):
+                bad.append((names[fn], fn, names.get(other, other), other))
+
+    pairs = sum(len(v) for v in contacts.values())
+    if not bad:
+        print(f"OK: よく接する人物は全て相互(のべ {pairs} 本の線を照合)")
+        return 0
+    print(f"— よく接する人物:のべ {pairs} 本のうち {len(bad)} 本が片側のみ"
+          "(関係は対称とは限らないので、これ自体は異常ではない。"
+          "一覧は --contacts)")
+    if "--contacts" in sys.argv:
+        for a, af, b, bf in bad:
+            print(f"    {a}({af}) → {b}({bf})")
+    return 0
 
 
 if __name__ == "__main__":
