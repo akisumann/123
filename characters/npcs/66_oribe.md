@@ -5,7 +5,7 @@
 - 種族：人間
 - 年齢：40歳　　性別：男性
 - レベル：40【上限】(冒険者ランク基準ではCランク相当。`world/14_adventurers_guild.md`)
-- 所属：クロスロード東区・学校
+- 所属：クロスロード東区・学校(`world/crossroad/78_east_district_school.md`)
 - 配置：クロスロード東区(`world/crossroad/20_crossroad_city_districts.md`)
 - 立場：教師(読み書き・計算・街の規則・生活で使う程度の魔力の扱い)
 - 通り名：布ゴキブリの織部
