@@ -33,12 +33,18 @@ SLOT_WEIGHT = {
     "夜の場":   {"未明": 3, "朝": 0, "昼": 0, "夕": 1, "宵": 5, "夜半": 4},
     "持ち場":   {"未明": 1, "朝": 4, "昼": 5, "夕": 3, "宵": 1, "夜半": 1},
     "昼の職場": {"未明": 0, "朝": 4, "昼": 5, "夕": 3, "宵": 0, "夜半": 0},
+    # 住まいを兼ねる場所。夜こそそこにいる
+    "住居":     {"未明": 8, "朝": 4, "昼": 4, "夕": 3, "宵": 4, "夜半": 8},
 }
 # 夜が本番の施設(歓楽・興行・賭博)
 NIGHT_VENUES = ("娼館", "コロッセオ", "カジノ", "万象座", "劇場", "歓楽")
 # 日が暮れれば閉まる場所。夜も人がいるのは病院・黒針会・裏路地・下水道・廃研究施設など
 DAY_ONLY = ("学校", "工房", "庁舎", "門", "ギルド", "浄化院", "サークル",
             "広場", "市場", "商業組合", "練兵場", "洗濯場")
+# 住居を兼ねる場所。夜も人がいるので DAY_ONLY より優先する。
+# (「行政庁舎・領主邸」は庁舎でありながら領主の住まいでもある。ここを昼の職場に
+#  してしまうと、領主と専属護衛が夜に自宅へ帰らない配置が出る。)
+RESIDENCE = ("邸", "屋敷", "拠点", "住まい")
 
 
 def npc_names() -> dict[str, list[str]]:
@@ -69,6 +75,8 @@ def venue_kind(label: str) -> str:
         return "宿"
     if any(k in label for k in NIGHT_VENUES):
         return "夜の場"
+    if any(k in label for k in RESIDENCE):
+        return "住居"
     if any(k in label for k in DAY_ONLY):
         return "昼の職場"
     return "持ち場"
@@ -150,7 +158,15 @@ def pick_venue(person: str, district: str, slot: str, venues: dict[str, list[dic
     不動型は小さく、ふらつく者は大きく取る。
     """
     cands = [v for v in venues.get(person, []) if v["区画"] == district]
-    weights = [(v["施設"], SLOT_WEIGHT[v["種別"]][slot]) for v in cands]
+    # 持ち場を離れない者(不動)は、勤めの時間帯に持ち場から離れにくい。
+    # 重みが素のままだと、門衛の朝が「王都門4 対 茶屋3」でほぼ互角になり、
+    # 半分近く茶屋にいる配置が出る。持ち場側だけ厚くして是正する
+    # (宵・夜半は持ち場側の重みが元から小さいので、行きつけへ出る動きは残る)。
+    post_boost = 3.0 if slack <= 1.0 else 1.0
+    weights = [(v["施設"],
+                SLOT_WEIGHT[v["種別"]][slot]
+                * (post_boost if v["種別"] in ("持ち場", "昼の職場", "住居") else 1.0))
+               for v in cands]
     weights = [(n, w) for n, w in weights if w > 0]
     if not weights:
         return ""
