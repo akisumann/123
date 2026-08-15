@@ -79,6 +79,6 @@ INT:Dで、頭を使う役ではない。値段はニノが決め、何をどう
 ## よく接する人物
 
 - イチカ(長女。血の匂いをさせて店へ行くと毎回注意される。`characters/npcs/67_ichika_hidewell.md`)
-- ニノ(次女。皮を売る相手。値段は全部この姉が決める。`characters/npcs/68_nino_hidewell.md`)
+- ニノ(次女。隣の弓矢屋。`characters/npcs/68_nino_hidewell.md`)
 - ダリオ・ラングフォード(冒険者ギルド支部長。素材の買い取りで持ち込みが回ってくる。`characters/npcs/07_dario_langford.md`)
 - ミルカ(外れの投げ売り市に出ている薬品職人。器官や体液を買っていく。`characters/npcs/13_mika.md`)

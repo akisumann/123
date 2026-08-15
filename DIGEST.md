@@ -300,10 +300,10 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
-| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 658,251 |
-| `CHARACTERS.md` | 主要NPC62人の要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 12,991 |
+| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 659,228 |
+| `CHARACTERS.md` | 主要NPC62人の要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 13,015 |
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,993 |
-| `PROGRESS.md` | PROGRESS | 173,354 |
+| `PROGRESS.md` | PROGRESS | 173,552 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,899 |
 
@@ -373,7 +373,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `world/crossroad/11_crossroad_city.md` | 主舞台クロスロードの総合設定。人口・統治・街の転機・街道・危険地域4/ダンジョン3。 | 17,334 |
-| `world/crossroad/20_crossroad_city_districts.md` | 市内5区画(中央/北/東/南/西)の役割・主な施設・主なNPC一覧。 | 17,704 |
+| `world/crossroad/20_crossroad_city_districts.md` | 市内5区画(中央/北/東/南/西)の役割・主な施設・主なNPC一覧。 | 17,703 |
 | `world/crossroad/21_crossroad_inns.md` | 冒険者向けの宿5軒(安宿〜高級・歓楽街寄り・工房付き)と料金帯。 | 2,785 |
 | `world/crossroad/22_crossroad_bulletin_boards.md` | ギルド正式依頼板とは別の、区画ごとの街区掲示板(軽い仕事・求人・告知)。 | 3,672 |
 | `world/crossroad/27_crossroad_colosseum.md` | 西区の大型闘技施設。実力抑制リング・賭け・興行試合の運営ルール。 | 5,142 |
@@ -386,12 +386,12 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/crossroad/34_crossroad_justice.md` | 捕まえた者が裁かれ牢に入るまで。刑は記録・賠償・労役・出禁・収監・追放、重罪は王都送り。 | 1,431 |
 | `world/crossroad/42_crossroad_artisan_goods.md` | 南区職人区で危険地域の素材が加工された、冒険者向け商品の数々。 | 4,357 |
 | `world/crossroad/43_crossroad_magic_circle.md` | 街の魔法使いが集う民間魔法サークル(相談・講習・共同作業場)。 | 5,467 |
-| `world/crossroad/44_crossroad_nicknames.md` | 主要NPC60人の通り名・本名・所属の対応一覧(NPC逆引きの起点)。 | 6,016 |
+| `world/crossroad/44_crossroad_nicknames.md` | 主要NPC60人の通り名・本名・所属の対応一覧(NPC逆引きの起点)。 | 6,015 |
 | `world/crossroad/45_crossroad_district_markets.md` | 5区画それぞれ性格の異なる市場(中央広場市・西の夜市・南の投げ売り市等)。 | 9,666 |
 | `world/crossroad/46_crossroad_matchmaking_festival.md` | 年一度の婚活祭り「結び路の祝祭」。領主クラリスも強制参加の名物行事。 | 4,259 |
 | `world/crossroad/47_crossroad_harvest_festival.md` | 月一度の食の祭り「巡穣祭」。その月最多の作物を街ぐるみで消費。 | 4,471 |
 | `world/crossroad/48_grand_temple_dragon_records.md` | 中央区で大地龍を祀る大神殿と、その大地龍石膏像・龍の記録＋他四龍の比較展示。＋台座に差さった大地龍の杖(資格ある者だけが抜ける・誰でも挑戦可・抜いた者へ貸出)。 | 9,538 |
-| `world/crossroad/49_crossroad_dining.md` | 区画ごとに客層が棲み分けられた酒場6・茶屋6・高級料理店7軒。各店に常連の顔ぶれを明記し、全NPCがどこかの店で会える「出会いの動線」として運用する。 | 8,356 |
+| `world/crossroad/49_crossroad_dining.md` | 区画ごとに客層が棲み分けられた酒場6・茶屋6・高級料理店7軒。各店に常連の顔ぶれを明記し、全NPCがどこかの店で会える「出会いの動線」として運用する。 | 8,358 |
 | `world/crossroad/50_crossroad_brothels.md` | 西区の主要娼館三軒(紅玻璃館・桃灯楼・百花迷宮)の格と客層。 | 2,077 |
 | `world/crossroad/51_black_needle_info_network.md` | 黒針会が運営し生活インフラ化した、伝言・情報屋網の拠点網。 | 4,937 |
 | `world/crossroad/52_crossroad_gates_streets.md` | 四街道に対応する四大門と、中央広場へ延びる四本の大通り。 | 1,729 |
@@ -413,7 +413,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/crossroad/68_crossroad_casino_war.md` | カジノのカードゲーム・カジノウォーの遊び方とルール。 | 1,077 |
 | `world/crossroad/69_crossroad_seven_indian_poker.md` | カジノのカードゲーム・セブンインディアンポーカーのルール。 | 1,715 |
 | `world/crossroad/71_crossroad_hospital.md` | 中央区・東区境の総合医院クロスロード大病院。世俗の回復魔法(非教会系)を主軸に日常医療を担い、聖属性・対アンデッドは扱わない。あかりが衛生担当。名前あり4人+モブ職員(大枠)。 | 4,334 |
-| `world/crossroad/72_place_character_map.md` | 場所×キャラ対応マップ。区画・施設ごとに常駐/関係NPCを速攻参照できる索引(場所を一つずつ整備中)。 | 9,539 |
+| `world/crossroad/72_place_character_map.md` | 場所×キャラ対応マップ。区画・施設ごとに常駐/関係NPCを速攻参照できる索引(場所を一つずつ整備中)。 | 9,542 |
 | `world/crossroad/73_colosseum_random_pair_tournament.md` | コロッセオが年に数回開く小規模お祭りトーナメント「相棒籤杯(くじ引き二人組)」。街の実力者16人を毎回籤で2人組へ組み直し16→8→4→2で勝ち抜く運用ルール。 | 3,579 |
 | `world/crossroad/74_crossroad_training_ground.md` | 西区・コロッセオ隣接の公営稽古場。観客も賭けもなく、有志が自主的に模擬戦・自主練を行う無料開放の広場。判定は通常のrules/03をそのまま使用。 | 2,233 |
 | `world/crossroad/75_scenario_seeds.md` | 観覧モードで使える伏線・展開の種のネタ帳(紅葉の星喰いリベンジ、ツバキの決断、ララ・カーラの教え乞い、エルシアの二重生活ニアミス、琥珀の隠しきれなさ、下水道ニート達への細い導線、マモリのファンクラブ、九重・クサビの回復役探し、エリアスの取材癖、レオンのダメと鋭さの落差、黒針会古参の懐古、結び路の祝祭、男女反転薬の流行、下水道の竜の怪談、新人冒険者の大量登録期、娼婦達の客引き合戦、白金の無自覚パワー騒動、銀雪の格納・憑依指南、九重・クサビの大病院凸、墓原の水の巨人の噂、水球の怪物を作った琥珀の師匠、大地龍の杖を抜く余興、みんなでカジノ／コロッセオ／芝居へ行こう)＋初手から大きい案件の種(黒硝子遺跡のリッチ、赤牙森林の緊急薬効採取、謎の奇病流行、アイアンくん無断起動、双槌の大規模掃討、ボルガン襲撃、都市規模の姉妹喧嘩、ボルガンの鉱山一攫千金作戦)。結末は決めずGMの裁量に委ねる。 | 30,823 |
@@ -436,14 +436,14 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `characters/npcs/03_valeria_grenz.md` | 領主騎士団長ヴァレリア「特大剣の騎士団長」。街道・都市外防衛のA級。 | 4,251 |
 | `characters/npcs/04_ada_lockwell.md` | 衛兵隊長エイダ。都市内の治安責任者。 | 3,219 |
 | `characters/npcs/05_luca_fennel.md` | 若手騎士ルカ。冒険者と領主側を繋ぐ現場連絡役。 | 2,255 |
-| `characters/npcs/06_galm_forgelight.md` | 南区の腕利き鍛冶師ガルム。武器修理・特注武具の窓口。 | 2,812 |
+| `characters/npcs/06_galm_forgelight.md` | 南区の腕利き鍛冶師ガルム。武器修理・特注武具の窓口。 | 2,842 |
 | `characters/npcs/07_dario_langford.md` | 冒険者ギルド支部長ダリオ。元斥候兼鑑定士で人材鑑定に長ける。 | 4,608 |
 | `characters/npcs/08_silver_raven_feather.md` | Bランク女性冒険者4人組「銀鴉の羽根」。街屈指の実力派パーティー。 | 4,256 |
 | `characters/npcs/09_celia.md` | 浄化院の若手神官セリア。浄化依頼・軽治療・アンデッド相談の窓口。 | 2,503 |
 | `characters/npcs/10_linette.md` | 情報屋リネット。中堅斥候で、有料で依頼の裏事情を教える。 | 2,736 |
 | `characters/npcs/11_marina.md` | 東区の世話役マリナ。住民の小さな困りごと・住民依頼の窓口。 | 2,526 |
 | `characters/npcs/12_roze_and_rize.md` | 盗人姉妹ロゼ&リゼ。色仕掛けとスリの小悪党、街の軽いトラブル役。 | 4,148 |
-| `characters/npcs/13_mika.md` | 南区の薬品職人ミルカ。ヘンテコ薬に紛れて有用な薬も置く掘り出し物店。 | 3,552 |
+| `characters/npcs/13_mika.md` | 南区の薬品職人ミルカ。ヘンテコ薬に紛れて有用な薬も置く掘り出し物店。 | 3,503 |
 | `characters/npcs/14_mina.md` | 黒針会幹部「潜入のミーナ」。子供のような外見で潜入・偽装を得意とする。 | 2,516 |
 | `characters/npcs/15_zara.md` | 黒針会幹部「蠍尾のザラ」。蠍獣人で暗殺・追跡・裏切り者処理担当のA級。 | 3,175 |
 | `characters/npcs/16_gideon.md` | 黒針会会主ギデオン。組織の最終裁定を担う老練な会主。 | 3,926 |
@@ -467,7 +467,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `characters/npcs/34_aoba.md` | 統制パーティー後衛・青葉。水精霊、決定打役。当主・睡蓮の妹で、四人の最年少。 | 2,711 |
 | `characters/npcs/35_himuro.md` | コロッセオ専属剣闘士・氷室。アルマジロ獣人の氷装甲住み込み選手。 | 2,984 |
 | `characters/npcs/36_tsubaki.md` | 斥候系冒険者ツバキ。ホビットの忍び。 | 3,934 |
-| `characters/npcs/37_tenrai.md` | 出稼ぎの弓手・天雷。アマゾネスの一射の名手。 | 2,648 |
+| `characters/npcs/37_tenrai.md` | 出稼ぎの弓手・天雷。アマゾネスの一射の名手。 | 2,759 |
 | `characters/npcs/38_sayo.md` | 独立のコソ泥・小夜。裏路地を根城にする。 | 4,355 |
 | `characters/npcs/39_sorasaki.md` | 独立の空輸便利屋・空咲。飛竜人の運び屋。 | 2,499 |
 | `characters/npcs/40_awahime.md` | 下水道の自称管理人・泡姫。ヘドロスライムで浄化・分解を担い衛生を支える。 | 3,399 |
@@ -497,10 +497,10 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `characters/npcs/64_raika.md` | 西区の街娼・雷華。雷獣の妖怪で街唯一のSPD:S。人懐っこく元気で、店にも属さず金勘定も分からない。 | 4,710 |
 | `characters/npcs/65_rido_carwen.md` | 北区の新興商人リド・カーウェン。カーウェン商会会頭。黒針会に丸ごと担がれているが、ボルガンはそれを織り込んだ上で互角に殴り合っている。 | 6,959 |
 | `characters/npcs/66_oribe.md` | 東区の学校の教師・織部。全身を白い霊布で巻いて壁と天井を這う、街の面白名物。昔どこかの小国で退魔師をしていた。布を操る一本だけで積み上げた対策が、そのまま生徒への教材になっている。 | 6,556 |
-| `characters/npcs/67_ichika_hidewell.md` | 南区の防具屋・ハイドウェル三姉妹の長女イチカ。店は量産品が中心だが、女性用の鎧だけは採寸から作る。街でここだけ。 | 2,905 |
-| `characters/npcs/68_nino_hidewell.md` | 南区の革細工・旅装職人・三姉妹の次女ニノ。鞣しと鞄・水袋・外套。三人で一番よく出歩き、値段も決める。 | 1,899 |
-| `characters/npcs/69_san_hidewell.md` | 南区の解体師・三姉妹の三女サン。持ち込まれた魔物を捌いて素材に分ける。三人で唯一まともに体がある。 | 2,045 |
+| `characters/npcs/67_ichika_hidewell.md` | 南区の防具屋・ハイドウェル三姉妹の長女イチカ。店は量産品が中心だが、女性用の鎧だけは採寸から作る。街でここだけ。 | 2,903 |
+| `characters/npcs/68_nino_hidewell.md` | 南区の弓師・矢師・三姉妹の次女ニノ。弓も矢も作る。行き先を聞き出して要る矢を何種類も並べてくる。 | 2,481 |
+| `characters/npcs/69_san_hidewell.md` | 南区の解体師・三姉妹の三女サン。持ち込まれた魔物を捌いて素材に分ける。三人で唯一まともに体がある。 | 2,031 |
 
 ---
 
-合計 **165 ファイル / 1,499,293 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **165 ファイル / 1,501,153 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。

@@ -109,7 +109,7 @@
 
 ## よく接する人物
 
-- ニノ(次女。革の仕入れ先で、毎日顔を合わせる。`characters/npcs/68_nino_hidewell.md`)
+- ニノ(次女。隣の弓矢屋。毎日顔を合わせる。`characters/npcs/68_nino_hidewell.md`)
 - サン(三女。素材の川上。血の匂いをさせて来るので毎回注意している。`characters/npcs/69_san_hidewell.md`)
 - ガルム・フォージライト(同じ工房街の鍛冶頭。革と金属の合わせ物で分担する相手。`characters/npcs/06_galm_forgelight.md`)
 - セレナ・ギアフォード(同じ工房街の仕掛屋。防具へ機構を仕込む注文が来た時に回す先。`characters/npcs/26_serena_gearford.md`)

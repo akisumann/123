@@ -28,7 +28,7 @@
 
 南区の職人酒場。鍛冶師や工房労働者が集まり、酒も料理も濃くて量が多い。壁には客が打ち込んだ古い釘が並ぶ。
 
-- **常連・顔ぶれ**：鍛冶頭のガルム(`characters/npcs/06_galm_forgelight.md`)、ヘンテコ薬品のミルカ(`characters/npcs/13_mika.md`)、仕掛屋のセレナ(`characters/npcs/26_serena_gearford.md`)、伝説錬金の琥珀(素材の話をしに。南区廃施設が拠点の災害パーティー。`characters/npcs/52_kohaku.md`)、巨大腕の白金(琥珀の供で力仕事を手伝い、うっかり皿を割る。`characters/npcs/53_hakkin.md`)、受け流しの蒼龍(革具と武具の相談ついでに、量の出る飯を黙々と平らげる。`characters/npcs/32_souryuu.md`)、防具のイチカ・革のニノ・解体のサン(ハイドウェル三姉妹。三人揃って来る。サンは着替えてから来るよう姉に言われている。`characters/npcs/67_ichika_hidewell.md`、`characters/npcs/68_nino_hidewell.md`、`characters/npcs/69_san_hidewell.md`)。アイアンくんの年次改修祭(`characters/npcs/30_ultimate_patchwork_iron_kun.md`)もこの界隈。**職人が素材と酒で語り合う南区の溜まり場**。
+- **常連・顔ぶれ**：鍛冶頭のガルム(`characters/npcs/06_galm_forgelight.md`)、ヘンテコ薬品のミルカ(`characters/npcs/13_mika.md`)、仕掛屋のセレナ(`characters/npcs/26_serena_gearford.md`)、伝説錬金の琥珀(素材の話をしに。南区廃施設が拠点の災害パーティー。`characters/npcs/52_kohaku.md`)、巨大腕の白金(琥珀の供で力仕事を手伝い、うっかり皿を割る。`characters/npcs/53_hakkin.md`)、受け流しの蒼龍(革具と武具の相談ついでに、量の出る飯を黙々と平らげる。`characters/npcs/32_souryuu.md`)、防具のイチカ・矢売りのニノ・解体のサン(ハイドウェル三姉妹。三人揃って来る。サンは着替えてから来るよう姉に言われている。`characters/npcs/67_ichika_hidewell.md`、`characters/npcs/68_nino_hidewell.md`、`characters/npcs/69_san_hidewell.md`)。アイアンくんの年次改修祭(`characters/npcs/30_ultimate_patchwork_iron_kun.md`)もこの界隈。**職人が素材と酒で語り合う南区の溜まり場**。
 
 ### 夜鴉の止まり木
 

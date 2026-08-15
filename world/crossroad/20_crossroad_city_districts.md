@@ -521,7 +521,7 @@
 - ミルカ(薬品職人。工房は工房街だが、本人は毎日、外れの南の投げ売り市に出ている。`characters/npcs/13_mika.md`)
 - ミレイ(民間魔法サークルの取りまとめ役。東区と南区の境目の魔法サークルを拠点とする。`characters/npcs/18_milei.md`)
 - セレナ・ギアフォード(特殊機構工房《仕掛屋・六番工房》店主。`characters/npcs/26_serena_gearford.md`)
-- ハイドウェル三姉妹(工房街に三軒並んでいる一般の職人。**店はそれぞれ別で、一人が一軒を回している。** 防具屋は長女イチカだけで、次女ニノは革細工・旅装、三女サンは解体場。`characters/npcs/67_ichika_hidewell.md`、`characters/npcs/68_nino_hidewell.md`、`characters/npcs/69_san_hidewell.md`)
+- ハイドウェル三姉妹(工房街に三軒並んでいる一般の職人。**店はそれぞれ別で、一人が一軒を回している。** 防具屋は長女イチカだけで、次女ニノは弓師・矢師、三女サンは解体場。`characters/npcs/67_ichika_hidewell.md`、`characters/npcs/68_nino_hidewell.md`、`characters/npcs/69_san_hidewell.md`)
 - アルティメットツギハギアイアンくん(南区中央広場の巨大複合ゴーレム。南区の象徴・非常時の最終兵器。`characters/npcs/30_ultimate_patchwork_iron_kun.md`)
 - 災害パーティー(火山の国から逃げてきた琥珀・白金・銀雪・妲己の4人組。廃研究施設を拠点に街へ根付き始めている。過去の悪事だけは知られていない。`characters/npcs/52_kohaku.md`ほか)
 
