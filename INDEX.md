@@ -14,10 +14,10 @@
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
-| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 666,119 |
+| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 666,447 |
 | `CHARACTERS.md` | 主要NPC62人の要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 13,027 |
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,993 |
-| `PROGRESS.md` | PROGRESS | 176,320 |
+| `PROGRESS.md` | PROGRESS | 176,691 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,899 |
 
@@ -87,7 +87,7 @@
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `world/crossroad/11_crossroad_city.md` | 主舞台クロスロードの総合設定。人口・統治・街の転機・街道・危険地域4/ダンジョン3。 | 17,334 |
-| `world/crossroad/20_crossroad_city_districts.md` | 市内5区画(中央/北/東/南/西)の役割・主な施設・主なNPC一覧。 | 18,032 |
+| `world/crossroad/20_crossroad_city_districts.md` | 市内5区画(中央/北/東/南/西)の役割・主な施設・主なNPC一覧。 | 18,457 |
 | `world/crossroad/21_crossroad_inns.md` | 冒険者向けの宿5軒(安宿〜高級・歓楽街寄り・工房付き)と料金帯。 | 2,785 |
 | `world/crossroad/22_crossroad_bulletin_boards.md` | ギルド正式依頼板とは別の、区画ごとの街区掲示板(軽い仕事・求人・告知)。 | 3,672 |
 | `world/crossroad/27_crossroad_colosseum.md` | 西区の大型闘技施設。実力抑制リング・賭け・興行試合の運営ルール。 | 5,142 |
@@ -98,7 +98,7 @@
 | `world/crossroad/32_black_needle_society.md` | 街の裏の情報・暗殺組織「黒針会」。会主・幹部・ミレーヌとの関係。 | 7,216 |
 | `world/crossroad/33_crossroad_magic_slot.md` | カジノの遊技台・魔導スロット(三本リールの絵柄揃え)。 | 1,498 |
 | `world/crossroad/34_crossroad_justice.md` | 捕まえた者が裁かれ牢に入るまで。刑は記録・賠償・労役・出禁・収監・追放、重罪は王都送り。 | 1,431 |
-| `world/crossroad/42_crossroad_artisan_goods.md` | 南区職人区で危険地域の素材が加工された、冒険者向け商品の数々。 | 4,899 |
+| `world/crossroad/42_crossroad_artisan_goods.md` | 南区職人区で危険地域の素材が加工された、冒険者向け商品の数々。 | 5,044 |
 | `world/crossroad/43_crossroad_magic_circle.md` | 街の魔法使いが集う民間魔法サークル(相談・講習・共同作業場)。 | 5,467 |
 | `world/crossroad/44_crossroad_nicknames.md` | 主要NPC60人の通り名・本名・所属の対応一覧(NPC逆引きの起点)。 | 6,022 |
 | `world/crossroad/45_crossroad_district_markets.md` | 5区画それぞれ性格の異なる市場(中央広場市・西の夜市・南の投げ売り市等)。 | 9,666 |
@@ -150,7 +150,7 @@
 | `characters/npcs/03_valeria_grenz.md` | 領主騎士団長ヴァレリア「特大剣の騎士団長」。街道・都市外防衛のA級。 | 4,251 |
 | `characters/npcs/04_ada_lockwell.md` | 衛兵隊長エイダ。都市内の治安責任者。 | 3,219 |
 | `characters/npcs/05_luca_fennel.md` | 若手騎士ルカ。冒険者と領主側を繋ぐ現場連絡役。 | 2,255 |
-| `characters/npcs/06_galm_forgelight.md` | 南区の腕利き鍛冶師ガルム。武器修理・特注武具の窓口。 | 4,921 |
+| `characters/npcs/06_galm_forgelight.md` | 南区の腕利き鍛冶師ガルム。武器修理・特注武具の窓口。 | 5,082 |
 | `characters/npcs/07_dario_langford.md` | 冒険者ギルド支部長ダリオ。元斥候兼鑑定士で人材鑑定に長ける。 | 4,614 |
 | `characters/npcs/08_silver_raven_feather.md` | Bランク女性冒険者4人組「銀鴉の羽根」。街屈指の実力派パーティー。 | 4,256 |
 | `characters/npcs/09_celia.md` | 浄化院の若手神官セリア。浄化依頼・軽治療・アンデッド相談の窓口。 | 2,503 |
@@ -211,10 +211,10 @@
 | `characters/npcs/64_raika.md` | 西区の街娼・雷華。雷獣の妖怪で街唯一のSPD:S。人懐っこく元気で、店にも属さず金勘定も分からない。 | 4,710 |
 | `characters/npcs/65_rido_carwen.md` | 北区の新興商人リド・カーウェン。カーウェン商会会頭。黒針会に丸ごと担がれているが、ボルガンはそれを織り込んだ上で互角に殴り合っている。 | 6,959 |
 | `characters/npcs/66_oribe.md` | 東区の学校の教師・織部。全身を白い霊布で巻いて壁と天井を這う、街の面白名物。昔どこかの小国で退魔師をしていた。布を操る一本だけで積み上げた対策が、そのまま生徒への教材になっている。 | 6,556 |
-| `characters/npcs/67_ichika_hidewell.md` | 南区の職人の通り《イチカ防具店》店主。三姉妹の長女イチカ。量産品が中心だが、女性用の鎧だけは採寸から作る。街でここだけ。 | 4,210 |
+| `characters/npcs/67_ichika_hidewell.md` | 南区の職人の通り《イチカ防具店》店主。三姉妹の長女イチカ。量産品が中心だが、女性用の鎧だけは採寸から作る。街でここだけ。 | 4,366 |
 | `characters/npcs/68_nino_hidewell.md` | 南区の職人の通り《ニノ弓矢店》店主。三姉妹の次女ニノ。店から動かずマシンガントークで矢を売る。天雷の大弓の調整もこの人。 | 3,686 |
 | `characters/npcs/69_san_hidewell.md` | 南区の職人の通り《サン小物店》店主。三姉妹の三女サン。小型ナイフ・針・留め具。手入れの要らない頑丈さで黒針会と斥候に人気。 | 3,309 |
 
 ---
 
-合計 **165 ファイル / 1,518,031 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **165 ファイル / 1,519,617 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
