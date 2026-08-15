@@ -530,7 +530,7 @@
 - 鉄靴休み(簡易工房付きの特色宿)。`world/crossroad/21_crossroad_inns.md`を参照
 - 赤釘亭(職人酒場)。`world/crossroad/49_crossroad_dining.md`を参照
 - フォージライト工房、ミルカ薬品工房。危険地域産の素材が具体的にどう加工されるかは`world/crossroad/42_crossroad_artisan_goods.md`を参照
-- **ハイドウェルの三軒**(職人の通りに面して並ぶ、真っ当な一般の店。通り側から《ハイドウェル小物店》(サン)、《ハイドウェル弓矢店》(ニノ)、《ハイドウェル防具店》(イチカ)。**一人が一軒を回していて、扱う物が三軒とも違う。** 冒険者の買い出しがこの並びで一通り済む)。`characters/npcs/67_ichika_hidewell.md`を参照
+- **ハイドウェルの三軒**(職人の通りに面して並ぶ、真っ当な一般の店。通り側から《サン小物店》(サン)、《ニノ弓矢店》(ニノ)、《イチカ防具店》(イチカ)。**一人が一軒を回していて、扱う物が三軒とも違う。** 冒険者の買い出しがこの並びで一通り済む)。`characters/npcs/67_ichika_hidewell.md`を参照
 - 特殊機構工房《仕掛屋・六番工房》(注文制作・機能付与の専門店)。`world/crossroad/56_crossroad_gadget_workshop.md`を参照
 - 民間魔法サークル(東区との境目)。`world/crossroad/43_crossroad_magic_circle.md`を参照
 - 南の投げ売り市。`world/crossroad/45_crossroad_district_markets.md`を参照
