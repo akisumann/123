@@ -74,7 +74,7 @@ Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/0
 
 東区の住宅街にある家庭的な茶屋。焼き菓子、団子、温かい茶が中心。老人、親子連れ、近隣住民が多い。
 
-- **常連・顔ぶれ**：世話役のマリナ(`characters/npcs/11_marina.md`)、歌い手の鈴代(井戸端会議のあとに。`characters/npcs/45_suzuyo.md`)、天才児のララ・カーラ(学校帰りのおやつ。`characters/npcs/27_lara.md`、`characters/npcs/28_karla.md`)、静穏の睡蓮(水路歩きの帰りに。人混みが無いので長居する。`characters/npcs/33_suiren.md`)。**東区の暮らしが集まる縁側**。
+- **常連・顔ぶれ**：世話役のマリナ(`characters/npcs/11_marina.md`)、歌い手の鈴代(井戸端会議のあとに。`characters/npcs/45_suzuyo.md`)、天才児のララ・カーラ(学校帰りのおやつ。`characters/npcs/27_lara.md`、`characters/npcs/28_karla.md`)、静穏の睡蓮(水路歩きの帰りに。人混みが無いので長居する。`characters/npcs/33_suiren.md`)、布ゴキブリの織部(放課後に隅で茶を一杯だけ飲んで帰る学校の教師。`characters/npcs/66_oribe.md`)。**東区の暮らしが集まる縁側**。
 
 ### 旅籠前茶屋・一服
 
