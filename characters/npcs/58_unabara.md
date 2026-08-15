@@ -92,7 +92,7 @@
 
 ## 日常
 
-**行きつけ**：研究の合間に静かに文献を読むのは、中央区の上品な茶屋《白雲》(`world/crossroad/49_crossroad_dining.md`)。
+**行きつけ**：研究の合間に静かに文献を読むのは、北区の上品な茶屋《白雲》(病院からは少し歩くが、静けさで選んでいる)(`world/crossroad/49_crossroad_dining.md`)。
 
 大病院から西区へ定期的に出向き、娼館三軒(`world/crossroad/50_crossroad_brothels.md`)の衛生・健康検診と、コロッセオ(`world/crossroad/27_crossroad_colosseum.md`)の剣闘士の経過確認を回っている。感染症と再生医療が専門であるため、この巡回は本人の研究とも直結している。
 
