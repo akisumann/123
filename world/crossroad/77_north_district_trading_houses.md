@@ -111,7 +111,6 @@
 
 - **統制パーティー**(`characters/npcs/31_mizushiro.md`ほか)——**アクア・フロウ連合の出身**なので、海のものが入った日は故郷の品を見に来る。珊瑚、螺鈿、船具、塩漬け。青葉が真っ先に見つけて騒ぎ、睡蓮が値を見て黙り、水城が支払う
 - **白金**(`characters/npcs/53_hakkin.md`)——**琥珀の代わりに買い出しへ来る。** 琥珀(`characters/npcs/52_kohaku.md`)は錬金の素材を絶えず欲しがるが、国際手配犯なので人前に長居したくない。**メイドロボが使いに出るのは自然な形**である。氷晶、精霊素材、火山の鉱石
-- **九重**(`characters/npcs/50_kokonoe.md`)——**投げ槍の補充。** 九本を投げ切る戦い方なので、回収できなかった分をその都度買い足す必要がある。**量産品の投げ槍一式**が売れる数少ない相手
 - **銀鴉の羽根**(`characters/npcs/08_silver_raven_feather.md`)、**氷室・ツバキ・天雷**(`characters/npcs/35_himuro.md`ほか)、**紅葉・黒羽**(`characters/npcs/43_momiji.md`ほか)——装備の更新と消耗品。**ミスリル鋼の武具が並んだ日は、この層が真っ先に見に来る**
 - **ロザリア**(`characters/npcs/19_rosalia.md`)と**ミレーヌ**(`characters/npcs/02_milene_weissfeld.md`)——西区の高級店と娼館向けに、**龍涎香、真珠、螺鈿**。額が大きいので《金蔵》の三階まで通る
 - **セリア**(`characters/npcs/09_celia.md`)、**白峰**(`characters/npcs/60_shiromine.md`)、**マリナ**(`characters/npcs/11_marina.md`)——**天然海綿をまとめて買う側。** 浄化院、大病院、四路の湯。高級品ではないが街では作れないので、切らすと困る
