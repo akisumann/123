@@ -236,7 +236,7 @@
 ### 主な施設(具体的な店舗・拠点)
 
 - 荷馬車亭(安宿)、四辻の炉亭(中宿)、白鳩楼(高級宿)。いずれも`world/crossroad/21_crossroad_inns.md`を参照
-- 七つ樽(交易酒場)、帰還者の杯(ギルド近くの酒場)、旅籠前茶屋・一服(茶屋)、琥珀の匙(高級交易料理店)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
+- 七つ樽(交易酒場)、帰還者の杯(ギルド近くの酒場)、旅籠前茶屋・一服(茶屋)、琥珀の匙・五つの地平・蒼天卓(高級料理店。五つの地平は交易市場に五地域の食材が揃うため、蒼天卓はギルドと素材買取所が近いため、いずれも北区にある)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
 - ガルド大商会本館《金蔵》とカーウェン商会《空店》。大通りを挟んで向かい合う二大商会の建物と、その間の通り「商会前」。`world/crossroad/77_north_district_trading_houses.md`を参照
 - 北方交易市場。`world/crossroad/45_crossroad_district_markets.md`を参照
 - 冒険者ギルド支部。`world/14_adventurers_guild.md`を参照
