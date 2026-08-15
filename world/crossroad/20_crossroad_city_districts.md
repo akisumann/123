@@ -117,7 +117,7 @@
 
 ### 主な施設(具体的な店舗・拠点)
 
-- 折れ角の牡鹿亭(大衆酒場)、水音茶房(茶屋)、金穂宮(高級料理店)、月桂樹の間(高級料理店)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
+- 折れ角の牡鹿亭(大衆酒場)、水音茶房(茶屋)、白雲(茶屋)、金穂宮(高級料理店)、月桂樹の間(高級料理店)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
 - 土香る庵(大神殿近くの茶屋)、眠龍楼(大神殿近くの高級料理店)。`world/crossroad/49_crossroad_dining.md`を参照
 - 中央広場市。`world/crossroad/45_crossroad_district_markets.md`を参照
 - 公式掲示板。区画ごとの掲示板の傾向は`world/crossroad/22_crossroad_bulletin_boards.md`を参照
@@ -236,7 +236,7 @@
 ### 主な施設(具体的な店舗・拠点)
 
 - 荷馬車亭(安宿)、四辻の炉亭(中宿)、白鳩楼(高級宿)。いずれも`world/crossroad/21_crossroad_inns.md`を参照
-- 七つ樽(交易酒場)、帰還者の杯(ギルド近くの酒場)、旅籠前茶屋・一服(茶屋)、白雲(大通りから一本入った上品な茶屋)、琥珀の匙(高級交易料理店)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
+- 七つ樽(交易酒場)、帰還者の杯(ギルド近くの酒場)、旅籠前茶屋・一服(茶屋)、琥珀の匙(高級交易料理店)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
 - ガルド大商会本館《金蔵》とカーウェン商会《空店》。大通りを挟んで向かい合う二大商会の建物と、その間の通り「商会前」。`world/crossroad/77_north_district_trading_houses.md`を参照
 - 北方交易市場。`world/crossroad/45_crossroad_district_markets.md`を参照
 - 冒険者ギルド支部。`world/14_adventurers_guild.md`を参照
@@ -541,7 +541,7 @@
 ### 主な施設(具体的な店舗・拠点)
 
 - 鉄靴休み(簡易工房付きの特色宿)。`world/crossroad/21_crossroad_inns.md`を参照
-- 赤釘亭(職人酒場)、蒼天卓(魔物料理の高級店。素材が集まる職人区にあるため、解体と素材処理を通った肉が裏口から入る)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
+- 赤釘亭(職人酒場)。`world/crossroad/49_crossroad_dining.md`を参照
 - フォージライト工房、ミルカ薬品工房。危険地域産の素材が具体的にどう加工されるかは`world/crossroad/42_crossroad_artisan_goods.md`を参照
 - **ハイドウェルの三軒**(職人の通りに面して並ぶ、真っ当な一般の店。通り側から《サン小物店》(サン)、《ニノ弓矢店》(ニノ)、《イチカ防具店》(イチカ)。**一人が一軒を回していて、扱う物が三軒とも違う。** 冒険者の買い出しがこの並びで一通り済む)。`characters/npcs/67_ichika_hidewell.md`を参照
 - 特殊機構工房《仕掛屋・六番工房》(注文制作・機能付与の専門店)。`world/crossroad/56_crossroad_gadget_workshop.md`を参照
@@ -686,7 +686,7 @@
 - クロスロード大劇場《万象座》(コロッセオ・カジノと並ぶ西区三大娯楽施設のひとつ。巡業劇団《渡り灯一座》の主要公演地)。`world/crossroad/54_crossroad_theater.md`を参照
 - 娼館通り(紅玻璃館・桃灯楼・百花迷宮)。`world/crossroad/50_crossroad_brothels.md`を参照
 - 赤幕の借宿(特色宿)。`world/crossroad/21_crossroad_inns.md`を参照
-- 夜鴉の止まり木、月裏亭(酒場)、銀燭館・五つの地平(高級料理店)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
+- 夜鴉の止まり木、月裏亭(酒場)、銀燭館(高級料理店)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
 - 西の夜市。`world/crossroad/45_crossroad_district_markets.md`を参照
 - 街区掲示板の傾向は`world/crossroad/22_crossroad_bulletin_boards.md`を参照
 - 情報屋(歓楽街・裏事情に強い西区の情報屋網の中心)。黒針会そのものの詳細は`world/crossroad/32_black_needle_society.md`、伝言・情報網の仕組みは`world/crossroad/51_black_needle_info_network.md`を参照
