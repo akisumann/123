@@ -151,3 +151,13 @@
 - ガルム・フォージライト(同じ工房街の鍛冶頭。革と金属の合わせ物で分担する相手。`characters/npcs/06_galm_forgelight.md`)
 - セレナ・ギアフォード(同じ工房街の仕掛屋。防具へ機構を仕込む注文が来た時に回す先。`characters/npcs/26_serena_gearford.md`)
 - ダリオ・ラングフォード(冒険者ギルド支部長。素材の買い取りと注文を繋ぐ。`characters/npcs/07_dario_langford.md`)
+
+<!-- AUTO:関わる種 ここから(tools/make_seed_index.py が75から生成。手で編集しない) -->
+
+## 関わる種
+
+`world/crossroad/75_scenario_seeds.md`にある、このファイルが絡む種。**引き出しであってToDoではない。** 使わないまま放置してよい。
+
+- **30.** ハイドウェルの一軒に、店の丈に合わない注文が来る
+
+<!-- AUTO:関わる種 ここまで -->
