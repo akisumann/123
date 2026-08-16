@@ -140,7 +140,7 @@ world/nations/           五大国+関連組織(セントラル・ヘイヴン�
 world/dragons/           五龍(大地龍・火山龍・氷結龍・海洋龍・森林龍)+森林五枝竜
 world/crossroad/         クロスロードの全設定(区画・施設・NPC所属先・組織・祭り)
 rules/                   判定・戦闘・レベル・スキル・魔法などのゲームルール
-characters/npcs/         クロスロードの主要NPC(69人、通り名は`world/crossroad/44_crossroad_nicknames.md`に一覧)
+characters/npcs/         クロスロードの主要NPC(1ファイル1人が基本。銀鴉の羽根とロゼ＆リゼのみ複数人。通り名は`world/crossroad/44_crossroad_nicknames.md`に一覧)
 PROGRESS.md              作業ログ(時系列)。「今何があるか」の索引ではなく「何を追加したか」の記録。
 ```
 
@@ -302,8 +302,8 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 |---|---|---|
 | `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 680,547 |
 | `CHARACTERS.md` | 主要NPCの要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 13,085 |
-| `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,993 |
-| `PROGRESS.md` | PROGRESS | 190,731 |
+| `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 10,017 |
+| `PROGRESS.md` | PROGRESS | 191,157 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 3,899 |
 
@@ -312,9 +312,9 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `rules/00_level_system.md` | 全生命の実力指標「レベル(1〜100)」の意味と、レベル帯ごとの強さの目安。 | 1,541 |
-| `rules/01_skill_system.md` | 技術・才能を表す「スキル」の仕組みとレベル、習得の考え方。 | 1,305 |
+| `rules/01_skill_system.md` | 技術・才能を表す「スキル」の仕組みとレベル、習得の考え方。 | 1,449 |
 | `rules/02_status_system.md` | HP/MP/ATK/DEF/INT/SPD/DEXの7ステータスとランク評価値(S=25〜F=-4)。評価値は段階値(F=−2〜S=5)を符号付きで二乗して導き、7能力の合計を基礎Lv、±2補正で表示Lvとする。 | 1,688 |
-| `rules/03_combat_system.md` | HPではなく「戦況値」で進める戦闘判定ルール(スキルLv d ステータスランク)。 | 9,837 |
+| `rules/03_combat_system.md` | HPではなく「戦況値」で進める戦闘判定ルール(スキルLv d ステータスランク)。 | 9,844 |
 | `rules/05_magic_theory.md` | 第一〜第七階位で構成される魔法の体系と、各階位でできること。 | 8,164 |
 | `rules/06_personality_conversion.md` | 戦闘用ステータス・スキルを性格・コミュ力・対人態度へ読み替える補助表。 | 1,987 |
 | `rules/10_new_character_format.md` | 新規キャラを作る共通フォーマット(核を一つに絞る・生活面・数値検算)。 | 4,856 |
@@ -392,7 +392,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/crossroad/46_crossroad_matchmaking_festival.md` | 年一度の婚活祭り「結び路の祝祭」。領主クラリスも強制参加の名物行事。 | 4,259 |
 | `world/crossroad/47_crossroad_harvest_festival.md` | 月一度の食の祭り「巡穣祭」。その月最多の作物を街ぐるみで消費。 | 4,471 |
 | `world/crossroad/48_grand_temple_dragon_records.md` | 中央区で大地龍を祀る大神殿と、その大地龍石膏像・龍の記録＋他四龍の比較展示。＋台座に差さった大地龍の杖(資格ある者だけが抜ける・誰でも挑戦可・抜いた者へ貸出)。 | 9,538 |
-| `world/crossroad/49_crossroad_dining.md` | 区画ごとに客層が棲み分けられた酒場6・茶屋6・高級料理店7軒。各店に常連の顔ぶれを明記し、全NPCがどこかの店で会える「出会いの動線」として運用する。 | 8,937 |
+| `world/crossroad/49_crossroad_dining.md` | 区画ごとに客層が棲み分けられた酒場6・茶屋6・高級料理店7軒。各店に常連の顔ぶれを明記し、全NPCがどこかの店で会える「出会いの動線」として運用する。 | 8,948 |
 | `world/crossroad/50_crossroad_brothels.md` | 西区の主要娼館三軒《紅玻璃館》《桃灯楼》《百花迷宮》の格と客層。 | 2,101 |
 | `world/crossroad/51_black_needle_info_network.md` | 黒針会が運営し生活インフラ化した、伝言・情報屋網の拠点網。 | 4,939 |
 | `world/crossroad/52_crossroad_gates_streets.md` | 四街道に対応する四大門と、中央広場へ延びる四本の大通り。 | 1,765 |
@@ -504,4 +504,4 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 ---
 
-合計 **166 ファイル / 1,560,774 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **166 ファイル / 1,561,386 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
