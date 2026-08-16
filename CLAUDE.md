@@ -13,7 +13,7 @@ world/nations/           五大国+関連組織(セントラル・ヘイヴン�
 world/dragons/           五龍(大地龍・火山龍・氷結龍・海洋龍・森林龍)+森林五枝竜
 world/crossroad/         クロスロードの全設定(区画・施設・NPC所属先・組織・祭り)
 rules/                   判定・戦闘・レベル・スキル・魔法などのゲームルール
-characters/npcs/         クロスロードの主要NPC(62人、通り名は`world/crossroad/44_crossroad_nicknames.md`に一覧)
+characters/npcs/         クロスロードの主要NPC(69人、通り名は`world/crossroad/44_crossroad_nicknames.md`に一覧)
 PROGRESS.md              作業ログ(時系列)。「今何があるか」の索引ではなく「何を追加したか」の記録。
 ```
 

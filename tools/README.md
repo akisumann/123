@@ -38,7 +38,7 @@ python3 tools/street_talk.py --place 東区  # その区画に届いている噂
 
 ### 1.5 誰が何者かを掴む
 
-`CHARACTERS.md`(自動生成の名簿)に60人の要点が1枚でまとまっている。まずここで当たりを付け、
+`CHARACTERS.md`(自動生成の名簿)に全NPCの要点が1枚でまとまっている。まずここで当たりを付け、
 描写する人物だけ次の`scene_context.py`へ降りる。生成は`python3 tools/make_roster.py`(build.shに同梱)。
 
 ### 2. 場面に出す人物の情報を引く
@@ -111,7 +111,7 @@ python3 tools/day_plan.py --check          # ルーティン表の整合確認
 
 | ファイル | 中身 |
 |---|---|
-| `routines.tsv` | 住人60人の生活ルーティン。行動型(不動/定住/遊動)・注目度・同行・追従・遠出率・時間帯ごとの区画の重み |
+| `routines.tsv` | 住人の生活ルーティン。行動型(不動/定住/遊動)・注目度・同行・追従・遠出率・時間帯ごとの区画の重み |
 | `session_day.txt` | 作中の今日が何日目か(1行) |
 | `summaries.tsv` | 各ファイルのTL;DR。`apply_summaries.py`が本文へ挿入する |
 
