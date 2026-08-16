@@ -79,3 +79,13 @@
 - ボルガン・ガルド(大口取引の荷が北門を通る北区商業組合長。`characters/npcs/29_vorgan_gard.md`)
 - リド・カーウェン(小口の荷で毎日北門を通る新興商人。門衛の名前を覚えて挨拶してくる若造。`characters/npcs/65_rido_carwen.md`)
 - 水城(《旅籠前茶屋・一服》で一人長居する統制パーティー隊長。街道の出入りをよく聞きに来る。`characters/npcs/31_mizushiro.md`)
+
+<!-- AUTO:関わる種 ここから(tools/make_seed_index.py が75から生成。手で編集しない) -->
+
+## 関わる種
+
+`world/crossroad/75_scenario_seeds.md`にある、このファイルが絡む種。**引き出しであってToDoではない。** 使わないまま放置してよい。
+
+- **大10.** 王都で流行った薬が、北門から流れ込む
+
+<!-- AUTO:関わる種 ここまで -->
