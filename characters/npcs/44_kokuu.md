@@ -94,3 +94,13 @@
 - 氷室、蒼龍(練兵場で顔見知りになった冒険者たち。`characters/npcs/35_himuro.md`、`characters/npcs/32_souryuu.md`)
 - 青葉(統制パーティーの一員。練兵場で顔見知り。`characters/npcs/34_aoba.md`)
 - ツバキ、天雷(練兵場つながりの狩人パーティー。`characters/npcs/36_tsubaki.md`、`characters/npcs/37_tenrai.md`)
+
+<!-- AUTO:関わる種 ここから(tools/make_seed_index.py が75から生成。手で編集しない) -->
+
+## 関わる種
+
+`world/crossroad/75_scenario_seeds.md`にある、このファイルが絡む種。**引き出しであってToDoではない。** 使わないまま放置してよい。
+
+- **1.** 紅葉の星喰いリベンジ:有力者を集めての再挑戦
+
+<!-- AUTO:関わる種 ここまで -->

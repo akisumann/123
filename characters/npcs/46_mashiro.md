@@ -90,3 +90,13 @@
 - マリナ(下水道絡みの噂を扱うことがある東区の世話役。`characters/npcs/11_marina.md`)
 - ボルガン・ガルド(芍薬繋がりで間接的に認識している北区商業組合長。`characters/npcs/29_vorgan_gard.md`)
 - 妲己(廃研究施設の生体兵装。まったり過ごす者同士。`characters/npcs/55_dakki.md`)
+
+<!-- AUTO:関わる種 ここから(tools/make_seed_index.py が75から生成。手で編集しない) -->
+
+## 関わる種
+
+`world/crossroad/75_scenario_seeds.md`にある、このファイルが絡む種。**引き出しであってToDoではない。** 使わないまま放置してよい。
+
+- **6.** 下水道ニート達、実は有力者・情報屋に価値を知られている
+
+<!-- AUTO:関わる種 ここまで -->

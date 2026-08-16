@@ -123,3 +123,14 @@
 - エイダ・ロックウェル(中央区で連携する衛兵隊長。`characters/npcs/04_ada_lockwell.md`)
 - 白金(廃研究施設のメイドロボ。力自慢同士で気が合う。`characters/npcs/53_hakkin.md`)
 - あかり(同じ領主家・中央区で働くお抱えの浄火精霊。気の優しい者同士で相性がよい。`characters/npcs/57_akari.md`)
+
+<!-- AUTO:関わる種 ここから(tools/make_seed_index.py が75から生成。手で編集しない) -->
+
+## 関わる種
+
+`world/crossroad/75_scenario_seeds.md`にある、このファイルが絡む種。**引き出しであってToDoではない。** 使わないまま放置してよい。
+
+- **7.** マモリのファンクラブ
+- **大7.** 都市全体に影響を及ぼす姉妹喧嘩
+
+<!-- AUTO:関わる種 ここまで -->

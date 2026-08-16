@@ -98,3 +98,14 @@
 - 空咲(北区拠点の空輸屋。依頼で顔を合わせる。`characters/npcs/39_sorasaki.md`)
 - 九重とクサビ(北区滞在中の旅の二人組。臨時パーティーになり得る。`characters/npcs/50_kokonoe.md`、`characters/npcs/51_kusabi.md`)
 - 統制パーティー(北区拠点の同格パーティー。`characters/npcs/31_mizushiro.md`)
+
+<!-- AUTO:関わる種 ここから(tools/make_seed_index.py が75から生成。手で編集しない) -->
+
+## 関わる種
+
+`world/crossroad/75_scenario_seeds.md`にある、このファイルが絡む種。**引き出しであってToDoではない。** 使わないまま放置してよい。
+
+- **24.** みんなでカジノへ行こう
+- **25.** みんなでコロッセオへ行こう
+
+<!-- AUTO:関わる種 ここまで -->

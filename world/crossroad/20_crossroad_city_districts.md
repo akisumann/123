@@ -690,3 +690,13 @@
 - 西の夜市。`world/crossroad/45_crossroad_district_markets.md`を参照
 - 街区掲示板の傾向は`world/crossroad/22_crossroad_bulletin_boards.md`を参照
 - 情報屋(歓楽街・裏事情に強い西区の情報屋網の中心)。黒針会そのものの詳細は`world/crossroad/32_black_needle_society.md`、伝言・情報網の仕組みは`world/crossroad/51_black_needle_info_network.md`を参照
+
+<!-- AUTO:関わる種 ここから(tools/make_seed_index.py が75から生成。手で編集しない) -->
+
+## 関わる種
+
+`world/crossroad/75_scenario_seeds.md`にある、このファイルが絡む種。**引き出しであってToDoではない。** 使わないまま放置してよい。
+
+- **28.** 北区の商戦——どっちの仕事を受けるか
+
+<!-- AUTO:関わる種 ここまで -->

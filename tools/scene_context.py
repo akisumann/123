@@ -32,7 +32,7 @@ DINING_FILE = os.path.join(ROOT, "world", "crossroad", "49_crossroad_dining.md")
 CALENDAR_FILE = os.path.join(ROOT, "world", "70_calendar_and_climate.md")
 
 # キャラクターファイルから抜き出す節(この順で出力する)
-CHAR_SECTIONS = ["人物", "ステータス", "スキル", "口調", "装備", "日常", "よく接する人物"]
+CHAR_SECTIONS = ["人物", "ステータス", "スキル", "口調", "装備", "日常", "よく接する人物", "関わる種"]
 
 # 「その人が何者か」を書く節は、ファイルによって名前が割れている。
 # 最初に見つかったものを「人物」として拾う(複数あれば全部出す)
@@ -67,6 +67,8 @@ def find_char_file(query: str) -> list[str]:
 
 def split_sections(text: str) -> tuple[str, dict[str, str]]:
     """先頭部(最初の`## `まで)と、`## 見出し`ごとの本文を返す。"""
+    # 生成ブロックのマーカー(HTMLコメント)は読む側に不要なので落とす
+    text = re.sub(r"(?m)^<!--.*?-->\n?", "", text)
     parts = re.split(r"(?m)^## ", text)
     head = parts[0]
     sections: dict[str, str] = {}

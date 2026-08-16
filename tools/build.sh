@@ -10,6 +10,9 @@ cd "$(dirname "$0")/.."
 echo "[0/9] 各ファイルへ TL;DR を挿入/更新"
 python3 tools/apply_summaries.py
 
+echo "[0b/9] 各人物・場所へ「関わる種」の逆引きを挿入/更新(75 から生成)"
+python3 tools/make_seed_index.py
+
 echo "[1/9] CHARACTERS.md (NPC名簿。個別ファイルから生成)"
 python3 tools/make_place_map.py
 

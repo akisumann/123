@@ -225,3 +225,13 @@ python3 tools/casino_race.py --list                     # 幻獣22種の系統�
 
 最低賭け金は一頭につき100G。複数へ分散してもよい。
 ```
+
+<!-- AUTO:関わる種 ここから(tools/make_seed_index.py が75から生成。手で編集しない) -->
+
+## 関わる種
+
+`world/crossroad/75_scenario_seeds.md`にある、このファイルが絡む種。**引き出しであってToDoではない。** 使わないまま放置してよい。
+
+- **24.** みんなでカジノへ行こう
+
+<!-- AUTO:関わる種 ここまで -->

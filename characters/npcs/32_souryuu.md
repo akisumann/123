@@ -100,3 +100,15 @@
 - ガルム・フォージライト(頑丈な革具目当てで通う南区の職人。`characters/npcs/06_galm_forgelight.md`)
 - 紅葉(西区の練兵場で連日模擬戦を挑んでくる旅の武者。受け流しの稽古相手。`characters/npcs/43_momiji.md`、`world/crossroad/74_crossroad_training_ground.md`)
 - 銀雪(同じ練兵場で受け流しの型を黙々と磨く常連。組手の相手を頼み合う間柄。`characters/npcs/54_ginsetsu.md`)
+
+<!-- AUTO:関わる種 ここから(tools/make_seed_index.py が75から生成。手で編集しない) -->
+
+## 関わる種
+
+`world/crossroad/75_scenario_seeds.md`にある、このファイルが絡む種。**引き出しであってToDoではない。** 使わないまま放置してよい。
+
+- **1.** 紅葉の星喰いリベンジ:有力者を集めての再挑戦
+- **21.** 「墓原に水の巨人が出たらしい」——統制パーティーの冷や汗
+- **22.** 水球の怪物を作った者——琥珀の師匠
+
+<!-- AUTO:関わる種 ここまで -->

@@ -121,3 +121,13 @@
 - ミレーヌ・ヴァイスフェルト(かつてコロッセオで一対一の公開戦を行い敗れた相手。`characters/npcs/02_milene_weissfeld.md`)
 - 飛鳥(黒針会の「目」の幹部。話をつけても駄目な時に代わって動く。`world/crossroad/32_black_needle_society.md`)
 - ロゼとリゼ(黒針会の情報網の末端。面識程度の間柄。`characters/npcs/12_roze_and_rize.md`)
+
+<!-- AUTO:関わる種 ここから(tools/make_seed_index.py が75から生成。手で編集しない) -->
+
+## 関わる種
+
+`world/crossroad/75_scenario_seeds.md`にある、このファイルが絡む種。**引き出しであってToDoではない。** 使わないまま放置してよい。
+
+- **11.** 黒針会の懐古主義:統制前を知る古参の燻り
+
+<!-- AUTO:関わる種 ここまで -->

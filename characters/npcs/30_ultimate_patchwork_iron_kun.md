@@ -131,3 +131,13 @@ GM進行時は、起動のたびにステータス合計がLv59の目安(±2程�
 - ガルム・フォージライト、ミルカ、セレナ・ギアフォード(年次追加改修祭で部品を持ち寄る南区の職人たち。`characters/npcs/06_galm_forgelight.md`、`characters/npcs/13_mika.md`、`characters/npcs/26_serena_gearford.md`)
 - ダリオ・ラングフォード(非常時最終兵器としての運用相談窓口になり得る冒険者ギルド支部長。`characters/npcs/07_dario_langford.md`)
 - クラリス・ヴァイスフェルト(非常時の運用を最終判断する領主。`characters/npcs/01_clarisse_weissfeld.md`)
+
+<!-- AUTO:関わる種 ここから(tools/make_seed_index.py が75から生成。手で編集しない) -->
+
+## 関わる種
+
+`world/crossroad/75_scenario_seeds.md`にある、このファイルが絡む種。**引き出しであってToDoではない。** 使わないまま放置してよい。
+
+- **大4.** 何処かの馬鹿がアイアンくんを動かす——あわや一区画壊滅の危機
+
+<!-- AUTO:関わる種 ここまで -->

@@ -141,6 +141,7 @@ canonを直せばツールの出力も変わる。二重管理にならないた
 | `casino_race.py` | 魔導盤レースの出走表・倍率・本番を処理する |
 | `cook_off.py` | 巡穣祭の料理大会(出場者・腕前を乱数で引く。結果は設定にしない) |
 | `make_place_map.py` | 72の「行きつけの店」を49から生成する(手書きしない) |
+| `make_seed_index.py` | 各人物・場所の「関わる種」を75から生成する(**種は75にしか書かない**。人物側から種へ戻れるようにするだけ) |
 | `generate_character_stats.py` / `check_character_stats.py` | 新キャラの数値生成・検算(ステータス合計・スキル合計・冒険者ランク・SS誤用) |
 | `vetting_report.py` | 未検分レポート(インポート当時のまま手が入っていないファイルの洗い出し) |
 | `make_roster.py` | NPC名簿`CHARACTERS.md`を生成 |
