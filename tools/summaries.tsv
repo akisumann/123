@@ -6,7 +6,7 @@ rules/03_combat_system.md	HPではなく「戦況値」で進める戦闘判定�
 rules/05_magic_theory.md	第一〜第七階位で構成される魔法の体系と、各階位でできること。
 rules/06_personality_conversion.md	戦闘用ステータス・スキルを性格・コミュ力・対人態度へ読み替える補助表。
 rules/10_new_character_format.md	新規キャラを作る共通フォーマット(核を一つに絞る・生活面・数値検算)。
-rules/12_pc_creation.md	主人公をダイスで作る手順。レベルは1d6で25〜50、得意分野と苦手分野は2d7、同じ目なら平たいステータス。
+rules/12_pc_creation.md	主人公をダイスで作る手順。レベル1d6(25〜50)→得意苦手2d7→残りを埋める→職業を見繕う、を一巡として三回回し、三案から一つ選ぶ。
 rules/11_colosseum_duel_system.md	コロッセオ公開試合用の、3ターンで決着する簡易決闘ルール。
 world/00_core_concept.md	世界の根本設定。強さ=レベル+ステータス+スキル、継続拡張が前提。
 world/01_geography.md	惑星規模の地理概要。複数大陸と無数の島々が存在する。
