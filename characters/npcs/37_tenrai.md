@@ -98,4 +98,4 @@
 - 飛鳥(二人を介して顔見知りになった黒針会の幹部。`world/crossroad/32_black_needle_society.md`)
 - ヴィヴィアナ・ラウドベル(新米弓手として取材してきそうな実況者。`characters/npcs/24_viviana_loudbell.md`)
 - 紅葉(西区の練兵場(`world/crossroad/74_crossroad_training_ground.md`)で見かける旅の騎士。`characters/npcs/43_momiji.md`)
-- ニノ・ハイドウェル(南区工房街の弓師・矢師。矢の仕入れ先で、**故郷仕込みの大弓の調整もこの人に任せている**。直せる者が街にほかにいない。`characters/npcs/68_nino_hidewell.md`)
+- ニノ・ハイドウェル(南区工房街の弓師・矢師。矢の仕入れ先で、**故郷仕込みの大弓の調整もこの人に任せている**。張り台のある弓専門の店でないと手が出ない仕事。`characters/npcs/68_nino_hidewell.md`)
