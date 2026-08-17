@@ -29,6 +29,7 @@ BODY_ORDER = [
     ("world/nations", "world/nations/ — 五大国と関連組織"),
     ("world/dragons", "world/dragons/ — 五龍"),
     ("world/crossroad", "world/crossroad/ — クロスロード(主舞台)"),
+    ("towns/rockwell", "towns/rockwell/ — 鉱山町ロックウェル"),
     ("characters", "characters/ — キャラクター雛形"),
     ("characters/npcs", "characters/npcs/ — 主要NPC"),
 ]
