@@ -65,7 +65,12 @@ def main() -> int:
 
     if not broken:
         print(f"OK: リンク切れなし({len(existing)} ファイルを検査)")
-        return check_hangouts() or check_unique_claims() or check_mutual_contacts()
+        return (
+            check_hangouts()
+            or check_unique_claims()
+            or check_overrides()
+            or check_mutual_contacts()
+        )
 
     # 参照先ごとにまとめて表示
     by_ref = {}
@@ -214,6 +219,43 @@ def check_mutual_contacts() -> int:
     if "--contacts" in sys.argv:
         for a, af, b, bf in bad:
             print(f"    {a}({af}) → {b}({bf})")
+    return 0
+
+
+OVERRIDE = re.compile(r"([ぁ-んァ-ヶ一-龥ー]{2,8})(?:という|と言う)より")
+
+
+def check_overrides() -> int:
+    """「〇〇というより××」が、同じファイルで繰り返し使われている語を否定していないか。
+
+    銀雪の口調欄が「のんびりというより深刻さの基準がずれている」と書いていた一方、
+    同じファイルの日常・行きつけ・よく接する人物の4箇所は「のんびり」と書いていた。
+    **後から足した一行だけが読まれて、元の4箇所が死ぬ**——という壊れ方をする。
+
+    否定された語がそのファイル内で他に2回以上出てくる場合だけ警告する。
+    「代表というより世話役」のように、否定するためにだけ使っている語は素通りさせる。
+    """
+    hits = []
+    for rel in all_md():
+        # 生成物(全部載せ・名簿)は語の出現数が合算されて意味を成さない
+        if rel in SKIP_FILES or os.path.basename(rel).startswith(
+                ("123_", "DIGEST", "INDEX", "PROGRESS", "CHARACTERS")):
+            continue
+        with open(os.path.join(ROOT, rel), encoding="utf-8") as f:
+            text = f.read()
+        for m in OVERRIDE.finditer(text):
+            word = m.group(1)
+            others = text.count(word) - 1
+            if others >= 2:
+                line = text[: m.start()].count("\n") + 1
+                hits.append((rel, line, word, others))
+    if not hits:
+        print("OK: 繰り返し使われている語を「〜というより」で上書きしている箇所なし")
+        return 0
+    print(f"⚠ 「〜というより」が、同ファイルで2回以上使われている語を否定している箇所 {len(hits)} 件:")
+    for rel, line, word, n in hits:
+        print(f"  ・{rel}:{line}  「{word}」は同ファイルに他{n}箇所ある")
+    print("   → 言い換えた側だけが読まれて元の記述が死ぬ。両立させるか、元の語へ揃える。")
     return 0
 
 
