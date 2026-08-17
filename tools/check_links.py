@@ -70,6 +70,7 @@ def main() -> int:
             or check_unique_claims()
             or check_overrides()
             or check_quest_ranks()
+            or check_npc_counts()
             or check_mutual_contacts()
         )
 
@@ -302,6 +303,39 @@ def check_quest_ranks() -> int:
     for rel, section, name, rank, amount, lo, hi in bad:
         print(f"  ✗ {rel} [{section}] {name}"
               f"  {rank}級 {amount:,}G(帯 {lo:,}〜{hi:,})")
+    return 1
+
+
+# 「NPCは〇人」と人手で書いた数。増えるたびに腐るので、書いてあること自体を警告する。
+NPC_COUNT = re.compile(r"NPC(?![^。\n]{0,12}ファイル)[^。\n]{0,12}?[0-9０-９]{2,}\s*人")
+
+
+def check_npc_counts() -> int:
+    """NPCの人数を地の文へ書いていないか。
+
+    START_HEREが「主要 NPC は 62 人」のまま取り残されていた。**全角スペースを挟んで
+    いたので `[0-9]+人` のgrepをすり抜け、二度の点検を生き延びた。** 人数は増えるたびに
+    腐るうえ、複数人ファイル(銀鴉の羽根・ロゼ＆リゼ)があるのでファイル数とも一致しない。
+
+    **書かないのが正解**で、要点は自動生成の`CHARACTERS.md`が持っている。
+    """
+    hits = []
+    for rel in all_md():
+        if os.path.basename(rel).startswith(
+                ("123_", "DIGEST", "INDEX", "PROGRESS", "CHARACTERS")):
+            continue
+        with open(os.path.join(ROOT, rel), encoding="utf-8") as f:
+            for i, line in enumerate(f, 1):
+                m = NPC_COUNT.search(line)
+                if m:
+                    hits.append((rel, i, m.group(0)))
+    if not hits:
+        print("OK: NPCの人数を地の文へ書いている箇所なし")
+        return 0
+    print(f"⚠ NPCの人数が地の文に書かれている {len(hits)} 件(増えるたびに腐る):")
+    for rel, i, frag in hits:
+        print(f"  ✗ {rel}:{i}  「{frag}」")
+    print("   → 数を書かず、`CHARACTERS.md`(自動生成)へ委ねる。")
     return 1
 
 
