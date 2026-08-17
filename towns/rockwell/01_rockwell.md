@@ -61,7 +61,7 @@
 
 ## 名前ありのNPC
 
-- **ガレス・ドルン**——鉱山方の長(Lv44・ドワーフ。`towns/rockwell/06_gareth_dorn.md`)
+- **ガレス・ドルン**——鉱山方の長(Lv47・ドワーフ。`towns/rockwell/06_gareth_dorn.md`)
 
 ### まだ決めていないこと
 
