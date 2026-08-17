@@ -216,11 +216,11 @@
 |---|---|---|
 | さざめき平原(`world/crossroad/60_sazameki_plains.md`) | Lv10〜20 | 30 |
 | 赤牙森林(`world/crossroad/61_red_fang_forest.md`) | Lv25〜35 | 50 |
-| 苔むし地下遺構(`world/crossroad/65_dungeon_quest_board.md`) | Lv20〜30 | 30〜50 |
+| 黒硝子遺跡(`world/crossroad/57_black_glass_ruins.md`) | Lv20〜30(依頼が出る範囲) | 30〜50 |
 | 灰岩峡谷(`world/crossroad/62_grey_rock_canyon.md`) | Lv40〜50 | 80 |
-| 灰岩坑道(`world/crossroad/65_dungeon_quest_board.md`) | Lv35〜45 | 50〜80 |
+| 忘れられた鉱山(`world/crossroad/58_forgotten_mine.md`) | Lv35〜45(通常依頼の範囲) | 50〜80 |
 | 骨鳴り墓原(`world/crossroad/63_bone_toll_moor.md`) | Lv55〜65 | 100 |
-| 星食いのダンジョン(`world/crossroad/65_dungeon_quest_board.md`) | Lv60〜70以上 | 100(奥の単体ボスのみ120) |
+| 星喰いの地下神殿(`world/crossroad/59_star_devourer_temple.md`) | Lv60〜70以上 | 100(奥の単体ボスのみ120) |
 | 街道 | Lv帯を持たない(`world/crossroad/11_crossroad_city.md`) | 危険度低30／中50／高80を目安に、発生した脅威の規模で決める |
 
 `world/08_danger_zone_generation.md`・`world/09_dungeon_generation.md`でその場に新しい舞台を起こした場合も、まずLv帯を決めてから上の対応で敵戦況値を引く。
