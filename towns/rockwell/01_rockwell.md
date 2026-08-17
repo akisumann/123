@@ -38,7 +38,7 @@
 
 **屑石は捨石丘陵へ運ばれる**(`towns/rockwell/03_rockwell_danger_zones.md`)。あの丘が今も育っているのはそのためである。
 
-**持ち主はクロスロード領主家で、現場は代官が回している**(`towns/rockwell/05_rockwell_facilities.md`)。
+**持ち主はクロスロード領主家で、現場は代官が回している**(`towns/rockwell/05_rockwell_facilities.md`)。**採掘場と精錬施設の規模は`towns/rockwell/09_rockwell_works.md`。**
 
 ## 町の気風
 
