@@ -59,6 +59,12 @@
 - **名前ありのNPCを作る時は`towns/rockwell/`へ置く。** `characters/npcs/`はクロスロードの名簿(`CHARACTERS.md`・`tools/make_roster.py`)と通り名一覧(`world/crossroad/44_crossroad_nicknames.md`)に直結しているので、**混ぜると町の人間がクロスロードの住人として数えられてしまう**
 - **`CLAUDE.md`の運用ルール(人数・観覧モード・検索プロトコル・戦闘計算)は、この町でもそのまま適用する。** 分けるのは設定の置き場所であって、進行のやり方ではない
 
-## まだ決めていないこと
+## 名前ありのNPC
 
-- **名前ありのNPC**(役職は`towns/rockwell/05_rockwell_facilities.md`に置いてあるが、**人物はユーザーが作る**)
+- **ガレス・ドルン**——鉱山方の長(Lv44・ドワーフ。`towns/rockwell/06_gareth_dorn.md`)
+
+### まだ決めていないこと
+
+- **飯屋か酒場の主**(場面を切り替える時の受け皿。`world/crossroad/49_crossroad_dining.md`にあたるものが町に無い)
+- **冒険者ギルド出張窓口の職員**(外から来た者が最初に会う人間)
+- **代官・荷方の親方・神殿の司祭**(役職は`towns/rockwell/05_rockwell_facilities.md`に置いてある)
