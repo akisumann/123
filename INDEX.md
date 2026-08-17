@@ -14,10 +14,10 @@
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
-| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 730,011 |
+| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 729,974 |
 | `CHARACTERS.md` | 主要NPCの要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 13,060 |
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,977 |
-| `PROGRESS.md` | PROGRESS | 212,786 |
+| `PROGRESS.md` | PROGRESS | 213,452 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 4,010 |
 
@@ -89,7 +89,7 @@
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
-| `world/crossroad/11_crossroad_city.md` | 主舞台クロスロードの総合設定。人口・統治・街の転機・街道・危険地域4/ダンジョン3。 | 17,603 |
+| `world/crossroad/11_crossroad_city.md` | 主舞台クロスロードの総合設定。人口・統治・街の転機・街道・危険地域4/ダンジョン3。 | 17,937 |
 | `world/crossroad/20_crossroad_city_districts.md` | 市内5区画(中央/北/東/南/西)の役割・主な施設・主なNPC一覧。 | 18,834 |
 | `world/crossroad/21_crossroad_inns.md` | 冒険者向けの宿5軒(安宿〜高級・歓楽街寄り・工房付き)と料金帯。 | 3,112 |
 | `world/crossroad/22_crossroad_bulletin_boards.md` | ギルド正式依頼板とは別の、区画ごとの街区掲示板(軽い仕事・求人・告知)。 | 3,875 |
@@ -97,7 +97,7 @@
 | `world/crossroad/28_crossroad_casino.md` | 西区の合法賭博施設。各種ゲームと乱数運用のルール。 | 4,110 |
 | `world/crossroad/29_crossroad_magic_board_race.md` | カジノの人気遊戯・魔導盤レース(光の幻獣を走らせるミニ競馬)。系統×地形は公開、四区画の脚は非公開で倍率に載らない。判定は`tools/casino_race.py`。 | 6,760 |
 | `world/crossroad/30_crossroad_purification_institute.md` | 中央区の浄化院。土地浄化・呪物処理・結界維持・対アンデッド支援。 | 2,515 |
-| `world/crossroad/31_crossroad_security_forces.md` | 衛兵隊・騎士団・ギルド・浄化院の役割分担と衛兵の階級別レベル目安。 | 5,544 |
+| `world/crossroad/31_crossroad_security_forces.md` | 衛兵隊・騎士団・ギルド・浄化院の役割分担と衛兵の階級別レベル目安。 | 5,687 |
 | `world/crossroad/32_black_needle_society.md` | 街の裏の情報・暗殺組織「黒針会」。会主・幹部・ミレーヌとの関係。 | 7,474 |
 | `world/crossroad/33_crossroad_magic_slot.md` | カジノの遊技台・魔導スロット(三本リールの絵柄揃え)。 | 1,691 |
 | `world/crossroad/34_crossroad_justice.md` | 捕まえた者が裁かれ牢に入るまで。刑は記録・賠償・労役・出禁・収監・追放、重罪は王都送り。 | 1,431 |
@@ -220,4 +220,4 @@
 
 ---
 
-合計 **168 ファイル / 1,682,163 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **168 ファイル / 1,683,269 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
