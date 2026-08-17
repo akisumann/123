@@ -14,10 +14,10 @@
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
-| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 729,974 |
+| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 730,451 |
 | `CHARACTERS.md` | 主要NPCの要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 13,060 |
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,977 |
-| `PROGRESS.md` | PROGRESS | 213,452 |
+| `PROGRESS.md` | PROGRESS | 214,029 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,226 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 4,010 |
 
@@ -116,7 +116,7 @@
 | `world/crossroad/54_crossroad_theater.md` | 西区の大劇場《万象座》と巡業劇団(演劇・歌劇・幻術劇)。 | 3,850 |
 | `world/crossroad/55_crossroad_bathhouse.md` | 東区の市内最大の公衆浴場《四路の湯》。幅広い住民が集う日常施設。 | 3,366 |
 | `world/crossroad/56_crossroad_gadget_workshop.md` | 南区の特殊機構工房《仕掛屋・六番工房》。注文制作・機能付与専門。 | 4,594 |
-| `world/crossroad/57_black_glass_ruins.md` | ダンジョン①黒硝子遺跡(全30階)。古代ゴーレム製造施設跡。Lv10〜40。 | 4,480 |
+| `world/crossroad/57_black_glass_ruins.md` | ダンジョン①黒硝子遺跡(全30階)。古代ゴーレム製造施設跡。Lv10〜40。 | 4,773 |
 | `world/crossroad/58_forgotten_mine.md` | ダンジョン②忘れられた鉱山(全40階)。空間・記憶異常のある廃鉱山。Lv25〜55。 | 4,777 |
 | `world/crossroad/59_star_devourer_temple.md` | ダンジョン③星喰いの地下神殿(第50層まで確認)。宇宙由来を祀る高難度神殿。 | 4,941 |
 | `world/crossroad/60_sazameki_plains.md` | 危険地域①さざめき平原(Lv10〜20)。冒険者デビューの定番地。 | 2,983 |
@@ -220,4 +220,4 @@
 
 ---
 
-合計 **168 ファイル / 1,683,269 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **168 ファイル / 1,684,616 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
