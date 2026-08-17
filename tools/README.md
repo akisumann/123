@@ -147,7 +147,7 @@ canonを直せばツールの出力も変わる。二重管理にならないた
 | `make_roster.py` | NPC名簿`CHARACTERS.md`を生成 |
 | `build.sh` | 配布物の再生成(以下をまとめて実行) |
 | `apply_summaries.py` / `make_index.py` / `make_all.py` / `make_digest.py` / `make_json.py` / `count.py` | 索引・全部載せ・ダイジェスト・JSON・文字数 |
-| `check_links.py` | リンク整合＋**行きつけと常連の食い違い**＋**「一つしかない物」の重複**＋**「〜というより」による語の上書き**を検査 |
+| `check_links.py` | リンク整合＋**行きつけと常連の食い違い**＋**「一つしかない物」の重複**＋**「〜というより」による語の上書き**＋**依頼票の基準額とランク帯**を検査 |
 
 編集時は`scene_context.py --edit <名前>`、未検分の確認は`vetting_report.py`。
 どちらも「読まずに書く」「ユーザーが目を通していない記述を指示より優先する」を防ぐためのもの。

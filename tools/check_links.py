@@ -69,6 +69,7 @@ def main() -> int:
             check_hangouts()
             or check_unique_claims()
             or check_overrides()
+            or check_quest_ranks()
             or check_mutual_contacts()
         )
 
@@ -257,6 +258,51 @@ def check_overrides() -> int:
         print(f"  ・{rel}:{line}  「{word}」は同ファイルに他{n}箇所ある")
     print("   → 言い換えた側だけが読まれて元の記述が死ぬ。両立させるか、元の語へ揃える。")
     return 0
+
+
+# world/06_economy.md「冒険者向け依頼報酬」のランク別報酬帯。
+QUEST_BAND = {"F": (500, 1000), "E": (1000, 2000), "D": (2000, 4000),
+              "C": (4000, 8000), "B": (8000, 16000), "A": (16000, 32000),
+              "S": (32000, 10 ** 9)}
+QUEST_BOARDS = ("world/crossroad/64_danger_zone_quest_board.md",
+                "world/crossroad/65_dungeon_quest_board.md",
+                "world/crossroad/66_civilian_security_quest_board.md")
+QUEST_ROW = re.compile(r"\|\s*([^|]+?)\s*\|\s*([FEDCBAS])\s*\|.*?\|\s*([\d,]+)G")
+
+
+def check_quest_ranks() -> int:
+    """依頼票の基準額が、そのランクの報酬帯に収まっているか。
+
+    **依頼ランクは「その依頼を安全に完遂するための総合難度」**であって、場所の
+    推奨レベルとは別物である(`world/06_economy.md`)。だから場所のLv帯と依頼ランクが
+    一段ずれること自体は正しい。**ずれてはいけないのは、ランクと基準額の方**である。
+    ここが合っていれば、ランクは少なくとも報酬制度と矛盾していない。
+    """
+    bad, total = [], 0
+    for rel in QUEST_BOARDS:
+        path = os.path.join(ROOT, rel)
+        if not os.path.exists(path):
+            continue
+        section = ""
+        for line in open(path, encoding="utf-8"):
+            if line.startswith("## "):
+                section = line.strip("# \n")
+            m = QUEST_ROW.match(line)
+            if not m:
+                continue
+            total += 1
+            name, rank, amount = m.group(1), m.group(2), int(m.group(3).replace(",", ""))
+            lo, hi = QUEST_BAND[rank]
+            if not lo <= amount <= hi:
+                bad.append((rel, section, name, rank, amount, lo, hi))
+    if not bad:
+        print(f"OK: 依頼票の基準額がランク帯に収まっている({total} 件を照合)")
+        return 0
+    print(f"⚠ ランク帯から外れた依頼 {len(bad)} 件:")
+    for rel, section, name, rank, amount, lo, hi in bad:
+        print(f"  ✗ {rel} [{section}] {name}"
+              f"  {rank}級 {amount:,}G(帯 {lo:,}〜{hi:,})")
+    return 1
 
 
 if __name__ == "__main__":
