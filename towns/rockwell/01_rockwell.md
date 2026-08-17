@@ -68,3 +68,4 @@
 - **飯屋か酒場の主**(場面を切り替える時の受け皿。`world/crossroad/49_crossroad_dining.md`にあたるものが町に無い)
 - **冒険者ギルド支部長と職員**(外から来た者が最初に会う人間。`towns/rockwell/07_rockwell_guild.md`)
 - **代官・荷方の親方・神殿の司祭**(役職は`towns/rockwell/05_rockwell_facilities.md`に置いてある)
+- **`world/crossroad/`側への逆リンク**——街が普段使う普通の金属がこの町から一括で入ることは`towns/rockwell/09_rockwell_works.md`にしか書いていないので、`42`や南区の側からは見えない。**張るとしても町が出来上がってからで、今はやらない**(ユーザー判断)
