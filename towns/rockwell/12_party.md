@@ -33,7 +33,9 @@
 - **パンクなファッション**
 - **ガトリング持ち**
 
-火器はこの世界に既にある——水城の`水の長銃`(`characters/npcs/31_mizushiro.md`)、白峰の治癒砲(通り名が「回復大砲の白峰」)、南区の最終兵器の巨大砲(`characters/npcs/30_ultimate_patchwork_iron_kun.md`)、アクア・フロウ連合の水膜武装(`world/nations/25_aqua_flow_union.md`)。
+**ガトリングは機械。** 魔法で撃つ物ではない。
+
+機械そのものはこの世界に多くある——**白金**(メイドロボ・Lv47・通り名「巨大腕の白金」。`characters/npcs/53_hakkin.md`)、**パーフェクト琥珀**(全高3mの複合錬金ロボ・Lv65。機械工学を含む。`world/28_perfect_kohaku.md`)、**アルティメットツギハギアイアンくん**(全高10m超の複合ゴーレム。巨大砲を積む。`characters/npcs/30_ultimate_patchwork_iron_kun.md`)。火器の側も水城の`水の長銃`(`characters/npcs/31_mizushiro.md`)や白峰の治癒砲がある。
 
 **未設定**：種族／年齢／レベル(41〜50)／ステータス／スキル／ガトリングの仕組みと出所／なぜこの町に残っているか
 ### 2〜4人目
