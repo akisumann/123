@@ -35,6 +35,7 @@
 - **ダイス**：賽の出目や組み合わせに賭ける単純で早い遊戯。
 - **魔導盤レース**：魔導盤の上で光の幻獣を走らせる、カジノ独自の人気遊戯。詳細は`world/crossroad/29_crossroad_magic_board_race.md`を参照。
 - **魔導スロット**：絵柄を3つ揃える、シンプルで早い遊戯機。詳細は`world/crossroad/33_crossroad_magic_slot.md`を参照。
+- **ドラゴン危機一髪**：13の穴へ番号付きの模造剣を順に差し、当てた者が場を総取りする遊戯台。詳細は`world/crossroad/79_crossroad_dragon_kikiippatsu.md`を参照。
 
 ## 不正対策
 
