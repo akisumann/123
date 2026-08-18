@@ -18,6 +18,8 @@ AI(人)がキャラクターを生成・編集するたびに暗算で検算す�
 
 使い方:
     python3 tools/check_character_stats.py                    # 全NPCを検査
+                                                              # (characters/npcs/ 全部 ＋ towns/ のうち
+                                                              #  「- レベル：NN」を持つ人物ファイル)
     python3 tools/check_character_stats.py characters/npcs/37_tenrai.md  # 1人だけ
 """
 from __future__ import annotations
@@ -27,6 +29,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NPC_DIR = os.path.join(ROOT, "characters", "npcs")
+TOWNS_DIR = os.path.join(ROOT, "towns")
 
 RANK_VALUE = {"S": 25, "A": 16, "B": 9, "C": 4, "D": 1, "E": -1, "F": -4}
 
@@ -228,9 +231,21 @@ def iter_target_files(args: list[str]) -> list[str]:
     explicit = [a for a in args if not a.startswith("--")]
     if explicit:
         return [os.path.join(ROOT, p) if not os.path.isabs(p) else p for p in explicit]
-    return sorted(
+    targets = [
         os.path.join(NPC_DIR, f) for f in os.listdir(NPC_DIR) if f.endswith(".md")
-    )
+    ]
+    # towns/ にも人物ファイルがあるため走査対象へ含める。
+    # ただし towns/ は場所・依頼票のファイルが大半なので、
+    # 「- レベル：NN」を持つファイル(＝人物ファイル)だけを拾う。
+    for dirpath, _dirnames, filenames in os.walk(TOWNS_DIR):
+        for f in filenames:
+            if not f.endswith(".md"):
+                continue
+            path = os.path.join(dirpath, f)
+            with open(path, encoding="utf-8") as fh:
+                if LEVEL_RE.search(fh.read()):
+                    targets.append(path)
+    return sorted(targets)
 
 
 def main() -> int:
