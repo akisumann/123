@@ -4,7 +4,7 @@
 
 - 種族：妖怪(八尺様)
 - 年齢：30歳　　性別：女性
-- 身長：195cm　　スリーサイズ：B93/W62/H94
+- 身長：242cm(八尺)　　スリーサイズ：B115/W77/H117
 - レベル：48(冒険者ランク基準ではBランク相当。`world/14_adventurers_guild.md`)
 - 所属：クロスロード大病院(`world/crossroad/71_crossroad_hospital.md`)
 - 立場：院長
