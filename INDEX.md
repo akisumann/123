@@ -17,7 +17,7 @@
 | `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 756,653 |
 | `CHARACTERS.md` | 主要NPCの要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 13,060 |
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,977 |
-| `PROGRESS.md` | PROGRESS | 261,030 |
+| `PROGRESS.md` | PROGRESS | 261,817 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,264 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 4,035 |
 
@@ -190,7 +190,7 @@
 | `characters/npcs/24_viviana_loudbell.md` | コロッセオ専属実況者ヴィヴィアナ。熱狂を作る名物職員。 | 4,531 |
 | `characters/npcs/25_leon_grave.md` | カジノの勝負師レオン「灰色の切り札」。勝負に強いが生活能力皆無。 | 4,215 |
 | `characters/npcs/26_serena_gearford.md` | 南区・仕掛屋六番工房の店主セレナ。注文制作と機能付与の魔導機構技師。 | 3,307 |
-| `characters/npcs/27_lara.md` | 天才児ララ(Lv35)。Lv50到達を境に街を出る計画を立てる。 | 9,456 |
+| `characters/npcs/27_lara.md` | 天才児ララ(Lv35)。Lv50到達を境に街を出る計画を立てる。 | 9,452 |
 | `characters/npcs/28_karla.md` | ララの相棒カーラ(Lv35)。街を出る計画の同行者。 | 5,841 |
 | `characters/npcs/29_vorgan_gard.md` | 北区商業組合長ボルガン・ガルド(Lv48・偽装Lv18)。強欲な大商会会頭。 | 4,898 |
 | `characters/npcs/30_ultimate_patchwork_iron_kun.md` | 南区中央広場のツギハギ巨大ゴーレム(起動時Lv59相当)。街の名所。 | 4,149 |
@@ -236,4 +236,4 @@
 
 ---
 
-合計 **179 ファイル / 1,811,167 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **179 ファイル / 1,811,950 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
