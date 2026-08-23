@@ -26,7 +26,7 @@
 - **衛兵隊のエイダ**(衛兵隊長。中央区に本拠を置き、五区画すべての巡回・通報対応・事件処理を統括する。`characters/npcs/04_ada_lockwell.md`)
 
 ### 大神殿
-- **年繰りの綴葉**(資料区画の司書。貸し出し・保存・綴じ直し。祈祷や儀礼は担当しない。`characters/npcs/70_tsuzuriha.md`)
+- **綴葉**(資料区画付きの神官。信仰を人に説かず、参拝者へ助言もしない。`characters/npcs/70_tsuzuriha.md`)
 - (関連)**大地龍の杖**が本殿脇の台座にある。挑戦は自由・無料で、神官は止めない(`world/crossroad/48_grand_temple_dragon_records.md`)
 
 ### 浄化院
