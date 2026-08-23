@@ -304,10 +304,10 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
-| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 798,845 |
+| `123_city.md` | 123_city — クロスロード編(単一ファイル版) | 798,779 |
 | `CHARACTERS.md` | 主要NPCの要点を1枚に集めた名簿(レベル・拠点区画・得意/不得意・看板スキル・口調・行きつけ)。自動生成。 | 18,305 |
 | `CLAUDE.md` | 123 — ファンタジーTRPG世界構築リポジトリ | 9,977 |
-| `PROGRESS.md` | PROGRESS | 287,514 |
+| `PROGRESS.md` | PROGRESS | 288,555 |
 | `README.md` | 123 — ファンタジーTRPG世界「クロスロード」設定リポジトリ | 1,264 |
 | `START_HERE.md` | はじめに読む（START HERE）— AI 向け入口 | 4,035 |
 
@@ -315,7 +315,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
-| `rules/00_level_system.md` | 全生命の実力指標「レベル(1〜100)」の意味と、レベル帯ごとの強さの目安。 | 1,534 |
+| `rules/00_level_system.md` | 全生命の実力指標「レベル(1〜100)」の意味と、レベル帯ごとの強さの目安。 | 1,530 |
 | `rules/01_skill_system.md` | 技術・才能を表す「スキル」の仕組みとレベル、習得の考え方。 | 1,449 |
 | `rules/02_status_system.md` | HP/MP/ATK/DEF/INT/SPD/DEXの7ステータスとランク評価値(S=25〜F=-4)。評価値は段階値(F=−2〜S=5)を符号付きで二乗して導き、7能力の合計を基礎Lv、±2補正で表示Lvとする。 | 2,015 |
 | `rules/03_combat_system.md` | HPではなく「戦況値」で進める戦闘判定ルール(スキルLv d ステータスランク)。装備は数字を足さず手札を増やすだけ。舞台のLv帯との差10ごとにダイスの面数±1(上限なし・下限d1。30も40も離れていたら戦う方が間違い)。決着は戦い切った時点の敵戦況値の残りで見る。敵戦況値は舞台のLv帯で決まり、人数では変わらない。 | 14,570 |
@@ -336,14 +336,14 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | `world/03_history.md` | 神代(五龍到来)→開拓→国家成立→戦乱→現在、の歴史年表。 | 916 |
 | `world/04_monster_taxonomy.md` | モンスターの基本種族分類(非網羅的な管理用リスト)。 | 1,755 |
 | `world/05_civilization_classification.md` | 知性ある存在を文明圏との関係で分ける「文明人分類」。 | 1,123 |
-| `world/06_economy.md` | 通貨G・物価・冒険者ランク別報酬・素材買い取りランク制度。金額を動かす場面の基準。 | 9,065 |
+| `world/06_economy.md` | 通貨G・物価・冒険者ランク別報酬・素材買い取りランク制度。金額を動かす場面の基準。 | 9,060 |
 | `world/07_settlement_generation.md` | 集落・都市を規模に応じて生成するルール(付随する危険地域等)。 | 522 |
 | `world/08_danger_zone_generation.md` | 魔物・魔力で危険化した「危険地域」を生成するルール。 | 2,185 |
 | `world/09_dungeon_generation.md` | 自然発生・遺構・人工など、ダンジョンを生成するルール。どのダンジョンにもコアがあり(作り出すクリエイトコア／忘れさせるオブリビオンコア／操るパペッターコア／大きくするマグニファイコア)、壊すと止まるので収支の面で壊さない。半起動という状態もある。 | 3,678 |
 | `world/10_road_generation.md` | 集落を結ぶ街道の生成ルールと、街道から外れるほど上がる危険度。 | 1,181 |
 | `world/12_mermaid.md` | 海洋種族「人魚」。アクア・フロウ連合の主要種族。 | 1,050 |
 | `world/13_giant.md` | 極寒適応の大型種族「巨人」。クリスタル・フロスト帝国の主要種族。 | 1,194 |
-| `world/14_adventurers_guild.md` | 世界最大の中立組織・冒険者ギルド。依頼の流れ・F〜Sランク制度・素材買取。 | 5,553 |
+| `world/14_adventurers_guild.md` | 世界最大の中立組織・冒険者ギルド。依頼の流れ・F〜Sランク制度・素材買取。 | 5,550 |
 | `world/16_minor_nations.md` | セントラル・ヘイヴン王国周辺に点在する多数の小国。 | 1,178 |
 | `world/26_amamiya.md` | 統制パーティー4人が水の身体を融合させた合体形態「雨宮(水精女王)」。 | 2,412 |
 | `world/27_ginsetsu_soukaku_mamori.md` | マモリが銀雪を着ただけの姿・銀雪装殻(Lv65)。それだけで十字剣クロスブレードが振れてしまう。 | 5,220 |
@@ -381,51 +381,51 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 | ファイル | 内容(TL;DR) | 文字数 |
 |---|---|---|
 | `world/crossroad/11_crossroad_city.md` | 主舞台クロスロードの総合設定。人口・統治・街の転機・街道・危険地域4/ダンジョン3。 | 18,116 |
-| `world/crossroad/20_crossroad_city_districts.md` | 市内5区画(中央/北/東/南/西)の役割・主な施設・主なNPC一覧。 | 18,998 |
+| `world/crossroad/20_crossroad_city_districts.md` | 市内5区画(中央/北/東/南/西)の役割・主な施設・主なNPC一覧。 | 19,015 |
 | `world/crossroad/21_crossroad_inns.md` | 冒険者向けの宿5軒(安宿〜高級・歓楽街寄り・工房付き)と料金帯。 | 3,112 |
 | `world/crossroad/22_crossroad_bulletin_boards.md` | ギルド正式依頼板とは別の、区画ごとの街区掲示板(軽い仕事・求人・告知)。 | 3,875 |
 | `world/crossroad/27_crossroad_colosseum.md` | 西区の大型闘技施設。実力抑制リング・賭け・興行試合の運営ルール。 | 5,337 |
 | `world/crossroad/28_crossroad_casino.md` | 西区の合法賭博施設。各種ゲームと乱数運用のルール。 | 4,239 |
 | `world/crossroad/29_crossroad_magic_board_race.md` | カジノの人気遊戯・魔導盤レース(光の幻獣を走らせるミニ競馬)。系統×地形は公開、四区画の脚は非公開で倍率に載らない。判定は`tools/casino_race.py`。 | 6,753 |
-| `world/crossroad/30_crossroad_purification_institute.md` | 中央区の浄化院。土地浄化・呪物処理・結界維持・対アンデッド支援。 | 2,515 |
+| `world/crossroad/30_crossroad_purification_institute.md` | 中央区の浄化院。土地浄化・呪物処理・結界維持・対アンデッド支援。 | 2,504 |
 | `world/crossroad/31_crossroad_security_forces.md` | 衛兵隊・騎士団・ギルド・浄化院の役割分担と衛兵の階級別レベル目安。 | 5,687 |
-| `world/crossroad/32_black_needle_society.md` | 街の裏の情報・暗殺組織「黒針会」。会主・幹部・ミレーヌとの関係。 | 7,474 |
+| `world/crossroad/32_black_needle_society.md` | 街の裏の情報・暗殺組織「黒針会」。会主・幹部・ミレーヌとの関係。 | 7,406 |
 | `world/crossroad/33_crossroad_magic_slot.md` | カジノの遊技台・魔導スロット(三本リールの絵柄揃え)。 | 1,691 |
 | `world/crossroad/34_crossroad_justice.md` | 捕まえた者が裁かれ牢に入るまで。刑は記録・賠償・労役・出禁・収監・追放、重罪は王都送り。 | 1,431 |
 | `world/crossroad/42_crossroad_artisan_goods.md` | 南区職人区で危険地域の素材が加工された、冒険者向け商品の数々。 | 5,525 |
-| `world/crossroad/43_crossroad_magic_circle.md` | 街の魔法使いが集う民間魔法サークル(相談・講習・共同作業場)。 | 5,466 |
+| `world/crossroad/43_crossroad_magic_circle.md` | 街の魔法使いが集う民間魔法サークル(相談・講習・共同作業場)。 | 5,464 |
 | `world/crossroad/44_crossroad_nicknames.md` | 主要NPCの通り名・本名・所属の対応一覧(NPC逆引きの起点)。 | 6,061 |
-| `world/crossroad/45_crossroad_district_markets.md` | 5区画それぞれ性格の異なる市場(中央広場市・西の夜市・南の投げ売り市等)。 | 9,666 |
+| `world/crossroad/45_crossroad_district_markets.md` | 5区画それぞれ性格の異なる市場(中央広場市・西の夜市・南の投げ売り市等)。 | 9,663 |
 | `world/crossroad/46_crossroad_matchmaking_festival.md` | 年一度の婚活祭り「結び路の祝祭」。領主クラリスも強制参加の名物行事。 | 4,462 |
-| `world/crossroad/47_crossroad_harvest_festival.md` | 月一度の食の祭り「巡穣祭」。その月最多の作物を街ぐるみで消費。 | 4,676 |
-| `world/crossroad/48_grand_temple_dragon_records.md` | 中央区で大地龍を祀る大神殿と、その大地龍石膏像・龍の記録＋他四龍の比較展示。＋台座に差さった大地龍の杖(資格ある者だけが抜ける・誰でも挑戦可・抜いた者へ貸出)。 | 11,458 |
-| `world/crossroad/49_crossroad_dining.md` | 区画ごとに客層が棲み分けられた酒場6・茶屋6・高級料理店7軒。各店に常連の顔ぶれを明記し、全NPCがどこかの店で会える「出会いの動線」として運用する。 | 15,454 |
+| `world/crossroad/47_crossroad_harvest_festival.md` | 月一度の食の祭り「巡穣祭」。その月最多の作物を街ぐるみで消費。 | 4,637 |
+| `world/crossroad/48_grand_temple_dragon_records.md` | 中央区で大地龍を祀る大神殿と、その大地龍石膏像・龍の記録＋他四龍の比較展示。＋台座に差さった大地龍の杖(資格ある者だけが抜ける・誰でも挑戦可・抜いた者へ貸出)。 | 11,426 |
+| `world/crossroad/49_crossroad_dining.md` | 区画ごとに客層が棲み分けられた酒場6・茶屋6・高級料理店7軒。各店に常連の顔ぶれを明記し、全NPCがどこかの店で会える「出会いの動線」として運用する。 | 15,446 |
 | `world/crossroad/50_crossroad_brothels.md` | 西区の主要娼館三軒《紅玻璃館》《桃灯楼》《百花迷宮》の格と客層。 | 2,399 |
 | `world/crossroad/51_black_needle_info_network.md` | 黒針会が運営し生活インフラ化した、伝言・情報屋網の拠点網。 | 5,205 |
 | `world/crossroad/52_crossroad_gates_streets.md` | 四街道に対応する四大門と、中央広場へ延びる四本の大通り。 | 1,997 |
 | `world/crossroad/53_crossroad_wandering_events.md` | 目的なく街を歩く時に挟む軽い散策イベント(世間話・手伝い・噂話)。 | 1,818 |
 | `world/crossroad/54_crossroad_theater.md` | 西区の大劇場《万象座》と巡業劇団(演劇・歌劇・幻術劇)。 | 3,850 |
-| `world/crossroad/55_crossroad_bathhouse.md` | 東区の市内最大の公衆浴場《四路の湯》。幅広い住民が集う日常施設。 | 3,366 |
-| `world/crossroad/56_crossroad_gadget_workshop.md` | 南区の特殊機構工房《仕掛屋・六番工房》。注文制作・機能付与専門。 | 4,799 |
+| `world/crossroad/55_crossroad_bathhouse.md` | 東区の市内最大の公衆浴場《四路の湯》。幅広い住民が集う日常施設。 | 3,375 |
+| `world/crossroad/56_crossroad_gadget_workshop.md` | 南区の特殊機構工房《仕掛屋・六番工房》。注文制作・機能付与専門。 | 4,797 |
 | `world/crossroad/57_black_glass_ruins.md` | ダンジョン①黒硝子遺跡(全30階)。古代ゴーレム製造施設跡。Lv10〜40。 | 4,773 |
 | `world/crossroad/58_forgotten_mine.md` | ダンジョン②忘れられた鉱山(全40階)。空間・記憶異常のある廃鉱山。Lv25〜55。 | 4,807 |
-| `world/crossroad/59_star_devourer_temple.md` | ダンジョン③星喰いの地下神殿(第50層まで確認)。宇宙由来を祀る高難度神殿。 | 4,941 |
+| `world/crossroad/59_star_devourer_temple.md` | ダンジョン③星喰いの地下神殿(第50層まで確認)。宇宙由来を祀る高難度神殿。 | 4,919 |
 | `world/crossroad/60_sazameki_plains.md` | 危険地域①さざめき平原(Lv10〜20)。冒険者デビューの定番地。 | 2,983 |
 | `world/crossroad/61_red_fang_forest.md` | 危険地域②赤牙森林(Lv25〜35)。薬効資源を守る縄張り持ちの魔獣。 | 4,098 |
-| `world/crossroad/62_grey_rock_canyon.md` | 危険地域③灰岩峡谷(Lv40〜50)。飛行魔物と鉱石・結晶の採取地。 | 4,927 |
-| `world/crossroad/63_bone_toll_moor.md` | 危険地域④骨鳴り墓原(Lv55〜65)。アンデッドを集める古戦場跡の墓原。 | 6,405 |
+| `world/crossroad/62_grey_rock_canyon.md` | 危険地域③灰岩峡谷(Lv40〜50)。飛行魔物と鉱石・結晶の採取地。 | 4,924 |
+| `world/crossroad/63_bone_toll_moor.md` | 危険地域④骨鳴り墓原(Lv55〜65)。アンデッドを集める古戦場跡の墓原。 | 6,407 |
 | `world/crossroad/64_danger_zone_quest_board.md` | 4つの危険地域を舞台にした、ギルド定番依頼の掲示例。 | 5,109 |
 | `world/crossroad/65_dungeon_quest_board.md` | 3つのダンジョンを舞台にした、ギルド定番依頼の掲示例。 | 4,686 |
 | `world/crossroad/66_civilian_security_quest_board.md` | 街道・都市が舞台の護衛・盗賊討伐・捕縛・警備の定番依頼例。 | 3,259 |
 | `world/crossroad/67_crossroad_casino_high_and_low.md` | カジノのカードゲーム・トゥエルブハイアンドローの遊び方とルール。 | 1,892 |
 | `world/crossroad/68_crossroad_casino_war.md` | カジノのカードゲーム・カジノウォーの遊び方とルール。 | 1,077 |
 | `world/crossroad/69_crossroad_seven_indian_poker.md` | カジノのカードゲーム・セブンインディアンポーカーのルール。 | 1,908 |
-| `world/crossroad/71_crossroad_hospital.md` | 中央区・東区境の総合医院クロスロード大病院。世俗の回復魔法(非教会系)を主軸に日常医療を担い、聖属性・対アンデッドは扱わない。あかりが衛生担当。名前あり4人+モブ職員。診察100〜300G、骨折2,000〜5,000G、入院一日500〜1,000G。市民は補助で半額程度。 | 5,088 |
+| `world/crossroad/71_crossroad_hospital.md` | 中央区・東区境の総合医院クロスロード大病院。世俗の回復魔法(非教会系)を主軸に日常医療を担い、聖属性・対アンデッドは扱わない。あかりが衛生担当。名前あり4人+モブ職員。診察100〜300G、骨折2,000〜5,000G、入院一日500〜1,000G。市民は補助で半額程度。 | 5,085 |
 | `world/crossroad/72_place_character_map.md` | 場所×キャラ対応マップ。区画・施設ごとに常駐/関係NPCを速攻参照できる索引(場所を一つずつ整備中)。 | 10,590 |
 | `world/crossroad/73_colosseum_random_pair_tournament.md` | コロッセオが年に数回開く小規模お祭りトーナメント「相棒籤杯(くじ引き二人組)」。街の実力者16人を毎回籤で2人組へ組み直し16→8→4→2で勝ち抜く運用ルール。 | 3,774 |
 | `world/crossroad/74_crossroad_training_ground.md` | 西区・コロッセオ隣接の公営稽古場。観客も賭けもなく、有志が自主的に模擬戦・自主練を行う無料開放の広場。判定は通常のrules/03をそのまま使用。 | 2,523 |
 | `world/crossroad/75_scenario_seeds.md` | 観覧モードで使える伏線・展開の種のネタ帳(紅葉の星喰いリベンジ、ツバキの決断、ララ・カーラの教え乞い、エルシアの二重生活ニアミス、琥珀の隠しきれなさ、下水道ニート達への細い導線、マモリのファンクラブ、九重・クサビの回復役探し、エリアスの取材癖、レオンのダメと鋭さの落差、黒針会古参の懐古、結び路の祝祭、男女反転薬の流行、下水道の竜の怪談、新人冒険者の大量登録期、娼婦達の客引き合戦、白金の無自覚パワー騒動、銀雪の格納・憑依指南、九重・クサビの大病院凸、墓原の水の巨人の噂、水球の怪物を作った琥珀の師匠、大地龍の杖を抜く余興、みんなでカジノ／コロッセオ／芝居へ行こう、東区の四人が噛み合う、ハイドウェル一軒への大口注文、泡姫が頼む下水道のガラクタ仕分け、歓楽街の大立ち回り、パーフェクト琥珀の自慢話、琥珀の倉庫整理)＋初手から大きい案件の種(黒硝子遺跡のリッチ、赤牙森林の緊急薬効採取、謎の奇病流行、アイアンくん無断起動、双槌の大規模掃討、ボルガン襲撃、都市規模の姉妹喧嘩、ボルガンの鉱山一攫千金作戦、王都から北門へ流れ込む薬、スタンピードの都市防衛戦)。結末は決めずGMの裁量に委ねる。 | 50,964 |
-| `world/crossroad/76_artifacts.md` | 街にある一点物の遺物と作り方、および量産品まで含めた等級表。遺物は所有者へ追加スキルを一つ付与する(Lv7〜8)。最上品質Lv5・良質Lv3・並Lv2と等級が下へ伸びる。 | 14,402 |
+| `world/crossroad/76_artifacts.md` | 街にある一点物の遺物と作り方、および量産品まで含めた等級表。遺物は所有者へ追加スキルを一つ付与する(Lv7〜8)。最上品質Lv5・良質Lv3・並Lv2と等級が下へ伸びる。 | 14,401 |
 | `world/crossroad/77_north_district_trading_houses.md` | 北区大通りに向かい合う二大商会の建物。倉庫を抱える石造りのガルド大商会《金蔵》と、荷が留まらない四つ口のカーウェン商会《空店》、間の通り「商会前」。 | 6,409 |
 | `world/crossroad/78_east_district_school.md` | 東区の初等学校《東区第四学校》。生徒120〜150人、教師4〜5人。ララ・カーラが通い織部が教えている。時折、騎士団・鍛冶師・西区の人・冒険者が呼ばれて子供に教える。街全体では約3,000人が学んでいる。 | 3,422 |
 | `world/crossroad/79_crossroad_dragon_kikiippatsu.md` | カジノの遊戯台・ドラゴン危機一髪。竜の模型の体に開いた13の穴へ番号付きの模造剣を12本差していき、急所を突いた者が場を総取りする。判定は残り穴の数のダイスで1が出たら当たり。どの番号の剣も等しく1/13だが客の読みはバラバラで全員外れている。13回に1回は誰も当たらず場が胴元へ流れ、それがそのまま控除率7.69%。当たりは竜が小さくギャオーンと鳴いて倒れ、軽いファンファーレ、全員外れは竜が口から煙を吹きかけてくる(浴びるのは賭けて差した者だけ、無害)。 | 3,923 |
@@ -528,4 +528,4 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 
 ---
 
-合計 **181 ファイル / 1,921,674 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
+合計 **181 ファイル / 1,922,471 文字**(空白除く)。1ファイルずつ読めば、一度に扱う量は常に小さく保てる。
