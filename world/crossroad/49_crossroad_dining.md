@@ -24,13 +24,13 @@
 
 中央区寄りの大衆酒場。役人、神官、商人、護衛まで客層が広い。煮込みと黒パンが定番で、揉め事が少ない。
 
-- **常連・顔ぶれ**：特大剣の騎士団長ヴァレリア(`characters/npcs/03_valeria_grenz.md`)、衛兵隊のエイダ(`characters/npcs/04_ada_lockwell.md`)、外科医の風間(手術帰りの一杯。`characters/npcs/59_kazama.md`)、武者修行中の紅葉・黒羽(騎士つながり。`characters/npcs/43_momiji.md`、`characters/npcs/44_kokuu.md`)、護衛双盾のマモリ(クラリスの供で待機。`characters/npcs/41_mamori.md`)、呼び声のベルナデッタ(人脈回りで時々。`characters/npcs/20_bernadette.md`)。**騎士・衛兵・医者・護衛が交差する中央の広間**。
+- **常連・顔ぶれ**：特大剣の騎士団長ヴァレリア(`characters/npcs/03_valeria_grenz.md`)、衛兵隊のエイダ(`characters/npcs/04_ada_lockwell.md`)、外科医の風間(手術帰りの一杯。`characters/npcs/59_kazama.md`)、武者修行中の紅葉・黒羽(騎士つながり。`characters/npcs/43_momiji.md`、`characters/npcs/44_kokuu.md`)、護衛双盾のマモリ(クラリスの供で待機。`characters/npcs/41_mamori.md`)、呼び声のベルナデッタ(人脈回りで時々。`characters/npcs/20_bernadette.md`)、クラリス(領主。役人も護衛も混ざる店なので一人で座っていても浮かない。`characters/npcs/01_clarisse_weissfeld.md`)、ルカ(先輩騎士に呼ばれて。`characters/npcs/05_luca_fennel.md`)、マリナ(行政へ届ける用がある日に役人を捕まえに。`characters/npcs/11_marina.md`)、ミレイ(術師どうしの寄り合いで。`characters/npcs/18_milei.md`)、仁礼(街の者と気安く話したい日に。`characters/npcs/49_ninrei.md`)、飛鳥(表の顔で座る。ここでは黒針会の話を一切しない。`characters/npcs/63_asuka.md`)、織部(中央区へ出た帰りに一杯だけ。`characters/npcs/66_oribe.md`)。**騎士・衛兵・医者・護衛が交差する中央の広間**。
 
 ### 酒場《赤釘亭》
 
 南区の職人酒場。鍛冶師や工房労働者が集まり、酒も料理も濃くて量が多い。壁には客が打ち込んだ古い釘が並ぶ。
 
-- **常連・顔ぶれ**：鍛冶頭のガルム(`characters/npcs/06_galm_forgelight.md`)、ヘンテコ薬品のミルカ(`characters/npcs/13_mika.md`)、仕掛屋のセレナ(`characters/npcs/26_serena_gearford.md`)、伝説錬金の琥珀(素材の話をしに。南区廃施設が拠点の災害パーティー。`characters/npcs/52_kohaku.md`)、巨大腕の白金(琥珀の供で力仕事を手伝い、うっかり皿を割る。`characters/npcs/53_hakkin.md`)、受け流しの蒼龍(革具と武具の相談ついでに、量の出る飯を黙々と平らげる。`characters/npcs/32_souryuu.md`)、防具のイチカ・矢売りのニノ・折れずのサン(ハイドウェル三姉妹。三人で来ることも多い。**揃うのはここでの話で、昼間は三人とも自分の店から動かない。**`characters/npcs/67_ichika_hidewell.md`、`characters/npcs/68_nino_hidewell.md`、`characters/npcs/69_san_hidewell.md`)。アイアンくんの年次改修祭(`characters/npcs/30_ultimate_patchwork_iron_kun.md`)もこの界隈。**職人が素材と酒で語り合う南区の溜まり場**。
+- **常連・顔ぶれ**：鍛冶頭のガルム(`characters/npcs/06_galm_forgelight.md`)、ヘンテコ薬品のミルカ(`characters/npcs/13_mika.md`)、仕掛屋のセレナ(`characters/npcs/26_serena_gearford.md`)、伝説錬金の琥珀(素材の話をしに。南区廃施設が拠点の災害パーティー。`characters/npcs/52_kohaku.md`)、巨大腕の白金(琥珀の供で力仕事を手伝い、うっかり皿を割る。`characters/npcs/53_hakkin.md`)、受け流しの蒼龍(革具と武具の相談ついでに、量の出る飯を黙々と平らげる。`characters/npcs/32_souryuu.md`)、防具のイチカ・矢売りのニノ・折れずのサン(ハイドウェル三姉妹。三人で来ることも多い。**揃うのはここでの話で、昼間は三人とも自分の店から動かない。**`characters/npcs/67_ichika_hidewell.md`、`characters/npcs/68_nino_hidewell.md`、`characters/npcs/69_san_hidewell.md`)、銀雪(琥珀に呼ばれて。鎧のまま座っている。`characters/npcs/54_ginsetsu.md`)。アイアンくんの年次改修祭(`characters/npcs/30_ultimate_patchwork_iron_kun.md`)もこの界隈。**職人が素材と酒で語り合う南区の溜まり場**。
 
 ### 酒場《夜鴉の止まり木》
 
@@ -38,25 +38,25 @@
 
 Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/08_silver_raven_feather.md`)は、この店で知り合った者たちによって結成された。パーティー名も店名をもじって付けられている。結成後も主な溜まり場としており、店の奥の壁際の広い卓は結成を決めた席として、常連客から半ば「銀鴉の席」と呼ばれている。
 
-- **常連・顔ぶれ**：歓楽街のミレーヌ(`characters/npcs/02_milene_weissfeld.md`)、銀鴉の羽根、劇作家のエリアス(`characters/npcs/23_elias_veil.md`)、爆声のヴィヴィアナ(興行帰り。`characters/npcs/24_viviana_loudbell.md`)、氷装甲の氷室(`characters/npcs/35_himuro.md`)、一射の天雷(`characters/npcs/37_tenrai.md`)、忍びのツバキ(定宿を持たず拠点代わりに入り浸る。`characters/npcs/36_tsubaki.md`)、客側護衛のセレスティナ(仕事上がりの一杯。`characters/npcs/61_celestina.md`)、潜入のミーナ(黒針会の耳。子供の姿で紛れる。`characters/npcs/14_mina.md`)、監視鳥の飛鳥(黒針会の目。交渉と情報交換を兼ねて。`characters/npcs/63_asuka.md`)、呼び声のベルナデッタ、歌い手の鈴代(時々弾き語り。`characters/npcs/45_suzuyo.md`)、気まぐれの雷華(店に属さない街娼。飲みにではなく、誰かが飯を分けてくれるので寄る。`characters/npcs/64_raika.md`)。**西区の夜の結節点**。
+- **常連・顔ぶれ**：歓楽街のミレーヌ(`characters/npcs/02_milene_weissfeld.md`)、銀鴉の羽根、劇作家のエリアス(`characters/npcs/23_elias_veil.md`)、爆声のヴィヴィアナ(興行帰り。`characters/npcs/24_viviana_loudbell.md`)、氷装甲の氷室(`characters/npcs/35_himuro.md`)、一射の天雷(`characters/npcs/37_tenrai.md`)、忍びのツバキ(定宿を持たず拠点代わりに入り浸る。`characters/npcs/36_tsubaki.md`)、客側護衛のセレスティナ(仕事上がりの一杯。`characters/npcs/61_celestina.md`)、潜入のミーナ(黒針会の耳。子供の姿で紛れる。`characters/npcs/14_mina.md`)、監視鳥の飛鳥(黒針会の目。交渉と情報交換を兼ねて。`characters/npcs/63_asuka.md`)、呼び声のベルナデッタ、歌い手の鈴代(時々弾き語り。`characters/npcs/45_suzuyo.md`)、気まぐれの雷華(店に属さない街娼。飲みにではなく、誰かが飯を分けてくれるので寄る。`characters/npcs/64_raika.md`)、エイダ(西区の見回り帰り。表向きは飲みに来た顔をしている。`characters/npcs/04_ada_lockwell.md`)、リネット(夜の話が要る時。`characters/npcs/10_linette.md`)、ロゼとリゼ(浮かれた客を狙う稼ぎ場。`characters/npcs/12_roze_and_rize.md`)、ミルカ(変薬の客を捕まえに。`characters/npcs/13_mika.md`)、ザラ(西区の様子を見に。`characters/npcs/15_zara.md`)、レオン(賭けの相手を探しに。`characters/npcs/25_leon_grave.md`)、小夜(懐の温かい客を見に。`characters/npcs/38_sayo.md`)、紅葉(練兵場から西区の安宿へ戻る夜に。`characters/npcs/43_momiji.md`)、黒羽(紅葉とともに。`characters/npcs/44_kokuu.md`)、妲己(人の多い店にもたまに流れる。`characters/npcs/55_dakki.md`)、ニノ(狩人の客を捕まえに。そこでも喋り倒して結局売る。`characters/npcs/68_nino_hidewell.md`)。**西区の夜の結節点**。
 
 ### 酒場《七つ樽》
 
 北区の交易酒場。常時七種類以上の地域酒を置き、商隊の到着によって品揃えが変わる。外国語が飛び交う騒がしい店。人混みに紛れやすく、素性を隠したい者にも都合がいい。
 
-- **常連・顔ぶれ**：北門のバルト(`characters/npcs/22_balto.md`)、囮のロゼ・スリのリゼ(人混みで稼ぐ盗人姉妹。`characters/npcs/12_roze_and_rize.md`)、転移コソ泥の小夜(同業として人混みに紛れる。`characters/npcs/38_sayo.md`)、潜入のミーナ(交易の噂拾い)、水球の青葉(統制の中では気さくに顔を出す。`characters/npcs/34_aoba.md`)、早耳のリド(カーウェン商会会頭。小商人と荷運びが集まるからここに通う。`characters/npcs/65_rido_carwen.md`)。**交易の噂と盗人稼業が交じる北区の雑踏**。
+- **常連・顔ぶれ**：北門のバルト(`characters/npcs/22_balto.md`)、囮のロゼ・スリのリゼ(人混みで稼ぐ盗人姉妹。`characters/npcs/12_roze_and_rize.md`)、転移コソ泥の小夜(同業として人混みに紛れる。`characters/npcs/38_sayo.md`)、潜入のミーナ(交易の噂拾い)、水球の青葉(統制の中では気さくに顔を出す。`characters/npcs/34_aoba.md`)、早耳のリド(カーウェン商会会頭。小商人と荷運びが集まるからここに通う。`characters/npcs/65_rido_carwen.md`)、エイダ(北門詰めのバルトを拾いに。`characters/npcs/04_ada_lockwell.md`)、ダリオ(北区の商会筋と話す時。`characters/npcs/07_dario_langford.md`)、リネット(素性を伏せて聞き回る時。`characters/npcs/10_linette.md`)、ベルナデッタ(区画をまたいだ顔出しの一軒。`characters/npcs/20_bernadette.md`)、エリアス(旅の話を拾いに。`characters/npcs/23_elias_veil.md`)、レオン(街道から来た旅打ちを捕まえに。`characters/npcs/25_leon_grave.md`)、ボルガン(北区の現場の空気を見に、供も連れず座っていることがある。`characters/npcs/29_vorgan_gard.md`)、ツバキ(素性を伏せたい日に。`characters/npcs/36_tsubaki.md`)、空咲(荷主と落ち合う。`characters/npcs/39_sorasaki.md`)、唯一(騒がしくて誰にも絡まれないので。`characters/npcs/42_yuiitsu.md`)、鈴代(旅の歌の種を仕入れに。`characters/npcs/45_suzuyo.md`)、九重(回復役を当たりに。`characters/npcs/50_kokonoe.md`)、クサビ(九重とともに。`characters/npcs/51_kusabi.md`)、雷華(騒がしくて紛れ込みやすい。`characters/npcs/64_raika.md`)、サン(斥候と黒針会の客が向こうから来る。`characters/npcs/69_san_hidewell.md`)。**交易の噂と盗人稼業が交じる北区の雑踏**。
 
 ### 酒場《帰還者の杯》
 
 北区の、冒険者ギルド(`world/14_adventurers_guild.md`)近くの酒場。依頼帰りの冒険者が集まり、無事に帰還した者には最初の一杯が安くなる。壁に壊れた武具や記念札が飾られている。
 
-- **常連・顔ぶれ**：ギルド長のダリオ(`characters/npcs/07_dario_langford.md`)、恋バナ受付のリエラ(`characters/npcs/17_riera.md`)、連絡役のルカ(`characters/npcs/05_luca_fennel.md`)、広範囲斬撃の唯一(依頼帰りの単独冒険者。`characters/npcs/42_yuiitsu.md`)、九槍の九重・結界のクサビ(回復役を探して滞在中。`characters/npcs/50_kokonoe.md`、`characters/npcs/51_kusabi.md`)、情報屋のリネット(依頼帰りの噂を拾いに。`characters/npcs/10_linette.md`)。**冒険者と依頼が行き交うギルド前の一杯**。
+- **常連・顔ぶれ**：ギルド長のダリオ(`characters/npcs/07_dario_langford.md`)、恋バナ受付のリエラ(`characters/npcs/17_riera.md`)、連絡役のルカ(`characters/npcs/05_luca_fennel.md`)、広範囲斬撃の唯一(依頼帰りの単独冒険者。`characters/npcs/42_yuiitsu.md`)、九槍の九重・結界のクサビ(回復役を探して滞在中。`characters/npcs/50_kokonoe.md`、`characters/npcs/51_kusabi.md`)、情報屋のリネット(依頼帰りの噂を拾いに。`characters/npcs/10_linette.md`)、銀鴉の羽根(依頼帰りの一杯。`characters/npcs/08_silver_raven_feather.md`)、バルト(冒険者と話す用がある日に。`characters/npcs/22_balto.md`)、青葉(冒険者に混ざりたい日に。`characters/npcs/34_aoba.md`)、氷室(冒険者と話す用があれば。`characters/npcs/35_himuro.md`)、ツバキ(依頼帰り。`characters/npcs/36_tsubaki.md`)、天雷(依頼帰り。`characters/npcs/37_tenrai.md`)、小夜(懐の温かい冒険者が帰ってくる場所として。`characters/npcs/38_sayo.md`)、空咲(空路護衛の依頼帰り。`characters/npcs/39_sorasaki.md`)、リド(護衛の口を探す冒険者を見に。`characters/npcs/65_rido_carwen.md`)。**冒険者と依頼が行き交うギルド前の一杯**。
 
 ### 酒場《月裏亭》
 
 西区でも比較的静かな酒場。個室や仕切り席が多く、密談、男女の逢瀬、落ち着いた飲酒に使われる。値段は少し高め。
 
-- **常連・顔ぶれ**：歓楽街のミレーヌ(`characters/npcs/02_milene_weissfeld.md`)、黒針会のギデオン(`characters/npcs/16_gideon.md`)、蠍尾のザラ(`characters/npcs/15_zara.md`)、劇作家のエリアス、レオン《灰色の切り札》(賭けの算段を練りに。`characters/npcs/25_leon_grave.md`)、範囲制圧の妲己(気だるげに仕切り席で寛ぐ。`characters/npcs/55_dakki.md`)。**表と裏の話が個室で交わる密談の場**。
+- **常連・顔ぶれ**：歓楽街のミレーヌ(`characters/npcs/02_milene_weissfeld.md`)、黒針会のギデオン(`characters/npcs/16_gideon.md`)、蠍尾のザラ(`characters/npcs/15_zara.md`)、劇作家のエリアス、レオン《灰色の切り札》(賭けの算段を練りに。`characters/npcs/25_leon_grave.md`)、範囲制圧の妲己(気だるげに仕切り席で寛ぐ。`characters/npcs/55_dakki.md`)、ロザリア(静かに休む時の仕切り席。`characters/npcs/19_rosalia.md`)、エルシア(夜の顔で人と会う時。`characters/npcs/21_elsia.md`)、ヴィヴィアナ(選手や興行主と静かに話す時。`characters/npcs/24_viviana_loudbell.md`)、鈴代(投げ銭がまとまった夜に一人で。`characters/npcs/45_suzuyo.md`)、セレスティナ(護衛の依頼主と落ち合う。`characters/npcs/61_celestina.md`)、飛鳥(内密の相手と仕切り席で。`characters/npcs/63_asuka.md`)。**表と裏の話が個室で交わる密談の場**。
 
 ## 茶屋
 
@@ -64,43 +64,67 @@ Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/0
 
 中央区の、大神殿(`world/crossroad/48_grand_temple_dragon_records.md`)近くの茶屋。穀物茶、根菜茶、薬草茶など素朴な飲み物が中心。参拝後の休憩所として親しまれている。
 
-- **常連・顔ぶれ**：浄化院のセリア(`characters/npcs/09_celia.md`)、巡回双槌の仁礼(骨鳴り墓原の視察で滞在中、参拝帰りに。`characters/npcs/49_ninrei.md`)、綴葉(大神殿の資料区画の司書。書見台から離れる数少ない時間。**ここにも本を持ってくる**。`characters/npcs/70_tsuzuriha.md`)。**信仰まわりの者が一息つく茶屋**。
+- **常連・顔ぶれ**：浄化院のセリア(`characters/npcs/09_celia.md`)、巡回双槌の仁礼(骨鳴り墓原の視察で滞在中、参拝帰りに。`characters/npcs/49_ninrei.md`)、綴葉(大神殿の資料区画の司書。書見台から離れる数少ない時間。**ここにも本を持ってくる**。`characters/npcs/70_tsuzuriha.md`)、ダリオ(大神殿へ資料を照会に行った帰り。`characters/npcs/07_dario_langford.md`)。**信仰まわりの者が一息つく茶屋**。
 
 ### 茶屋《水音茶房》
 
 中央区の噴水庭園沿いにある茶屋。果実水、花茶、軽い菓子を出す。景色がよく、待ち合わせや軽い相談によく使われる。
 
-- **常連・顔ぶれ**：領主のクラリス(お忍びの息抜き・軽い相談。`characters/npcs/01_clarisse_weissfeld.md`)、衛生浄化のあかり(クラリスの供でたまに。`characters/npcs/57_akari.md`)。街の誰かとの**待ち合わせ場所**として広く使われる。
+- **常連・顔ぶれ**：領主のクラリス(お忍びの息抜き・軽い相談。`characters/npcs/01_clarisse_weissfeld.md`)、衛生浄化のあかり(クラリスの供でたまに。`characters/npcs/57_akari.md`)、ヴァレリア(クラリスに呼び出される時。`characters/npcs/03_valeria_grenz.md`)、セリア(待ち合わせと相談事。`characters/npcs/09_celia.md`)、リエラ(待ち合わせに使う客をよく観察している。`characters/npcs/17_riera.md`)、ミレイ(術師会の相談事を受ける。`characters/npcs/18_milei.md`)、ララ(大人の待ち合わせを眺めているのが割と好きらしい。`characters/npcs/27_lara.md`)、カーラ(ララについて来る。`characters/npcs/28_karla.md`)、睡蓮(水の音がするので一人でも行く。`characters/npcs/33_suiren.md`)、マモリ(クラリスの供で噴水庭園を背に立っている。`characters/npcs/41_mamori.md`)、海原(待ち合わせ。`characters/npcs/58_unabara.md`)、風間(日中に人と会うなら。`characters/npcs/59_kazama.md`)。街の誰かとの**待ち合わせ場所**として広く使われる。
 
 ### 茶屋《ひだまり縁側》
 
 東区の住宅街にある家庭的な茶屋。焼き菓子、団子、温かい茶が中心。老人、親子連れ、近隣住民が多い。
 
-- **常連・顔ぶれ**：世話役のマリナ(`characters/npcs/11_marina.md`)、歌い手の鈴代(井戸端会議のあとに。`characters/npcs/45_suzuyo.md`)、天才児のララ・カーラ(学校帰りのおやつ。`characters/npcs/27_lara.md`、`characters/npcs/28_karla.md`)、静穏の睡蓮(水路歩きの帰りに。人混みが無いので長居する。`characters/npcs/33_suiren.md`)、布ゴキブリの織部(放課後に隅で茶を一杯だけ飲んで帰る学校の教師。`characters/npcs/66_oribe.md`)。**東区の暮らしが集まる縁側**。
+- **常連・顔ぶれ**：世話役のマリナ(`characters/npcs/11_marina.md`)、歌い手の鈴代(井戸端会議のあとに。`characters/npcs/45_suzuyo.md`)、天才児のララ・カーラ(学校帰りのおやつ。`characters/npcs/27_lara.md`、`characters/npcs/28_karla.md`)、静穏の睡蓮(水路歩きの帰りに。人混みが無いので長居する。`characters/npcs/33_suiren.md`)、布ゴキブリの織部(放課後に隅で茶を一杯だけ飲んで帰る学校の教師。`characters/npcs/66_oribe.md`)、セリア(東区へ浄化に出た帰りに温かい茶を出される。`characters/npcs/09_celia.md`)、ミーナ(親子連れに混ざっていても誰も疑わない。`characters/npcs/14_mina.md`)、リエラ(甘い物。`characters/npcs/17_riera.md`)、ベルナデッタ(昼の顔出し。`characters/npcs/20_bernadette.md`)、銀雪(練兵場の帰りに。`characters/npcs/54_ginsetsu.md`)、雷華(なぜか団子だけ出てくる。`characters/npcs/64_raika.md`)、カスミ(住処の豊根から遠くへ行かないが、この店は圏内。`characters/npcs/62_kasumi.md`)。**東区の暮らしが集まる縁側**。
 
 ### 旅籠前茶屋・一服
 
 北区の街道入口近くにある茶屋。荷物を置ける広い席があり、商人や御者が休憩する。濃い茶と塩気のある軽食が人気。
 
-- **常連・顔ぶれ**：北門のバルト(持ち場のすぐ近く。`characters/npcs/22_balto.md`)、空輸の空咲(荷運びの合間に。`characters/npcs/39_sorasaki.md`)、情報屋のリネット(街道の出入りの噂を拾いに)、統率のミズシロ(街道の出入りと荷の動きを把握しに、一人で長居する。`characters/npcs/31_mizushiro.md`)。**街道の出入りが交わる休憩所**。
+- **常連・顔ぶれ**：北門のバルト(持ち場のすぐ近く。`characters/npcs/22_balto.md`)、空輸の空咲(荷運びの合間に。`characters/npcs/39_sorasaki.md`)、情報屋のリネット(街道の出入りの噂を拾いに)、統率のミズシロ(街道の出入りと荷の動きを把握しに、一人で長居する。`characters/npcs/31_mizushiro.md`)、ルカ(北区へ伝令に出た帰りに足を休める。`characters/npcs/05_luca_fennel.md`)、ガルム(鋼の仕入れ帰り。`characters/npcs/06_galm_forgelight.md`)、ロゼとリゼ(街道から着いたばかりの客を見に。`characters/npcs/12_roze_and_rize.md`)、天雷(屋台と食べ物についつい銭を使いすぎる。`characters/npcs/37_tenrai.md`)、リド(朝の荷馬車駅回りのついでに。`characters/npcs/65_rido_carwen.md`)、ニノ(矢羽根と膠の仕入れで北区へ出た帰り。`characters/npcs/68_nino_hidewell.md`)。**街道の出入りが交わる休憩所**。
 
 ### 茶屋《芽吹き棚》
 
 東区の、南区との境にある薬草茶屋。体調や疲労に合わせて茶葉を調合する。軽い魔力疲労や二日酔い向けの茶も扱う。
 
-- **常連・顔ぶれ**：幻惑のエルシア(昼の「オタクのエルシア」の顔で。`characters/npcs/21_elsia.md`)、魔法サークルのミレイ(魔力疲労の茶を求めて。`characters/npcs/18_milei.md`)、ヘンテコ薬品のミルカ(薬草の目利きに時々。`characters/npcs/13_mika.md`)、空鎧の銀雪(南区廃施設が近く、のんびり茶を啜りにすり足で。`characters/npcs/54_ginsetsu.md`)。**魔法まわりの疲れを癒やす東南境の茶屋**。
+- **常連・顔ぶれ**：幻惑のエルシア(昼の「オタクのエルシア」の顔で。`characters/npcs/21_elsia.md`)、魔法サークルのミレイ(魔力疲労の茶を求めて。`characters/npcs/18_milei.md`)、ヘンテコ薬品のミルカ(薬草の目利きに時々。`characters/npcs/13_mika.md`)、空鎧の銀雪(南区廃施設が近く、のんびり茶を啜りにすり足で。`characters/npcs/54_ginsetsu.md`)、ガルム(素材の話が長引く日に流れてくる。`characters/npcs/06_galm_forgelight.md`)、銀鴉の羽根(疲れが残る翌朝に。`characters/npcs/08_silver_raven_feather.md`)、マリナ(住民の体調相談をここへ回す。`characters/npcs/11_marina.md`)、ヴィヴィアナ(嗄れた喉に効く茶。`characters/npcs/24_viviana_loudbell.md`)、セレナ(一人になりたい日。`characters/npcs/26_serena_gearford.md`)、ララ(術式を組みすぎた日の魔力疲労の茶。`characters/npcs/27_lara.md`)、カーラ(稽古で体を痛めた日。`characters/npcs/28_karla.md`)、蒼龍(体を作り直す茶を買いに。`characters/npcs/32_souryuu.md`)、氷室(体を冷やしすぎた日。`characters/npcs/35_himuro.md`)、紅葉(朝に打ち身と筋肉痛用の茶を出される。`characters/npcs/43_momiji.md`)、黒羽(紅葉とともに朝に。`characters/npcs/44_kokuu.md`)、クサビ(旅の疲れが抜けない時。`characters/npcs/51_kusabi.md`)、琥珀(薬草の質を確かめに。茶を飲みに来ているわけではない。`characters/npcs/52_kohaku.md`)、白金(琥珀の供。機械腕が邪魔で外の縁台に座らされる。`characters/npcs/53_hakkin.md`)、織部(体を痛めた日。`characters/npcs/66_oribe.md`)、イチカ(革の話をしに。`characters/npcs/67_ichika_hidewell.md`)、サン(焼き入れで火に当たりすぎた日。`characters/npcs/69_san_hidewell.md`)、カスミ(四路の湯まわりの圏内。`characters/npcs/62_kasumi.md`)。**魔法まわりの疲れを癒やす東南境の茶屋**。
 
 ### 茶屋《白雲》
 
 少し上品な中央区の茶屋。静かな個室があり、商談や家同士の顔合わせにも使われる。茶器と接客の質が高い。
 
-- **常連・顔ぶれ**：研究医の海原(静かに文献を読む合間に。`characters/npcs/58_unabara.md`)、金塊商会長のボルガン(内々の商談に。`characters/npcs/29_vorgan_gard.md`)。家同士の顔合わせにも。
+- **常連・顔ぶれ**：研究医の海原(静かに文献を読む合間に。`characters/npcs/58_unabara.md`)、金塊商会長のボルガン(内々の商談に。`characters/npcs/29_vorgan_gard.md`)、ザラ(相手が身なりのいい者なら個室で。`characters/npcs/15_zara.md`)、ギデオン(相手を選ぶ話を。`characters/npcs/16_gideon.md`)、ロザリア(昼に外へ出られた日。`characters/npcs/19_rosalia.md`)、エルシア(身なりを整えて出る昼。`characters/npcs/21_elsia.md`)、水城(静かに話を通す時。`characters/npcs/31_mizushiro.md`)、あかり(クラリスの供。灯りを入れるためなので席には着かない。`characters/npcs/57_akari.md`)、白峰(静かに話したい相手と。`characters/npcs/60_shiromine.md`)。家同士の顔合わせにも。
+
+## やや高級な店
+
+**酒場より上、高級店より下**の帯。一食700〜1,500G程度で(`world/06_economy.md`)、**日常ではないが、月に何度かなら手が届く。**
+
+依頼を一つ挙げた冒険者、納品を終えた職人、家族の記念日、参拝帰りのちょっといい飯——**「今日は少しいいものを」で選ばれるのがこの二軒**である。高級店と違い、常連が付く。
+
+### やや高級《五つの地平》
+
+**北区**の、五地域の食材と料理法を組み合わせる店。大地、火山、森林、氷雪、海洋の食文化を一皿ずつ楽しめるコースが名物。森林皿の締めには、赤牙森林の魔力果実を使ったデザートが添えられる。
+
+**五地域の食材が揃うのは、北区だからである。** 他国から運ばれた品は北方交易市場(`world/crossroad/45_crossroad_district_markets.md`)へ入るので、**荷が着いた日に一番いい物を押さえられる**。同じ北区の高級店《琥珀の匙》とは値も客層も違い、あちらは輸入食材で接待する店、こちらは**五地域を食べ比べに来る店**である。**値は張るが手が届く帯**なので、依頼を一つ挙げた冒険者や、納品を終えた職人が奮発して来る。
+
+- **常連・顔ぶれ**：統制パーティーの貴族令嬢一行(食べ歩きの目玉に。`characters/npcs/31_mizushiro.md`ほか)、空輸の空咲(五地域を飛ぶ話の種に招かれることも。`characters/npcs/39_sorasaki.md`)、ガルム(大物の武具を納めた祝いだけ。`characters/npcs/06_galm_forgelight.md`)、セレナ(大口の注文が決まった祝い。施主に奢らせる。`characters/npcs/26_serena_gearford.md`)、蒼龍(統制の会食先。`characters/npcs/32_souryuu.md`)、睡蓮(統制の会食先。`characters/npcs/33_suiren.md`)、青葉(統制の会食先。`characters/npcs/34_aoba.md`)、イチカ(採寸からの鎧を一領納めた祝いに一人で。`characters/npcs/67_ichika_hidewell.md`)。
+
+### やや高級《眠龍楼》
+
+**中央区**の、大神殿近くにある大地龍を意識した料理店。土鍋、蒸し料理、根菜、穀物、熟成肉を中心に、重厚で落ち着いた料理を出す。**素材そのものは庶民的で、値は高級店ほどは張らない。** 参拝帰りにちょっといい飯を食う店として使われ、個室もある。
+
+- **常連・顔ぶれ**：回復大砲の白峰(院長の会食・重い体を落ち着けられる個室を好む八尺様。`characters/npcs/60_shiromine.md`)、ヴァレリア(騎士団の慰労を個室でまとめて。`characters/npcs/03_valeria_grenz.md`)、唯一(一人で静かに食べたい日の個室。`characters/npcs/42_yuiitsu.md`)、仁礼(修道女団の名で会食に呼ばれる時。`characters/npcs/49_ninrei.md`)、海原(病院の会食。大柄な白峰に合わせて席が取られる。`characters/npcs/58_unabara.md`)、風間(病院の会食。`characters/npcs/59_kazama.md`)。
 
 ## 高級料理店
 
 高級料理店の中でも特に値の張る一皿には、赤牙森林(`world/crossroad/61_red_fang_forest.md`)産の魔力果実が使われていることが多い。森の魔力を吸収して育つ希少な果実で、疲労回復・魔力回復・解毒補助といった薬効を持つが、料理に使う分量ではその効能はごく弱く、「食後にほんの少し体が軽くなる」「一晩ぐっすり眠れる」程度の、滋養強壮に近い穏やかな後味として表れる程度に留まる。派手な回復効果や判定補正を期待するようなものではなく、あくまで高級店の食材としての付加価値。
 
-※高級料理店は日常の溜まり場ではなく、**会食・接待・祝いの席**として使われる。常連が入り浸る場所ではないので、下記は「どんな時に誰が使うか」を示す。
+※高級料理店は**毎日の溜まり場ではない**。大半の者にとっては**会食・接待・祝いの席**である。
+
+ただし**値段が日常の額である者には、行きつけの一軒として普通に入る。** 一食1,000G以上(`world/06_economy.md`)に対し、B級依頼(Lv41〜50)は一人あたり5,000〜10,000G——**依頼を一つこなせば十数回行ける。** 領主・大商会・組合のトップといった立場の者、そして**稼いでいる高ランク冒険者**は、ここを普段使いにできる。
+
+**入れないのは稼ぎの無い者・薄い者である。** 住民、見習い、低ランク冒険者、店番。下記の顔ぶれは「行きつけとして通う者」と「その時だけ使う者」の両方を含む。
 
 ### 高級店《金穂宮》
 
@@ -108,13 +132,6 @@ Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/0
 
 - **使う顔ぶれ**：領主のクラリス(公式の会食。`characters/npcs/01_clarisse_weissfeld.md`)、金塊商会長のボルガン(表向きの商談。`characters/npcs/29_vorgan_gard.md`)。
 
-### 高級店《五つの地平》
-
-**北区**の、五地域の食材と料理法を組み合わせる高級店。大地、火山、森林、氷雪、海洋の食文化を一皿ずつ楽しめるコースが名物。森林皿の締めには、赤牙森林の魔力果実を使ったデザートが添えられる。
-
-**五地域の食材が揃うのは、北区だからである。** 他国から運ばれた品は北方交易市場(`world/crossroad/45_crossroad_district_markets.md`)へ入るので、**荷が着いた日に一番いい物を押さえられる**。同じ北区の高級店《琥珀の匙》とは客層が違い、あちらは輸入食材で接待する店、こちらは**五地域を食べ比べに来る店**である。
-
-- **使う顔ぶれ**：統制パーティーの貴族令嬢一行(食べ歩きの目玉に。`characters/npcs/31_mizushiro.md`ほか)、空輸の空咲(五地域を飛ぶ話の種に招かれることも。`characters/npcs/39_sorasaki.md`)。
 
 ### 高級店《琥珀の匙》
 
@@ -122,11 +139,6 @@ Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/0
 
 - **使う顔ぶれ**：金塊商会長のボルガン(大商人・使節の接待。`characters/npcs/29_vorgan_gard.md`)、統制パーティーの令嬢一行(北区の宿・白鳩楼が近い会食先。`characters/npcs/31_mizushiro.md`ほか)。
 
-### 高級店《眠龍楼》
-
-**中央区**の、大神殿近くにある大地龍を意識した料理店。土鍋、蒸し料理、根菜、穀物、熟成肉を中心に、重厚で落ち着いた料理を出す。
-
-- **使う顔ぶれ**：回復大砲の白峰(院長の会食・重い体を落ち着けられる個室を好む八尺様。`characters/npcs/60_shiromine.md`)。
 
 ### 高級店《銀燭館》
 

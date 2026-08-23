@@ -68,7 +68,7 @@
 
 ## 日常
 
-**行きつけ**：統制の中では気さくで、北区の交易酒場《七つ樽》に一人でもふらりと顔を出す(`world/crossroad/49_crossroad_dining.md`)。
+**行きつけ**：統制の中では気さくで、北区の交易酒場《七つ樽》に一人でもふらりと顔を出す。冒険者と混ざりたい日は酒場《帰還者の杯》。会食は高級店《琥珀の匙》とやや高級《五つの地平》。(`world/crossroad/49_crossroad_dining.md`)。
 
 北区の「白鳩楼」で共同生活。じっとしているのが苦手で、休日はコロッセオ(`world/crossroad/27_crossroad_colosseum.md`)や西区の練兵場(`world/crossroad/74_crossroad_training_ground.md`)に顔を出し、他の冒険者の模擬戦を見物していることが多い。
 
