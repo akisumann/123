@@ -86,7 +86,7 @@ def parse_dining():
     rows = []
     for block in re.split(r"(?m)^## ", text)[1:]:
         kind = block.splitlines()[0].strip()
-        if kind not in ("酒場", "茶屋", "やや高級な店"):
+        if kind not in ("酒場", "茶屋", "飯屋", "やや高級な店"):
             continue                                     # 高級料理店は常連を持たない作り
                                                          # (やや高級の2軒は常連が付く)
         for sec in re.split(r"(?m)^### ", block)[1:]:
@@ -94,7 +94,7 @@ def parse_dining():
             shop = lines[0].strip()
             # 見出しは「酒場《赤釘亭》」形式。種別を剥がして店名だけ取る
             # (名前そのものに種別が入る「旅籠前茶屋・一服」は素のまま)。
-            shop = re.sub(r"^(酒場|茶屋|宿屋|高級店|やや高級)《(.+)》$", r"\2", shop)
+            shop = re.sub(r"^(酒場|茶屋|宿屋|高級店|飯屋|やや高級)《(.+)》$", r"\2", shop)
             desc = " ".join(lines[1:5])
             district = next((d for d in DISTRICTS if d in desc), "")
             label = "深夜酒場" if "深夜酒場" in desc else ("やや高級" if kind == "やや高級な店" else kind)
