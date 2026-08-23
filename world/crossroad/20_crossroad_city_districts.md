@@ -114,7 +114,7 @@
 - セリア(浄化院の窓口。`characters/npcs/09_celia.md`)
 - 仁礼(双槌の聖戦修道女団のベテラン。骨鳴り墓原の視察で時折浄化院に滞在。`characters/npcs/49_ninrei.md`)
 - あかり(領主家お抱えの浄火精霊。行政庁舎・領主邸まわりの浄化・衛生・防疫・照明を担う。`characters/npcs/57_akari.md`)
-- 綴葉(大神殿の資料区画の神官。誰に対しても態度が変わらず、断る時に理由を並べない。`characters/npcs/70_tsuzuriha.md`)
+- 綴葉(大神殿の資料区画にいる、司書に近い役どころ。**人物像は未確定。**`characters/npcs/70_tsuzuriha.md`)
 
 ### 主な施設(具体的な店舗・拠点)
 

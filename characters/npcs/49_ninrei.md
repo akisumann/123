@@ -90,7 +90,6 @@
 - マモリ(同じ中央区にいる領主専属護衛。`characters/npcs/41_mamori.md`)
 - あかり(中央区の領主家お抱えの浄火精霊。手に余る重い穢れ・アンデッド案件を引き継ぐ相手。`characters/npcs/57_akari.md`)
 - 海原(クロスロード大病院の感染症研究者。アンデッド由来の疫病めいた事態で領分が交差する人魚。`characters/npcs/58_unabara.md`)
-- 綴葉(中央区大神殿の司書。参拝帰りの《土香る庵》で同席する。`characters/npcs/70_tsuzuriha.md`)
 
 <!-- AUTO:関わる種 ここから(tools/make_seed_index.py が75から生成。手で編集しない) -->
 
