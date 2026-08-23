@@ -25,6 +25,7 @@
 | 銀鴉のイリス | イリス・ヴェルナー | 「銀鴉の羽根」魔術師(`characters/npcs/08_silver_raven_feather.md`) |
 | 銀鴉のマリベル | マリベル・クライン | 「銀鴉の羽根」治療役(`characters/npcs/08_silver_raven_feather.md`) |
 | 浄化院のセリア | セリア | 浄化依頼の窓口(`characters/npcs/09_celia.md`) |
+| 綴じの暦 | 暦 | 大神殿の資料区画の司書。測定と記録(`characters/npcs/70_koyomi.md`) |
 | 情報屋のリネット | リネット | 中堅斥候・情報屋(`characters/npcs/10_linette.md`) |
 | 世話役のマリナ | マリナ | 生活区の世話役(`characters/npcs/11_marina.md`) |
 | 囮のロゼ | ロゼ | 盗人姉妹・囮役(`characters/npcs/12_roze_and_rize.md`) |
