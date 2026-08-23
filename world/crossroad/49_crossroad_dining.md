@@ -64,7 +64,7 @@ Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/0
 
 中央区の、大神殿(`world/crossroad/48_grand_temple_dragon_records.md`)近くの茶屋。穀物茶、根菜茶、薬草茶など素朴な飲み物が中心。参拝後の休憩所として親しまれている。
 
-- **常連・顔ぶれ**：浄化院のセリア(`characters/npcs/09_celia.md`)、巡回双槌の仁礼(骨鳴り墓原の視察で滞在中、参拝帰りに。`characters/npcs/49_ninrei.md`)。**信仰まわりの者が一息つく茶屋**。
+- **常連・顔ぶれ**：浄化院のセリア(`characters/npcs/09_celia.md`)、巡回双槌の仁礼(骨鳴り墓原の視察で滞在中、参拝帰りに。`characters/npcs/49_ninrei.md`)、綴葉(大神殿の資料区画の司書。書見台から離れる数少ない時間。**ここにも本を持ってくる**。`characters/npcs/70_tsuzuriha.md`)。**信仰まわりの者が一息つく茶屋**。
 
 ### 茶屋《水音茶房》
 

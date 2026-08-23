@@ -119,6 +119,7 @@
 - レオン・グレイヴ(劇の題材になりそうな西区の名物男。`characters/npcs/25_leon_grave.md`)
 - ロザリア(娼館《紅玻璃館》の筆頭花魁。物語の材料を求めて娼館街にも出入りする。`characters/npcs/19_rosalia.md`)
 - ベルナデッタ(娼館《桃灯楼》の人気嬢。街の噂話を集める上での情報源。`characters/npcs/20_bernadette.md`)
+- 綴葉(中央区大神殿の資料区画の司書。巡業のたび材料を探しに通う。**筋を先に聞きたがるが、あの男は言わない。**`characters/npcs/70_tsuzuriha.md`)
 
 ## シナリオでの役割
 
