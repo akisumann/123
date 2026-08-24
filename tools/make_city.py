@@ -39,6 +39,8 @@ BODY_ORDER = [
 
 # 街の外の設定。クロスロード編には入れない。
 SKIP_DIRS = {"world/nations", "world/dragons"}
+# 他の町(towns/ 以下)もクロスロード編には入れない。
+SKIP_PREFIXES = ("towns",)
 
 EXCLUDE = set(FRONT) | {"README.md", "INDEX.md", "DIGEST.md", "PROGRESS.md",
                         "123_all.md", "123_city.md"}
@@ -62,7 +64,7 @@ def collect_body_files():
                 continue
             rel = os.path.relpath(os.path.join(dp, n), ROOT).replace(os.sep, "/")
             d = os.path.dirname(rel).replace(os.sep, "/")
-            if rel in EXCLUDE or d in SKIP_DIRS:
+            if rel in EXCLUDE or d in SKIP_DIRS or d.startswith(SKIP_PREFIXES):
                 continue
             files.setdefault(d, []).append(rel)
     return files
@@ -72,7 +74,7 @@ def build() -> str:
     parts = [
         "# 123_city — クロスロード編(単一ファイル版)\n\n"
         "> **街のセッションに要る分だけ**を束ねた版です。中身は個別ファイルと同一。\n"
-        "> 他国(`world/nations/`)と五龍(`world/dragons/`)は含めていません——街の中の場面では\n"
+        "> 他国(`world/nations/`)・五龍(`world/dragons/`)・他の町(`towns/`)は含めていません——街の中の場面では\n"
         "> 滅多に開かないためです。必要になったら`123_all.md`か個別ファイルを参照してください。\n"
         ">\n"
         "> **読み方**: まず「START_HERE」と「CLAUDE(運用ルール)」を読む。次に「NPC名簿」で\n"

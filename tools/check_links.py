@@ -327,7 +327,8 @@ def check_npc_counts() -> int:
         with open(os.path.join(ROOT, rel), encoding="utf-8") as f:
             for i, line in enumerate(f, 1):
                 m = NPC_COUNT.search(line)
-                if m:
+                # 「10人枠」は現員ではなく、これから埋める予定の数なので腐らない。
+                if m and line[m.end():m.end() + 1] != "枠":
                     hits.append((rel, i, m.group(0)))
     if not hits:
         print("OK: NPCの人数を地の文へ書いている箇所なし")
