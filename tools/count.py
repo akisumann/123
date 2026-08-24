@@ -22,7 +22,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # 数字に合わせるために本文を削るのは本末転倒なので、必要ならここを上げてよい。
 CORE_FILES = {
     "START_HERE.md": 8000,
-    "CLAUDE.md": 10500,
+    "CLAUDE.md": 11000,
 }
 
 
