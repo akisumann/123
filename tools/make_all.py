@@ -20,7 +20,7 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 先頭に「そのまま」置くファイル(この順)。以降の本体列挙では重複させない。
-FRONT = ["START_HERE.md", "CLAUDE.md"]
+FRONT = ["START_HERE.md", "CLAUDE.md", "SYSTEM.md"]
 
 # 本体を並べる順(index と同じ考え方)。ラベルはセクション見出しに使う。
 BODY_ORDER = [
@@ -35,7 +35,10 @@ BODY_ORDER = [
 ]
 
 # 本体列挙から除外(先頭に置く/生成物/作業ログは末尾に別途)
-EXCLUDE = set(FRONT) | {"README.md", "INDEX.md", "DIGEST.md", "PROGRESS.md"}
+# リポジトリ直下の .md は BODY_ORDER に対応する節が無いので、明示しない限り落ちる。
+# CHARACTERS.md は characters/npcs/ から作る名簿なので本体と重複する。123_city/123_all は生成物。
+EXCLUDE = set(FRONT) | {"README.md", "INDEX.md", "DIGEST.md", "PROGRESS.md",
+                        "CHARACTERS.md", "123_city.md", "123_all.md"}
 
 
 def count_chars(text: str) -> int:
