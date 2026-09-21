@@ -6288,3 +6288,8 @@ TL;DRも「マシンガントークで売る」→「**マシンガントーク�
 `tools/make_all.py`は`BODY_ORDER`に載っているディレクトリしか本文へ出さないため、**リポジトリ直下に置いた`SYSTEM.md`が`123_all.md`へ入っていなかった**(zipとINDEX.mdには入っていた)。`FRONT`へ追加して、START_HERE・CLAUDEと並ぶ先頭に置いた。
 
 併せて`EXCLUDE`へ`CHARACTERS.md`・`123_city.md`・`123_all.md`を明示。CHARACTERS.mdは`characters/npcs/`から作る名簿なので本体と重複する。
+
+## 大地龍のSPDをE→Fに修正(ユーザー指示)
+
+- `world/dragons/37_earth_dragon.md`：ステータス表のSPDをE→F
+- `world/crossroad/48_grand_temple_dragon_records.md`：展示の個体記録(49行目)と四龍比較の一文(133行目)で引用していたSPD=Eを揃えてFへ
