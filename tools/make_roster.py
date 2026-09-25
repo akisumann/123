@@ -20,7 +20,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NPC_DIR = os.path.join(ROOT, "characters", "npcs")
 OUT = os.path.join(ROOT, "CHARACTERS.md")
-STATS = ["HP", "MP", "ATK", "DEF", "INT", "SPD", "DEX"]
+STATS = ["HP", "MP", "DMG", "DEF", "IQ", "SPD", "DEX"]
+STAT_ALIAS = {"ATK": "DMG", "INT": "IQ"}  # 旧名も同じものとして読む
 RANK_ORDER = {"SS": 8, "S": 7, "A": 6, "B": 5, "C": 4, "D": 3, "E": 2, "F": 1}
 
 
@@ -36,8 +37,8 @@ def field(text: str, key: str) -> str:
 
 def stats_of(text: str) -> dict[str, str]:
     out = {}
-    for m in re.finditer(r"(?m)^\|\s*(HP|MP|ATK|DEF|INT|SPD|DEX)\s*\|\s*(SS|[SABCDEF])\s*\|", text):
-        out.setdefault(m.group(1), m.group(2))
+    for m in re.finditer(r"(?m)^\|\s*(HP|MP|DMG|ATK|DEF|IQ|INT|SPD|DEX)\s*\|\s*(SS|[SABCDEF])\s*\|", text):
+        out.setdefault(STAT_ALIAS.get(m.group(1), m.group(1)), m.group(2))
     return out
 
 

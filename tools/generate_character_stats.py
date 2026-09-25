@@ -10,21 +10,22 @@
 
 使い方:
     python3 tools/generate_character_stats.py --level 18 \\
-        --stats SPD,INT,DEX,HP,DEF,ATK,MP
+        --stats SPD,IQ,DEX,HP,DEF,DMG,MP
 
-    --stats は7項目(HP,MP,ATK,DEF,INT,SPD,DEX)を、
+    --stats は7項目(HP,MP,DMG,DEF,IQ,SPD,DEX)を、
     強くしたい順(得意→不得意)に**全部**並べる。
 
     スキル名を指定したい場合:
     python3 tools/generate_character_stats.py --level 18 \\
-        --stats SPD,INT,DEX,HP,DEF,ATK,MP \\
+        --stats SPD,IQ,DEX,HP,DEF,DMG,MP \\
         --skills 近道走破,荷物運搬術,顔利き,地理感覚,愛想笑い
 """
 from __future__ import annotations
 import argparse
 from itertools import combinations_with_replacement
 
-STAT_ORDER = ["HP", "MP", "ATK", "DEF", "INT", "SPD", "DEX"]
+STAT_ORDER = ["HP", "MP", "DMG", "DEF", "IQ", "SPD", "DEX"]
+STAT_ALIAS = {"ATK": "DMG", "INT": "IQ"}  # 旧名で指定されても同じものとして扱う
 LETTERS = ["S", "A", "B", "C", "D", "E", "F"]  # 強い順
 VALUES = [25, 16, 9, 4, 1, -1, -4]             # LETTERSと対応
 STAT_TOLERANCE = 2
@@ -66,11 +67,11 @@ def allocate_skills(level: int, n: int = 5) -> list[int]:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--level", type=int, required=True)
-    ap.add_argument("--stats", required=True, help="7項目を得意→不得意の順にカンマ区切りで(例:SPD,INT,DEX,HP,DEF,ATK,MP)")
+    ap.add_argument("--stats", required=True, help="7項目を得意→不得意の順にカンマ区切りで(例:SPD,IQ,DEX,HP,DEF,DMG,MP)")
     ap.add_argument("--skills", default=None, help="スキル名5個をカンマ区切りで(省略時は仮名)")
     args = ap.parse_args()
 
-    priority = [s.strip().upper() for s in args.stats.split(",")]
+    priority = [STAT_ALIAS.get(s.strip().upper(), s.strip().upper()) for s in args.stats.split(",")]
     if sorted(priority) != sorted(STAT_ORDER):
         print(f"エラー: --stats は{STAT_ORDER}の7項目を過不足なく指定してください(入力:{priority})")
         return 1

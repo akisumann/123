@@ -6331,3 +6331,10 @@ TL;DRも「マシンガントークで売る」→「**マシンガントーク�
 - **既存と繋がった点**:`02`概要の「元々は歓楽街そのものを潰すために成り上がった」に、母を飲み込んだ場所という動機が付いた。`01`の「長い空白への戸惑い」に、自分の母の側が追い出したという後ろめたさが付いた
 - **空白のまま**:先代の病の中身(ただの病で裏は無い、と明記)、再会の具体的な経緯。追い落としの当時を知る者としてヴァレリアを昔馴染み枠で挙げた(使うかはGM裁量)
 - `world/crossroad/76_artifacts.md`：十字剣を握る恒例行事に「幼い頃、跡継ぎとして二人で始めた。継承(9年前)より前から続く」を添えた(ユーザー指示)。`CLAUDE.md`運用ポリシーに一般則を追加——**家の行事や習慣は跡継ぎが子供の頃から加わっているのが普通で、役職に就いた年を行事の始まりとみなして食い違いを指摘しない**
+
+## ステータス名を変更——ATK→DMG、INT→IQ(ユーザー指示)
+
+- 7ステータスを **HP／MP／DMG／DEF／IQ／SPD／DEX** に改めた。`characters/`・`world/`・`rules/`・`towns/`・`SYSTEM.md`・`START_HERE.md`・`CLAUDE.md`・`README.md`・`tools/README.md`・`tools/summaries.tsv`の101ファイルで単語単位(`\bATK\b`・`\bINT\b`)に置換。`rules/02`の見出しは「DMG(Damage)」「IQ(Intelligence)」
+- **旧表記は当面有効。** 置換の抜けが残る可能性があるため、`CLAUDE.md`(観覧モードの前)・`SYSTEM.md`・`START_HERE.md`・`rules/02`の先頭側に「ATK・INTが残っていてもDMG・IQと同一として読む」を宣言
+- ツールは両方を受け付ける:`check_character_stats.py`・`battle_roll.py`・`make_roster.py`・`generate_character_stats.py`に`STAT_ALIAS = {"ATK":"DMG","INT":"IQ"}`を入れ、旧表記のファイル・`--act`・`--stats`指定も正規化して読む
+- `PROGRESS.md`の過去ログは履歴なので置換していない

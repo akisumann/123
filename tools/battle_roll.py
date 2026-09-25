@@ -10,7 +10,7 @@
 使い方:
     python3 tools/battle_roll.py --enemy 骨鳴り墓原 \\
         --act 天雷:超遠隔照準:DEX --act ツバキ:鎖鎌術:DEX --act 氷室:氷装甲:DEF
-    python3 tools/battle_roll.py --enemy 50 --act 唯一:広範囲斬撃:ATK --mob 30x3
+    python3 tools/battle_roll.py --enemy 50 --act 唯一:広範囲斬撃:DMG --mob 30x3
     python3 tools/battle_roll.py --who 天雷          # その人のステータスとスキルを一覧
 
 `--enemy`は**舞台の名前で指定するのが基本**(赤牙森林・骨鳴り墓原など)。敵戦況値は
@@ -30,7 +30,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NPC_DIR = os.path.join(ROOT, "characters", "npcs")
 
 RANK_DIE = {"S": 7, "A": 6, "B": 5, "C": 4, "D": 3, "E": 2, "F": 1}
-STATS = ["HP", "MP", "ATK", "DEF", "INT", "SPD", "DEX"]
+STATS = ["HP", "MP", "DMG", "DEF", "IQ", "SPD", "DEX"]
+# 旧名との対応(ATK→DMG、INT→IQ)。旧表記のファイル・指定も同じものとして読む
+STAT_ALIAS = {"ATK": "DMG", "INT": "IQ"}
 
 # 敵戦況値の目安(rules/03)
 ENEMY_LEVEL = {"小型魔物の群れ": 30, "通常モンスター集団": 50, "大型魔物": 80,
@@ -70,8 +72,8 @@ def parse_character(path: str, member: str = "") -> tuple[dict[str, str], dict[s
 
     stats: dict[str, str] = {}
     # 縦持ちの表 `| HP | S | …`
-    for m in re.finditer(r"(?m)^\|\s*(HP|MP|ATK|DEF|INT|SPD|DEX)\s*\|\s*([SABCDEF])\s*\|", text):
-        stats.setdefault(m.group(1), m.group(2))
+    for m in re.finditer(r"(?m)^\|\s*(HP|MP|DMG|ATK|DEF|IQ|INT|SPD|DEX)\s*\|\s*([SABCDEF])\s*\|", text):
+        stats.setdefault(STAT_ALIAS.get(m.group(1), m.group(1)), m.group(2))
     # 横持ちの表 `| HP | MP | … |` / `| S | A | … |`
     if not stats:
         m = re.search(r"(?m)^\|\s*HP\s*\|\s*MP\s*\|.*\n\|[-\s|:]+\n\|(.+)\|", text)
@@ -110,6 +112,7 @@ def resolve_act(spec: str, bonus: dict[str, int]) -> tuple[str, int]:
     if len(parts) < 3:
         return f"- {spec}:書式は 名前:スキル名:ステータス", 0
     who, skill_q, stat = parts[0], parts[1], parts[2].upper()
+    stat = STAT_ALIAS.get(stat, stat)
     path = find_file(who)
     if not path:
         return f"- {who}:characters/npcs/に見つからない", 0
@@ -209,7 +212,7 @@ def main() -> int:
 　Lv10〜20＝30／Lv25〜35＝50／Lv40〜50＝80／Lv55〜70＝100。
 　この系は上で飽和する:レベルを上げても1人あたりは20台前半で頭打ち。
 　120以上はレベルでは届かず、頭数・装備補正・戦術ボーナスで超える領域。
-　(街の最大は琥珀の錬金術Lv10×INT:S＝10d7≒40。Lvとランクの両方がS帯の者だけ)
+　(街の最大は琥珀の錬金術Lv10×IQ:S＝10d7≒40。Lvとランクの両方がS帯の者だけ)
 　Lv帯を超える数字を置く時は「その地域に本来いない異常個体」として描写すること。""")
     return 0
 

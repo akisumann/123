@@ -23,9 +23,9 @@
 |---|---|---|
 | HP | B | |
 | MP | D | |
-| ATK | B | |
+| DMG | B | |
 | DEF | C | |
-| INT | C | |
+| IQ | C | |
 | SPD | B | |
 | DEX | C | |
 
