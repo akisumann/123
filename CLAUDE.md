@@ -149,6 +149,7 @@ NPCが、その人物の能力が関わる行動を取る場面(戦闘・仕事�
 - 種族・モンスター・NPCなどの一覧は非網羅的。「載っていないものも世界には存在する」という前提で扱う。
 - キャラクターの新規ステータスは、`rules/00_level_system.md`のレベル・`rules/02_status_system.md`のランク評価値(S=25〜F=-4)に照らして、合計がレベル±2程度に収まるか確認する。スキルLv合計もレベルの半分程度が目安。生成手順・検算は`rules/10_new_character_format.md`「ズレを防ぐ生成手順」に従い、`python3 tools/generate_character_stats.py`で数値そのものを生成し、`python3 tools/check_character_stats.py`で機械的に検算する。
 - 通り名(二つ名)は「〇〇の[名前]」形式が基本(`world/crossroad/44_crossroad_nicknames.md`)。固有の異名を持つ者には無理に当てはめない。
+- **家に伝わる行事や習慣は、跡継ぎが子供の頃から加わっているのが普通。** 役職に就いた年を行事の始まりとみなして「年数が合わない」と食い違いを指摘しない(例:クラリスとヴァレリアが十字剣を握る恒例は、領主継承の9年前より古い。`world/crossroad/76_artifacts.md`)。
 
 ## コンテンツの扱い
 
