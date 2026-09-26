@@ -6338,3 +6338,4 @@ TL;DRも「マシンガントークで売る」→「**マシンガントーク�
 - **旧表記は当面有効。** 置換の抜けが残る可能性があるため、`CLAUDE.md`(観覧モードの前)・`SYSTEM.md`・`START_HERE.md`・`rules/02`の先頭側に「ATK・INTが残っていてもDMG・IQと同一として読む」を宣言
 - ツールは両方を受け付ける:`check_character_stats.py`・`battle_roll.py`・`make_roster.py`・`generate_character_stats.py`に`STAT_ALIAS = {"ATK":"DMG","INT":"IQ"}`を入れ、旧表記のファイル・`--act`・`--stats`指定も正規化して読む
 - `PROGRESS.md`の過去ログは履歴なので置換していない
+- ステータス名変更の取りこぼし修正:「ステータス合計：…(HP4+MP9+ATK9+…)」のように数字に直結した ATK・INT は単語境界の置換に掛からず残っていた。`56`〜`62`の7人分を DMG・IQ に直した
