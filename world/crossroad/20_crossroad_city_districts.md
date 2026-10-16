@@ -233,7 +233,6 @@
 - 空咲(独立の空輸便利屋。荷馬車駅外れの空き地を離着陸場代わりにする。`characters/npcs/39_sorasaki.md`)
 - 唯一(ソロ冒険者。雑魚討伐依頼で臨時招集されることが多い。`characters/npcs/42_yuiitsu.md`)
 - 九重とクサビ(幼馴染の旅の二人組。回復役を探して滞在中。`characters/npcs/50_kokonoe.md`、`characters/npcs/51_kusabi.md`)
-- ニコレットの一党(ロックウェルの冒険者一党。たまにクロスロードへ来て少し長めに滞在する。`characters/npcs/71_rockwell_party.md`)
 
 ### 主な施設(具体的な店舗・拠点)
 
