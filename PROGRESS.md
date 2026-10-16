@@ -6339,3 +6339,9 @@ TL;DRも「マシンガントークで売る」→「**マシンガントーク�
 - ツールは両方を受け付ける:`check_character_stats.py`・`battle_roll.py`・`make_roster.py`・`generate_character_stats.py`に`STAT_ALIAS = {"ATK":"DMG","INT":"IQ"}`を入れ、旧表記のファイル・`--act`・`--stats`指定も正規化して読む
 - `PROGRESS.md`の過去ログは履歴なので置換していない
 - ステータス名変更の取りこぼし修正:「ステータス合計：…(HP4+MP9+ATK9+…)」のように数字に直結した ATK・INT は単語境界の置換に掛からず残っていた。`56`〜`62`の7人分を DMG・IQ に直した
+
+## ロックウェルの一党がクロスロードへ時折来る(ユーザー指示)
+
+- `towns/rockwell/12_party.md`「一党の性格」に「クロスロード」行を追加:**時折クロスロードへ出てきて、少し長めに滞在する。拠点はロックウェルのままで定住はしない。特別な事情はない**
+- `towns/rockwell/01_rockwell.md`「線引き」に、クロスロードの場面でもこの一党の人物データは`12`を引く旨を一文追加。`world/crossroad/`側は線引きどおり書き足していない
+- `tools/summaries.tsv`の`12`の要約に同内容を反映
