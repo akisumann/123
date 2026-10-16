@@ -9,7 +9,7 @@
 | | 役割 | |
 |---|---|---|
 | **紫苑**(Lv50・吸血鬼) | 鈍足重火力・不死前衛。近接での護衛と前線のタゲ取り | `characters/npcs/71_shion.md` |
-| **鉄火**(Lv50・ドワーフ) | 防御・掘削・塹壕戦。塹壕とコーンビット | `characters/npcs/72_tekka.md` |
+| **鉄火**(Lv47・ドワーフ) | 防御・掘削・塹壕戦。塹壕とコーンビット | `characters/npcs/72_tekka.md` |
 | **ラビリンス**(Lv48・氷精) | 中距離制圧・中距離火力。氷壁と氷槍 | `characters/npcs/73_labyrinth.md` |
 | **ニコレット**(Lv47・人間) | 中距離弾幕制圧・索敵。弾幕 | `characters/npcs/74_nicolette.md` |
 
