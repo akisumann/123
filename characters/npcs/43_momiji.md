@@ -93,6 +93,7 @@
 - 氷室、蒼龍(練兵場で顔を合わせたことがある冒険者たち。`characters/npcs/35_himuro.md`、`characters/npcs/32_souryuu.md`)
 - 天雷、ツバキ(同じく練兵場つながりの狩人パーティー。`characters/npcs/37_tenrai.md`、`characters/npcs/36_tsubaki.md`)
 - 雷華(練兵場の休憩所の屋根で寝ている西区の街娼。模擬戦に誘っては断られ、追いかけては撒かれる。**一度も掴まえられたことがない**。`characters/npcs/64_raika.md`)
+- 紫苑(ロックウェルからたまに来る冒険者一党の不死前衛。模擬戦を挑めば何本でも付き合ってくれる、数少ない相手。`characters/npcs/71_shion.md`)
 
 ## 黒羽との関係
 

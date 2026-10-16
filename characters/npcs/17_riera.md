@@ -76,6 +76,7 @@
 - 銀鴉の羽根(ギルド支部を活動拠点とする常連パーティー。`characters/npcs/08_silver_raven_feather.md`)
 - 統制パーティー(ギルド登録パーティー。受付対応で顔なじみ。`characters/npcs/31_mizushiro.md`)
 - 綴葉(中央区大神殿の資料区画の司書。物語の写本目当てで通う。返すたび感想を長々語る。`characters/npcs/70_tsuzuriha.md`)
+- ラビリンス(ロックウェルからたまに来る冒険者一党の氷精。依頼票の条件を一字一句確かめるので、受付がいつも長くなる。`characters/npcs/73_labyrinth.md`)
 
 <!-- AUTO:関わる種 ここから(tools/make_seed_index.py が75から生成。手で編集しない) -->
 

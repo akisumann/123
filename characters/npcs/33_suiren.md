@@ -94,6 +94,7 @@
 - 鈴代(水生植物の観察中に東区の水路で顔を合わせそうな人魚の詩人。`characters/npcs/45_suzuyo.md`)
 - マリナ(東区の世話役。茶屋《ひだまり縁側》の主のような存在で、水路の異変を伝える窓口でもある。`characters/npcs/11_marina.md`)
 - 豊根(東区に根を張る巨大トレント。水路沿いにどの水草が生えているかを根で把握している。`characters/npcs/56_toyone.md`)
+- ラビリンス(ロックウェルからたまに来る冒険者一党の氷精。《水音茶房》で一人の時間を過ごす者同士の顔見知り。`characters/npcs/73_labyrinth.md`)
 
 <!-- AUTO:関わる種 ここから(tools/make_seed_index.py が75から生成。手で編集しない) -->
 

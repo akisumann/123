@@ -101,6 +101,7 @@
 - ヴィヴィアナ・ラウドベル(新米弓手として取材してきそうな実況者。`characters/npcs/24_viviana_loudbell.md`)
 - 紅葉(西区の練兵場(`world/crossroad/74_crossroad_training_ground.md`)で見かける旅の騎士。`characters/npcs/43_momiji.md`)
 - ニノ・ハイドウェル(南区工房街の弓師・矢師。矢の仕入れ先で、**故郷仕込みの大弓の調整もこの人に任せている**。張り台のある弓専門の店でないと手が出ない仕事。`characters/npcs/68_nino_hidewell.md`)
+- ニコレット(ロックウェルからたまに来る冒険者一党のガトリング使い。からかってくるが、面倒も見てくれる。`characters/npcs/74_nicolette.md`)
 
 <!-- AUTO:関わる種 ここから(tools/make_seed_index.py が75から生成。手で編集しない) -->
 
