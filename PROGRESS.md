@@ -6352,3 +6352,4 @@ TL;DRも「マシンガントークで売る」→「**マシンガントーク�
 - `world/crossroad/20_crossroad_city_districts.md`北区の主なNPCに「ニコレットの一党」を追加
 - `towns/rockwell/01_rockwell.md`:直前に足した線引きの一文を外し、「NPCはtowns/rockwell/に置く」の例外としてこの一党を明記。10人枠の参照先と`11_sansho.md`の参照先を新パスへ
 - `tools/summaries.tsv`のパスと要約を更新
+- `characters/npcs/71_rockwell_party.md`を並べ替え:冒頭の注意書き・「一党の性格」表・深層／継続戦闘の分析・「既存の一党との差」を外し、一行の紹介のすぐ後にメンバーを置いた。作成中の注意は末尾の「未設定」へ。TL;DRも短くした(ユーザー指摘「キャラを出す前の前提条件が多すぎる」)
