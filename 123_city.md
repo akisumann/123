@@ -9578,7 +9578,7 @@ Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/0
 
 北区の、冒険者ギルド(`world/14_adventurers_guild.md`)近くの酒場。依頼帰りの冒険者が集まり、無事に帰還した者には最初の一杯が安くなる。壁に壊れた武具や記念札が飾られている。
 
-- **常連・顔ぶれ**：ギルド長のダリオ(`characters/npcs/07_dario_langford.md`)、恋バナ受付のリエラ(`characters/npcs/17_riera.md`)、連絡役のルカ(`characters/npcs/05_luca_fennel.md`)、広範囲斬撃の唯一(依頼帰りの単独冒険者。`characters/npcs/42_yuiitsu.md`)、九槍の九重・結界のクサビ(回復役を探して滞在中。`characters/npcs/50_kokonoe.md`、`characters/npcs/51_kusabi.md`)、情報屋のリネット(依頼帰りの噂を拾いに。`characters/npcs/10_linette.md`)、銀鴉の羽根(依頼帰りの一杯。`characters/npcs/08_silver_raven_feather.md`)、バルト(冒険者と話す用がある日に。`characters/npcs/22_balto.md`)、青葉(冒険者に混ざりたい日に。`characters/npcs/34_aoba.md`)、氷室(冒険者と話す用があれば。`characters/npcs/35_himuro.md`)、ツバキ(依頼帰り。`characters/npcs/36_tsubaki.md`)、天雷(依頼帰り。`characters/npcs/37_tenrai.md`)、小夜(懐の温かい冒険者が帰ってくる場所として。`characters/npcs/38_sayo.md`)、空咲(空路護衛の依頼帰り。`characters/npcs/39_sorasaki.md`)、リド(護衛の口を探す冒険者を見に。`characters/npcs/65_rido_carwen.md`)、ロックウェルの冒険者一党の鉄火・ラビリンス・ニコレット・紫苑(たまに来て滞在している間の依頼帰り。`characters/npcs/72_tekka.md`ほか、`towns/rockwell/12_party.md`)。**冒険者と依頼が行き交うギルド前の一杯**。
+- **常連・顔ぶれ**：ギルド長のダリオ(`characters/npcs/07_dario_langford.md`)、恋バナ受付のリエラ(`characters/npcs/17_riera.md`)、連絡役のルカ(`characters/npcs/05_luca_fennel.md`)、広範囲斬撃の唯一(依頼帰りの単独冒険者。`characters/npcs/42_yuiitsu.md`)、九槍の九重・結界のクサビ(回復役を探して滞在中。`characters/npcs/50_kokonoe.md`、`characters/npcs/51_kusabi.md`)、情報屋のリネット(依頼帰りの噂を拾いに。`characters/npcs/10_linette.md`)、銀鴉の羽根(依頼帰りの一杯。`characters/npcs/08_silver_raven_feather.md`)、バルト(冒険者と話す用がある日に。`characters/npcs/22_balto.md`)、青葉(冒険者に混ざりたい日に。`characters/npcs/34_aoba.md`)、氷室(冒険者と話す用があれば。`characters/npcs/35_himuro.md`)、ツバキ(依頼帰り。`characters/npcs/36_tsubaki.md`)、天雷(依頼帰り。`characters/npcs/37_tenrai.md`)、小夜(懐の温かい冒険者が帰ってくる場所として。`characters/npcs/38_sayo.md`)、空咲(空路護衛の依頼帰り。`characters/npcs/39_sorasaki.md`)、リド(護衛の口を探す冒険者を見に。`characters/npcs/65_rido_carwen.md`)、ロックウェルの冒険者一党(たまに来て滞在している間の依頼帰り。`towns/rockwell/12_party.md`):鉄火(`characters/npcs/72_tekka.md`)、ラビリンス(`characters/npcs/73_labyrinth.md`)、ニコレット(`characters/npcs/74_nicolette.md`)、紫苑(`characters/npcs/71_shion.md`)。**冒険者と依頼が行き交うギルド前の一杯**。
 
 ### 酒場《月裏亭》
 
@@ -12652,7 +12652,7 @@ AとKは自動スルーされるため、当たり12種類(＝基準カードが
 - **酒場《赤釘亭》**(南区)…ガルム／ミルカ／セレナ／琥珀／白金／蒼龍／イチカ／ニノ／サン／銀雪／鉄火
 - **深夜酒場《夜鴉の止まり木》**(西区)…ミレーヌ／銀鴉の羽根／エリアス／ヴィヴィアナ／氷室／天雷／ツバキ／セレスティナ／ミーナ／飛鳥／ベルナデッタ／鈴代／雷華／エイダ／リネット／ロゼとリゼ／ミルカ／ザラ／レオン／小夜／紅葉／黒羽／妲己／ニノ／ニコレット／紫苑
 - **酒場《七つ樽》**(北区)…バルト／ロゼとリゼ／小夜／ミーナ／青葉／リド／エイダ／ダリオ／リネット／ベルナデッタ／エリアス／レオン／ボルガン／ツバキ／空咲／唯一／鈴代／九重／クサビ／雷華／サン
-- **酒場《帰還者の杯》**(北区)…ダリオ／リエラ／ルカ／唯一／九重／クサビ／リネット／銀鴉の羽根／バルト／青葉／氷室／ツバキ／天雷／小夜／空咲／リド／鉄火
+- **酒場《帰還者の杯》**(北区)…ダリオ／リエラ／ルカ／唯一／九重／クサビ／リネット／銀鴉の羽根／バルト／青葉／氷室／ツバキ／天雷／小夜／空咲／リド／鉄火／ラビリンス／ニコレット／紫苑
 - **酒場《月裏亭》**(西区)…ミレーヌ／ギデオン／ザラ／エリアス／レオン／妲己／ロザリア／エルシア／ヴィヴィアナ／鈴代／セレスティナ／飛鳥
 
 **茶屋**
