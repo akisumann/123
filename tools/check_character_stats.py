@@ -37,8 +37,10 @@ RANK_VALUE = {"S": 25, "A": 16, "B": 9, "C": 4, "D": 1, "E": -1, "F": -4}
 GUILD_BANDS = [(10, "F"), (20, "E"), (30, "D"), (40, "C"), (50, "B"), (60, "A"), (100, "S")]
 GUILD_RE = re.compile(r"レベル\*{0,2}：\*{0,2}(\d+)\(冒険者ランク基準では([A-S])ランク相当")
 # SS(規格外)は五龍のような神話級にのみ使う例外ランク(`rules/02_status_system.md`)
-SS_RE = re.compile(r"(?m)^\|\s*(HP|MP|ATK|DEF|INT|SPD|DEX)\s*\|\s*SS\s*\|")
-STAT_ORDER = ["HP", "MP", "ATK", "DEF", "INT", "SPD", "DEX"]
+SS_RE = re.compile(r"(?m)^\|\s*(HP|MP|DMG|ATK|DEF|IQ|INT|SPD|DEX)\s*\|\s*SS\s*\|")
+STAT_ORDER = ["HP", "MP", "DMG", "DEF", "IQ", "SPD", "DEX"]
+# 旧名との対応(ATK→DMG、INT→IQ)。旧表記のファイルも同じものとして読む
+STAT_ALIAS = {"ATK": "DMG", "INT": "IQ"}
 
 STAT_TOLERANCE = 2   # rules/02, rules/10 が定める許容差
 SKILL_TOLERANCE = 3  # 「半分程度の目安」なので少し緩め
@@ -88,13 +90,13 @@ def parse_stats(window: str) -> tuple[dict[str, str], int | None]:
 
     # 縦形式: | HP | ランク | 内容 |
     for line in scope.splitlines():
-        m = re.match(r"^\|\s*(HP|MP|ATK|DEF|INT|SPD|DEX)\s*\|\s*" + RANK_CELL + r"\s*\|", line)
-        if m and m.group(1) not in ranks:
-            ranks[m.group(1)] = m.group(2)
+        m = re.match(r"^\|\s*(HP|MP|DMG|ATK|DEF|IQ|INT|SPD|DEX)\s*\|\s*" + RANK_CELL + r"\s*\|", line)
+        if m and STAT_ALIAS.get(m.group(1), m.group(1)) not in ranks:
+            ranks[STAT_ALIAS.get(m.group(1), m.group(1))] = m.group(2)
 
-    # 横形式: | HP | MP | ATK | DEF | INT | SPD | DEX |  の次行にランクが並ぶ
+    # 横形式: | HP | MP | DMG | DEF | IQ | SPD | DEX |  の次行にランクが並ぶ
     if len(ranks) != 7:
-        header_re = re.compile(r"^\|\s*HP\s*\|\s*MP\s*\|\s*ATK\s*\|\s*DEF\s*\|\s*INT\s*\|\s*SPD\s*\|\s*DEX\s*\|")
+        header_re = re.compile(r"^\|\s*HP\s*\|\s*MP\s*\|\s*(?:DMG|ATK)\s*\|\s*DEF\s*\|\s*(?:IQ|INT)\s*\|\s*SPD\s*\|\s*DEX\s*\|")
         lines = scope.splitlines()
         for i, line in enumerate(lines):
             if header_re.match(line):

@@ -96,7 +96,7 @@ python3 tools/day_plan.py --advance        # 1日進める(--advance 7 で7日)
 ## 世界を編集する時に使う
 
 ```bash
-python3 tools/generate_character_stats.py --level 40 --stats ATK,DEX,SPD,HP,DEF,MP,INT
+python3 tools/generate_character_stats.py --level 40 --stats DMG,DEX,SPD,HP,DEF,MP,IQ
 python3 tools/check_character_stats.py     # 全キャラのレベルとステータス・スキル合計を検算
 bash tools/build.sh                        # 配布物を再生成(TL;DR挿入・索引・全部載せ・JSON・zip)
 python3 tools/day_plan.py --check          # ルーティン表の整合確認
