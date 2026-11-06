@@ -240,6 +240,7 @@
 - 酒場《七つ樽》(交易酒場)、酒場《帰還者の杯》(ギルド近く)、茶屋《旅籠前茶屋・一服》、高級店《琥珀の匙》・高級店《五つの地平》・高級店《蒼天卓》(いずれも高級料理店。五つの地平は交易市場に五地域の食材が揃うため、蒼天卓はギルドと素材買取所が近いため、いずれも北区にある)。いずれも`world/crossroad/49_crossroad_dining.md`を参照
 - ガルド大商会本館《金蔵》とカーウェン商会《空店》。大通りを挟んで向かい合う二大商会の建物と、その間の通り「商会前」。`world/crossroad/77_north_district_trading_houses.md`を参照
 - 北方交易市場。`world/crossroad/45_crossroad_district_markets.md`を参照
+- 道具屋《辻の備え》(北門寄りの大通り。冒険者の消耗品が一通り揃う)。消耗品の値段表とあわせて`world/crossroad/81_crossroad_supplies.md`を参照
 - 冒険者ギルド支部。`world/14_adventurers_guild.md`を参照
 - 街区掲示板の傾向は`world/crossroad/22_crossroad_bulletin_boards.md`を参照
 - 情報屋(商業区の情報屋。リネットもこの一帯を拠点とする)。`world/crossroad/51_black_needle_info_network.md`を参照
