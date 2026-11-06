@@ -28,6 +28,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NPC_DIR = os.path.join(ROOT, "characters", "npcs")
+# 主人公(rules/12「置き場所」)。NPC名簿とは別の場所に置かれるが、判定は同じように振る
+PC_DIR = os.path.join(ROOT, "characters")
 
 RANK_DIE = {"S": 7, "A": 6, "B": 5, "C": 4, "D": 3, "E": 2, "F": 1}
 STATS = ["HP", "MP", "DMG", "DEF", "IQ", "SPD", "DEX"]
@@ -40,19 +42,25 @@ ENEMY_LEVEL = {"小型魔物の群れ": 30, "通常モンスター集団": 50, "
 
 # 舞台のLv帯から引く用(rules/03「敵戦況値は舞台のLv帯に合わせて選ぶ」)。
 # 敵の見た目(大型/群れ)ではなく、舞台のLv帯が敵戦況値を決める。
-ZONE_LEVEL = {"さざめき平原": 30, "赤牙森林": 50, "苔むし地下遺構": 50,
-              "灰岩峡谷": 80, "灰岩坑道": 80, "骨鳴り墓原": 100,
-              "星食いのダンジョン": 100,
+ZONE_LEVEL = {"さざめき平原": 30, "赤牙森林": 50, "灰岩峡谷": 80, "骨鳴り墓原": 100,
+              # ダンジョンは階層で帯が変わる(rules/03「舞台ごとの対応」)。名前だけなら依頼が出る範囲の上側で引く
+              "黒硝子遺跡": 50, "忘れられた鉱山": 80, "星喰いの地下神殿": 100,
               "Lv20": 30, "Lv30": 50, "Lv45": 80, "Lv60": 100}
 # レベル別モブダイス(rules/03「名前なしの味方」)
 MOB_DICE = [(20, 3, 3), (30, 3, 4), (40, 4, 4), (45, 4, 5), (50, 5, 5)]
 
 
+def char_files() -> list[str]:
+    """NPC(characters/npcs/)と主人公(characters/pc_*.md)のファイル。"""
+    files = [os.path.join(NPC_DIR, fn) for fn in sorted(os.listdir(NPC_DIR)) if fn.endswith(".md")]
+    files += [os.path.join(PC_DIR, fn) for fn in sorted(os.listdir(PC_DIR))
+              if fn.startswith("pc_") and fn.endswith(".md")]
+    return files
+
+
 def find_file(query: str) -> str | None:
-    for fn in sorted(os.listdir(NPC_DIR)):
-        if not fn.endswith(".md"):
-            continue
-        path = os.path.join(NPC_DIR, fn)
+    for path in char_files():
+        fn = os.path.basename(path)
         head = open(path, encoding="utf-8").readline()
         if query in fn or query in head:
             return path

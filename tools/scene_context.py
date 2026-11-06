@@ -45,8 +45,12 @@ def read(path: str) -> str:
 
 
 def npc_files() -> list[str]:
+    """NPC(characters/npcs/)に、主人公(characters/pc_*.md。rules/12「置き場所」)も足して返す。"""
+    pc_dir = os.path.dirname(NPC_DIR)
     return sorted(
         os.path.join(NPC_DIR, f) for f in os.listdir(NPC_DIR) if f.endswith(".md")
+    ) + sorted(
+        os.path.join(pc_dir, f) for f in os.listdir(pc_dir) if f.startswith("pc_") and f.endswith(".md")
     )
 
 

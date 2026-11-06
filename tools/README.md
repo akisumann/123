@@ -56,6 +56,7 @@ python3 tools/scene_context.py --chars 天雷,ツバキ --place 夜鴉の止ま�
 python3 tools/battle_roll.py --enemy 大型魔物 \
   --act 天雷:超遠隔照準:DEX --act ツバキ:鎖鎌術:DEX --mob Lv30x3 --bonus 天雷:+5:高所からの狙撃
 python3 tools/battle_roll.py --who 天雷    # その人のステータス・スキル・ダイス面数
+python3 tools/battle_roll.py --enemy 灰岩峡谷 --act ロイド:片手剣術:DMG   # 主人公(characters/pc_*.md)も同じように振れる
 ```
 
 `スキルLv d ステータスランク`(S=d7〜F=d1)を実際に振り、出目を一つずつ出す。
