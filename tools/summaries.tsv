@@ -36,7 +36,7 @@ towns/rockwell/08_rockwell_quest_board.md	ロックウェル支部の定番依�
 towns/rockwell/09_rockwell_works.md	ロックウェルの採掘場と精錬施設。普通の金属が全種類出る(魔法金属は出ない)。稼働坑口12本・炉14基・鉱業2,000人。金属精錬のメイン中のメインは溶岩系魔人達で、炉は第三階位の魔法で焚く。金属はクロスロードへ一括納入。木炭は町で焼き、原料の木は南東街道から入る。
 world/crossroad/11_crossroad_city.md	主舞台クロスロードの総合設定。人口・統治・街の転機・街道・危険地域4/ダンジョン3。
 world/crossroad/20_crossroad_city_districts.md	市内5区画(中央/北/東/南/西)の役割・主な施設・主なNPC一覧。
-world/crossroad/21_crossroad_inns.md	冒険者向けの宿5軒(安宿〜高級・歓楽街寄り・工房付き)と料金帯。
+world/crossroad/21_crossroad_inns.md	名前の知られた宿10軒(冒険者向け5軒+練兵場裏の安宿《砂袋亭》・巡礼宿《鐘の下》・東区の下宿屋《向かい木》・雑魚寝の《轍の大部屋》・南門の《灰岩門の馬宿》)。ひと月まとめて泊まると半額。
 world/crossroad/22_crossroad_bulletin_boards.md	ギルド正式依頼板とは別の、区画ごとの街区掲示板(軽い仕事・求人・告知)。
 world/crossroad/27_crossroad_colosseum.md	西区の大型闘技施設。実力抑制リング・賭け・興行試合の運営ルール。
 world/crossroad/28_crossroad_casino.md	西区の合法賭博施設。各種ゲームと乱数運用のルール。
