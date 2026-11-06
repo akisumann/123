@@ -12,6 +12,7 @@
 > - **`###`の見出しは、そのまま施設名として登録される。** 分類や説明の見出しを足さないこと(「買いに来る側」のような項を作ると、それが場所になる)
 > - **項の中に`characters/npcs/…md`のパスを書くと、その人物の常駐先として登録される。** 用があって訪ねてくるだけの者を書くと、**持ち場のある者が持ち場から離れる**(実際に、北門の門衛が商会前に立ち、ギルド支部長が商会に入り浸る配置が出た)
 > - **訪問者・客・通りがかりの顔ぶれは、その場所の解説ファイル側へ散文で書く。** ここへ載せるのは**常駐する者だけ**
+> - **ただし冒険者ギルド支部だけは、依頼を受けに来る冒険者を載せてよい。** ギルドは冒険者にとっての職場なので、ここに載せても持ち場から離れる者は出ない(持ち場のある氷室は、`tools/routines.tsv`で北区にほとんど出ないので引き抜かれない)
 
 ## 中央区(行政・神殿・都市中枢)
 
@@ -49,6 +50,10 @@
 - **銀鴉の羽根**(Bランク女性4人組。ギルドを活動拠点。銀鴉のレナ/シェリル/イリス/マリベル。`characters/npcs/08_silver_raven_feather.md`)
 - **広範囲斬撃の唯一**(ソロ冒険者。雑魚討伐の臨時要員。`characters/npcs/42_yuiitsu.md`)
 - **九槍の九重＋結界のクサビ**(旅の二人組。回復役を探して滞在中。`characters/npcs/50_kokonoe.md`、`characters/npcs/51_kusabi.md`)
+- **統制パーティー**(水城・蒼龍・睡蓮・青葉。白鳩楼を拠点に依頼を受ける。`characters/npcs/31_mizushiro.md`、`characters/npcs/32_souryuu.md`、`characters/npcs/33_suiren.md`、`characters/npcs/34_aoba.md`)
+- **狩人パーティー**(氷室・ツバキ・天雷・飛鳥の名義で登録。西区から朝に依頼を見に来る。`characters/npcs/35_himuro.md`、`characters/npcs/36_tsubaki.md`、`characters/npcs/37_tenrai.md`、`characters/npcs/63_asuka.md`)
+- **猪突の紅葉＋規律の黒羽**(武者修行の二人組。稽古の合間に討伐依頼を取りに来る。`characters/npcs/43_momiji.md`、`characters/npcs/44_kokuu.md`)
+- **空輸の空咲**(空輸・空路護衛の依頼を受けに。`characters/npcs/39_sorasaki.md`)
 
 ### 北門《王都門》
 - **北門のバルト**(古参門衛。出入り確認・道案内。`characters/npcs/22_balto.md`)
