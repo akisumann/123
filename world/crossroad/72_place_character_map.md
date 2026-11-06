@@ -54,6 +54,7 @@
 - **狩人パーティー**(氷室・ツバキ・天雷・飛鳥の名義で登録。西区から朝に依頼を見に来る。`characters/npcs/35_himuro.md`、`characters/npcs/36_tsubaki.md`、`characters/npcs/37_tenrai.md`、`characters/npcs/63_asuka.md`)
 - **猪突の紅葉＋規律の黒羽**(武者修行の二人組。稽古の合間に討伐依頼を取りに来る。`characters/npcs/43_momiji.md`、`characters/npcs/44_kokuu.md`)
 - **空輸の空咲**(空輸・空路護衛の依頼を受けに。`characters/npcs/39_sorasaki.md`)
+- **空鎧の銀雪**(災害パーティーで唯一の登録者。護衛依頼を受けに、すり足で南区から来る。`characters/npcs/54_ginsetsu.md`)
 - **天才術式のララ＋天才剣士のカーラ**(学校帰りの夕方に、表向きの軽作業を受けに来る。裏では討伐依頼をこなしている。`characters/npcs/27_lara.md`、`characters/npcs/28_karla.md`)
 
 ### 北門《王都門》
