@@ -102,6 +102,7 @@
 - `INDEX.md` … 全ファイルの地図（TL;DR ＋文字数）。
 - `CHARACTERS.md` … **NPC 名簿（自動生成）**。全 NPC の要点を 1 枚に——レベル・拠点区画・得意/不得意・
   看板スキル・口調・行きつけ。**まずこれで「誰が何者か」を掴み、描写する人物だけ個別ファイルへ降りる。**
+- `play/` … **主人公モードのプレイ記録**(所持金・持ち物・知り合い・主人公のメモ)。設定ではないので進行中に書き換えてよい(`CLAUDE.md`、`rules/14_protagonist_mode.md`)。主人公の設定そのものは`characters/pc_*.md`
 - `world/crossroad/72_place_character_map.md` … **場所→そこにいるキャラ**の対応マップ。区画・施設へ入った時「誰がいるか」を速攻参照。通り名（速攻参照キー）付き。
 - **`tools/` のツール群** … 詳細と使い方は **`tools/README.md`**（`123_tools.zip` にも同梱）。
   進行中は `day_brief.py`（その日の街）→ `scene_context.py`（場面に必要な canon）→

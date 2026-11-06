@@ -5,7 +5,7 @@
 
 クロスロードの飲食店は、区画(`world/crossroad/20_crossroad_city_districts.md`)ごとに客層が被らないよう自然と棲み分けられている。以下はその代表例。
 
-> **【表記ルール】店名は必ず種別を頭に付けて書く。** 酒場《赤釘亭》／茶屋《ひだまり縁側》／高級店《金穂宮》／宿屋《鉄靴休み》のように、**名前を見ただけで何の店か分かる形**にする。名前そのものに種別が入っている店(《旅籠前茶屋・一服》《赤幕の借宿》)は重ねない。新しい店を足す時も同じ。
+> **【表記ルール】店名は必ず種別を頭に付けて書く。** 酒場《赤釘亭》／茶屋《ひだまり縁側》／高級店《金穂宮》／宿屋《鉄靴休み》のように、**名前を見ただけで何の店か分かる形**にする。名前そのものに種別が入っている店(《旅籠前茶屋・一服》《灰岩門の馬宿》)は重ねない。新しい店を足す時も同じ。
 
 **飲食店は「出会いの動線」でもある。** 区画・立場の違う者が同じ卓で顔を合わせる結節点であり、GM進行では「場所が変わった→その店の常連を出す」ために使う。各店に**常連・顔ぶれ**を明記してあるので、酒場・茶屋に場面が移ったら、まずそこに挙がっている既存NPCを実際に登場させること(`world/crossroad/72_place_character_map.md`の行きつけ早見と対応)。無名の通行人で埋めず、顔ぶれの中から今の時間帯・状況に合う人物を出すのが基本。
 
@@ -38,7 +38,7 @@
 
 Bランク女性冒険者パーティー「銀鴉の羽根」(`characters/npcs/08_silver_raven_feather.md`)は、この店で知り合った者たちによって結成された。パーティー名も店名をもじって付けられている。結成後も主な溜まり場としており、店の奥の壁際の広い卓は結成を決めた席として、常連客から半ば「銀鴉の席」と呼ばれている。
 
-- **常連・顔ぶれ**：歓楽街のミレーヌ(`characters/npcs/02_milene_weissfeld.md`)、銀鴉の羽根、劇作家のエリアス(`characters/npcs/23_elias_veil.md`)、爆声のヴィヴィアナ(興行帰り。`characters/npcs/24_viviana_loudbell.md`)、氷装甲の氷室(`characters/npcs/35_himuro.md`)、一射の天雷(`characters/npcs/37_tenrai.md`)、忍びのツバキ(定宿を持たず拠点代わりに入り浸る。`characters/npcs/36_tsubaki.md`)、客側護衛のセレスティナ(仕事上がりの一杯。`characters/npcs/61_celestina.md`)、潜入のミーナ(黒針会の耳。子供の姿で紛れる。`characters/npcs/14_mina.md`)、監視鳥の飛鳥(黒針会の目。交渉と情報交換を兼ねて。`characters/npcs/63_asuka.md`)、呼び声のベルナデッタ、歌い手の鈴代(時々弾き語り。`characters/npcs/45_suzuyo.md`)、気まぐれの雷華(店に属さない街娼。飲みにではなく、誰かが飯を分けてくれるので寄る。`characters/npcs/64_raika.md`)、エイダ(西区の見回り帰り。表向きは飲みに来た顔をしている。`characters/npcs/04_ada_lockwell.md`)、リネット(夜の話が要る時。`characters/npcs/10_linette.md`)、ロゼとリゼ(浮かれた客を狙う稼ぎ場。`characters/npcs/12_roze_and_rize.md`)、ミルカ(変薬の客を捕まえに。`characters/npcs/13_mika.md`)、ザラ(西区の様子を見に。`characters/npcs/15_zara.md`)、レオン(賭けの相手を探しに。`characters/npcs/25_leon_grave.md`)、小夜(懐の温かい客を見に。`characters/npcs/38_sayo.md`)、紅葉(練兵場から西区の安宿へ戻る夜に。`characters/npcs/43_momiji.md`)、黒羽(紅葉とともに。`characters/npcs/44_kokuu.md`)、妲己(人の多い店にもたまに流れる。`characters/npcs/55_dakki.md`)、ニノ(狩人の客を捕まえに。そこでも喋り倒して結局売る。`characters/npcs/68_nino_hidewell.md`)、ニコレット(ロックウェルからたまに来る一党の弾幕役。滞在中、吸いながら飲む。`characters/npcs/74_nicolette.md`)、紫苑(同じ一党の吸血鬼。夜のほうが調子がいい。`characters/npcs/71_shion.md`)。**西区の夜の結節点**。
+- **常連・顔ぶれ**：歓楽街のミレーヌ(`characters/npcs/02_milene_weissfeld.md`)、銀鴉の羽根、劇作家のエリアス(`characters/npcs/23_elias_veil.md`)、爆声のヴィヴィアナ(興行帰り。`characters/npcs/24_viviana_loudbell.md`)、氷装甲の氷室(`characters/npcs/35_himuro.md`)、一射の天雷(`characters/npcs/37_tenrai.md`)、忍びのツバキ(定宿を持たず拠点代わりに入り浸る。`characters/npcs/36_tsubaki.md`)、客側護衛のセレスティナ(仕事上がりの一杯。`characters/npcs/61_celestina.md`)、潜入のミーナ(黒針会の耳。子供の姿で紛れる。`characters/npcs/14_mina.md`)、監視鳥の飛鳥(黒針会の目。交渉と情報交換を兼ねて。`characters/npcs/63_asuka.md`)、呼び声のベルナデッタ、歌い手の鈴代(時々弾き語り。`characters/npcs/45_suzuyo.md`)、気まぐれの雷華(店に属さない街娼。飲みにではなく、誰かが飯を分けてくれるので寄る。`characters/npcs/64_raika.md`)、エイダ(西区の見回り帰り。表向きは飲みに来た顔をしている。`characters/npcs/04_ada_lockwell.md`)、リネット(夜の話が要る時。`characters/npcs/10_linette.md`)、ロゼとリゼ(浮かれた客を狙う稼ぎ場。`characters/npcs/12_roze_and_rize.md`)、ミルカ(変薬の客を捕まえに。`characters/npcs/13_mika.md`)、ザラ(西区の様子を見に。`characters/npcs/15_zara.md`)、レオン(賭けの相手を探しに。`characters/npcs/25_leon_grave.md`)、小夜(懐の温かい客を見に。`characters/npcs/38_sayo.md`)、紅葉(練兵場から西区の安宿・宿屋《砂袋亭》へ戻る夜に。`characters/npcs/43_momiji.md`)、黒羽(紅葉とともに。`characters/npcs/44_kokuu.md`)、妲己(人の多い店にもたまに流れる。`characters/npcs/55_dakki.md`)、ニノ(狩人の客を捕まえに。そこでも喋り倒して結局売る。`characters/npcs/68_nino_hidewell.md`)、ニコレット(ロックウェルからたまに来る一党の弾幕役。滞在中、吸いながら飲む。`characters/npcs/74_nicolette.md`)、紫苑(同じ一党の吸血鬼。夜のほうが調子がいい。`characters/npcs/71_shion.md`)。**西区の夜の結節点**。
 
 ### 酒場《七つ樽》
 
