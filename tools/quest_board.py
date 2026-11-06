@@ -49,6 +49,22 @@ SOURCE_WEIGHT = {"危険地域": 5, "護衛・治安": 4, "ダンジョン": 2}
 # (`world/crossroad/11_crossroad_city.md`)。高ランク依頼はめったに貼られない。
 RANK_WEIGHT = {"F": 3, "E": 5, "D": 5, "C": 4, "B": 1.5, "A": 0.6, "S": 0.2}
 
+# 依頼の中身による重み。見て記録するだけの調査系は、戦わずに終わることが多く場が動かない
+# (ユーザー指示)。調査系はがっつり減らし、戦う依頼を厚くする。採取・護衛・納品などはそのまま。
+SURVEY_WORDS = r"調査|確認|測量|観測|記録|偵察|点検|巡回|見回り"
+FIGHT_WORDS = r"討伐|排除|掃討|壊滅|捕縛|追い払い|殲滅|制圧|駆除|撃退|間引き|強襲|停止|確保|追跡|除去"
+SURVEY_WEIGHT = 0.2
+FIGHT_WEIGHT = 1.5
+
+
+def kind_weight(q: dict) -> float:
+    name = q["名"]
+    if re.search(FIGHT_WORDS, name):
+        return FIGHT_WEIGHT
+    if re.search(SURVEY_WORDS, name):
+        return SURVEY_WEIGHT
+    return 1.0
+
 
 def load_quests() -> list[dict]:
     quests = []
@@ -160,7 +176,7 @@ def posted_on(day: int, quests: list[dict]) -> list[dict]:
         # 祭りの警備依頼は、祭りが近い日にだけ貼り出す
         if re.search(r"祭り|祭礼|大型イベント", q["名"] + q["内容"]) and not festival_near(day):
             continue
-        weights.append((str(i), SOURCE_WEIGHT.get(q["出所"], 1) * RANK_WEIGHT[q["ランク"]]))
+        weights.append((str(i), SOURCE_WEIGHT.get(q["出所"], 1) * RANK_WEIGHT[q["ランク"]] * kind_weight(q)))
     out, used = [], set()
     for k in range(n * 4):
         if len(out) >= n:
