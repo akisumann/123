@@ -3,8 +3,12 @@
 
 GM(AI)がファイルを読み飛ばして記憶や雰囲気で進行するのを防ぐため、
 「どのファイルを読むか」をAIに選ばせず、場面の入力(人物・場所・時間帯)から
-必要な断片(基本情報・ステータス・スキル・口調・日常/行きつけ・よく接する人物・
+必要な断片(基本情報・外見・ステータス・スキル・口調・日常/行きつけ・よく接する人物・
 場所の顔ぶれ・店の常連・時間帯)をコードで抽出し、まとめて出力する。
+
+主人公モード・観戦形式では `--play play/〈主人公〉.md` を足すと、プレイ記録の中で
+その人物が出てきた文(主人公との過去のやり取り・約束)も最近の分から並べて出す。
+プレイ記録は設定ではないので、設定と食い違ったら設定が正しい(`CLAUDE.md`)。
 
 GM進行の各場面の前にこれを実行し、出力を読んでから描写する。
 
@@ -16,6 +20,7 @@ GM進行の各場面の前にこれを実行し、出力を読んでから描写
     python3 tools/scene_context.py --edit ララ            # 編集前に全文を読む
     python3 tools/scene_context.py --chars 天雷,ツバキ --place 夜鴉の止まり木 --time 宵
     python3 tools/scene_context.py --chars 43,44          # ファイル番号でも指定可
+    python3 tools/scene_context.py --chars マリナ --play play/lloyd_game_data.md  # プレイ記録も
     python3 tools/scene_context.py --place 練兵場          # 場所だけでも可
 """
 from __future__ import annotations
@@ -32,7 +37,7 @@ DINING_FILE = os.path.join(ROOT, "world", "crossroad", "49_crossroad_dining.md")
 CALENDAR_FILE = os.path.join(ROOT, "world", "70_calendar_and_climate.md")
 
 # キャラクターファイルから抜き出す節(この順で出力する)
-CHAR_SECTIONS = ["人物", "ステータス", "スキル", "口調", "装備", "日常", "よく接する人物", "関わる種"]
+CHAR_SECTIONS = ["人物", "外見", "ステータス", "スキル", "口調", "装備", "日常", "よく接する人物", "関わる種"]
 
 # 「その人が何者か」を書く節は、ファイルによって名前が割れている。
 # 最初に見つかったものを「人物」として拾う(複数あれば全部出す)
@@ -103,12 +108,59 @@ def render_char(path: str) -> str:
                     if "### プロフィール" in body or "### ステータス" in body:
                         out.append(f"## {title}\n{body}")
             continue
+        found = False
         for title, body in sections.items():
             # 「日常」「日常の仕事」のような前方一致も拾う
             if title == want or title.startswith(want):
                 out.append(f"## {title}\n{body}")
+                found = True
                 break
+        if want == "外見" and not found and not any("外見" in o for o in out):
+            # 複数人ファイルは、メンバーごとの節の中に外見がある
+            member = next((b for t, b in sections.items() if t.startswith("メンバー")), None)
+            if member:
+                out.append(f"## メンバー(外見はこの中)\n{member}")
+            else:
+                out.append("## 外見\n(このファイルに外見の記述が無い。描写は控えめにし、勝手に決めない)")
     return "\n\n".join(out)
+
+
+PLAY_LIMIT = 12  # プレイ記録から拾う文の上限(ファイルの後ろ寄りから)
+
+
+def char_names(path: str) -> list[str]:
+    """人物ファイルの見出し「# 名前(よみ)」から、検索に使う名前を取り出す。"""
+    first = read(path).splitlines()[0] if read(path) else ""
+    title = first.lstrip("#").strip()
+    names = []
+    for part in re.split(r"[(（）)／/・＆&：:]", title):
+        part = part.strip()
+        # 「ロゼとリゼ」のような片仮名の並びは一人ずつに分ける
+        subparts = part.split("と") if re.fullmatch(r"[ァ-ヺー]+と[ァ-ヺー]+", part) else [part]
+        for sp in subparts:
+            if len(sp) >= 2 and not re.fullmatch(r"[ぁ-ゖー]+", sp):
+                names.append(sp)
+    return names or [title]
+
+
+def render_play(path: str, play_path: str) -> str:
+    """プレイ記録(play/)から、その人物の名前を含む文を最近の分から拾う。"""
+    full = play_path if os.path.isabs(play_path) else os.path.join(ROOT, play_path)
+    if not os.path.exists(full):
+        return f"(プレイ記録が見つからない: {play_path})"
+    names = char_names(path)
+    text = read(full)
+    sentences = [s.strip() for s in re.split(r"(?<=[。」』])|\n", text) if s.strip()]
+    hits = []
+    for s in sentences:
+        if any(n in s for n in names) and s not in hits:
+            s = re.sub(r"^[-・\s]+", "", s)
+            hits.append(s if len(s) <= 220 else s[:220] + "…")
+    if not hits:
+        return f"## プレイ記録({' / '.join(names)})\nまだ出てきていない。"
+    shown = hits[-PLAY_LIMIT:]
+    note = f"(全{len(hits)}件のうち、ファイルの後ろ(手帳・最近の進行)寄りの{len(shown)}件。設定ではなくプレイの記録。食い違ったら設定が正しい)"
+    return f"## プレイ記録({' / '.join(names)})\n{note}\n" + "\n".join(f"- {h}" for h in shown)
 
 
 def extract_h3_section(path: str, keyword: str) -> list[str]:
@@ -241,6 +293,7 @@ def main() -> int:
     ap.add_argument("--place", default="", help="場所名(72/49の見出しに部分一致)")
     ap.add_argument("--time", default="", help="時間帯(朝/昼/夕/宵/夜 など。world/70の表に部分一致)")
     ap.add_argument("--edit", default="", help="人物ファイルを編集する前に全文と注意点を出す")
+    ap.add_argument("--play", default="", help="プレイ記録(play/〈主人公〉.md)から、その人物が出てきた文も出す")
     args = ap.parse_args()
 
     if args.edit:
@@ -271,6 +324,8 @@ def main() -> int:
             continue
         blocks.append("-" * 60)
         blocks.append(render_char(hits[0]))
+        if args.play:
+            blocks.append(render_play(hits[0], args.play))
 
     if missing:
         blocks.append(f"(見つからなかった人物: {', '.join(missing)} — 44_crossroad_nicknames.md で名前を確認)")
